@@ -35,7 +35,7 @@ Le projet est découpé en quatre itérations :
 | Gertrude                             | XML Gertrude                 |                  |
 | BNU                                  | XML Unimarc / Dublin Core    |                  |
 | BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
-| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
+g| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
 |--------------------------------------+------------------------------+------------------|
 | Musée de Zoologie                    | ?                            | Webmuseo         |
 | Herbier                              | ? (Excel?)                   |                  |
@@ -46,14 +46,35 @@ l'intégration et l'exposition de données suivant le protocole OAI-PMH
 (voir [[http://www.bnf.fr/documents/Guide_oaipmh.pdf][ce document]]), donc on peut s'attendre à ce que les données de
 Numistral soient récupérables selon ce protocole.
 
-* Types de données
+* Types de contenus
 
-Le travail sur les types de données est nécessaire pour les itérations
-1 et 2 : en itération 1, ce travail permet de savoir quels types de
-données importer depuis les dépôts, en itération 2, ce travail permet
-de savoir quelles données exposer via l'interface de navigation.
+Le travail sur les types de contenus est nécessaire pour les
+itérations 1 et 2 : en itération 1, ce travail permet de savoir quels
+types de contenus importer depuis les dépôts, en itération 2, ce
+travail permet de savoir quelles données exposer via l'interface de
+navigation.
 
-** Types de données importées
+Les types de contenus se divisent en deux grandes parties :
+
+| Les contenus importés  | Exemple |
+|------------------------+---------|
+| Ressource documentaire | TBD     |
+| Visuel                 | TBD     |
+| Vidéo                  | TBD     |
+| Audio                  | TBD     |
+| Diaporama              | TBD     |
+|------------------------+---------|
+| Les contenus créés     | Exemple |
+|------------------------+---------|
+| Dossier                |         |
+| Parcours               |         |
+| Billet                 |         |
+| Événement              |         |
+| Entrée de glossaire    |         |
+| FAQ                    |         |
+| Lien                   |         |
+
+** Types de contenus importées
 
 Les données importées sont celles en provenance des dépôts listés plus
 haut.
@@ -154,7 +175,7 @@ haut.
 | Lien vers le dépôt d'origine | 	Champ simple?                                                                                                                         |
 | Géolocalisation              | 	Adresse ? Coordonnées ?                                                                                                               |
 
-** Types de données créés
+** Types de contenus créés
 
 Les données /créées/ sont celles créées depuis le portail, soit par
 l'équipe du site web, soit par les contributeurs.
