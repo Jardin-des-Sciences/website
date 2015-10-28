@@ -35,7 +35,7 @@ Le projet est découpé en quatre itérations :
 | Gertrude                             | XML Gertrude                 |                  |
 | BNU                                  | XML Unimarc / Dublin Core    |                  |
 | BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
-g| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
+| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
 |--------------------------------------+------------------------------+------------------|
 | Musée de Zoologie                    | ?                            | Webmuseo         |
 | Herbier                              | ? (Excel?)                   |                  |
@@ -56,6 +56,7 @@ navigation.
 
 Les types de contenus se divisent en deux grandes parties :
 
+|------------------------+---------|
 | Les contenus importés  | Exemple |
 |------------------------+---------|
 | Ressource documentaire | TBD     |
@@ -66,13 +67,14 @@ Les types de contenus se divisent en deux grandes parties :
 |------------------------+---------|
 | Les contenus créés     | Exemple |
 |------------------------+---------|
-| Dossier                |         |
-| Parcours               |         |
-| Billet                 |         |
-| Événement              |         |
-| Entrée de glossaire    |         |
-| FAQ                    |         |
-| Lien                   |         |
+| Dossier                | TDB     |
+| Parcours               | TDB     |
+| Billet                 | TDB     |
+| Événement              | TDB     |
+| Entrée de glossaire    | TDB     |
+| FAQ                    | TDB     |
+| Lien                   | TDB     |
+|------------------------+---------|
 
 ** Types de contenus importées
 
