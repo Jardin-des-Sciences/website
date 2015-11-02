@@ -84,24 +84,29 @@ haut.
 
 *** Ressource documentaire
 
-| Libellé                                  | Type de champ                                                   |
-|------------------------------------------+-----------------------------------------------------------------|
-| Titre                                    | Champ simple                                                    |
-| Document                                 | Upload                                                          |
-| Description ou legende ?                 | Champ simple                                                    |
-| Thème                                    | Liste (taxinomie)                                               |
-| Discipline                               | Liste (taxinomie)                                               |
-| Droits d'auteur (licence)                | Champ simple                                                    |
-| Partage à l'identique                    | Champ binaire                                                   |
-| Droits de modification                   | Champ binaire                                                   |
-| Droits de commercialisation              | Champ binaire                                                   |
-| Date de publication                      | Calendrier                                                      |
-| Date de dernière MAJ                     | Calendrier                                                      |
-| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |
-| Nom de l'auteur                          | Champ simple                                                    |
-| Nom du dépôt d'origine                   | Champ simple?                                                   |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                         |
+| Libellé                                  | Type de champ                                                   | Sous-champ         |
+|------------------------------------------+-----------------------------------------------------------------+--------------------|
+| Titre                                    | Champ simple                                                    |                    |
+| Document                                 | Upload                                                          |                    |
+| Désignation                              | Table                                                           | Dénomination       |
+|                                          |                                                                 | Titre courant      |
+| Historique                               | Table                                                           | Lieux d'exécution  |
+|                                          |                                                                 | Terme introducteur |
+|                                          |                                                                 | Site de production |
+| Thème                                    | Liste (taxinomie)                                               |                    |
+| Description ou legende ?                 | Champ simple                                                    |                    |
+| Discipline                               | Liste (taxinomie)                                               |                    |
+| Droits d'auteur (licence)                | Champ simple                                                    |                    |
+| Partage à l'identique                    | Champ binaire                                                   |                    |
+| Droits de modification                   | Champ binaire                                                   |                    |
+| Droits de commercialisation              | Champ binaire                                                   |                    |
+| Date de publication                      | Calendrier                                                      |                    |
+| Date de dernière MAJ                     | Calendrier                                                      |                    |
+| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |                    |
+| Nom de l'auteur                          | Champ simple                                                    |                    |
+| Nom du dépôt d'origine                   | Champ simple?                                                   |                    |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |                    |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                         |                    |
 
 *** Visuel
 
@@ -110,13 +115,16 @@ haut.
 | Titre                                    | Champ simple                                                                                                                          |
 | Visuel                                   | Upload (2 format -> Vignette / Plein écran)                                                                                           |
 | Légende                                  | Champ simple                                                                                                                          |
+| Couleur                                  | Champ simple                                                                                                                          |
+| Orientation de l'image ("sens")          | Vertical / horizontal                                                                                                                 |
 | Description                              | Champ simple                                                                                                                          |
 | Thème                                    | Liste (taxinomie)                                                                                                                     |
 | Discipline                               | Liste (taxinomie)                                                                                                                     |
-| Droits d'auteur (licence)                                | Valeur par défaut                                                                                                                                  |
-| Partage à l'identique                    | Champ binaire                                                   |
-| Droits de modification                   | Champ binaire                                                   |
-| Droits de commercialisation              | Champ binaire                                                   |
+| Droits d'auteur (licence)                | Valeur par défaut                                                                                                                     |
+| Partage à l'identique                    | Champ binaire                                                                                                                         |
+| Droits de modification                   | Champ binaire                                                                                                                         |
+| Droits de commercialisation              | Champ binaire                                                                                                                         |
+| Date de prise de vue                     | Calendrier                                                                                                                            |
 | Date de publication                      | Calendrier                                                                                                                            |
 | Nom auteur                               | Champ simple                                                                                                                          |
 | Qualité auteur                           | Champ simple                                                                                                                          |
@@ -135,6 +143,7 @@ haut.
 | Producteur                               | Champ simple                                                                                                                          |
 | Année de production                      | Calendrier                                                                                                                            |
 | Vidéo                                    | Upload (ou lien vers platforme type youtube, dailymotion, viméo?) - Génération auto de la vignette - Génération auto du player        |
+| Orientation de l'image ("sens")          | Vertical / horizontal                                                                                                                 |
 | Description                              | Champ simple                                                                                                                          |
 | Thème                                    | Liste (taxinomie)                                                                                                                     |
 | Discipline                               | Liste (taxinomie)                                                                                                                     |
@@ -142,6 +151,7 @@ haut.
 | Partage à l'identique                    | Champ binaire                                                                                                                         |
 | Droits de modification                   | Champ binaire                                                                                                                         |
 | Droits de commercialisation              | Champ binaire                                                                                                                         |
+| Date de prise de vue                     | Calendrier                                                                                                                      |
 | Date de publication                      | Calendrier                                                                                                                            |
 | Nom du contributeur                      | Champ simple                                                                                                                          |
 | Qualité du contributeur                  | Champ simple                                                                                                                          |
