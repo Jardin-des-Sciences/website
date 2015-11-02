@@ -97,8 +97,8 @@ haut.
 | Droits de commercialisation              | Champ binaire                                                   |
 | Date de publication                      | Calendrier                                                      |
 | Date de dernière MAJ                     | Calendrier                                                      |
-| Nom auteur                               | Champ simple                                                    |
 | Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |
+| Nom de l'auteur                          | Champ simple                                                    |
 | Nom du dépôt d'origine                   | Champ simple?                                                   |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                         |
