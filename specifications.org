@@ -71,8 +71,8 @@ Les types de contenus se divisent en deux grandes parties :
 | Parcours                 | TDB     |
 | Billet                   | TDB     |
 | Événement                | TDB     |
-| Questions éditorialisées | TDB     |
 | Entrée de glossaire      | TDB     |
+| Questions éditorialisées | TDB     |
 | FAQ                      | TDB     |
 | Lien                     | TDB     |
 |--------------------------+---------|
@@ -91,7 +91,10 @@ haut.
 | Description ou legende ?                 | Champ simple                                                    |
 | Thème                                    | Liste (taxinomie)                                               |
 | Discipline                               | Liste (taxinomie)                                               |
-| Copyrights                               | Champ simple                                                    |
+| Droits d'auteur (licence)                | Champ simple                                                    |
+| Partage à l'identique                    | Champ binaire                                                   |
+| Droits de modification                   | Champ binaire                                                   |
+| Droits de commercialisation              | Champ binaire                                                   |
 | Date de publication                      | Calendrier                                                      |
 | Date de dernière MAJ                     | Calendrier                                                      |
 | Nom auteur                               | Champ simple                                                    |
@@ -110,7 +113,10 @@ haut.
 | Description                              | Champ simple                                                                                                                          |
 | Thème                                    | Liste (taxinomie)                                                                                                                     |
 | Discipline                               | Liste (taxinomie)                                                                                                                     |
-| Copyright                                | Auto                                                                                                                                  |
+| Droits d'auteur (licence)                                | Valeur par défaut                                                                                                                                  |
+| Partage à l'identique                    | Champ binaire                                                   |
+| Droits de modification                   | Champ binaire                                                   |
+| Droits de commercialisation              | Champ binaire                                                   |
 | Date de publication                      | Calendrier                                                                                                                            |
 | Nom auteur                               | Champ simple                                                                                                                          |
 | Qualité auteur                           | Champ simple                                                                                                                          |
@@ -132,7 +138,10 @@ haut.
 | Description                              | Champ simple                                                                                                                          |
 | Thème                                    | Liste (taxinomie)                                                                                                                     |
 | Discipline                               | Liste (taxinomie)                                                                                                                     |
-| Copyright                                | Auto                                                                                                                                  |
+| Droits d'auteur (licence)                | Valeur par défaut                                                                                                                     |
+| Partage à l'identique                    | Champ binaire                                                                                                                         |
+| Droits de modification                   | Champ binaire                                                                                                                         |
+| Droits de commercialisation              | Champ binaire                                                                                                                         |
 | Date de publication                      | Calendrier                                                                                                                            |
 | Nom du contributeur                      | Champ simple                                                                                                                          |
 | Qualité du contributeur                  | Champ simple                                                                                                                          |
@@ -151,7 +160,10 @@ haut.
 | Description                              | Champ simple                                                                                                                          |
 | Thème                                    | Liste (taxinomie)                                                                                                                     |
 | Discipline                               | Liste (taxinomie)                                                                                                                     |
-| Copyright                                | Auto                                                                                                                                  |
+| Droits d'auteur (licence)                | Valeur par défaut                                                                                                                     |
+| Partage à l'identique                    | Champ binaire                                                                                                                         |
+| Droits de modification                   | Champ binaire                                                                                                                         |
+| Droits de commercialisation              | Champ binaire                                                                                                                         |
 | Date de publication                      | Calendrier                                                                                                                            |
 | Nom du contributeur                      | Champ simple                                                                                                                          |
 | Qualité du contributeur                  | Champ simple                                                                                                                          |
@@ -162,7 +174,7 @@ haut.
 
 *** Diaporama
 
-| Libellé                                  | Type de champ                                                                                                                  |
+| Libellé                                  | Type de champ                                                                                                                         |
 |------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------|
 | Titre                                    | Champ simple                                                                                                                          |
 | Auteur                                   | Champ simple                                                                                                                          |
@@ -170,7 +182,10 @@ haut.
 | Description                              | Champ simple                                                                                                                          |
 | Thème                                    | Liste (taxinomie)                                                                                                                     |
 | Discipline                               | Liste (taxinomie)                                                                                                                     |
-| Copyright                                | Auto                                                                                                                                  |
+| Droits d'auteur (licence)                | Valeur par défaut                                                                                                                     |
+| Partage à l'identique                    | Champ binaire                                                                                                                         |
+| Droits de modification                   | Champ binaire                                                                                                                         |
+| Droits de commercialisation              | Champ binaire                                                                                                                         |
 | Date de publication                      | Date                                                                                                                                  |
 | Nom du contributeur                      | Champ simple                                                                                                                          |
 | Qualité du contributeur                  | Champ simple                                                                                                                          |
@@ -272,20 +287,23 @@ l'équipe du site web, soit par les contributeurs.
 
 *** Entrée de glossaire
 
-| Libellé             | Type de champ                                                                                                                          |
-|---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Mot                 | Champ simple                                                                                                                           |
-| Définition          | WYSIWYG ou insertion vidéo                                                                                                             |
-| Date de publication | Calendrier                                                                                                                             |
-| Date de mise à jour | Calendrier                                                                                                                             |
-| Thème               | Liste (taxinomie)                                                                                                                      |
-| Discipline          | Liste (taxinomie)                                                                                                                      |
-| Nom auteur          | Champ simple                                                                                                                           |
-| Présentation auteur | Champ simple                                                                                                                           |
-| Copyright           | Auto                                                                                                                                   |
-| Liens connexes      | Champ simple avec auto-completion sur le type de contenu "Lien"                                                                        |
-| Géolocalisation     | Adresse ? Coordonnées ?                                                                                                                |
-| Mots-clés           | Champ simple avec auto-complétion sur les mots clés déjà présent en base, avec possibilité d'en ajouter si le mot saisi n'existe pas)  |
+| Libellé                     | Type de champ                                                                                                                         |
+|-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------|
+| Mot                         | Champ simple                                                                                                                          |
+| Définition                  | WYSIWYG ou insertion vidéo                                                                                                            |
+| Date de publication         | Calendrier                                                                                                                            |
+| Date de mise à jour         | Calendrier                                                                                                                            |
+| Thème                       | Liste (taxinomie)                                                                                                                     |
+| Discipline                  | Liste (taxinomie)                                                                                                                     |
+| Nom auteur                  | Champ simple                                                                                                                          |
+| Présentation auteur         | Champ simple                                                                                                                          |
+| Droits d'auteur (licence)   | Valeur par défaut                                                                                                                     |
+| Partage à l'identique       | Champ binaire                                                                                                                         |
+| Droits de modification      | Champ binaire                                                                                                                         |
+| Droits de commercialisation | Champ binaire                                                                                                                         |
+| Liens connexes              | Champ simple avec auto-completion sur le type de contenu "Lien"                                                                       |
+| Géolocalisation             | Adresse ? Coordonnées ?                                                                                                               |
+| Mots-clés                   | Champ simple avec auto-complétion sur les mots clés déjà présent en base, avec possibilité d'en ajouter si le mot saisi n'existe pas) |
 
 *** FAQ
 
@@ -309,12 +327,13 @@ l'équipe du site web, soit par les contributeurs.
 ** NEXT Gestion des types de contenus
    SCHEDULED: <2015-11-02 lun.>
 
-L'administrateur du site peut choisir pour chaque type de contenu
-s'il active :
+L'administrateur du site peut choisir pour chaque type de contenu s'il
+active :
 
-- les commentaires
 - les tags
+- les commentaires
 - les boutons de partage
+- le téléchargement
 
 * Maquettes graphiques à date
 
