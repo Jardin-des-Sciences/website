@@ -349,6 +349,11 @@ active :
 
 https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/29948389
 
+* Navigation et frontend (notes)
+
+- La vue dossier doit permettre de faire défiler les images d'un
+  dossier comme s'il s'agissait d'un diaporama.
+
 * Cahier des charges pour chaque itération
 
 ** Itération 1 : accès au socle de données
