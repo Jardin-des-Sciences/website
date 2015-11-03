@@ -351,8 +351,12 @@ https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/29948389
 
 * Navigation et frontend (notes)
 
+- En page d'accueil, un affichage aléatoire des billets et dossiers
+  importants.  Il reste à déterminer les règles d'affichage pour ces
+  billets et dossiers - voir [[https://github.com/Jardin-des-Sciences/website/issues/3][ticket #3]].
+
 - La vue dossier doit permettre de faire défiler les images d'un
-  dossier comme s'il s'agissait d'un diaporama.
+  dossier comme s'il s'agissait d'un diaporama - voir [[https://github.com/Jardin-des-Sciences/website/issues/1][ticket #1]].
 
 * Cahier des charges pour chaque itération
 
