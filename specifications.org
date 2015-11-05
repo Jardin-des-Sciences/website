@@ -4,10 +4,11 @@
 
 Le projet est découpé en quatre itérations :
 
-1. accès au socle de données
-2. navigation dans la base de données
-3. fonctionnalités contributives
+1. identité et socle de données
+2. fonctionnalités et navigation
+3. rôle utilisateurs et contenus
 4. fonctionnalités sociales
+5. Webmastering et recettes
 
 * Fonctions principales
 
