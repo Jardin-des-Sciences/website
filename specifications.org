@@ -103,39 +103,39 @@ Exemple de « ressources documentaires :
 - Des thèses et mémoires importés des archives ouvertes
 - Des fiches pédagogiques existant ailleurs
 
-| Libellé JDS                              | Type de champ                                                                             | Commentaire |
-|------------------------------------------+-------------------------------------------------------------------------------------------+-------------|
-| Titre                                    | Champ texte                                                                               |             |
-| Type de document                         | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]]) |             |
-| Dénomination                             | Liste (ou tableau) ?                                                                      | ?           |
-| - Précision dénomination                 | Champ texte                                                                               |             |
-| Numéro d'inventaire                      | Champ texte                                                                               |             |
-| Document                                 | Upload (ou lien vers le document ?)                                                       |             |
-| Historique                               | Champ texte                                                                               |             |
-| - type                                   | Champ texte                                                                               |             |
-| - terme introducteur                     | Champ texte                                                                               |             |
-| - incertitude                            | Champ texte                                                                               |             |
-| - lieu de production                     | Champ texte                                                                               |             |
-| - localisation                           | Champ texte                                                                               |             |
-| Légende illustration                     | Champ texte                                                                               | ?           |
-| - illustration significative             | Champ texte                                                                               | ?           |
-| - Sujet                                  | Champ texte                                                                               |             |
-| - Auteurs                                | Champ texte                                                                               |             |
-|------------------------------------------+-------------------------------------------------------------------------------------------+-------------|
-| Description                              | Champ simple                                                                              |             |
-| Thème                                    | Liste (taxinomie)                                                                         |             |
-| Discipline                               | Liste (taxinomie)                                                                         |             |
-| Droits d'auteur (licence)                | Champ simple                                                                              |             |
-| SA-ND-NC*                                | Boolean sur plusieurs champs                                                              |             |
-| Date de publication                      | Calendrier                                                                                |             |
-| Date de dernière MAJ                     | Calendrier                                                                                |             |
-| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien"                           |             |
-| Mots-clés                                | Champ simple avec auto-complétion                                                         |             |
-| Nom du contributeur                      | Champ simple                                                                              |             |
-| Nom du dépôt d'origine                   | Champ simple?                                                                             |             |
-| Nom du dossier d'origine                 | Champ simple                                                                              |             |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                                             |             |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                                                   |             |
+| Libellé JDS                              | Type de champ                                                   | Commentaire |
+|------------------------------------------+-----------------------------------------------------------------+-------------|
+| Titre                                    | Champ texte                                                     |             |
+| Type de ressource                        | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |             |
+| Dénomination                             | Liste (ou tableau) ?                                            | ?           |
+| - Précision dénomination                 | Champ texte                                                     |             |
+| Numéro d'inventaire                      | Champ texte                                                     |             |
+| Document                                 | Upload (ou lien vers le document ?)                             |             |
+| Historique                               | Champ texte                                                     |             |
+| - type                                   | Champ texte                                                     |             |
+| - terme introducteur                     | Champ texte                                                     |             |
+| - incertitude                            | Champ texte                                                     |             |
+| - lieu de production                     | Champ texte                                                     |             |
+| - localisation                           | Champ texte                                                     |             |
+| Légende illustration                     | Champ texte                                                     | ?           |
+| - illustration significative             | Champ texte                                                     | ?           |
+| - Sujet                                  | Champ texte                                                     |             |
+| - Auteurs                                | Champ texte                                                     |             |
+|------------------------------------------+-----------------------------------------------------------------+-------------|
+| Description                              | Champ simple                                                    |             |
+| Thème                                    | Liste (taxinomie)                                               |             |
+| Discipline                               | Liste (taxinomie)                                               |             |
+| Droits d'auteur (licence)                | Champ simple                                                    |             |
+| SA-ND-NC*                                | Boolean sur plusieurs champs                                    |             |
+| Date de publication                      | Calendrier                                                      |             |
+| Date de dernière MAJ                     | Calendrier                                                      |             |
+| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |             |
+| Mots-clés                                | Champ simple avec auto-complétion                               |             |
+| Nom du contributeur                      | Champ simple                                                    |             |
+| Nom du dépôt d'origine                   | Champ simple?                                                   |             |
+| Nom du dossier d'origine                 | Champ simple                                                    |             |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                         |             |
 
 ** Types de contenus créés
 
