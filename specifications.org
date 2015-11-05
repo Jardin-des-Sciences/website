@@ -106,7 +106,7 @@ Exemple de « ressources documentaires :
 | Libellé JDS                              | Type de champ                                                   | Commentaire |
 |------------------------------------------+-----------------------------------------------------------------+-------------|
 | Titre                                    | Champ texte                                                     |             |
-| Dénomination                             | Tableau                                                         |             |
+| Dénomination                             | Liste (ou tableau) ?                                            | ?           |
 | - Précision dénomination                 | Champ texte                                                     |             |
 | Numéro d'inventaire                      | Champ texte                                                     |             |
 | Document                                 | Upload (ou lien vers le document ?)                             |             |
