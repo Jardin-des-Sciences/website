@@ -103,32 +103,40 @@ Exemple de « ressources documentaires :
 - Des thèses et mémoires importés des archives ouvertes
 - Des fiches pédagogiques existant ailleurs
 
-
-| Libellé JDS                              | Type de champ                                                   | Sous-champ         | Libellé Gertrude |
-|------------------------------------------+-----------------------------------------------------------------+--------------------+------------------|
-| Titre                                    | Champ simple                                                    |                    |                  |
-| Document                                 | Upload                                                          |                    |                  |
-| Désignation                              | Table                                                           | Dénomination       |                  |
-|                                          |                                                                 | Titre courant      |                  |
-| Historique                               | Table                                                           | Lieux d'exécution  |                  |
-|                                          |                                                                 | Terme introducteur |                  |
-|                                          |                                                                 | Site de production |                  |
-| Thème                                    | Liste (taxinomie)                                               |                    |                  |
-| Description ou legende ?                 | Champ simple                                                    |                    |                  |
-| Discipline                               | Liste (taxinomie)                                               |                    |                  |
-| Droits d'auteur (licence)                | Champ simple                                                    |                    |                  |
-| Partage à l'identique                    | Champ binaire                                                   |                    |                  |
-| Droits de modification                   | Champ binaire                                                   |                    |                  |
-| Droits de commercialisation              | Champ binaire                                                   |                    |                  |
-| Date de publication                      | Calendrier                                                      |                    |                  |
-| Date de dernière MAJ                     | Calendrier                                                      |                    |                  |
-| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |                    |                  |
-| Mots-clés                                | Champ simple avec auto-complétion                               |                    |                  |
-| Nom du contributeur                      | Champ simple                                                    |                    |                  |
-| Nom du dépôt d'origine                   | Champ simple?                                                   |                    |                  |
-| Nom du dossier d'origine                 | Champ simple                                                    |                    |                  |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |                    |                  |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                         |                    |                  |
+| Libellé JDS                              | Type de champ                                                   | Commentaire |
+|------------------------------------------+-----------------------------------------------------------------+-------------|
+| Titre                                    | Champ texte                                                     |             |
+| Dénomination                             | Tableau                                                         |             |
+| - Précision dénomination                 | Champ texte                                                     |             |
+| Numéro d'inventaire                      | Champ texte                                                     |             |
+| Document                                 | Upload (ou lien vers le document ?)                             |             |
+| Historique                               | Champ texte                                                     |             |
+| - type                                   | Champ texte                                                     |             |
+| - terme introducteur                     | Champ texte                                                     |             |
+| - incertitude                            | Champ texte                                                     |             |
+| - lieu de production                     | Champ texte                                                     |             |
+| - localisation                           | Champ texte                                                     |             |
+| Légende illustration                     | Champ texte                                                     | ?           |
+| - illustration significative             | Champ texte                                                     | ?           |
+| - Sujet                                  | Champ texte                                                     |             |
+| - Auteurs                                | Champ texte                                                     |             |
+|------------------------------------------+-----------------------------------------------------------------+-------------|
+| Description                              | Champ simple                                                    |             |
+| Thème                                    | Liste (taxinomie)                                               |             |
+| Discipline                               | Liste (taxinomie)                                               |             |
+| Droits d'auteur (licence)                | Champ simple                                                    |             |
+| Partage à l'identique                    | Champ binaire                                                   |             |
+| Droits de modification                   | Champ binaire                                                   |             |
+| Droits de commercialisation              | Champ binaire                                                   |             |
+| Date de publication                      | Calendrier                                                      |             |
+| Date de dernière MAJ                     | Calendrier                                                      |             |
+| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |             |
+| Mots-clés                                | Champ simple avec auto-complétion                               |             |
+| Nom du contributeur                      | Champ simple                                                    |             |
+| Nom du dépôt d'origine                   | Champ simple?                                                   |             |
+| Nom du dossier d'origine                 | Champ simple                                                    |             |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                         |             |
 
 ** Types de contenus créés
 
