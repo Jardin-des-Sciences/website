@@ -153,6 +153,7 @@ l'équipe du site web, soit par les contributeurs.
 | Droits de modification      | Champ binaire                                                         |
 | Droits de commercialisation | Champ binaire                                                         |
 | Mots-clés                   | Champ simple avec auto-complétion                                     |
+| Potentiellement à la une    | Binaire                                                               |
 | Dossiers connexes           | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
 | Billets connexes            | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
 | Visuels connexes            | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
@@ -165,11 +166,12 @@ l'équipe du site web, soit par les contributeurs.
 
 *** Parcours
 
-| Libellé         | Type de champ                                                     |
-|-----------------+-------------------------------------------------------------------|
-| Nom du parcours | Champ simple                                                      |
-| Dossier joint   | [Dossier]                                                         |
-| "Trajectoire"   | Liste ordonnée des éléments géolocalisés constitutifs du parcours |
+| Libellé                  | Type de champ                                                     |
+|--------------------------+-------------------------------------------------------------------|
+| Nom du parcours          | Champ simple                                                      |
+| Potentiellement à la une | Binaire                                                           |
+| Dossier joint            | [Dossier]                                                         |
+| "Trajectoire"            | Liste ordonnée des éléments géolocalisés constitutifs du parcours |
 
 *** Billet
 
@@ -181,6 +183,7 @@ l'équipe du site web, soit par les contributeurs.
 | Description longue          | WYSIWYG [Maximum 10000 signes espaces comprises]                      |
 | Date de publication         | Calendrier                                                            |
 | Date de mise à jour         | Calendrier                                                            |
+| Potentiellement à la une    | Binaire                                                               |
 | Nom du contributeur         | Champ simple ?                                                        |
 | Droits d'auteur (licence)   | Valeur par défaut                                                     |
 | Partage à l'identique       | Champ binaire                                                         |
@@ -287,7 +290,6 @@ l'équipe du site web, soit par les contributeurs.
 | Nom du contributeur         | Champ simple                                                        |
 | Géolocalisation             | Adresse ? Coordonnées ?                                             |
 
-
 ** Type de contenus importés ou créés
 
 Ces contenus sont soit importés depuis une base de données, soit
@@ -388,7 +390,6 @@ ajoutés par les utilisateurs.
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                             |
 
-
 ** NEXT Gestion des types de contenus
    SCHEDULED: <2015-11-02 lun.>
 
@@ -406,9 +407,10 @@ https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/29948389
 
 * Navigation et interface (notes)
 
-- En page d'accueil, un affichage aléatoire des billets et dossiers
-  importants.  Il reste à déterminer les règles d'affichage pour ces
-  billets et dossiers - voir [[https://github.com/Jardin-des-Sciences/website/issues/3][ticket #3]].
+- En page d'accueil, un affichage aléatoire pondéré sur l'ancienneté
+  des billets et dossiers potentiellement à la une : les billets et
+  dossiers les plus récents ont le plus de chances d'être tirés au
+  hasard (voir [[https://github.com/Jardin-des-Sciences/website/issues/3][ticket #3]]).
 
 - La vue dossier doit permettre de faire défiler les images d'un
   dossier comme s'il s'agissait d'un diaporama - voir [[https://github.com/Jardin-des-Sciences/website/issues/1][ticket #1]].
