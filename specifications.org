@@ -26,7 +26,7 @@ Le projet est découpé en quatre itérations :
 ** Import de la base de données Gertrude
 
 * Fonctionnalités sociales
-
+  
 * Fonctionnalités contributives
 
 * Types de dépôts à importer
@@ -106,6 +106,7 @@ Exemple de « ressources documentaires :
 | Libellé JDS                              | Type de champ                                                   | Commentaire |
 |------------------------------------------+-----------------------------------------------------------------+-------------|
 | Titre                                    | Champ texte                                                     |             |
+| Type de document                         | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |             |
 | Dénomination                             | Liste (ou tableau) ?                                            | ?           |
 | - Précision dénomination                 | Champ texte                                                     |             |
 | Numéro d'inventaire                      | Champ texte                                                     |             |
