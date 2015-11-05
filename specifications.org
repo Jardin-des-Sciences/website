@@ -137,6 +137,9 @@ Exemple de « ressources documentaires :
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                         |             |
 
+SA-ND-NC = partage à l'identique, partage à l'identique, droits de
+commercialisation.
+
 ** Types de contenus créés
 
 Les données /créées/ sont celles créées depuis le portail, soit par
