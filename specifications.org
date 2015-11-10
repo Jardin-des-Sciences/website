@@ -147,36 +147,38 @@ l'équipe du site web, soit par les contributeurs.
 
 *** Dossier
 
-| Libellé                   | Type de champ                                                         |
-|---------------------------+-----------------------------------------------------------------------|
-| Titre                     | Champ simple                                                          |
-| Thème                     | Liste (taxinomie)                                                     |
-| Discipline                | Liste (taxinomie)                                                     |
-| Date de mise à jour       | Calendrier                                                            |
-| Billet à la une (= edito) | Champ simple [500 caractères visibles]                                |
-| Image à la une            | Champ simple (URL de l'image)                                         |
-| Vidéo à la une            | Champ simple (URL de la vidéo)                                        |
-| Date de publication       | Calendrier                                                            |
-| Date de modification      | Calendrier                                                            |
-| Droits d'auteur (licence) | Valeur par défaut                                                     |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                          |
-| Mots-clés                 | Champ simple avec auto-complétion                                     |
-| Potentiellement à la une  | Binaire                                                               |
-| Dossiers connexes         | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
-| Billets connexes          | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
-| Visuels connexes          | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
-| Vidéos connexes           | Champ simple avec auto-completion sur le type de contenu "Video"      |
-| Audios connexes           | Champ simple avec auto-completion sur le type de contenu "Audio"      |
-| Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
-| Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
-| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation           | Adresse ? Coordonnées ?                                               |
+| Libellé                        | Type de champ                                                         |
+|--------------------------------+-----------------------------------------------------------------------|
+| Titre                          | Champ simple                                                          |
+| Thème                          | Liste (taxinomie)                                                     |
+| Discipline                     | Liste (taxinomie)                                                     |
+| Date de mise à jour            | Calendrier                                                            |
+| Edito (text en une du dossier) | Champ simple [de 500 à 1500 signes]                                   |
+| Image à la une                 | Champ simple (URL de l'image)                                         |
+| Vidéo à la une                 | Champ simple (URL de la vidéo)                                        |
+| Date de publication            | Calendrier                                                            |
+| Date de modification           | Calendrier                                                            |
+| Droits d'auteur (licence)      | Valeur par défaut                                                     |
+| SA-ND-NC*                      | Boolean sur plusieurs champs                                          |
+| Mots-clés                      | Champ simple avec auto-complétion                                     |
+| Dossier à la une               | Binaire                                                               |
+| Potentiellement à la une       | Binaire                                                               |
+| Dossiers connexes              | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
+| Billets connexes               | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
+| Visuels connexes               | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
+| Vidéos connexes                | Champ simple avec auto-completion sur le type de contenu "Video"      |
+| Audios connexes                | Champ simple avec auto-completion sur le type de contenu "Audio"      |
+| Diaporama connexes             | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
+| Ressources connexes            | Champ simple avec auto-completion sur le type de contenu "Ressources" |
+| Liens connexes                 | Champ simple avec auto-completion sur le type de contenu "Lien"       |
+| Géolocalisation                | Adresse ? Coordonnées ?                                               |
 
 *** Parcours
 
 | Libellé                  | Type de champ                                                     |
 |--------------------------+-------------------------------------------------------------------|
 | Nom du parcours          | Champ simple                                                      |
+| À la une                 | Binaire                                                           |
 | Potentiellement à la une | Binaire                                                           |
 | Dossier joint            | [Dossier]                                                         |
 | "Trajectoire"            | Liste ordonnée des éléments géolocalisés constitutifs du parcours |
@@ -191,6 +193,7 @@ l'équipe du site web, soit par les contributeurs.
 | Description longue        | WYSIWYG [Maximum 10000 signes espaces comprises]                      |
 | Date de publication       | Calendrier                                                            |
 | Date de mise à jour       | Calendrier                                                            |
+| Billet à la une           | Binaire                                                               |
 | Potentiellement à la une  | Binaire                                                               |
 | Nom du contributeur       | Champ simple ?                                                        |
 | Droits d'auteur (licence) | Valeur par défaut                                                     |
