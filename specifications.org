@@ -10,420 +10,151 @@ Le projet est découpé en quatre itérations :
 4. fonctionnalités sociales
 5. Webmastering et recettes
 
-* Fonctions principales
+** Fonctions principales
 
-- *Import* des données de bases existantes.
+ | *Import* des données de bases existantes                          | Itération 1 |
+ | *Recherche et navigation* d'un utilisateur au sein de ces données | Itération 2 |
+ | *Contribution* des utilisateurs                                   |             |
 
-- *Recherche et navigation* d'un utilisateur au sein de ces données.
+ Les utilisateurs peuvent ajouter soit des éléments (une image, une
+ ressource documentaire), soit les rassembler en dossiers (nommés «
+ collections » dans le cahier des charges initial.)
 
-- *Contribution* des utilisateurs qui peuvent ajouter soit des éléments
-  (une image, une ressource documentaire), soit les rassembler en
-  dossiers (nommés « collections » dans le cahier des charges
-  initial.)
+* Scénarios d'usage pour l'itération 2
 
-* Socle de données (dépôts importés, etc.)
+** Utilisateurs
 
-** Import de la base de données Gertrude
+| Je peux …                                                                                           | afin de …                                                                                    |
+|-----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------|
+| accéder à une page d'accueil qui présente l'actualité                                               | être tenu au courant des derniers contenus                                                   |
+| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …)              | le consulter                                                                                 |
+| connaître les éléments connexes grâce à un algorythme qui me suggère d'autres contenus              | explorer par association                                                                     |
+| faire une recherche par mots-clés                                                                   | accéder au listing  / la cartographie de contenus correspondants au résultat de ma recherche |
+| faire une recherche par thématique                                                                  | accéder au listing  / la cartographie de contenus correspondants au résultat de ma recherche |
+| faire une recherche par type de contenus                                                            | accéder au listing  / la cartographie de contenus correspondants au résultat de ma recherche |
+| faire une recherche avancée (filtres / facettes)                                                    | trouver un résultat précis                                                                   |
+| trier les résultats par ordre chronologique                                                         | connaître les ajouts récents                                                                 |
+| voir rapidement les résultats visuels                                                               | explorer les visuels                                                                         |
+| télécharger tous les types de contenu (zip ou fichier direct)                                       | explorer un contenu hors ligne                                                               |
+| imprimer directement un billet (pas de pertinence pour les dossiers)                                | le lire sur papier                                                                           |
+| accéder à un tutoriel pour m'expliquer ce que je pourrais faire en tant que contributeur (billet ?) | avoir envie de me créer un compte                                                            |
+| Je ne peux pas faire de commentaires en tant qu'utilisateur non connecté                            | éviter les commentaires anonymes                                                             |
+| partager un contenu sur les réseaux sociaux ou en privé (liste = FB, twitter, rss)                  | le faire connaître                                                                           |
+| faire connaître le site à mes contacts                                                              |                                                                                              |
+| me créer un compte comme contributeur par email ou facebook ou twitter                              | me connecter avec mon identifiant et mon mot de passe au front office et pouvoir contribuer  |
+| valider mon profil automatiquement                                                                  | d'alléger la modération manuelle                                                             |
 
-* Fonctionnalités sociales
-  
-* Fonctionnalités contributives
+** Contributeurs
 
-* Types de dépôts à importer
+| Je peux …                                                                                                                                                                                            | afin de …                                                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| modifier mon profil                                                                                                                                                                                  |                                                                                                                                                                                |
+| effacer mon compte                                                                                                                                                                                   |                                                                                                                                                                                |
+| accéder à un tutoriel (billet)                                                                                                                                                                       | m'expliquer comment contribuer                                                                                                                                                 |
+| m'abonner à une thématique / une discipline                                                                                                                                                          | personnaliser ma navigation                                                                                                                                                    |
+| mettre de côté un contenu (épingler)                                                                                                                                                                 | le consulter plus tard (carnet de visite)                                                                                                                                      |
+| voir un résumé de l'ensemble de mes contributions                                                                                                                                                    |                                                                                                                                                                                |
+| recevoir des notifications (mail ou inbox) pour des commentaires sur mes contributions                                                                                                               | m'indiquer un contenu qu'il serait pertinent d'ajouter à mon dossier                                                                                                           |
+| accéder au classement du top des contributeurs, aux derniers commentaires, voir le degré d'achèvement de la mission (retour visuel sur les contributions)                                            |                                                                                                                                                                                |
+| signaler un problème sur un contenu (par ex: droits d'auteur)                                                                                                                                        |                                                                                                                                                                                |
+| commenter les billets, les dossiers, les diaporamas, les parcours                                                                                                                                    | donner mon avis / enrichir une discussion                                                                                                                                      |
+| prévisualiser un commentaire sur un contenu                                                                                                                                                          |                                                                                                                                                                                |
+| proposer pour validation un commentaire prévisualisé sur un contenu                                                                                                                                  | envoyer une notification (par mail / inbox) à l'utilisateur-contributeur qui a publié le billet                                                                                |
+| ajouter un nouveau contenu                                                                                                                                                                           | enrichir la plate-forme / contribuer                                                                                                                                           |
+| partager un contenu que je viens d'ajouter sur le réseaux sociaux                                                                                                                                    | faire savoir que je contribue                                                                                                                                                  |
+| partager un résultat obtenu via gamification                                                                                                                                                         | faire savoir que je joue                                                                                                                                                       |
+| ajouter un billet                                                                                                                                                                                    |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| cliquer sur le bouton "rechercher un visuel/ vidéo / audio" que je veux ajouter depuis mon ordi.                                                                                                     | ouvrir un formulaire d'upload pour l'enregistrement de mon nouveau contenu "visuel/vidéo/audio                                                                                 |
+| suivre les recommandations du site : droits à l'image, droits d'exploitation, définition optimale, recadrage, aperçu avant publication                                                               |                                                                                                                                                                                |
+| renseigner les champs déterminés pour cet autre contenu par le biais d'un formulaire (visuel / audio / vidéo)                                                                                        |                                                                                                                                                                                |
+| travailler la mise en page : placement des visuels, taille de police, gras, italique, paragraphe (retour à la ligne), citation mise en exergue ...                                                   |                                                                                                                                                                                |
+| ajouter un visuel / une vidéo / un fichier sonore                                                                                                                                                    |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| cliquer sur le bouton "rechercher un visuel/ vidéo / audio" que je veux ajouter depuis mon ordi.                                                                                                     | ouvrir un formulaire d'upload pour l'enregistrement de mon contenu "visuel/vidéo/audio                                                                                         |
+| suivre les recommandations du site : droits à l'image, droits d'exploitation, définition optimale, recadrage, aperçu avant publication                                                               |                                                                                                                                                                                |
+| ajouter un diaporama                                                                                                                                                                                 |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| cliquer sur le bouton "rechercher un visuel/ vidéo / audio" que je veux ajouter depuis mon ordi.                                                                                                     | "ouvrir un formulaire d'upload pour l'enregistrement de mon nouveau contenu ""visuel/vidéo/audio : je télécharge un pdf / un power point OU je choisis le 1er visuel à charger |
+| je complète les légendes / le texte que je souhaite y associer                                                                                                                                       |                                                                                                                                                                                |
+| je choisis le Xe visuel à charger                                                                                                                                                                    |                                                                                                                                                                                |
+| je complète les légendes / le texte que je souhaite y associer                                                                                                                                       |                                                                                                                                                                                |
+| je publie et on peut consulter l'ensembe à l'aide d'un lecteur"                                                                                                                                      |                                                                                                                                                                                |
+| je suis les recommandations du site : droits à l'image, droits d'exploitation, définition optimale, recadrage, aperçu avant publication                                                              |                                                                                                                                                                                |
+| je peux imprimer un diaporama                                                                                                                                                                        |                                                                                                                                                                                |
+| créer un dossier                                                                                                                                                                                     |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| cliquer sur "rédiger un édito pour ce dossier"                                                                                                                                                       | remplir le champs libre de 1500 caractères maximum                                                                                                                             |
+| sélectionner les contenus publiés sur la plate-forme que je souhaite rassembler                                                                                                                      |                                                                                                                                                                                |
+| uniquement télécharger un dossier (zip)                                                                                                                                                              | ne pas imprimer directement tous les éléments d'un dossier                                                                                                                     |
+| créer un dossier avec accès limité ?? (un code ?)                                                                                                                                                    | proposer / réaliser un travail pédagogique en ligne (enseignant / étudiant / classe)                                                                                           |
+| je ne peux pas cloner un dossier / un parcours                                                                                                                                                       | garder la ligne éditoriale du contributeur d'origine                                                                                                                           |
+| donner à voir les contenus à compléter                                                                                                                                                               | créer un dossier / contributif                                                                                                                                                 |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| cocher une case dossier contributif                                                                                                                                                                  | permettre aux contributeurs d'identifier l'appel à contribution / de réferencer le type de dossier                                                                             |
+| cliquer sur "rédiger un édito pour ce dossier"                                                                                                                                                       |                                                                                                                                                                                |
+| rédiger un billet de présentation de la mission proposée (ex : collecte des photos ou dépouillement de docs pour un chercheur)                                                                       |                                                                                                                                                                                |
+| rédiger un billet de tutoriel synthétique                                                                                                                                                            |                                                                                                                                                                                |
+| sélectionner les contenus à rassembler                                                                                                                                                               |                                                                                                                                                                                |
+| accèder à une grille                                                                                                                                                                                 | de déplacer les contenus et de les placer dans un ordre souhaité                                                                                                               |
+| proposer de retranscrire des noms, dates, chiffres, etc avec un formulaire                                                                                                                           |                                                                                                                                                                                |
+| proposer de tagger un visuel et faire des annotations (pas des mots clés : un point actif sur le billet avec un contenu complémentaire par ex. texte)                                                |                                                                                                                                                                                |
+| proposer de publier des photos sur une cartographie                                                                                                                                                  |                                                                                                                                                                                |
+| à partir d'un dash board relié au dossier,consulter pour chaque dossier collaboratif le classement du top des contributeurs à mon projet, les derniers commentaires, le % d'achèvement de la mission |                                                                                                                                                                                |
+| enrichir un dossier contributif                                                                                                                                                                      | aider le contributeur d'origine à compléter les informations sur ces contenus                                                                                                  |
+| retranscrire des noms, dates, chiffres, etc au travers d'un formulaire                                                                                                                               |                                                                                                                                                                                |
+| faire des annotations sur un document (point actif sur une image)                                                                                                                                    |                                                                                                                                                                                |
+| publier des photos sur une cartographie                                                                                                                                                              |                                                                                                                                                                                |
+| à partir d'un dash board relié au dossier, consulter le classement du top des contributeurs au projet, les derniers commentaires, le % d'achèvement de la mission                                    |                                                                                                                                                                                |
+| ajouter un parcours de découverte géolocalisé                                                                                                                                                        |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| ajouter un parcours de découverte temporel (frise)                                                                                                                                                   |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| ajouter un parcours aux contenus géolocalisés / collaboratif                                                                                                                                         |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| rédiger un billet de présentation de la mission proposée                                                                                                                                             |                                                                                                                                                                                |
+| sélectionner le 1er des éléments et son emplacement géolocalisé                                                                                                                                      |                                                                                                                                                                                |
+| sélectionner le Xe des éléments et son emplacement géolocalisé                                                                                                                                       |                                                                                                                                                                                |
+| prévisualiser en mode cartographie                                                                                                                                                                   |                                                                                                                                                                                |
+| ajouter un QCM                                                                                                                                                                                       |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| Après avoir répondu, visualiser les statistiques des réponses globales des visiteurs                                                                                                                 | créer une dynamique de gaming                                                                                                                                                  |
+| ajouter un sondage                                                                                                                                                                                   | communiquer sur la dimension de communauté                                                                                                                                     |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                                        |                                                                                                                                                                                |
+| Après avoir répondu, visualiser les statistiques des réponses globales des visiteurs                                                                                                                 | créer une dynamique de gaming                                                                                                                                                  |
+| ajouter un événement                                                                                                                                                                                 |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire (pas d'inscription possible par ce biais : liens vers le site de réservation du JDS)             |
+| ajouter une entrée de glossaire                                                                                                                                                                      |                                                                                                                                                                                |
+| cliquer sur le bouton "contribuer"                                                                                                                                                                   | renseigner les champs déterminés pour ce contenu par le biais d'un formulaire                                                                                                  |
+| envoyer une notification par mail aux utilisateurs contributeurs abonnés à la discipline / thématique concernée                                                                                      |                                                                                                                                                                                |
+| poser une question de sciences sur le forum externe prévu à cet effet                                                                                                                                | avoir une réponse à une question scientifique et interagir avec un chercheur / médiateur                                                                                       |
+| proposer une réponse à une question de sciences                                                                                                                                                      |                                                                                                                                                                                |
+| depuis l'accueil, cliquer sur question de sciences qui ouvre le forum                                                                                                                                |                                                                                                                                                                                |
+| formuler une réponse par le biais d'un formulaire                                                                                                                                                    |                                                                                                                                                                                |
+| poser une question / FAQ par le biais d'un formulaire                                                                                                                                                | avoir une réponse à une question pratique sur le site                                                                                                                          |
 
-| Dépôt                                | Techno                       | Autre source Web |
-|--------------------------------------+------------------------------+------------------|
-| Gertrude                             | XML Gertrude                 |                  |
-| BNU                                  | XML Unimarc / Dublin Core    |                  |
-| BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
-| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
-|--------------------------------------+------------------------------+------------------|
-| Musée de Zoologie                    | ?                            | Webmuseo         |
-| Herbier                              | ? (Excel?)                   |                  |
-| Jardin botanique                     | ? (Excel?)                   |                  |
+** Administrateurs
 
-*Note* : Numistral repose sur Gallica Marque Blanche.  Gallica propose
-l'intégration et l'exposition de données suivant le protocole OAI-PMH
-(voir [[http://www.bnf.fr/documents/Guide_oaipmh.pdf][ce document]]), donc on peut s'attendre à ce que les données de
-Numistral soient récupérables selon ce protocole.
+| Je peux …                                                                    | afin de …                                                                                                                                      |
+|------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------|
+| me connecter comme administrateur                                            | gérer des contenus et utilisateurs                                                                                                             |
+| accéder au back office                                                       | avoir une vue d'ensemble de l'activité de la plate-forme : import, édition, commentaires, questions, … + vue d'ensemble des dossiers / billets |
+| voir tous les imports                                                        | m'assurer qu'il n'y a pas de bugs / voir les alertes indiquant les besoins de mises à jour                                                     |
+| faire un nouvel import Gertrude                                              | afin de mettre à jour les données ou les enrichir                                                                                              |
+| voir les dernières contributions                                             |                                                                                                                                                |
+| visualiser les contenus « à trou » / contenus en attente de contribution     |                                                                                                                                                |
+| connaître le nombre d'utilisateurs connectés en temps réel                   |                                                                                                                                                |
+| avoir des statistiques sur les contenus consultés                            |                                                                                                                                                |
+| avoir une vue en survol des statistiques                                     |                                                                                                                                                |
+| avoir une vue des statistiques type de contenus par type de contenus         |                                                                                                                                                |
+| éditer un contenu directement depuis le backoffice (modifier, bloquer, etc.) |                                                                                                                                                |
+| éditer un utilisateur (modifier, bloquer, etc.)                              |                                                                                                                                                |
+| modérer les commentaires proposés                                            |                                                                                                                                                |
+| voir tous les contenus signalés comme problématiques                         | modérer                                                                                                                                        |
+| enrichir les FAQ par une réponse                                             | fluidifier l'usage du site                                                                                                                     |
 
-* Types de contenus
-
-Le travail sur les types de contenus est nécessaire pour les
-itérations 1 et 2 : en itération 1, ce travail permet de savoir quels
-types de contenus importer depuis les dépôts, en itération 2, ce
-travail permet de savoir quelles données exposer via l'interface de
-navigation.
-
-Les types de contenus se divisent en deux grandes parties :
-
-|--------------------------+---------|
-| Les contenus importés    | Exemple |
-|--------------------------+---------|
-| Ressource documentaire   | TBD     |
-| Visuel                   | TBD     |
-| Vidéo                    | TBD     |
-| Audio                    | TBD     |
-| Diaporama                | TBD     |
-|--------------------------+---------|
-| Les contenus créés       | Exemple |
-|--------------------------+---------|
-| Dossier                  | TDB     |
-| Parcours                 | TDB     |
-| Billet                   | TDB     |
-| Événement                | TDB     |
-| Entrée de glossaire      | TDB     |
-| Questions éditorialisées | TDB     |
-| FAQ                      | TDB     |
-| Lien                     | TDB     |
-|--------------------------+---------|
-
-Les types de contenus marqués "Champ simple avec auto-complétion" =
-Champ simple avec auto-complétion sur les mots clés déjà présent en
-base, avec possibilité d'en ajouter si le mot saisi n'existe pas).
-
-** Types de contenus importés
-
-Les données importées sont celles en provenance des dépôts listés plus
-haut.
-
-*** Ressource documentaire (l'équivalent d'un "dossier" dans le cas de Gertrude)
-
-*Attention* : les « dossiers » du JDS sont éditorialisés, peuvent
-combiner des contenus importés avec des contenus contributifs, etc.
-
-Les « dossiers » Gertrude désignent autre chose (voir un exemple de
-[[http://gertrude.region-alsace.eu/gertrude-diffusion/dossier/musee-de-sismologie-et-de-magnetisme-terrestre/5aee42df-1420-414d-94c1-a566ec65e71c][ici]]), et c'est ce que nous appelons une « ressource documentaire »
-dans notre base de données.
-
-Exemple de « ressources documentaires :
-
-- Les « Dossiers » Gertrude importés
-- Des articles scientifiques importés
-- Des thèses et mémoires importés des archives ouvertes
-- Des fiches pédagogiques existant ailleurs
-
-| Libellé JDS                              | Type de champ                                                   | Commentaire |
-|------------------------------------------+-----------------------------------------------------------------+-------------|
-| Titre                                    | Champ texte                                                     |             |
-| Type de ressource                        | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |             |
-| Dénomination                             | Liste (ou tableau) ?                                            | ?           |
-| - Précision dénomination                 | Champ texte                                                     |             |
-| Numéro d'inventaire                      | Champ texte                                                     |             |
-| Document                                 | Upload (ou lien vers le document ?)                             |             |
-| Historique                               | Champ texte                                                     |             |
-| - type                                   | Champ texte                                                     |             |
-| - terme introducteur                     | Champ texte                                                     |             |
-| - incertitude                            | Champ texte                                                     |             |
-| - lieu de production                     | Champ texte                                                     |             |
-| - localisation                           | Champ texte                                                     |             |
-| Légende illustration                     | Champ texte                                                     | ?           |
-| - illustration significative             | Champ texte                                                     | ?           |
-| - Sujet                                  | Champ texte                                                     |             |
-| - Auteurs                                | Champ texte                                                     |             |
-|------------------------------------------+-----------------------------------------------------------------+-------------|
-| Description                              | Champ simple                                                    |             |
-| Thème                                    | Liste (taxinomie)                                               |             |
-| Discipline                               | Liste (taxinomie)                                               |             |
-| Droits d'auteur (licence)                | Champ simple                                                    |             |
-| SA-ND-NC*                                | Boolean sur plusieurs champs                                    |             |
-| Date de publication                      | Calendrier                                                      |             |
-| Date de dernière MAJ                     | Calendrier                                                      |             |
-| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |             |
-| Mots-clés                                | Champ simple avec auto-complétion                               |             |
-| Nom du contributeur                      | Champ simple                                                    |             |
-| Nom du dépôt d'origine                   | Champ simple?                                                   |             |
-| Nom du dossier d'origine                 | Champ simple                                                    |             |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                         |             |
-
-SA-ND-NC = partage à l'identique, partage à l'identique, droits de
-commercialisation.
-
-** Types de contenus créés
-
-Les données /créées/ sont celles créées depuis le portail, soit par
-l'équipe du site web, soit par les contributeurs.
-
-*** Dossier
-
-| Libellé                         | Type de champ                                                         |
-|---------------------------------+-----------------------------------------------------------------------|
-| Titre                           | Champ simple                                                          |
-| Thème                           | Liste (taxinomie)                                                     |
-| Discipline                      | Liste (taxinomie)                                                     |
-| Date de mise à jour             | Calendrier                                                            |
-| Edito (texte en une du dossier) | Champ simple [de 500 à 1500 signes]                                   |
-| Image à la une                  | Champ simple (URL de l'image)                                         |
-| Vidéo à la une                  | Champ simple (URL de la vidéo)                                        |
-| Date de publication             | Calendrier                                                            |
-| Date de modification            | Calendrier                                                            |
-| Droits d'auteur (licence)       | Valeur par défaut                                                     |
-| SA-ND-NC*                       | Boolean sur plusieurs champs                                          |
-| Mots-clés                       | Champ simple avec auto-complétion                                     |
-| Dossier à la une                | Binaire                                                               |
-| Potentiellement à la une        | Binaire                                                               |
-| Dossiers connexes               | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
-| Billets connexes                | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
-| Visuels connexes                | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
-| Vidéos connexes                 | Champ simple avec auto-completion sur le type de contenu "Video"      |
-| Audios connexes                 | Champ simple avec auto-completion sur le type de contenu "Audio"      |
-| Diaporama connexes              | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
-| Ressources connexes             | Champ simple avec auto-completion sur le type de contenu "Ressources" |
-| Liens connexes                  | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation                 | Adresse ? Coordonnées ?                                               |
-
-*** Parcours
-
-| Libellé                  | Type de champ                                                     |
-|--------------------------+-------------------------------------------------------------------|
-| Nom du parcours          | Champ simple                                                      |
-| À la une                 | Binaire                                                           |
-| Potentiellement à la une | Binaire                                                           |
-| Dossier joint            | [Dossier]                                                         |
-| "Trajectoire"            | Liste ordonnée des éléments géolocalisés constitutifs du parcours |
-
-*** Billet
-
-| Libellé                   | Type de champ                                                         |
-|---------------------------+-----------------------------------------------------------------------|
-| Titre                     | Champ simple                                                          |
-| Thème                     | Liste (taxinomie)                                                     |
-| Discipline                | Liste (taxinomie)                                                     |
-| Description longue        | WYSIWYG [Maximum 10000 signes espaces comprises]                      |
-| Date de publication       | Calendrier                                                            |
-| Date de mise à jour       | Calendrier                                                            |
-| Billet à la une           | Binaire                                                               |
-| Potentiellement à la une  | Binaire                                                               |
-| Nom du contributeur       | Champ simple ?                                                        |
-| Droits d'auteur (licence) | Valeur par défaut                                                     |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                          |
-| Mots-clés                 | Champ simple avec auto-complétion                                     |
-| Dossiers connexes         | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
-| Billets connexes          | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
-| Visuels connexes          | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
-| Vidéos connexes           | Champ simple avec auto-completion sur le type de contenu "Video"      |
-| Audios connexes           | Champ simple avec auto-completion sur le type de contenu "Audio"      |
-| Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
-| Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
-| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation           | Adresse ? Coordonnées ?                                               |
-
-*** Événement
-
-| Libellé              | Type de champ                                                     |
-|----------------------+-------------------------------------------------------------------|
-| Titre                | Champ simple                                                      |
-| Thème                | Liste (Taxinomie)                                                 |
-| Date de publication  | Calendrier                                                        |
-| Discipline           | Liste (Taxinomie)                                                 |
-| Description courte   | WYSIWYG [max 500 caractères]                                      |
-| Description longue   | WYSIWYG [max 3000 caractères]                                     |
-| Date de début        | Calendrier                                                        |
-| Date de fin          | Calendrier                                                        |
-| Lieu                 | Champ simple                                                      |
-| Nom du contributeur  | Champ simple                                                      |
-| Contact organisateur | Champ simple                                                      |
-| Type d'évènement     | Liste (Taxinomie)                                                 |
-| Visuels connexes     | Champ simple avec auto-completion sur le type de contenu "visuel" |
-| Mots-clés            | Champ simple avec auto-complétion                                 |
-| Géolocalisation      | Adresse ? Coordonnées ?                                           |
-| Participants         | Liste de participants                                             |
-
-*** QCM
-
-| Libellé               | Type de champ |
-|-----------------------+---------------|
-| Thème                 | Champ simple  |
-| Décompte par question | Durée         |
-| Question 1            |               |
-| Question 2            |               |
-
-*** Questions éditorialisées
-
-| Libellé                   | Type de champ                |
-|---------------------------+------------------------------|
-| Question                  | WYSIWYG                      |
-| Visuel                    |                              |
-| Réponse 1                 | WYSIWYG                      |
-| Réponse 2                 | WYSIWYG                      |
-| Réponse ...               | WYSIWYG                      |
-| Droits d'auteur (licence) | Valeur du site               |
-| SA-ND-NC*                 | Boolean sur plusieurs champs |
-
-*** Entrée de glossaire
-
-| Libellé                   | Type de champ                                                   |
-|---------------------------+-----------------------------------------------------------------|
-| Mot                       | Champ simple                                                    |
-| Définition                | WYSIWYG ou insertion vidéo                                      |
-| Date de publication       | Calendrier                                                      |
-| Date de mise à jour       | Calendrier                                                      |
-| Thème                     | Liste (taxinomie)                                               |
-| Discipline                | Liste (taxinomie)                                               |
-| Nom du contributeur       | Champ simple                                                    |
-| Droits d'auteur (licence) | Valeur par défaut                                               |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                    |
-| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien" |
-| Géolocalisation           | Adresse ? Coordonnées ?                                         |
-| Mots-clés                 | Champ simple avec auto-complétion                               |
-
-*** FAQ
-
-| Libellé                   | Type de champ                |
-|---------------------------+------------------------------|
-| Question                  | Champ simple                 |
-| Réponse                   | WYSIWYG                      |
-| Droits d'auteur (licence) | Valeur par défaut du site    |
-| SA-ND-NC*                 | Boolean sur plusieurs champs |
-
-*** Lien
-
-| Libellé                   | Type de champ                                                       |
-|---------------------------+---------------------------------------------------------------------|
-| Libellé                   | Champ simple                                                        |
-| URL                       | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
-| Thème                     | Liste (taxinomie)                                                   |
-| Discipline                | Liste (taxinomie)                                                   |
-| Date de publication       | Calendrier                                                          |
-| Droits d'auteur (licence) | Valeur par défaut du site                                           |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                        |
-| Nom du contributeur       | Champ simple                                                        |
-| Géolocalisation           | Adresse ? Coordonnées ?                                             |
-
-** Type de contenus importés ou créés
-
-Ces contenus sont soit importés depuis une base de données, soit
-ajoutés par les utilisateurs.
-
-*** Visuel
-
-| Libellé                                  | Type de champ                     |
-|------------------------------------------+-----------------------------------|
-| Titre                                    | Champ simple                      |
-| Couleur                                  | Champ simple                      |
-| Thème                                    | Liste (taxinomie)                 |
-| Discipline                               | Liste (taxinomie)                 |
-| Date de publication                      | Calendrier                        |
-| Nom du contributeur                      | Champ simple                      |
-| Mots-clés                                | Champ simple avec auto-complétion |
-| Nom du dépôt d'origine                   | Champ simple                      |
-| Lien vers l'item dans le dépôt d'origine | Champ simple                      |
-| Géolocalisation                          | Adresse ? Coordonnées ?           |
-|------------------------------------------+-----------------------------------|
-| Numéro d'inventaire                      | Champ simple                      |
-| Légende                                  | Champ simple                      |
-| Informations générales                   | Champ simple                      |
-| - immatriculation                        | Champ simple                      |
-| - type                                   | Champ simple                      |
-| - sujet                                  | Champ simple                      |
-| - couleur                                | Champ simple                      |
-| - orientation de l'image                 | Champ simple                      |
-| - droits d'auteur                        | Champ simple                      |
-| - SA-ND-NC*                              | Boolean sur plusieurs champs      |
-| - date de prise de vue                   | Champ simple                      |
-| - visuel                                 | Champ simple                      |
-| - auteur                                 | Champ simple                      |
-| - qualité                                | Champ simple                      |
-| Références documentaires                 | Champ simple                      |
-| - type                                   | Champ simple                      |
-| - titre                                  | Champ simple                      |
-| - lieu de conservation                   | Champ simple                      |
-| - cote                                   | Champ simple                      |
-| - ISBD                                   | Champ simple                      |
-| - auteur                                 | Champ simple                      |
-
-*** Vidéo
-
-| Libellé                                  | Type de champ                     |
-|------------------------------------------+-----------------------------------|
-| Titre                                    | Champ simple                      |
-| Auteur                                   | Champ simple                      |
-| Réalisateur                              | Champ simple                      |
-| Producteur                               | Champ simple                      |
-| Année de production                      | Calendrier                        |
-| Durée                                    | Champ numérique                   |
-| Définition (HD vs. LD)                   | Champ simple                      |
-| URL de la vidéo                          | Champ simple                      |
-| Orientation de l'image ("sens")          | Vertical / horizontal             |
-| Description                              | Champ simple                      |
-| Thème                                    | Liste (taxinomie)                 |
-| Discipline                               | Liste (taxinomie)                 |
-| Droits d'auteur (licence)                | Valeur par défaut                 |
-| SA-ND-NC*                                | Boolean sur plusieurs champs      |
-| Date de prise de vue                     | Calendrier                        |
-| Date de publication                      | Calendrier                        |
-| Nom du contributeur                      | Champ simple                      |
-| Mots-clés                                | Champ simple avec auto-complétion |
-| Nom du dépôt d'origine                   | Champ simple?                     |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
-| Géolocalisation                          | Adresse ? Coordonnées ?           |
-
-*** Audio
-
-| Libellé                                  | Type de champ                     |
-|------------------------------------------+-----------------------------------|
-| Titre                                    | Champ simple                      |
-| Auteur                                   | Champ simple                      |
-| URL de l'audio                           | Champ simple                      |
-| Durée                                    | Champ numérique                   |
-| Description                              | Champ simple                      |
-| Année de production                      | Calendrier                        |
-| Thème                                    | Liste (taxinomie)                 |
-| Discipline                               | Liste (taxinomie)                 |
-| Droits d'auteur (licence)                | Valeur par défaut                 |
-| SA-ND-NC*                                | Boolean sur plusieurs champs      |
-| Date de publication                      | Calendrier                        |
-| Nom du contributeur                      | Champ simple                      |
-| Mots-clés                                | Champ simple avec auto-complétion |
-| Nom du dépôt d'origine                   | Champ simple?                     |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
-| Géolocalisation                          | Adresse ? Coordonnées ?           |
-
-*** Diaporama
-
-| Libellé                                  | Type de champ                                                       |
-|------------------------------------------+---------------------------------------------------------------------|
-| Titre                                    | Champ simple                                                        |
-| Visuels                                  | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
-| Description                              | Champ simple                                                        |
-| Thème                                    | Liste (taxinomie)                                                   |
-| Discipline                               | Liste (taxinomie)                                                   |
-| Droits d'auteur (licence)                | Valeur par défaut                                                   |
-| SA-ND-NC*                                | Boolean sur plusieurs champs                                        |
-| Date de publication                      | Date                                                                |
-| Nom du contributeur                      | Champ simple                                                        |
-| Mots-clés                                | Champ simple avec auto-complétion                                   |
-| Nom du dépôt d'origine                   | Champ simple?                                                       |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                             |
-
-** NEXT Gestion des types de contenus
-   SCHEDULED: <2015-11-02 lun.>
-
-L'administrateur du site peut choisir pour chaque type de contenu s'il
-active :
-
-- les tags
-- les commentaires
-- les boutons de partage
-- le téléchargement
-
-* Maquettes graphiques à date
-
-https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/29948389
-
-* Navigation et interface (notes)
-
-- En page d'accueil, un affichage aléatoire pondéré sur l'ancienneté
-  des billets et dossiers potentiellement à la une : les billets et
-  dossiers les plus récents ont le plus de chances d'être tirés au
-  hasard (voir [[https://github.com/Jardin-des-Sciences/website/issues/3][ticket #3]]).
-
-- La vue dossier doit permettre de faire défiler les images d'un
-  dossier comme s'il s'agissait d'un diaporama - voir [[https://github.com/Jardin-des-Sciences/website/issues/1][ticket #1]].
-
-* Cahier des charges pour chaque itération
+* Résumé du cahier des charges par itération
 
 ** Itération 1 : accès au socle de données
 
@@ -453,5 +184,4 @@ Le cahier des charges de cette première itération :
 - Implémentation de l'interface de navigation finale.
 
 ** Itération 3 : fonctionnalités contributives
-
 ** Itération 4 : fonctionnalités sociales

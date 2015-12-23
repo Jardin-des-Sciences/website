@@ -1,0 +1,392 @@
+#+TITLE: Archives itération 1
+
+* Types de dépôts à importer
+
+| Dépôt                                | Techno                       | Autre source Web |
+|--------------------------------------+------------------------------+------------------|
+| Gertrude                             | XML Gertrude                 |                  |
+| BNU                                  | XML Unimarc / Dublin Core    |                  |
+| BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
+| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
+|--------------------------------------+------------------------------+------------------|
+| Musée de Zoologie                    | ?                            | Webmuseo         |
+| Herbier                              | ? (Excel?)                   |                  |
+| Jardin botanique                     | ? (Excel?)                   |                  |
+
+*Note* : Numistral repose sur Gallica Marque Blanche.  Gallica propose
+l'intégration et l'exposition de données suivant le protocole OAI-PMH
+(voir [[http://www.bnf.fr/documents/Guide_oaipmh.pdf][ce document]]), donc on peut s'attendre à ce que les données de
+Numistral soient récupérables selon ce protocole.
+
+* Types de contenus
+
+Le travail sur les types de contenus est nécessaire pour les
+itérations 1 et 2 : en itération 1, ce travail permet de savoir quels
+types de contenus importer depuis les dépôts, en itération 2, ce
+travail permet de savoir quelles données exposer via l'interface de
+navigation.
+
+Les types de contenus se divisent en deux grandes parties :
+
+|--------------------------+---------|
+| Les contenus importés    | Exemple |
+|--------------------------+---------|
+| Ressource documentaire   | TBD     |
+| Visuel                   | TBD     |
+| Vidéo                    | TBD     |
+| Audio                    | TBD     |
+| Diaporama                | TBD     |
+|--------------------------+---------|
+| Les contenus créés       | Exemple |
+|--------------------------+---------|
+| Dossier                  | TDB     |
+| Parcours                 | TDB     |
+| Billet                   | TDB     |
+| Événement                | TDB     |
+| Entrée de glossaire      | TDB     |
+| Questions éditorialisées | TDB     |
+| FAQ                      | TDB     |
+| Lien                     | TDB     |
+|--------------------------+---------|
+
+Les types de contenus marqués "Champ simple avec auto-complétion" =
+Champ simple avec auto-complétion sur les mots clés déjà présent en
+base, avec possibilité d'en ajouter si le mot saisi n'existe pas).
+
+** Types de contenus importés
+
+Les données importées sont celles en provenance des dépôts listés plus
+haut.
+
+*** Ressource documentaire (l'équivalent d'un "dossier" dans le cas de Gertrude)
+
+*Attention* : les « dossiers » du JDS sont éditorialisés, peuvent
+combiner des contenus importés avec des contenus contributifs, etc.
+
+Les « dossiers » Gertrude désignent autre chose (voir un exemple de
+[[http://gertrude.region-alsace.eu/gertrude-diffusion/dossier/musee-de-sismologie-et-de-magnetisme-terrestre/5aee42df-1420-414d-94c1-a566ec65e71c][ici]]), et c'est ce que nous appelons une « ressource documentaire »
+dans notre base de données.
+
+Exemple de « ressources documentaires :
+
+- Les « Dossiers » Gertrude importés
+- Des articles scientifiques importés
+- Des thèses et mémoires importés des archives ouvertes
+- Des fiches pédagogiques existant ailleurs
+
+| Libellé JDS                              | Type de champ                                                   | Commentaire |
+|------------------------------------------+-----------------------------------------------------------------+-------------|
+| Titre                                    | Champ texte                                                     |             |
+| Type de ressource                        | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |             |
+| Dénomination                             | Liste (ou tableau) ?                                            | ?           |
+| - Précision dénomination                 | Champ texte                                                     |             |
+| Numéro d'inventaire                      | Champ texte                                                     |             |
+| Document                                 | Upload (ou lien vers le document ?)                             |             |
+| Historique                               | Champ texte                                                     |             |
+| - type                                   | Champ texte                                                     |             |
+| - terme introducteur                     | Champ texte                                                     |             |
+| - incertitude                            | Champ texte                                                     |             |
+| - lieu de production                     | Champ texte                                                     |             |
+| - localisation                           | Champ texte                                                     |             |
+| Légende illustration                     | Champ texte                                                     | ?           |
+| - illustration significative             | Champ texte                                                     | ?           |
+| - Sujet                                  | Champ texte                                                     |             |
+| - Auteurs                                | Champ texte                                                     |             |
+|------------------------------------------+-----------------------------------------------------------------+-------------|
+| Description                              | Champ simple                                                    |             |
+| Thème                                    | Liste (taxinomie)                                               |             |
+| Discipline                               | Liste (taxinomie)                                               |             |
+| Droits d'auteur (licence)                | Champ simple                                                    |             |
+| SA-ND-NC*                                | Boolean sur plusieurs champs                                    |             |
+| Date de publication                      | Calendrier                                                      |             |
+| Date de dernière MAJ                     | Calendrier                                                      |             |
+| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |             |
+| Mots-clés                                | Champ simple avec auto-complétion                               |             |
+| Nom du contributeur                      | Champ simple                                                    |             |
+| Nom du dépôt d'origine                   | Champ simple?                                                   |             |
+| Nom du dossier d'origine                 | Champ simple                                                    |             |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                         |             |
+
+SA-ND-NC = partage à l'identique, partage à l'identique, droits de
+commercialisation.
+
+** Types de contenus créés
+
+Les données /créées/ sont celles créées depuis le portail, soit par
+l'équipe du site web, soit par les contributeurs.
+
+*** Dossier
+
+| Libellé                         | Type de champ                                                         |
+|---------------------------------+-----------------------------------------------------------------------|
+| Titre                           | Champ simple                                                          |
+| Thème                           | Liste (taxinomie)                                                     |
+| Discipline                      | Liste (taxinomie)                                                     |
+| Date de mise à jour             | Calendrier                                                            |
+| Edito (texte en une du dossier) | Champ simple [de 500 à 1500 signes]                                   |
+| Image à la une                  | Champ simple (URL de l'image)                                         |
+| Vidéo à la une                  | Champ simple (URL de la vidéo)                                        |
+| Date de publication             | Calendrier                                                            |
+| Date de modification            | Calendrier                                                            |
+| Droits d'auteur (licence)       | Valeur par défaut                                                     |
+| SA-ND-NC*                       | Boolean sur plusieurs champs                                          |
+| Mots-clés                       | Champ simple avec auto-complétion                                     |
+| Niveaux scolaires               | Champ simple avec auto-complétion                                     |
+| Degré d'implication             | Liste (taxinomie)                                                     |
+| Dossier à la une                | Binaire                                                               |
+| Potentiellement à la une        | Binaire                                                               |
+| Dossiers connexes               | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
+| Billets connexes                | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
+| Visuels connexes                | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
+| Vidéos connexes                 | Champ simple avec auto-completion sur le type de contenu "Video"      |
+| Audios connexes                 | Champ simple avec auto-completion sur le type de contenu "Audio"      |
+| Diaporama connexes              | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
+| Ressources connexes             | Champ simple avec auto-completion sur le type de contenu "Ressources" |
+| Liens connexes                  | Champ simple avec auto-completion sur le type de contenu "Lien"       |
+| Géolocalisation                 | Adresse ? Coordonnées ?                                               |
+
+*** Parcours
+
+| Libellé                  | Type de champ                                                     |
+|--------------------------+-------------------------------------------------------------------|
+| Nom du parcours          | Champ simple                                                      |
+| À la une                 | Binaire                                                           |
+| Potentiellement à la une | Binaire                                                           |
+| Dossier joint            | [Dossier]                                                         |
+| "Trajectoire"            | Liste ordonnée des éléments géolocalisés constitutifs du parcours |
+
+*** Billet
+
+| Libellé                   | Type de champ                                                         |
+|---------------------------+-----------------------------------------------------------------------|
+| Titre                     | Champ simple                                                          |
+| Thème                     | Liste (taxinomie)                                                     |
+| Discipline                | Liste (taxinomie)                                                     |
+| Description longue        | WYSIWYG [Maximum 10000 signes espaces comprises]                      |
+| Date de publication       | Calendrier                                                            |
+| Date de mise à jour       | Calendrier                                                            |
+| Billet à la une           | Binaire                                                               |
+| Potentiellement à la une  | Binaire                                                               |
+| Nom du contributeur       | Champ simple ?                                                        |
+| Degré d'implication       | Liste (taxinomie)                                                     |
+| Droits d'auteur (licence) | Valeur par défaut                                                     |
+| SA-ND-NC*                 | Boolean sur plusieurs champs                                          |
+| Mots-clés                 | Champ simple avec auto-complétion                                     |
+| Dossiers connexes         | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
+| Billets connexes          | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
+| Visuels connexes          | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
+| Vidéos connexes           | Champ simple avec auto-completion sur le type de contenu "Video"      |
+| Audios connexes           | Champ simple avec auto-completion sur le type de contenu "Audio"      |
+| Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
+| Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
+| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
+| Géolocalisation           | Adresse ? Coordonnées ?                                               |
+
+*** Événement
+
+| Libellé              | Type de champ                                                     |
+|----------------------+-------------------------------------------------------------------|
+| Titre                | Champ simple                                                      |
+| Thème                | Liste (Taxinomie)                                                 |
+| Date de publication  | Calendrier                                                        |
+| Discipline           | Liste (Taxinomie)                                                 |
+| Description courte   | WYSIWYG [max 500 caractères]                                      |
+| Description longue   | WYSIWYG [max 3000 caractères]                                     |
+| Date de début        | Calendrier                                                        |
+| Date de fin          | Calendrier                                                        |
+| Lieu                 | Champ simple                                                      |
+| Nom du contributeur  | Champ simple                                                      |
+| Contact organisateur | Champ simple                                                      |
+| Type d'évènement     | Liste (Taxinomie)                                                 |
+| Visuels connexes     | Champ simple avec auto-completion sur le type de contenu "visuel" |
+| Mots-clés            | Champ simple avec auto-complétion                                 |
+| Géolocalisation      | Adresse ? Coordonnées ?                                           |
+| Participants         | Liste de participants                                             |
+
+*** QCM
+
+| Libellé               | Type de champ |
+|-----------------------+---------------|
+| Thème                 | Champ simple  |
+| Décompte par question | Durée         |
+| Question 1            |               |
+| - réponse 1           |               |
+| - réponse 2           |               |
+| Question 2            |               |
+
+*** Questions éditorialisées (questions de science)
+
+Exemples de questions :
+
+- Qu'est-ce qu'une onde S ? 
+- Pourquoi le ciel est bleu ?
+
+| Libellé                   | Type de champ                |
+|---------------------------+------------------------------|
+| Thème                     | Champ simple                 |
+| Question                  | WYSIWYG                      |
+| Visuel                    |                              |
+| Réponse du chercheur      | WYSIWYG                      |
+| Droits d'auteur (licence) | Valeur du site               |
+| SA-ND-NC*                 | Boolean sur plusieurs champs |
+
+*** Entrée de glossaire
+
+| Libellé                   | Type de champ                                                   |
+|---------------------------+-----------------------------------------------------------------|
+| Mot                       | Champ simple                                                    |
+| Définition                | WYSIWYG ou insertion vidéo                                      |
+| Date de publication       | Calendrier                                                      |
+| Date de mise à jour       | Calendrier                                                      |
+| Thème                     | Liste (taxinomie)                                               |
+| Discipline                | Liste (taxinomie)                                               |
+| Nom du contributeur       | Champ simple                                                    |
+| Droits d'auteur (licence) | Valeur par défaut                                               |
+| SA-ND-NC*                 | Boolean sur plusieurs champs                                    |
+| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien" |
+| Géolocalisation           | Adresse ? Coordonnées ?                                         |
+| Mots-clés                 | Champ simple avec auto-complétion                               |
+
+*** FAQ
+
+| Libellé                   | Type de champ                |
+|---------------------------+------------------------------|
+| Question                  | Champ simple                 |
+| Réponse                   | WYSIWYG                      |
+| Droits d'auteur (licence) | Valeur par défaut du site    |
+| SA-ND-NC*                 | Boolean sur plusieurs champs |
+
+*** Lien
+
+| Libellé                   | Type de champ                                                       |
+|---------------------------+---------------------------------------------------------------------|
+| Libellé                   | Champ simple                                                        |
+| URL                       | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
+| Thème                     | Liste (taxinomie)                                                   |
+| Discipline                | Liste (taxinomie)                                                   |
+| Date de publication       | Calendrier                                                          |
+| Droits d'auteur (licence) | Valeur par défaut du site                                           |
+| SA-ND-NC*                 | Boolean sur plusieurs champs                                        |
+| Nom du contributeur       | Champ simple                                                        |
+| Géolocalisation           | Adresse ? Coordonnées ?                                             |
+
+** Type de contenus importés ou créés
+
+Ces contenus sont soit importés depuis une base de données, soit
+ajoutés par les utilisateurs.
+
+*** Visuel
+
+| Libellé                                  | Type de champ                     |
+|------------------------------------------+-----------------------------------|
+| Titre                                    | Champ simple                      |
+| Couleur                                  | Champ simple                      |
+| Thème                                    | Liste (taxinomie)                 |
+| Discipline                               | Liste (taxinomie)                 |
+| Date de publication                      | Calendrier                        |
+| Nom du contributeur                      | Champ simple                      |
+| Mots-clés                                | Champ simple avec auto-complétion |
+| Nom du dépôt d'origine                   | Champ simple                      |
+| Lien vers l'item dans le dépôt d'origine | Champ simple                      |
+| Géolocalisation                          | Adresse ? Coordonnées ?           |
+|------------------------------------------+-----------------------------------|
+| Numéro d'inventaire                      | Champ simple                      |
+| Légende                                  | Champ simple                      |
+| Informations générales                   | Champ simple                      |
+| - immatriculation                        | Champ simple                      |
+| - type                                   | Champ simple                      |
+| - sujet                                  | Champ simple                      |
+| - couleur                                | Champ simple                      |
+| - orientation de l'image                 | Champ simple                      |
+| - droits d'auteur                        | Champ simple                      |
+| - SA-ND-NC*                              | Boolean sur plusieurs champs      |
+| - date de prise de vue                   | Champ simple                      |
+| - visuel                                 | Champ simple                      |
+| - auteur                                 | Champ simple                      |
+| - qualité                                | Champ simple                      |
+| Références documentaires                 | Champ simple                      |
+| - type                                   | Champ simple                      |
+| - titre                                  | Champ simple                      |
+| - lieu de conservation                   | Champ simple                      |
+| - cote                                   | Champ simple                      |
+| - ISBD                                   | Champ simple                      |
+| - auteur                                 | Champ simple                      |
+
+*** Vidéo
+
+| Libellé                                  | Type de champ                     |
+|------------------------------------------+-----------------------------------|
+| Titre                                    | Champ simple                      |
+| Auteur                                   | Champ simple                      |
+| Réalisateur                              | Champ simple                      |
+| Producteur                               | Champ simple                      |
+| Année de production                      | Calendrier                        |
+| Durée                                    | Champ numérique                   |
+| Définition (HD vs. LD)                   | Champ simple                      |
+| URL de la vidéo                          | Champ simple                      |
+| Orientation de l'image ("sens")          | Vertical / horizontal             |
+| Description                              | Champ simple                      |
+| Thème                                    | Liste (taxinomie)                 |
+| Discipline                               | Liste (taxinomie)                 |
+| Droits d'auteur (licence)                | Valeur par défaut                 |
+| SA-ND-NC*                                | Boolean sur plusieurs champs      |
+| Date de prise de vue                     | Calendrier                        |
+| Date de publication                      | Calendrier                        |
+| Nom du contributeur                      | Champ simple                      |
+| Mots-clés                                | Champ simple avec auto-complétion |
+| Nom du dépôt d'origine                   | Champ simple?                     |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
+| Géolocalisation                          | Adresse ? Coordonnées ?           |
+
+*** Audio
+
+| Libellé                                  | Type de champ                     |
+|------------------------------------------+-----------------------------------|
+| Titre                                    | Champ simple                      |
+| Auteur                                   | Champ simple                      |
+| URL de l'audio                           | Champ simple                      |
+| Durée                                    | Champ numérique                   |
+| Description                              | Champ simple                      |
+| Année de production                      | Calendrier                        |
+| Thème                                    | Liste (taxinomie)                 |
+| Discipline                               | Liste (taxinomie)                 |
+| Droits d'auteur (licence)                | Valeur par défaut                 |
+| SA-ND-NC*                                | Boolean sur plusieurs champs      |
+| Date de publication                      | Calendrier                        |
+| Nom du contributeur                      | Champ simple                      |
+| Mots-clés                                | Champ simple avec auto-complétion |
+| Nom du dépôt d'origine                   | Champ simple?                     |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
+| Géolocalisation                          | Adresse ? Coordonnées ?           |
+
+*** Diaporama
+
+| Libellé                                  | Type de champ                                                       |
+|------------------------------------------+---------------------------------------------------------------------|
+| Titre                                    | Champ simple                                                        |
+| Visuels                                  | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
+| Description                              | Champ simple                                                        |
+| Thème                                    | Liste (taxinomie)                                                   |
+| Discipline                               | Liste (taxinomie)                                                   |
+| Droits d'auteur (licence)                | Valeur par défaut                                                   |
+| SA-ND-NC*                                | Boolean sur plusieurs champs                                        |
+| Date de publication                      | Date                                                                |
+| Nom du contributeur                      | Champ simple                                                        |
+| Mots-clés                                | Champ simple avec auto-complétion                                   |
+| Nom du dépôt d'origine                   | Champ simple?                                                       |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                             |
+
+** NEXT Gestion des types de contenus
+   SCHEDULED: <2015-11-02 lun.>
+
+L'administrateur du site peut choisir pour chaque type de contenu s'il
+active :
+
+- les tags
+- les commentaires
+- les boutons de partage
+- le téléchargement
+
+
