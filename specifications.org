@@ -55,6 +55,8 @@ Le projet est découpé en quatre itérations :
 
 *** Gérer son profil
 
+| Je peux …                                                                              | afin de …                                      |
+|----------------------------------------------------------------------------------------+------------------------------------------------|
 | mettre à jour mon profil                              | corriger des informations me concernant               |
 | cacher mon compte                                     | pouvoir le réactiver plus tard mais devenir invisible |
 | effacer tous mes commentaires                         | garder la maîtrise de mes contenus secondaires        |
@@ -68,6 +70,8 @@ il conserve ses droits d'auteur comme attendu.
 
 *** Organiser sa veille
 
+| Je peux …                                                                              | afin de …                                      |
+|----------------------------------------------------------------------------------------+------------------------------------------------|
 | accéder au classement des 10 contributeurs les plus actifs            | organiser sa veille         |
 | accéder aux classement des 10 derniers commentaires                   | organiser sa veille         |
 | accéder au classement des 10 contributions les plus commentées        | organiser sa veille         |
@@ -82,6 +86,8 @@ il conserve ses droits d'auteur comme attendu.
 
 *** Contribuer
 
+| Je peux …                                                        | afin de …                                                   |
+|------------------------------------------------------------------+-------------------------------------------------------------|
 | créer un visuel / vidéo / fichier son                            | enrichir la plate-forme                                     |
 | créer un billet et l'éditer en WYSIWYG                           | enrichir la plate-forme                                     |
 | créer un edito et l'éditer en WYSIWYG                            | enrichir la plate-forme                                     |
@@ -108,6 +114,8 @@ il conserve ses droits d'auteur comme attendu.
 
 *** Partager
 
+| Je peux …                                                         | afin de …                     |
+|-------------------------------------------------------------------+-------------------------------|
 | partager un contenu que je viens d'ajouter sur le réseaux sociaux | faire savoir que je contribue |
 | partager un résultat (badge) obtenu via gamification              | faire savoir que je joue      |
 | envoyer une notification aux abonnés d'une thématique concernée   | communiquer entre pairs       |
@@ -136,6 +144,8 @@ il conserve ses droits d'auteur comme attendu.
 *** Gérer son profil
 *** Organiser sa veille
 
+| Je peux …                                                              | afin de …                                    |
+|------------------------------------------------------------------------+----------------------------------------------|
 | Télécharger un dossier sous format zip (avec .html et fichiers images) | consulter les contenus hors-ligne            |
 | Télécharger un contenu dans son format natif (pdf/jpg/png etc.)        | consulter les contenus hors-ligne            |
 | créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |
@@ -150,6 +160,8 @@ il conserve ses droits d'auteur comme attendu.
 
 ** Administrateurs
 
+| Je peux …                                                                 | afin de …                              |
+|---------------------------------------------------------------------------+----------------------------------------|
 | voir tous les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes |
 | voir le nombre de contributeurs connectés en temps réel                   | accéder à des statistiques             |
 | voir les 10 dernières contributions                                       | accéder à des statistiques             |
