@@ -124,6 +124,7 @@ l'équipe du site web, soit par les contributeurs.
 | Thème                           | Liste (taxinomie)                                                     |
 | Discipline                      | Liste (taxinomie)                                                     |
 | Date de mise à jour             | Calendrier                                                            |
+| Mot de passe                    | Champ simple [minimum 8 caractères]                                   |
 | Edito (texte en une du dossier) | Champ simple [de 500 à 1500 signes]                                   |
 | Image à la une                  | Champ simple (URL de l'image)                                         |
 | Vidéo à la une                  | Champ simple (URL de la vidéo)                                        |
