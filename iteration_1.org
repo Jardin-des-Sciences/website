@@ -134,6 +134,7 @@ l'équipe du site web, soit par les contributeurs.
 | Mots-clés                       | Champ simple avec auto-complétion                                     |
 | Niveaux scolaires               | Champ simple avec auto-complétion                                     |
 | Degré d'implication             | Liste (taxinomie)                                                     |
+| Liste des attentes              | Liste                                                                 |
 | Dossier à la une                | Binaire                                                               |
 | Potentiellement à la une        | Binaire                                                               |
 | Dossiers connexes               | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
@@ -148,13 +149,13 @@ l'équipe du site web, soit par les contributeurs.
 
 *** Parcours
 
-| Libellé                  | Type de champ                                                     |
-|--------------------------+-------------------------------------------------------------------|
-| Nom du parcours          | Champ simple                                                      |
-| À la une                 | Binaire                                                           |
-| Potentiellement à la une | Binaire                                                           |
-| Dossier joint            | [Dossier]                                                         |
-| "Trajectoire"            | Liste ordonnée des éléments géolocalisés constitutifs du parcours |
+| Libellé                  | Type de champ                                                                     |
+|--------------------------+-----------------------------------------------------------------------------------|
+| Nom du parcours          | Champ simple                                                                      |
+| À la une                 | Binaire                                                                           |
+| Potentiellement à la une | Binaire                                                                           |
+| Dossier joint            | [Dossier]                                                                         |
+| "Trajectoire"            | Liste (potentiellement) ordonnée d'éléments géolocalisés constitutifs du parcours |
 
 *** Billet
 
