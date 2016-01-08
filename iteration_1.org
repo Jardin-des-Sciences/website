@@ -205,6 +205,17 @@ l'équipe du site web, soit par les contributeurs.
 | Géolocalisation      | Adresse ? Coordonnées ?                                           |
 | Participants         | Liste de participants                                             |
 
+*** Sondage
+
+| Libellé               | Type de champ |
+|-----------------------+---------------|
+| Thème                 | Champ simple  |
+| Question 1            |               |
+| - réponse 1           |               |
+| - réponse 2           |               |
+| Question 2            |               |
+| ...
+
 *** QCM
 
 | Libellé               | Type de champ |
