@@ -158,6 +158,10 @@ il conserve ses droits d'auteur comme attendu.
 *** Contribuer
 *** Partager
 
+| Je peux …                                   | afin de …                                  |
+|---------------------------------------------+--------------------------------------------|
+| soumettre un dossier pour qu'il soit en une | signaler un dossier intéressant aux admins |
+
 ** Administrateurs
 
 | Je peux …                                                                 | afin de …                              |
