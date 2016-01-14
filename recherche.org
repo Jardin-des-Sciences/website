@@ -1,0 +1,19 @@
+
+* Filtres
+
+| Thème               |
+| Discipline          |
+| Type de contenu     |
+| Institution         |
+| Degré d'implication |
+| Niveaux scolaires   |
+| Langue              |
+|---------------------|
+| Période ?           |
+
+* Tri
+
+| Proximité géographique |
+| Date de publication    |
+|------------------------|
+| Période ?              |
