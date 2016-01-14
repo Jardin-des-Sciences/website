@@ -75,10 +75,10 @@ il conserve ses droits d'auteur comme attendu.
 | accéder au classement des 10 contributeurs les plus actifs            | organiser sa veille         |
 | accéder aux classement des 10 derniers commentaires                   | organiser sa veille         |
 | accéder au classement des 10 contributions les plus commentées        | organiser sa veille         |
-| m'abonner via mon inbox à une thématique                              | personnaliser ma navigation |
 | suivre un contributeur                                                | organiser ma veille         |
 | suivre une thématique                                                 | organiser ma veille         |
 | m'abonner à une thématique par email                                  | organiser ma veille         |
+| m'abonner via mon inbox à une thématique                              | personnaliser ma navigation |
 | être notifié quand un contributeur que je suis contribue              | organiser ma veille         |
 | être notifié quand une thématique que je suis s'enrichit              | organiser ma veille         |
 | recevoir des notifications lors de commentaires sur mes contributions | suivre mes contributions    |
@@ -119,7 +119,7 @@ il conserve ses droits d'auteur comme attendu.
 | partager un contenu que je viens d'ajouter sur le réseaux sociaux | faire savoir que je contribue |
 | partager un résultat (badge) obtenu via gamification              | faire savoir que je joue      |
 | envoyer une notification aux abonnés d'une thématique concernée   | communiquer entre pairs       |
-| Poser une question sur le forum                                   | partager mes interrogations   |
+| Interagir via un forum                                            | partager mes interrogations   |
 | signaler un problème sur un contenu  (par ex: droits d'auteur)    | aider les administrateurs     |
 
 ** Administrateurs
@@ -170,9 +170,9 @@ il conserve ses droits d'auteur comme attendu.
 | voir le nombre de contributeurs connectés en temps réel                   | accéder à des statistiques             |
 | voir les 10 dernières contributions                                       | accéder à des statistiques             |
 | voir les 10 contenus les plus consultés                                   | accéder à des statistiques             |
-| répartition des consultations par thème/disciplines/types de contenus     | accéder à des statistiques             |
-| répartition des abonnés par thème/disciplines/types de contenus           | accéder à des statistiques             |
-| répartition des des contributions par thème/disciplines/types de contenus | accéder à des statistiques             |
+| répartition des consultations par thème     | accéder à des statistiques             |
+| répartition des abonnés par thème           | accéder à des statistiques             |
+| répartition des des contributions par thème | accéder à des statistiques             |
 
 * Résumé du cahier des charges par itération
 
