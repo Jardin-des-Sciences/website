@@ -142,6 +142,9 @@ il conserve ses droits d'auteur comme attendu.
 ** Contributeurs
 
 *** Gérer son profil
+
+| voir l'état d'avancement (en %) de mes dossiers | me motiver pour continuer |
+
 *** Organiser sa veille
 
 | Je peux …                                                              | afin de …                                    |
@@ -164,15 +167,17 @@ il conserve ses droits d'auteur comme attendu.
 
 ** Administrateurs
 
-| Je peux …                                                                 | afin de …                              |
-|---------------------------------------------------------------------------+----------------------------------------|
-| voir tous les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes |
-| voir le nombre de contributeurs connectés en temps réel                   | accéder à des statistiques             |
-| voir les 10 dernières contributions                                       | accéder à des statistiques             |
-| voir les 10 contenus les plus consultés                                   | accéder à des statistiques             |
-| répartition des consultations par thème     | accéder à des statistiques             |
-| répartition des abonnés par thème           | accéder à des statistiques             |
-| répartition des des contributions par thème | accéder à des statistiques             |
+| Je peux …                                                       | afin de …                              |
+|-----------------------------------------------------------------+----------------------------------------|
+| voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes |
+| voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques             |
+| voir les 10 dernières contributions                             | accéder à des statistiques             |
+| voir les 10 contenus les plus consultés                         | accéder à des statistiques             |
+| voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques             |
+| voir l'état d'avancement des dossiers                           | intervenir pour aider à avancer        |
+| répartition des consultations par thème                         | accéder à des statistiques             |
+| répartition des abonnés par thème                               | accéder à des statistiques             |
+| répartition des des contributions par thème                     | accéder à des statistiques             |
 
 * Résumé du cahier des charges par itération
 
