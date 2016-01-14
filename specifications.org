@@ -38,7 +38,7 @@ Le projet est découpé en quatre itérations :
 | voir les réponses à un sondage                                                         | explorer les sondages                          |
 | voir rapidement les résultats visuels                                                  | explorer les visuels                           |
 | télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |
-| imprimer un billet                                                                     | le lire sur papier                             |
+| imprimer un billet ou une image                                                        | le/la lire sur papier                          |
 | accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |
 | partager un contenu sur Facebook                                                       | le faire connaître                             |
 | partager un contenu sur twitter                                                        | le faire connaître                             |
