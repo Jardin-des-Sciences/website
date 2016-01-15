@@ -1,19 +1,26 @@
 
 * Filtres
 
-| Thème               |
-| Discipline          |
-| Type de contenu     |
-| Institution         |
-| Degré d'implication |
-| Niveaux scolaires   |
-| Langue              |
-|---------------------|
-| Période ?           |
+Par ordre d'importance :
+
+| Thèmatique          | Liste déroulante           |                             |
+| Discipline          | Liste déroulante           |                             |
+| Mots-clés           | Champ avec auto-complétion |                             |
+| Type de contenu     | Liste déroulante           |                             |
+| Langue              | Case à cocher              | Français, Anglais, Français |
+|---------------------+----------------------------+-----------------------------|
+| Institution         | Champ avec auto-complétion |                             |
+| Degré d'implication | Case à cocher              |                             |
+| Niveaux scolaires   | Case à cocher              | Par cycle                   |
 
 * Tri
 
-| Proximité géographique |
-| Date de publication    |
-|------------------------|
-| Période ?              |
+| Proximité géographique                  |
+| Date de publication                     |
+| Date de dernière contribution           |
+| Popularité (en nombre de consultations) |
+
+Mettre la ligne de tri en face des options d'affichage.
+
+Ne pas mettre "Afficher seulement mes contributions".
+
