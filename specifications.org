@@ -177,7 +177,7 @@ il conserve ses droits d'auteur comme attendu.
 | voir l'état d'avancement des dossiers                           | intervenir pour aider à avancer        |
 | répartition des consultations par thème                         | accéder à des statistiques             |
 | répartition des abonnés par thème                               | accéder à des statistiques             |
-| répartition des des contributions par thème                     | accéder à des statistiques             |
+| répartition des contributions par thème                         | accéder à des statistiques             |
 
 * Résumé du cahier des charges par itération
 
