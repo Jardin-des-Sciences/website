@@ -24,45 +24,45 @@ Le projet est découpé en quatre itérations :
 
 ** Utilisateurs
 
-| Je peux …                                                                              | afin de …                                      | Priorité |
-|----------------------------------------------------------------------------------------+------------------------------------------------+----------|
-| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        1 |
-| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |        1 |
-| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |        1 |
-| voir la liste des contributeurs d'un contenu                                           | explorer par association                       |        1 |
-| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        1 |
-| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |        1 |
-| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |        1 |
-| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |        1 |
-| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |        1 |
-| voir les réponses à un sondage                                                         | explorer les sondages                          |        1 |
-| voir rapidement les résultats visuels                                                  | explorer les visuels                           |        1 |
-| télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        2 |
-| imprimer un billet ou une image                                                        | le/la lire sur papier                          |        2 |
-| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |        3 |
-| partager un contenu sur Facebook                                                       | le faire connaître                             |        4 |
-| partager un contenu sur twitter                                                        | le faire connaître                             |        4 |
-| partager un contenu par email                                                          | le faire connaître                             |        4 |
-| m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |        3 |
-| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |        1 |
-| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |        3 |
-| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |        3 |
-| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |        1 |
-| lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |        3 |
-| lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |        3 |
+| Je peux …                                                                              | afin de …                                      | Priorité | Proposée |
+|----------------------------------------------------------------------------------------+------------------------------------------------+----------+----------|
+| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        1 |          |
+| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |        1 |          |
+| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |        1 |          |
+| voir la liste des contributeurs d'un contenu                                           | explorer par association                       |        1 |          |
+| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        1 |          |
+| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |        1 |          |
+| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |        1 |          |
+| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |        1 |          |
+| voir les réponses à un sondage                                                         | explorer les sondages                          |        1 |          |
+| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |        1 |          |
+| voir rapidement les résultats visuels                                                  | explorer les visuels                           |        1 |          |
+| télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        2 |          |
+| imprimer un billet ou une image                                                        | le/la lire sur papier                          |        2 |          |
+| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |        3 |          |
+| partager un contenu sur Facebook                                                       | le faire connaître                             |        4 |          |
+| partager un contenu sur twitter                                                        | le faire connaître                             |        4 |          |
+| partager un contenu par email                                                          | le faire connaître                             |        4 |          |
+| m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |        3 |          |
+| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |        1 |          |
+| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |        3 |          |
+| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |        3 |          |
+| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |        1 |          |
+| lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |        3 |          |
+| lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |        3 |          |
 
 ** Contributeurs
 
 *** Gérer son profil
 
-| Je peux …                                             | afin de …                                             | Priorité |
-|-------------------------------------------------------+-------------------------------------------------------+----------|
-| mettre à jour mon profil                              | corriger des informations me concernant               |        2 |
-| cacher mon compte                                     | pouvoir le réactiver plus tard mais devenir invisible |        2 |
-| effacer tous mes commentaires                         | garder la maîtrise de mes contenus secondaires        |        2 |
-| effacer mon compte*                                   | garder la maîtrise des informations me concernant     |        2 |
-| choisir de recevoir les notifications par email aussi | gérer l'information en "push"                         |        2 |
-| voir l'état d'avancement (en %) de mes dossiers       | me motiver pour continuer                             |        3 |
+| Je peux …                                             | afin de …                                             | Priorité | Proposée |
+|-------------------------------------------------------+-------------------------------------------------------+----------+----------|
+| mettre à jour mon profil                              | corriger des informations me concernant               |        2 |          |
+| cacher mon compte                                     | pouvoir le réactiver plus tard mais devenir invisible |        2 |          |
+| effacer tous mes commentaires                         | garder la maîtrise de mes contenus secondaires        |        2 |          |
+| effacer mon compte*                                   | garder la maîtrise des informations me concernant     |        2 |          |
+| choisir de recevoir les notifications par email aussi | gérer l'information en "push"                         |        2 |        3 |
+| voir l'état d'avancement (en %) de mes dossiers       | me motiver pour continuer                             |        3 |          |
 
 Note : lors de l'effacement des données du compte, les contributions
 «primaires» (i.e. dossiers ou autres contenus ajoutés) sont préservées
@@ -71,88 +71,88 @@ il conserve ses droits d'auteur comme attendu.
 
 *** Organiser sa veille
 
-| Je peux …                                                              | afin de …                                    | Priorité |
-|------------------------------------------------------------------------+----------------------------------------------+----------|
-| accéder au classement des 10 contributeurs les plus actifs             | organiser sa veille                          |        3 |
-| accéder aux classement des 10 derniers commentaires                    | organiser sa veille                          |        3 |
-| accéder au classement des 10 contributions les plus commentées         | organiser sa veille                          |        3 |
-| suivre un contributeur                                                 | organiser ma veille                          |        0 |
-| suivre une thématique                                                  | organiser ma veille                          |       .0 |
-| recevoir des notifications lors de commentaires sur mes contributions  | suivre mes contributions                     |        3 |
-| voir une liste de l'ensemble de mes contributions                      | suivre mes contributions                     |        0 |
-|------------------------------------------------------------------------+----------------------------------------------+----------|
-| Télécharger un dossier sous format zip (avec .html et fichiers images) | consulter les contenus hors-ligne            |        2 |
-| Télécharger un contenu dans son format natif (pdf/jpg/png etc.)        | consulter les contenus hors-ligne            |        0 |
-| créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |        0 |
-| ajouter un contenu à une liste de suivi                                | organiser ma veille                          |        0 |
-| partager une liste de suivi publiquement                               | partager ma veille                           |        0 |
-| partager une liste de suivi avec ceux qui me suivent                   | partager ma veille et encourager à me suivre |        0 |
-| gérer mes listes de suivi (renommer, explorer, recherche, suppression) | organiser ma veille                          |        0 |
-| créer un dossier à partir d'éléments d'une liste de suivi              | inciter à créer des dossiers                 |        0 |
+| Je peux …                                                              | afin de …                                    | Priorité | Proposée |
+|------------------------------------------------------------------------+----------------------------------------------+----------+----------|
+| accéder au classement des 10 contributeurs les plus actifs             | organiser sa veille                          |        3 |          |
+| accéder aux classement des 10 derniers commentaires                    | organiser sa veille                          |        3 |          |
+| accéder au classement des 10 contributions les plus commentées         | organiser sa veille                          |        3 |          |
+| suivre un contributeur                                                 | organiser ma veille                          |        0 |        2 |
+| suivre une thématique                                                  | organiser ma veille                          |       .0 |        2 |
+| recevoir des notifications lors de commentaires sur mes contributions  | suivre mes contributions                     |        3 |          |
+| voir une liste de l'ensemble de mes contributions                      | suivre mes contributions                     |        0 |        2 |
+|------------------------------------------------------------------------+----------------------------------------------+----------+----------|
+| Télécharger un dossier sous format zip (avec .html et fichiers images) | consulter les contenus hors-ligne            |        2 |        3 |
+| Télécharger un contenu dans son format natif (pdf/jpg/png etc.)        | consulter les contenus hors-ligne            |        0 |        3 |
+| créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |        0 |        3 |
+| ajouter un contenu à une liste de suivi                                | organiser ma veille                          |        0 |        3 |
+| partager une liste de suivi publiquement                               | partager ma veille                           |        0 |        3 |
+| partager une liste de suivi avec ceux qui me suivent                   | partager ma veille et encourager à me suivre |        0 |        3 |
+| gérer mes listes de suivi (renommer, explorer, recherche, suppression) | organiser ma veille                          |        0 |        3 |
+| créer un dossier à partir d'éléments d'une liste de suivi              | inciter à créer des dossiers                 |        0 |        3 |
 
 *** Contribuer
 
-| Je peux …                                                        | afin de …                                                   | Priorité |
-|------------------------------------------------------------------+-------------------------------------------------------------+----------|
-| créer un visuel / vidéo / fichier son                            | enrichir la plate-forme                                     |        1 |
-| créer un billet et l'éditer en WYSIWYG                           | enrichir la plate-forme                                     |        1 |
-| créer un edito et l'éditer en WYSIWYG                            | enrichir la plate-forme                                     |        1 |
-| créer un diaporama et agencer l'ordre des diapos en WYSIWYG      | enrichir la plate-forme                                     |        1 |
-| créer un dossier et choisir ses contenus en WYSIWYG              | enrichir la plate-forme                                     |        1 |
-| créer une question / réponse pour la FAQ                         | enrichir la plate-forme                                     |       .0 |
-| créer un QCM                                                     | enrichir la plate-forme                                     |        3 |
-| créer un sondage                                                 | enrichir la plate-forme                                     |        3 |
-| créer un événement                                               | enrichir la plate-forme                                     |        0 |
-| créer une entrée de glossaire                                    | enrichir la plate-forme                                     |        0 |
-| à la création d'un dossier, répondre "oui" pour "créer un édito" | être incité à créer un edito pour les dossiers              |        0 |
-| à la création d'un dossier, rechercher et choisir ses contenus   | faciliter le rassemblement des contenus pour les dossiers   |        1 |
-|------------------------------------------------------------------+-------------------------------------------------------------+----------|
-| protéger l'accès à un contenu par mot de passe                   | partager ce contenu de façon confidentielle                 |        0 |
-| définir la modération a priori ou a posteriori pour un dossier   | indiquer le mode de contribution accepté                    |        0 |
-|------------------------------------------------------------------+-------------------------------------------------------------+----------|
-| commenter les billets, dossiers, diaporamas, parcours            | donner son avis / enrichir une discussion                   |        0 |
-| prévisualiser un commentaire avant de le publier                 | vérifier que le commentaire soumis à modération est correct |        3 |
-| proposer un commentaire pour validation                          | soumettre le commentaire à la modération                    |        4 |
-| ajouter un tag/commentaire à un visuel à un endroit précis       | enrichir le visuel de façon précise                         |        3 |
-| tagger un contenu texte en surlignant un passage du texte        | enrichir le contenu texte de façon précise                  |        0 |
-|------------------------------------------------------------------+-------------------------------------------------------------+----------|
-| proposer de publier des photos sur une cartographie              |                                                             |        0 |
+| Je peux …                                                        | afin de …                                                   | Priorité | Proposée |
+|------------------------------------------------------------------+-------------------------------------------------------------+----------+----------|
+| créer un visuel / vidéo / fichier son                            | enrichir la plate-forme                                     |        1 |          |
+| créer un billet et l'éditer en WYSIWYG                           | enrichir la plate-forme                                     |        1 |          |
+| créer un edito et l'éditer en WYSIWYG                            | enrichir la plate-forme                                     |        1 |          |
+| créer un diaporama et agencer l'ordre des diapos en WYSIWYG      | enrichir la plate-forme                                     |        1 |          |
+| créer un dossier et choisir ses contenus en WYSIWYG              | enrichir la plate-forme                                     |        1 |          |
+| créer une question / réponse pour la FAQ                         | enrichir la plate-forme                                     |       .0 |        2 |
+| créer un QCM                                                     | enrichir la plate-forme                                     |        3 |          |
+| créer un sondage                                                 | enrichir la plate-forme                                     |        3 |          |
+| créer un événement                                               | enrichir la plate-forme                                     |        0 |        2 |
+| créer une entrée de glossaire                                    | enrichir la plate-forme                                     |        0 |        2 |
+| à la création d'un dossier, répondre "oui" pour "créer un édito" | être incité à créer un edito pour les dossiers              |        0 |        2 |
+| à la création d'un dossier, rechercher et choisir ses contenus   | faciliter le rassemblement des contenus pour les dossiers   |        1 |          |
+|------------------------------------------------------------------+-------------------------------------------------------------+----------+----------|
+| protéger l'accès à un contenu par mot de passe                   | partager ce contenu de façon confidentielle                 |        0 |        3 |
+| définir la modération a priori ou a posteriori pour un dossier   | indiquer le mode de contribution accepté                    |        0 |        3 |
+|------------------------------------------------------------------+-------------------------------------------------------------+----------+----------|
+| commenter les billets, dossiers, diaporamas, parcours            | donner son avis / enrichir une discussion                   |        0 |        2 |
+| prévisualiser un commentaire avant de le publier                 | vérifier que le commentaire soumis à modération est correct |        3 |          |
+| proposer un commentaire pour validation                          | soumettre le commentaire à la modération                    |        4 |          |
+| ajouter un tag/commentaire à un visuel à un endroit précis       | enrichir le visuel de façon précise                         |        3 |          |
+| tagger un contenu texte en surlignant un passage du texte        | enrichir le contenu texte de façon précise                  |        0 |        4 |
+|------------------------------------------------------------------+-------------------------------------------------------------+----------+----------|
+| proposer de publier des photos sur une cartographie              |                                                             |        0 |        4 |
 
 *** Partager
 
-| Je peux …                                                         | afin de …                       | Priorité |
-|-------------------------------------------------------------------+---------------------------------+----------|
-| partager un contenu que je viens d'ajouter sur le réseaux sociaux | faire savoir que je contribue   |        4 |
-| partager un résultat (badge) obtenu via gamification              | faire savoir que je joue        |        4 |
-| envoyer une notification aux abonnés d'une thématique concernée   | communiquer entre pairs         |        0 |
-| interagir via un forum                                            | partager mes interrogations     |        0 |
-| signaler un problème sur un contenu  (par ex: droits d'auteur)    | aider les administrateurs       |        3 |
-|-------------------------------------------------------------------+---------------------------------+----------|
-| soumettre un dossier pour qu'il soit en une                       | signaler un dossier intéressant |        0 |
+| Je peux …                                                         | afin de …                       | Priorité | Proposée |
+|-------------------------------------------------------------------+---------------------------------+----------+----------|
+| partager un contenu que je viens d'ajouter sur le réseaux sociaux | faire savoir que je contribue   |        4 |          |
+| partager un résultat (badge) obtenu via gamification              | faire savoir que je joue        |        4 |          |
+| envoyer une notification aux abonnés d'une thématique concernée   | communiquer entre pairs         |        0 |        4 |
+| interagir via un forum                                            | partager mes interrogations     |        0 |        3 |
+| signaler un problème sur un contenu  (par ex: droits d'auteur)    | aider les administrateurs       |        3 |          |
+|-------------------------------------------------------------------+---------------------------------+----------+----------|
+| soumettre un dossier pour qu'il soit en une                       | signaler un dossier intéressant |        0 |        4 |
 
 ** Administrateurs
 
-| Je peux …                                                       | afin de …                                                | Priorité |
-|-----------------------------------------------------------------+----------------------------------------------------------+----------|
-| me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |        1 |
-| accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |      0.0 |
-| voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |        2 |
-| faire un nouvel import Gertrude                                 | mettre à jour les données ou les enrichir                |      0.0 |
-| visualiser les contenus en attente de contributions             | anticiper sur ce qui bloque pour ces contenus            |        3 |
-| éditer un contenu : le modifier, le bloquer, changer mdp, etc.  | aider les contributeurs                                  |        1 |
-| éditer un utilisateur (modifier, bloquer, etc.)                 | aider les contributeurs                                  |        2 |
-| modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |        3 |
-| modérer tous les commentaires en attente de modération          | aider les contributeurs                                  |        3 |
-|-----------------------------------------------------------------+----------------------------------------------------------+----------|
-| voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |        0 |
-| voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |        2 |
-| voir les 10 dernières contributions                             | accéder à des statistiques                               |        4 |
-| voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |        4 |
-| voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |        4 |
-| voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |        4 |
-| répartition des consultations par thème                         | accéder à des statistiques                               |        4 |
-| répartition des abonnés par thème                               | accéder à des statistiques                               |        4 |
-| répartition des contributions par thème                         | accéder à des statistiques                               |        4 |
+| Je peux …                                                       | afin de …                                                | Priorité | Proposée |
+|-----------------------------------------------------------------+----------------------------------------------------------+----------+----------|
+| me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |        1 |          |
+| accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |      0.0 |        2 |
+| voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |        2 |          |
+| faire un nouvel import Gertrude                                 | mettre à jour les données ou les enrichir                |      0.0 |        2 |
+| visualiser les contenus en attente de contributions             | anticiper sur ce qui bloque pour ces contenus            |        3 |          |
+| éditer un contenu : le modifier, le bloquer, changer mdp, etc.  | aider les contributeurs                                  |        1 |          |
+| éditer un utilisateur (modifier, bloquer, etc.)                 | aider les contributeurs                                  |        2 |          |
+| modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |        3 |          |
+| modérer tous les commentaires en attente de modération          | aider les contributeurs                                  |        3 |          |
+|-----------------------------------------------------------------+----------------------------------------------------------+----------+----------|
+| voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |        0 |        4 |
+| voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |        2 |          |
+| voir les 10 dernières contributions                             | accéder à des statistiques                               |        4 |          |
+| voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |        4 |          |
+| voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |        4 |          |
+| voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |        4 |          |
+| répartition des consultations par thème                         | accéder à des statistiques                               |        4 |          |
+| répartition des abonnés par thème                               | accéder à des statistiques                               |        4 |          |
+| répartition des contributions par thème                         | accéder à des statistiques                               |        4 |          |
 
 ** De côté
 
