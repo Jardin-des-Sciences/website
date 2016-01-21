@@ -135,7 +135,7 @@ l'équipe du site web, soit par les contributeurs.
 | Mots-clés                       | Champ simple avec auto-complétion                                     |
 | Niveaux scolaires               | Champ simple avec auto-complétion                                     |
 | Degré d'implication             | Liste (taxinomie)                                                     |
-| Liste des attentes              | Liste                                                                 |
+| Liste des attentes              | Liste de couples attente/statut (statut étant binaire: fait/pas fait) |
 | Dossier à la une                | Binaire                                                               |
 | Potentiellement à la une        | Binaire                                                               |
 | Dossiers connexes               | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
