@@ -78,10 +78,6 @@ il conserve ses droits d'auteur comme attendu.
 | accéder au classement des 10 contributions les plus commentées         | organiser sa veille                          |        3 |
 | suivre un contributeur                                                 | organiser ma veille                          |        0 |
 | suivre une thématique                                                  | organiser ma veille                          |       .0 |
-| m'abonner à une thématique par email                                   | organiser ma veille                          |        0 |
-| m'abonner via mon inbox à une thématique                               | personnaliser ma navigation                  |       .0 |
-| être notifié quand un contributeur que je suis contribue               | organiser ma veille                          |        0 |
-| être notifié quand une thématique que je suis s'enrichit               | organiser ma veille                          |        0 |
 | recevoir des notifications lors de commentaires sur mes contributions  | suivre mes contributions                     |        3 |
 | voir une liste de l'ensemble de mes contributions                      | suivre mes contributions                     |        0 |
 |------------------------------------------------------------------------+----------------------------------------------+----------|
@@ -153,7 +149,7 @@ il conserve ses droits d'auteur comme attendu.
 | voir les 10 dernières contributions                             | accéder à des statistiques                               |        4 |
 | voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |        4 |
 | voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |        4 |
-| voir l'état d'avancement des dossiers                           | intervenir pour aider à avancer                          |        4 |
+| voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |        4 |
 | répartition des consultations par thème                         | accéder à des statistiques                               |        4 |
 | répartition des abonnés par thème                               | accéder à des statistiques                               |        4 |
 | répartition des contributions par thème                         | accéder à des statistiques                               |        4 |
