@@ -90,13 +90,16 @@ ailleurs.
 ** Idées générales
 
 Par rapport à ce qui est indiqué dans le fichier [[https://github.com/bzg/findclub/blob/master/specifications.org][specifications.org]],
-il reste à préciser (au moins) deux choses :
+il reste à préciser (au moins) trois choses :
 
-1. les badges : comment on les voit, en tant qu'utilisateur,
+1. les aspects d'interface WYSIWYG dans la façon d'ajouter des
+   contenus.
+
+2. les badges : comment on les voit, en tant qu'utilisateur,
    contributeur et administrateur ;
 
-2. les aspects d'interface WYSIWYG dans la façon d'ajouter des
-   contenus.
+3. la manière dont les droits des contenus apparaissent, sont utilisé
+   pour filtrer des contenus, etc.
 
 ** WYSIWYG
 
@@ -156,9 +159,10 @@ mentionnent le WYSIWYG :
 
 *** Utilisateurs
 
-| Je peux …                         | afin de …                   | Priorité |
-|-----------------------------------+-----------------------------+----------|
-| Voir les badges d'un contributeur | savoir comment il contribue |          |
+| Je peux …                         | afin de …                     | Priorité |
+|-----------------------------------+-------------------------------+----------|
+| Voir les badges d'un contributeur | savoir comment il contribue   |          |
+| Filtrer les contenus par droits   | accéder à des contenus libres |          |
 
 *** Contributeurs
 
