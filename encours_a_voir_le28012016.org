@@ -1,0 +1,17 @@
+#+TITLE: Notes préparatoires en vue de la réunion du 28/01/2016
+
+* Retours sur les wireframes
+
+* Aspects de gamification et liste des badges
+
+* Comment encourager les primo-contributeurs ?
+
+* Finalisation des spécifications sur la contribution
+
+** Idées générales
+
+** User stories
+
+* Quels droits sur quels contenus ?
+
+* Liste des pages statiques
