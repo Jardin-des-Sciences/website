@@ -37,7 +37,7 @@ Les types de contenus se divisent en deux grandes parties :
 | Audio                    | TBD     |
 | Diaporama                | TBD     |
 |--------------------------+---------|
-| Les contenus créés       | Exemple |
+| Les contenus contribués  | Exemple |
 |--------------------------+---------|
 | Dossier                  | TDB     |
 | Parcours                 | TDB     |
@@ -111,10 +111,10 @@ Exemple de « ressources documentaires :
 SA-ND-NC = partage à l'identique, partage à l'identique, droits de
 commercialisation.
 
-** Types de contenus créés
+** Types de contenus contribués
 
-Les données /créées/ sont celles créées depuis le portail, soit par
-l'équipe du site web, soit par les contributeurs.
+Les données /contribuées/ sont celles ajoutées depuis le portail, soit
+par l'équipe du site web, soit par les contributeurs.
 
 *** Dossier
 
@@ -284,7 +284,7 @@ Exemples de questions :
 | Nom du contributeur       | Champ simple                                                        |
 | Géolocalisation           | Adresse ? Coordonnées ?                                             |
 
-** Type de contenus importés ou créés
+** Type de contenus importés ou contribués
 
 Ces contenus sont soit importés depuis une base de données, soit
 ajoutés par les utilisateurs.
