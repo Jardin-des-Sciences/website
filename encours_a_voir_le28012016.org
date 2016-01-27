@@ -248,3 +248,7 @@ Le site fonctionne comme un hébergeur des contenus contribués, non
 comme l'auteur de ces contenus.
 
 * Liste des pages statiques
+
+- Conditions Générales d'utilisation
+
+- Présentation générale du site (équivalent de About)
