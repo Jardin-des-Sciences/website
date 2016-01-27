@@ -2,6 +2,34 @@
 
 * Retours sur les wireframes
 
+- Possible d'avoir les notifications pour chaque entrée de la colonne
+  de gauche ?
+
+- "Mes notifications" doit être un onglet dans la page "Mon compte" :
+  on gère les notifications qu'on veut recevoir depuis cette page.
+
+- Fusionner : Mes abonnements et mes contenus suivis dans une même
+  rubrique "Veille", qui donnera accès aux contenus et utilisateurs
+  suivis.  Le but de la fusion étant d'avoir seulement un flux de
+  notification pour la veille en général.
+
+- Vers où emmène le lien "Dashboard" ?  J'avais l'impression que [[https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/34494307/sitemap/nosidebar][cette
+  maquette graphique]] /était/ le dashboard.  Si c'est le cas, renommer ce
+  bouton "Dashboard" en "Accueil" ?
+
+- Reprendre dans cet ordre :
+
+  - Accueil ("dashboard")
+  - Mon compte (donnant aussi accès aux notifications)
+  - Mes contributions
+  - Ma veille
+  - Contenus signalés (pour les admins seuls)
+
+- Utiliser plutôt des histogrammes que des camemberts.
+
+- Éventuellement utiliser des onglets horizontaux pour les différentes
+  statistiques, plutôt que de les empiler.
+
 * Aspects de gamification et liste des badges
 
 * Comment encourager les primo-contributeurs ?
@@ -14,4 +42,9 @@
 
 * Quels droits sur quels contenus ?
 
+Nous distinguons les contenus contribués et les contenus importés.
+
 * Liste des pages statiques
+
+
+
