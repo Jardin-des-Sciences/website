@@ -32,6 +32,58 @@
 
 * Aspects de gamification et liste des badges
 
+Listes des actions de contribution, de leur importance et des seuils
+pour les "badges" (bronze/argent/or) :
+
+|                                                | Importance (/5) | Badge ?  | Type           |
+|------------------------------------------------+-----------------+----------+----------------|
+| Créer un dossier                               |               5 | 1/2/5    | Contenu        |
+| Créer un parcours                              |               5 | 1/2/5    | Contenu        |
+|------------------------------------------------+-----------------+----------+----------------|
+| Ajouter un billet                              |               4 | 1/5/10   | Contenu        |
+| Ajouter un visuel                              |               4 | 1/5/10   | Contenu        |
+| Ajouter une ressource vidéo                    |               4 | 1/5/10   | Contenu        |
+| Ajouter une ressource diaporama                |               4 | 1/5/10   | Contenu        |
+|------------------------------------------------+-----------------+----------+----------------|
+| Ajouter un élément à un dossier                |               3 | 1/10/20  | Contenu        |
+| Ajouter un élément à un parcours               |               3 | 1/10/20  | Contenu        |
+| Créer une entrée de glossaire                  |               3 | 1/10/20  | Contenu        |
+| Créer une question éditorialisée               |               3 | 1/10/20  | Contenu/Social |
+| Créer une entrée de faq                        |               3 | 1/10/20  | Contenu/Social |
+|------------------------------------------------+-----------------+----------+----------------|
+| Créer un lien                                  |               2 | 1/20/40  | Contenu        |
+| Créer un événement                             |               2 | 1/20/40  | Social         |
+|------------------------------------------------+-----------------+----------+----------------|
+| Faire un commentaire                           |               1 | 1/25/50  | Social         |
+| Poser une question sur le forum                |               1 | 1/25/50  | Social         |
+| Répondre à une question sur le forum           |               1 | 1/25/50  | Social         |
+| Soumettre un dossier/parcours pour être en une |               1 | 1/25/50  | Contenu/social |
+|------------------------------------------------+-----------------+----------+----------------|
+| suivre un autre utilisateurs                   |              .5 | 1/50/100 | Social         |
+| être suivi par d'autres utilisateurs           |              .5 | 1/50/100 | Social         |
+
+Voir la [[http://meta.stackexchange.com/questions/67397/list-of-all-badges-with-full-descriptions][liste des badges]] de Stackoverflow pour des idées.
+
+On peut distinguer deux types de contributions, celles qui portent sur
+les contenus, celles qui portent sur les interactions sociales.  Par
+exemple : quelqu'un de peu suivi peut en revanche ajouter beaucoup de
+contenus, quelqu'un d'assez suivi peut ajouter des contenus avec
+parcimonie, etc. 
+
+Le système de badge doit valoriser ces deux aspects de façon lisible.
+
+Dans les contributions sociales, plusieurs profils :
+
+- le "curieux" : pose beaucoup de questions
+- "l'aidant" : propose beaucoup de réponses
+- le "liant" : organise des événements, contribue aux FAQs
+- le "leader" : est suivi par de nombreux utilisateurs
+- le "participant" : suit de nombreux utilisateurs
+
+Nous pourrons soit proposer ces qualifiatifs directement (comme sur
+Stackoverflow), soit les afficher en fonction des badges obtenus par
+ailleurs.
+
 * Comment encourager les primo-contributeurs ?
 
 * Finalisation des spécifications sur la contribution
