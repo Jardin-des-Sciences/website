@@ -1,35 +1,116 @@
 #+TITLE: Notes préparatoires en vue de la réunion du 28/01/2016
 
-* Retours sur les wireframes
+* Préciser "signaler un problème sur un contenu"
 
-- Possible d'avoir les notifications pour chaque entrée de la colonne
-  de gauche ?
+Les problèmes à signaler sur les contenus peuvent être de plusieurs
+ordres :
 
-- "Mes notifications" doit être un onglet dans la page "Mon compte" :
-  on gère les notifications qu'on veut recevoir depuis cette page.
+1. des problèmes de droit d'auteur (mauvaise licence)
 
-- Fusionner : Mes abonnements et mes contenus suivis dans une même
-  rubrique "Veille", qui donnera accès aux contenus et utilisateurs
-  suivis.  Le but de la fusion étant d'avoir seulement un flux de
-  notification pour la veille en général.
+2. des problèmes de contenu inapproprié (propos injurieux, etc.)
 
-- Vers où emmène le lien "Dashboard" ?  J'avais l'impression que [[https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/34494307/sitemap/nosidebar][cette
-  maquette graphique]] /était/ le dashboard.  Si c'est le cas, renommer ce
-  bouton "Dashboard" en "Accueil" ?
+3. des problèmes techniques (mauvais affichage, etc.)
 
-- Reprendre dans cet ordre :
+4. des problèmes scientifiques (erreur, etc.)
 
-  - Accueil ("dashboard")
-  - Mon compte (donnant aussi accès aux notifications)
-  - Mes contributions
-  - Ma veille
-  - Contenus signalés (pour les admins seuls)
+Quand il souhaite signaler un problème sur un contenu, l'utilisateur
+(ou le contributeur) voit s'afficher une fenêtre modal lui demandant
+de préciser la nature du problème parmi ces quatre possibilités.
 
-- Utiliser plutôt des histogrammes que des camemberts.
+Une fois qu'il a choisi, un formulaire s'affiche dans la même zone
+modale : si c'est un utilisateur non-connecté, le formulaire lui
+demande son nom, son adresse email ; ensuite, un champ de formulaire
+lui permet de faire un commentaire libre sur le problème et le moyen
+d'y remédier.
 
-- Éventuellement utiliser des onglets horizontaux pour les différentes
-  statistiques, plutôt que de les empiler.
+- des problèmes de droit d'auteur :: dans ce cas, le problème remonte
+     au contributeur qui a proposé le contenu et aux administrateurs.
 
+- des problèmes de contenu inapproprié :: dans ce cas, le problème
+     remonte aux administrateurs.
+
+- des problèmes techniques :: dans ce cas, le problème remonte aux
+     administrateurs.
+
+- des problèmes scientifiques :: dans ce cas, le problème remonte au
+     contributeur.
+* Quels droits sur quels contenus ?
+
+** Types de contenus
+
+Nous distinguons deux types de contenus :
+
+- les contenus /importés/ ::
+- les contenus /contribués/ ::
+
+Et deux niveaux de contenus :
+
+- les contenus primaires :: 
+- les contenus secondaires ("sociaux") ::
+
+Tous les contenus importés sont primaires.
+
+Certains contenus contribués sont /primaires/ (ajout d'un billet, d'une
+image, etc.) d'autres sont /secondaires/ (ajout d'un commentaire, d'une
+question ou d'une réponse dans le forum, etc.)
+
+** Droits en fonction des types de contenus
+
+*** Contenus importés
+
+Les droits des contenus importés sont ceux d'origine : si un contenu
+est sous droits d'auteur dans la base d'origine, ces droits sont les
+mêmes dans leur version importée dans le site.
+
+*** Contenus contribués primaires
+
+Les contenus contribués sont par défaut sous licence Creative Commons
+BY-SA 4.0, autorisant le partage, la commercialisation et les oeuvres
+dérivées sous conditions de licence identique (voir [[https://creativecommons.org/licenses/by-sa/4.0/][la licence en
+ligne]] pour les détails.)
+
+Les contributeurs sont *encouragés* à utiliser cette licence autant que
+possible, de façon à encourager le partage des données, mais ils n'y
+sont pas contraint, et peuvent utiliser une autre licence parmi :
+
+- Creative Commons BY 4.0 :: similaire au domaine public, n'obligeant
+     pas les internautes à placer le contenu réutilisé sous licence
+     libre CC by-sa 4.0.
+
+- Creative Commons BY-ND :: autorisant le partage et la
+     commercialisation, mais interdisant les contenus dérivés.
+
+- Creative Commons BY-NC :: autorisant le partage et les contenus
+     dérivés, mais interdisant la commercialisation.
+
+- Creative Commons BY-SA-ND :: autorisant le partage dans les mêmes
+     conditions de licence, mais interdisant les contenus dérivés.
+
+- Creative Commons BY-SA-NC :: autorisant le partage et les contenus
+     dérivés, mais interdisant la commercialisation.
+
+- Creative Commons BY-NC-ND :: équivalent au droit d'auteur classique
+     et ne donnant aucun droit particulier aux internautes.
+
+*** Contenus contribués secondaires
+
+Pour les contenus contribués secondaires, ils sont tous placés sous
+droit d'auteur classique.  En acceptant les Conditions Générales du
+site, Les contributeurs autorisent le JDS à publier ces contenus sur
+le site ou tout autre support sans contre-partie.
+
+Les CGU précisent que les contributeurs sont responsables :
+
+- de veiller à ne pas enfreindre la législation lors de l'import de
+  contenus sur le site
+
+- des contenus secondaires contribués : pas de grossièretés, etc.
+
+Le site fonctionne comme un hébergeur des contenus contribués, non
+comme l'auteur de ces contenus.
+
+
+** Protection par le droit des marques
 * Aspects de gamification et liste des badges
 
 Listes des actions de contribution, de leur importance et des seuils
@@ -84,7 +165,6 @@ Nous pourrons soit proposer ces qualifiatifs directement (comme sur
 Stackoverflow), soit les afficher en fonction des badges obtenus par
 ailleurs.
 
-* Comment encourager les primo-contributeurs ?
 * Finalisation des spécifications sur la contribution
 
 ** Idées générales
@@ -175,82 +255,40 @@ mentionnent le WYSIWYG :
 | Je peux …                 | afin de …                           | Priorité |
 |---------------------------+-------------------------------------+----------|
 | Voir les badges attribués | connaître les types de contribution |          |
+* Retours sur les wireframes
 
-* Quels droits sur quels contenus ?
+- Possible d'avoir les notifications pour chaque entrée de la colonne
+  de gauche ?
 
-** Types de contenus
+- "Mes notifications" doit être un onglet dans la page "Mon compte" :
+  on gère les notifications qu'on veut recevoir depuis cette page.
 
-Nous distinguons deux types de contenus :
+- Fusionner : Mes abonnements et mes contenus suivis dans une même
+  rubrique "Veille", qui donnera accès aux contenus et utilisateurs
+  suivis.  Le but de la fusion étant d'avoir seulement un flux de
+  notification pour la veille en général.
 
-- les contenus /importés/ ::
-- les contenus /contribués/ ::
+- Vers où emmène le lien "Dashboard" ?  J'avais l'impression que [[https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/34494307/sitemap/nosidebar][cette
+  maquette graphique]] /était/ le dashboard.  Si c'est le cas, renommer ce
+  bouton "Dashboard" en "Accueil" ?
 
-Et deux niveaux de contenus :
+- Reprendre dans cet ordre :
 
-- les contenus primaires :: 
-- les contenus secondaires ("sociaux") ::
+  - Accueil ("dashboard")
+  - Mon compte (donnant aussi accès aux notifications)
+  - Mes contributions
+  - Ma veille
+  - Contenus signalés (pour les admins seuls)
 
-Tous les contenus importés sont primaires.
+- Utiliser plutôt des histogrammes que des camemberts.
 
-Certains contenus contribués sont /primaires/ (ajout d'un billet, d'une
-image, etc.) d'autres sont /secondaires/ (ajout d'un commentaire, d'une
-question ou d'une réponse dans le forum, etc.)
+- Éventuellement utiliser des onglets horizontaux pour les différentes
+  statistiques, plutôt que de les empiler.
+* Comment encourager les primo-contributeurs ?
 
-** Droits en fonction des types de contenus
-
-*** Contenus importés
-
-Les droits des contenus importés sont ceux d'origine : si un contenu
-est sous droits d'auteur dans la base d'origine, ces droits sont les
-mêmes dans leur version importée dans le site.
-
-*** Contenus contribués primaires
-
-Les contenus contribués sont par défaut sous licence Creative Commons
-BY-SA 4.0, autorisant le partage, la commercialisation et les oeuvres
-dérivées sous conditions de licence identique (voir [[https://creativecommons.org/licenses/by-sa/4.0/][la licence en
-ligne]] pour les détails.)
-
-Les contributeurs sont *encouragés* à utiliser cette licence autant que
-possible, de façon à encourager le partage des données, mais ils n'y
-sont pas contraint, et peuvent utiliser une autre licence parmi :
-
-- Creative Commons BY 4.0 :: similaire au domaine public, n'obligeant
-     pas les internautes à placer le contenu réutilisé sous licence
-     libre CC by-sa 4.0.
-
-- Creative Commons BY-ND :: autorisant le partage et la
-     commercialisation, mais interdisant les contenus dérivés.
-
-- Creative Commons BY-NC :: autorisant le partage et les contenus
-     dérivés, mais interdisant la commercialisation.
-
-- Creative Commons BY-SA-ND :: autorisant le partage dans les mêmes
-     conditions de licence, mais interdisant les contenus dérivés.
-
-- Creative Commons BY-SA-NC :: autorisant le partage et les contenus
-     dérivés, mais interdisant la commercialisation.
-
-- Creative Commons BY-NC-ND :: équivalent au droit d'auteur classique
-     et ne donnant aucun droit particulier aux internautes.
-
-*** Contenus contribués secondaires
-
-Pour les contenus contribués secondaires, ils sont tous placés sous
-droit d'auteur classique.  En acceptant les Conditions Générales du
-site, Les contributeurs autorisent le JDS à publier ces contenus sur
-le site ou tout autre support sans contre-partie.
-
-Les CGU précisent que les contributeurs sont responsables :
-
-- de veiller à ne pas enfreindre la législation lors de l'import de
-  contenus sur le site
-
-- des contenus secondaires contribués : pas de grossièretés, etc.
-
-Le site fonctionne comme un hébergeur des contenus contribués, non
-comme l'auteur de ces contenus.
-
+** Établir la liste des primo-contributeurs
+** Établir le calendrier de leurs disponibilités
+** Voir si on peut faire des ateliers restreints
 * Liste des pages statiques
 
 - Conditions Générales d'utilisation
