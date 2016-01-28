@@ -95,7 +95,7 @@ il conserve ses droits d'auteur comme attendu.
 
 | Je peux …                                                      | afin de …                                                   | Priorité | Proposée |
 |----------------------------------------------------------------+-------------------------------------------------------------+----------+----------|
-| créer un visuel / vidéo / fichier son                          | enrichir la plate-forme                                     |        1 |          |
+| créer un visuel en WYSIWYG / vidéo / fichier son               | enrichir la plate-forme                                     |        1 |          |
 | créer un billet et l'éditer en WYSIWYG                         | enrichir la plate-forme                                     |        1 |          |
 | créer un edito et l'éditer en WYSIWYG                          | enrichir la plate-forme                                     |        1 |          |
 | créer un diaporama et agencer l'ordre des diapos en WYSIWYG    | enrichir la plate-forme                                     |        1 |          |
