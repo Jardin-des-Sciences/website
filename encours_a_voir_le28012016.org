@@ -272,7 +272,7 @@ le WYSIWYG :
 
 Pouvoir sélectionner une zone dans l'image qui a été mise en ligne.
 
-*** créer un billet et l'éditer en WYSIWYG
+*** Créer un billet et l'éditer en WYSIWYG
 
 Nous ne pouvons pas viser la complexité d'un logiciel de traitement de
 texte comme MS Word, mais l'interface d'édition doit proposer les
@@ -293,6 +293,8 @@ fonctionnalités de base comme celles de [[https://www.tinymce.com/][TinyMCE]] :
  - d'indiquer quand la limite en nombre de signes est bientôt
    atteinte
 
+**** Import de documents .docx ou .odt pour les billets (?)
+
 D'autre part, il doit être possible *d'importer un fichier .docx ou
 .odt* qui sera nettoyé côté pour être ensuite affiché dans l'éditeur
 WYSIWYG du site.  
@@ -308,7 +310,7 @@ Questions ouvertes :
 Même chose que pour le billet, la seule différence étant que l'édito
 est forcément associé à un dossier.
 
-*** créer un diaporama et agencer l'ordre des diapositives en WYSIWYG
+*** Créer un diaporama et agencer l'ordre des diapositives en WYSIWYG
 
 Un diaporama est constitué des éléments suivants :
 
@@ -338,9 +340,31 @@ Un dossier est constitué d'au moins un billet (son "édito") et de
 plusieurs éléments comme des images, des vidéos, et d'autres
 ressources.
 
-Un dossier doit pouvoir être constitué par exploration des contenus
-disponibles sur la plate-forme et glisser-déposer des éléments
-disponibles -- comme dans un explorateur de fichiers classique.
+Un dossier peut être créé 
+
+- depuis une liste de suivi ;
+
+- depuis la listing, avec un bouton "ajouter au dossier" qui s'ajoute
+  aux entrées listées.
+
+Dans la deuxième solution, la vue "listing" est la même, modulo un
+bouton "ajouter au dossier" qui s'affiche à côté des éléments listés.
+
+En plus de cette vue listing, on peut envisager une vue "exploration"
+qui permette de parcourir les dossiers et éléments comme on le ferait
+dans un explorateur de fichier classique, avec la possibilité chaque
+fois d'ajouter un élément au dossier en cours de création.
+
+Cette fenêtre d'exploration donnerait un aperçu des contenus :
+
+- l'icone représentant une image doit être une miniature de cette
+  image ;
+
+- l'icone représentant une vidéos doit être une miniature d'une image
+  de la vidéo ;
+
+- l'icone représentant un diaporama doit être une miniature d'une
+  image de la diapositive.
 
 ** Idées générales
 
@@ -416,6 +440,9 @@ il reste à préciser (au moins) trois choses :
 - Dans le suivi (1/2), est-ce que c'est possible de représenter
   graphiquement les dossiers comme des icones plutôt que sous forme de
   liste déroulante ?
+
+- Dans le suivi (1/2), ajouter un bouton pour créer un dossier à
+  partir d'une liste de suivi.
 
 * Comment encourager les primo-contributeurs ?
 
