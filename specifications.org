@@ -106,7 +106,7 @@ il conserve ses droits d'auteur comme attendu.
 | créer un événement                                             | enrichir la plate-forme                                     |        0 |        2 |
 | créer une entrée de glossaire                                  | enrichir la plate-forme                                     |        0 |        2 |
 | à la publication d'un dossier, forcer la création d'un edito   | obliger à créer un edito pour les dossiers                  |        0 |        2 |
-| à la création d'un dossier, rechercher et choisir ses contenus | faciliter le rassemblement des contenus pour les dossiers   |        1 |          |
+| en créant un dossier, chercher et choisir ses contenus WYSIWYG | faciliter le rassemblement des contenus pour les dossiers   |        1 |          |
 |----------------------------------------------------------------+-------------------------------------------------------------+----------+----------|
 | protéger l'accès à un contenu par mot de passe                 | partager ce contenu de façon confidentielle                 |        0 |        3 |
 | définir la modération a priori ou a posteriori pour un dossier | indiquer le mode de contribution accepté                    |        0 |        3 |
