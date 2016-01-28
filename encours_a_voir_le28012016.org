@@ -24,10 +24,12 @@ lui permet de faire un commentaire libre sur le problème et le moyen
 d'y remédier.
 
 - des problèmes de droit d'auteur :: dans ce cas, le problème remonte
-     au contributeur qui a proposé le contenu et aux administrateurs.
+     au contributeur et aux administrateurs.
 
 - des problèmes de contenu inapproprié :: dans ce cas, le problème
-     remonte aux administrateurs.
+     remonte au contributeur et aux administrateurs.  (Les contenus
+     inappropriés peuvent concerner les contenus primaires et les
+     contenus secondaires comme les commentaires.)
 
 - des problèmes techniques :: dans ce cas, le problème remonte aux
      administrateurs.
@@ -143,6 +145,8 @@ pour les "badges" (bronze/argent/or) :
 |------------------------------------------------+-----------------+----------+----------------|
 | suivre un autre utilisateurs                   |              .5 | 1/50/100 | Social         |
 | être suivi par d'autres utilisateurs           |              .5 | 1/50/100 | Social         |
+|------------------------------------------------+-----------------+----------+----------------|
+| faire remonter des problèmes                   |               1 | 1/25/50  | Contenu        |
 
 Voir la [[http://meta.stackexchange.com/questions/67397/list-of-all-badges-with-full-descriptions][liste des badges]] de Stackoverflow pour des idées.
 
@@ -247,9 +251,10 @@ mentionnent le WYSIWYG :
 
 *** Contributeurs
 
-| Je peux …       | afin de …           | Priorité |
-|-----------------+---------------------+----------|
-| Voir mes badges | savoir où j'en suis |          |
+| Je peux …                               | afin de …           | Priorité |
+|-----------------------------------------+---------------------+----------|
+| Voir mes badges                         | savoir où j'en suis |          |
+| signaler un problème sur un commentaire |                     |          |
 
 *** Administrateurs
 
