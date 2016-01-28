@@ -154,6 +154,11 @@ comme l'auteur de ces contenus.
 
 ** Protection par le droit des marques
 
+La marque protège le logo et le nom du site.
+
+[Question ouverte : est-ce que le design est protégé par ce dépôt de
+marque ou par l'Université elle-même ?]
+
 * Aspects de gamification et liste des badges
 
 Listes des actions de contribution, de leur importance et des seuils
