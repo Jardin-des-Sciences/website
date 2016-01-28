@@ -34,6 +34,7 @@ d'y remédier.
 
 - des problèmes scientifiques :: dans ce cas, le problème remonte au
      contributeur.
+
 * Quels droits sur quels contenus ?
 
 ** Types de contenus
