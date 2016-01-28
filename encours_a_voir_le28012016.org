@@ -6,7 +6,6 @@ Les problèmes à signaler sur les contenus peuvent être de plusieurs
 ordres :
 
 1. des problèmes de droit d'auteur (mauvaise licence)
-ok
 
 2. des problèmes de contenu inapproprié (propos injurieux, etc.)
 
