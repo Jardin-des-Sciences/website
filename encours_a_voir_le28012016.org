@@ -161,6 +161,9 @@ marque ou par l'Université elle-même ?]
 
 * Aspects de gamification et liste des badges
 
+Voir https://groups.drupal.org/node/248868 pour l'implémentation Open
+Badges.
+
 Listes des actions de contribution, de leur importance et des seuils
 pour les "badges" (bronze/argent/or) :
 
