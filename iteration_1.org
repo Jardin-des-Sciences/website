@@ -239,7 +239,7 @@ Exemples de questions :
 |---------------------------+------------------------------|
 | Thème                     | Champ simple                 |
 | Question                  | WYSIWYG                      |
-| Visuel                    |                              |
+| Visuel                    | WYSIWYG                      |
 | Réponse du chercheur      | WYSIWYG                      |
 | Droits d'auteur (licence) | Valeur du site               |
 | SA-ND-NC*                 | Boolean sur plusieurs champs |
