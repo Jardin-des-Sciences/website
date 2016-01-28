@@ -17,11 +17,24 @@ Quand il souhaite signaler un problème sur un contenu, l'utilisateur
 (ou le contributeur) voit s'afficher une fenêtre modal lui demandant
 de préciser la nature du problème parmi ces quatre possibilités.
 
-Une fois qu'il a choisi, un formulaire s'affiche dans la même zone
-modale : si c'est un utilisateur non-connecté, le formulaire lui
-demande son nom, son adresse email ; ensuite, un champ de formulaire
-lui permet de faire un commentaire libre sur le problème et le moyen
-d'y remédier.
+Si c'est un *utilisateur non-connecté*, le formulaire lui propose trois
+options : problème de droits d'auteur, problème technique, problème de
+contenu inapproprié.
+
+Si c'est un *contributeur* (utilisateur connecté), le formulaire lui
+propose quatre options : les trois précédentes et la possibilité de
+signaler un problème scientifique sur un contenu.
+
+Une fois le choix effectué, on demande aux utilisateurs connectés leur
+nom, leur adresse email, et quelques lignes d'explications ; pour les
+contributeurs, on demande juste quelques lignes d'explications.
+
+Les problèmes signalés portent soit sur des contenus primaires
+(signalement accessible aux utilisateurs et aux contributeurs) soit
+sur des commentaires (signalement accessible seulement aux
+contributeurs).
+
+Voici les différents types de problèmes :
 
 - des problèmes de droit d'auteur :: dans ce cas, le problème remonte
      au contributeur et aux administrateurs.
@@ -35,7 +48,8 @@ d'y remédier.
      administrateurs.
 
 - des problèmes scientifiques :: dans ce cas, le problème remonte au
-     contributeur.
+     contributeur.  (Signalement accessible seulement aux
+     contributeurs.)
 
 * Quels droits sur quels contenus ?
 
@@ -244,17 +258,21 @@ mentionnent le WYSIWYG :
 
 *** Utilisateurs
 
-| Je peux …                         | afin de …                     | Priorité |
-|-----------------------------------+-------------------------------+----------|
-| Voir les badges d'un contributeur | savoir comment il contribue   |          |
-| Filtrer les contenus par droits   | accéder à des contenus libres |          |
+| Je peux …                                   | afin de …                      | Priorité |
+|---------------------------------------------+--------------------------------+----------|
+| Voir les badges d'un contributeur           | savoir comment il contribue    |          |
+| Filtrer les contenus par droits             | accéder à des contenus libres  |          |
+| signaler un problème de droits d'auteur     | contribuer à améliorer le site |          |
+| signaler un problème technique              | contribuer à améliorer le site |          |
+| signaler un problème de contenu inapproprié | contribuer à améliorer le site |          |
 
 *** Contributeurs
 
-| Je peux …                               | afin de …           | Priorité |
-|-----------------------------------------+---------------------+----------|
-| Voir mes badges                         | savoir où j'en suis |          |
-| signaler un problème sur un commentaire |                     |          |
+| Je peux …                               | afin de …                      | Priorité |
+|-----------------------------------------+--------------------------------+----------|
+| Voir mes badges                         | savoir où j'en suis            |          |
+| signaler un problème scientifique       | contribuer à améliorer le site |          |
+| signaler un problème sur un commentaire | contribuer à améliorer le site |          |
 
 *** Administrateurs
 
