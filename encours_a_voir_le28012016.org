@@ -53,17 +53,33 @@ Voici les différents types de problèmes :
 
 * Quels droits sur quels contenus ?
 
-** Types de contenus
+** Les droits d'usage des bases de données importées
+
+| Base de données                      | Drotis                |
+|--------------------------------------+-----------------------|
+| BNU                                  | Équivalent "CC-by-nc" |
+| SCD                                  | Équivalent "CC-by-nc" |
+| Gertrude                             | Équivalent "CC-by-nc" |
+| Archives ouvertes de la connaissance | Document par document |
+|--------------------------------------+-----------------------|
+| Zoologie                             | ?                     |
+
+** Les types de contenus
 
 Nous distinguons deux types de contenus :
 
-- les contenus /importés/ ::
-- les contenus /contribués/ ::
+- les contenus importés :: les droits sont ceux des éléments des bases
+     de données.
 
-Et deux niveaux de contenus :
+- les contenus contribués :: le choix est laissé aux contributeurs.
 
-- les contenus primaires :: 
-- les contenus secondaires ("sociaux") ::
+Nous distinguons deux niveaux de contenus :
+
+- les contenus primaires :: il s'agit de toutes les contributions de
+     type "dossier", "parcours", "visuel", "vidéo", "audio", etc.
+
+- les contenus secondaires ("sociaux") :: il s'agit des commentaires
+     sur les contenus.
 
 Tous les contenus importés sont primaires.
 
@@ -73,22 +89,32 @@ question ou d'une réponse dans le forum, etc.)
 
 ** Droits en fonction des types de contenus
 
-*** Contenus importés
+*** Les contenus importés
 
 Les droits des contenus importés sont ceux d'origine : si un contenu
 est sous droits d'auteur dans la base d'origine, ces droits sont les
 mêmes dans leur version importée dans le site.
 
-*** Contenus contribués primaires
+*** Les contenus contribués primaires
 
-Les contenus contribués sont par défaut sous licence Creative Commons
-BY-SA 4.0, autorisant le partage, la commercialisation et les oeuvres
-dérivées sous conditions de licence identique (voir [[https://creativecommons.org/licenses/by-sa/4.0/][la licence en
-ligne]] pour les détails.)
+Il y a deux types de contenus contribués primaires, ceux dont on est
+l'auteur direct, ceux qu'on reprend d'autres auteurs.  Un mécanisme à
+la [[https://commons.wikimedia.org/wiki/Special:UploadWizard][Upload Wizard]] permet au contributeur de rapidement dire ce qu'il en
+est pour un contenu qu'il ajoute.
 
-Les contributeurs sont *encouragés* à utiliser cette licence autant que
-possible, de façon à encourager le partage des données, mais ils n'y
-sont pas contraint, et peuvent utiliser une autre licence parmi :
+Si le contenu appartient à quelqu'un d'autre, il doit préciser le ou
+les auteur(s), la source et dire
+
+- si c'est une licence creative commons*
+- si c'est du droit d'auteur classique
+- si c'est du domaine public
+- si j'ai besoin d'aide pour savoir*
+
+*=> entraîne un signalement de type "droits d'auteur à vérifier.
+
+Si le contenu appartient au contributeur, on lui propose par défaut
+la licence Creative Commons CC-by-sa-nc 4.0, mais il peut choisir une
+autre licence Creative Commons :
 
 - Creative Commons BY 4.0 :: similaire au domaine public, n'obligeant
      pas les internautes à placer le contenu réutilisé sous licence
@@ -109,7 +135,7 @@ sont pas contraint, et peuvent utiliser une autre licence parmi :
 - Creative Commons BY-NC-ND :: équivalent au droit d'auteur classique
      et ne donnant aucun droit particulier aux internautes.
 
-*** Contenus contribués secondaires
+*** Les contenus contribués secondaires
 
 Pour les contenus contribués secondaires, ils sont tous placés sous
 droit d'auteur classique.  En acceptant les Conditions Générales du
@@ -119,15 +145,15 @@ le site ou tout autre support sans contre-partie.
 Les CGU précisent que les contributeurs sont responsables :
 
 - de veiller à ne pas enfreindre la législation lors de l'import de
-  contenus sur le site
+  contenus sur le site ;
 
 - des contenus secondaires contribués : pas de grossièretés, etc.
 
 Le site fonctionne comme un hébergeur des contenus contribués, non
 comme l'auteur de ces contenus.
 
-
 ** Protection par le droit des marques
+
 * Aspects de gamification et liste des badges
 
 Listes des actions de contribution, de leur importance et des seuils
@@ -268,11 +294,12 @@ mentionnent le WYSIWYG :
 
 *** Contributeurs
 
-| Je peux …                               | afin de …                      | Priorité |
-|-----------------------------------------+--------------------------------+----------|
-| Voir mes badges                         | savoir où j'en suis            |          |
-| signaler un problème scientifique       | contribuer à améliorer le site |          |
-| signaler un problème sur un commentaire | contribuer à améliorer le site |          |
+| Je peux …                                       | afin de …                              | Priorité |
+|-------------------------------------------------+----------------------------------------+----------|
+| Voir mes badges                                 | savoir où j'en suis                    |          |
+| signaler un problème scientifique               | contribuer à améliorer le site         |          |
+| signaler un problème sur un commentaire         | contribuer à améliorer le site         |          |
+| voir les contenus signalés comme problématiques | intervenir pour résoudre ces problèmes |          |
 
 *** Administrateurs
 
@@ -318,3 +345,6 @@ mentionnent le WYSIWYG :
 - Conditions Générales d'utilisation
 
 - Présentation générale du site (équivalent de About)
+
+- Page d'explications pour la question des droits d'auteur et des
+  licences.
