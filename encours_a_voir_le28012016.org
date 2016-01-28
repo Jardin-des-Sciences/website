@@ -411,43 +411,57 @@ il reste à préciser (au moins) trois choses :
 | Voir les badges attribués | connaître les types de contribution |          |
 * Retours sur les wireframes
 
-- Possible d'avoir les notifications pour chaque entrée de la colonne
-  de gauche ?
+- Profil utilisateur : Possible d'avoir les notifications pour les
+  encarts à gauche pour les contenus signalés, les contenus suivis
+  (s'ils sont mis à jour), les abonnements (s'il y a eu des mises à
+  jour).
 
-- "Mes notifications" doit être un onglet dans la page "Mon compte" :
-  on gère les notifications qu'on veut recevoir depuis cette page.
+- Fusionner mes "contenus suivis" et "mes abonnements" dans une même
+  rubrique "Veille" qui contiendra trois onglets (suivi, thèmes et
+  utilisateurs).  Le but de la fusion étant d'avoir seulement un flux
+  de notification pour la veille en général.
 
-- Fusionner : Mes abonnements et mes contenus suivis dans une même
-  rubrique "Veille", qui donnera accès aux contenus et utilisateurs
-  suivis.  Le but de la fusion étant d'avoir seulement un flux de
-  notification pour la veille en général.
+- "Mes notifications" doit être le premier onglet dans la page "Mon
+  compte" : on gère les notifications qu'on veut recevoir depuis cette
+  page.
 
-- Vers où emmène le lien "Dashboard" ?  J'avais l'impression que [[https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/34494307/sitemap/nosidebar][cette
-  maquette graphique]] /était/ le dashboard.  Si c'est le cas, renommer ce
-  bouton "Dashboard" en "Accueil" ?
+- Fusion de la page "statistiques" et du "tableau de bord", et ajout
+  des éléments propres aux admins/contributeurs si on est connecté en
+  tant qu'admin/contributeur.
 
 - Reprendre dans cet ordre :
 
-  - Accueil ("dashboard")
-  - Mon compte (donnant aussi accès aux notifications)
-  - Mes contributions
+  - Mon compte (donnant aussi accès d'abord à l'onglet de notifications)
   - Ma veille
+  - Contributions
+  - Statistiques
   - Contenus signalés (pour les admins seuls)
+
+- Dans les contenus signalés (disponibles pour les contributeurs et
+  les administrateurs), ajouter une colonne pour indiquer le type de
+  problème : droits d'auteur, contenu inapproprié, problème technique,
+  problème scientifique.
 
 - Utiliser plutôt des histogrammes que des camemberts.
 
 - Éventuellement utiliser des onglets horizontaux pour les différentes
-  statistiques, plutôt que de les empiler.
+  statistiques, plutôt que de les empiler [à préciser].
 
-- Dans le suivi (1/2), est-ce que c'est possible de représenter
+- Dans la page "suivi (1/2)", est-ce que c'est possible de représenter
   graphiquement les dossiers comme des icones plutôt que sous forme de
   liste déroulante ?
 
-- Dans le suivi (1/2), ajouter un bouton pour créer un dossier à
-  partir d'une liste de suivi.
+- Dans la page "suivi (1/2)", ajouter un bouton pour créer un dossier
+  à partir d'une liste de suivi.
 
 - Dans la listing ajouter un bouton "ajouter au dossier" qui apparaît
   à côté des entrées listées.
+
+- Dans la page "dashboard", certains liens sont actifs et d'autres
+  non : est-ce qu'on peut préciser pour l'ensemble des pages ce qui
+  est cliquable et vers où ça mène ?  (Idem abonnements : est-ce qu'on
+  peut cliquer sur les photos/profils pour arriver sur les pages de
+  profil ?)
 
 * Comment encourager les primo-contributeurs ?
 
