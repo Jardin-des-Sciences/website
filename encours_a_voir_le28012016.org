@@ -263,6 +263,85 @@ le plus de points dans la catégorie contenu.
 
 * Finalisation des spécifications sur la contribution
 
+** Précisions sur les fonctionnalités WYSIWYG
+
+Il y a cinq entrées dans le fichier [[https://github.com/bzg/findclub/blob/master/specifications.org][specifications.org]] qui mentionnent
+le WYSIWYG :
+
+*** Créer un visuel en WYSIWYG
+
+Pouvoir sélectionner une zone dans l'image qui a été mise en ligne.
+
+*** créer un billet et l'éditer en WYSIWYG
+
+Nous ne pouvons pas viser la complexité d'un logiciel de traitement de
+texte comme MS Word, mais l'interface d'édition doit proposer les
+fonctionnalités de base comme celles de [[https://www.tinymce.com/][TinyMCE]] :
+
+ - de créer des paragraphes
+ - de mettre en gras/en emphase/souligner un mot
+ - d'ajouter, de positionner et de redimensionner une image (en
+   passant par un éditeur visuel WYSIWYG permettant de modifier les
+   images de la banque d'images ou des images uploadées)
+ - de légender une image ou un média vidéo
+ - d'ajouter un lien en choisissant la cible (même onglet, nouvel
+   onglet) 
+ - d'insérer un média (vidéo) par simple sélection dans la base de
+   données média ou par simple mention de l'URL (pour les vidéos
+   sur Youtube, Vimeo, Dailymotion, etc.)
+ - de proposer un aperçu du résultat final
+ - d'indiquer quand la limite en nombre de signes est bientôt
+   atteinte
+
+D'autre part, il doit être possible *d'importer un fichier .docx ou
+.odt* qui sera nettoyé côté pour être ensuite affiché dans l'éditeur
+WYSIWYG du site.  
+
+Questions ouvertes :
+
+- récupération du format - jusqu'où ?
+- récupération des visuels ?
+- surligner le texte qui dépasse du nombre de signes admis
+
+*** Créer un edito et l'éditer en WYSIWYG
+
+Même chose que pour le billet, la seule différence étant que l'édito
+est forcément associé à un dossier.
+
+*** créer un diaporama et agencer l'ordre des diapositives en WYSIWYG
+
+Un diaporama est constitué des éléments suivants :
+
+- D'une ou plusieurs images ordonnées
+- Du son accompagnant chaque image (optionnel)
+- D'un timer pour chaque image (optionnel)
+- D'une légende accompagnant chaque image (optionnel)
+  
+L'interface WYSIWYG pour le diaporamas doit permettre
+
+- d'ordonner les images par glisser-déposer
+
+- d'ajouter des images de la base de données média, de son disque
+  dur ou par un simple copier-coller d'un lien vers une image sur
+  le Web ;
+
+- d'associer un son (par enregistrement, upload ou lien web) à une
+  image donnée.
+
+- d'ajouter un timer pour une image.
+
+- d'ajouter une légende pour une image.
+
+*** Créer un dossier et choisir ses contenus en WYSIWYG
+
+Un dossier est constitué d'au moins un billet (son "édito") et de
+plusieurs éléments comme des images, des vidéos, et d'autres
+ressources.
+
+Un dossier doit pouvoir être constitué par exploration des contenus
+disponibles sur la plate-forme et glisser-déposer des éléments
+disponibles -- comme dans un explorateur de fichiers classique.
+
 ** Idées générales
 
 Par rapport à ce qui est indiqué dans le fichier [[https://github.com/bzg/findclub/blob/master/specifications.org][specifications.org]],
@@ -276,60 +355,6 @@ il reste à préciser (au moins) trois choses :
 
 3. la manière dont les droits des contenus apparaissent, sont utilisé
    pour filtrer des contenus, etc.
-
-** WYSIWYG
-
-Il y a quatre entrées dans le fichier [[https://github.com/bzg/findclub/blob/master/specifications.org][specifications.org]] qui
-mentionnent le WYSIWYG :
-
-- créer un billet et l'éditer en WYSIWYG :: nous ne pouvons pas viser
-     la complexité d'un logiciel de traitement de texte comme MS Word,
-     mais l'interface d'édition doit permettre :
-
-  - de créer des paragraphes
-  - de mettre en gras/en emphase/souligner un mot
-  - d'ajouter, de positionner et de redimensionner une image
-  - de légender une image ou un média vidéo
-  - d'ajouter un lien en choisissant la cible (même onglet, nouvel onglet)
-  - d'insérer un média (vidéo) par simple sélection dans la base de
-    données média ou par simple mention de l'URL (pour les vidéos sur
-    Youtube, Vimeo, Dailymotion, etc.)
-  - de proposer un aperçu du résultat final
-
-- créer un edito et l'éditer en WYSIWYG :: même chose que pour le
-     billet, la seule différence étant que l'édito est forcément
-     associé à un dossier.
-
-- créer un diaporama et agencer l'ordre des diapositives en WYSIWYG ::
-     un diaporama est constitué des éléments suivants :
-
-  - D'une ou plusieurs images ordonnées
-  - Du son accompagnant chaque image (optionnel)
-  - D'un timer pour chaque image (optionnel)
-  - D'une légende accompagnant chaque image (optionnel)
-  
-  L'interface WYSIWYG pour le diaporamas doit permettre
-
-  - d'ordonner les images par glisser-déposer
-
-  - d'ajouter des images de la base de données média, de son disque
-    dur ou par un simple copier-coller d'un lien vers une image sur
-    le Web ;
-
-  - d'associer un son (par enregistrement, upload ou lien web) à une
-    image donnée.
-
-  - d'ajouter un timer pour une image.
-
-  - d'ajouter une légende pour une image.
-
-- créer un dossier et choisir ses contenus en WYSIWYG :: un dossier
-     est constitué d'au moins un billet (son "édito") et de plusieurs
-     éléments comme des images, des vidéos, et d'autres ressources.
-
-     Un dossier doit pouvoir être constitué par exploration des
-     contenus disponibles sur la plate-forme et glisser-déposer des
-     éléments disponibles.
 
 ** User stories
 
@@ -348,6 +373,7 @@ mentionnent le WYSIWYG :
 | Je peux …                                       | afin de …                              | Priorité |
 |-------------------------------------------------+----------------------------------------+----------|
 | Voir mes badges                                 | savoir où j'en suis                    |          |
+| importer un document .docx ou .odt comme billet | pouvoir travailler hors-ligne          |          |
 | signaler un problème scientifique               | contribuer à améliorer le site         |          |
 | signaler un problème sur un commentaire         | contribuer à améliorer le site         |          |
 | voir les contenus signalés comme problématiques | intervenir pour résoudre ces problèmes |          |
@@ -386,6 +412,11 @@ mentionnent le WYSIWYG :
 
 - Éventuellement utiliser des onglets horizontaux pour les différentes
   statistiques, plutôt que de les empiler.
+
+- Dans le suivi (1/2), est-ce que c'est possible de représenter
+  graphiquement les dossiers comme des icones plutôt que sous forme de
+  liste déroulante ?
+
 * Comment encourager les primo-contributeurs ?
 
 ** Établir la liste des primo-contributeurs
