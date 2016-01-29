@@ -406,9 +406,12 @@ il reste à préciser (au moins) trois choses :
 
 *** Administrateurs
 
-| Je peux …                 | afin de …                           | Priorité |
-|---------------------------+-------------------------------------+----------|
-| Voir les badges attribués | connaître les types de contribution |          |
+| Je peux …                    | afin de …                           | Priorité |
+|------------------------------+-------------------------------------+----------|
+| Voir les badges attribués    | connaître les types de contribution |          |
+| Gérer les thématiques (CRUD) | enrichir la plate-forme             |          |
+| Gérer les disciplines (CRUD) | enrichir la plate-forme             |          |
+  
 * Retours sur les wireframes
 
 - Dans le profil utilisateur : est-il possible d'avoir les
@@ -465,6 +468,9 @@ il reste à préciser (au moins) trois choses :
   est cliquable et vers où ça mène ?  (Idem abonnements : est-ce qu'on
   peut cliquer sur les photos/profils pour arriver sur les pages de
   profil ?)
+
+- Trouver un endroit pour que l'administrateur gère les thématiques et
+  disciplines disponibles.
 
 * Comment encourager les primo-contributeurs ?
 
