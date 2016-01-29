@@ -411,27 +411,28 @@ il reste à préciser (au moins) trois choses :
 | Voir les badges attribués | connaître les types de contribution |          |
 * Retours sur les wireframes
 
-- Profil utilisateur : Possible d'avoir les notifications pour les
-  encarts à gauche pour les contenus signalés, les contenus suivis
-  (s'ils sont mis à jour), les abonnements (s'il y a eu des mises à
-  jour).
+- Dans le profil utilisateur : est-il possible d'avoir les
+  notifications pour les encarts à gauche pour les contenus signalés,
+  les contenus suivis (s'ils sont mis à jour), les abonnements (s'il y
+  a eu des mises à jour) ?
 
-- Fusionner mes "contenus suivis" et "mes abonnements" dans une même
-  rubrique "Veille" qui contiendra trois onglets (suivi, thèmes et
-  utilisateurs).  Le but de la fusion étant d'avoir seulement un flux
-  de notification pour la veille en général.
+- Il faudrait fusionner "mes contenus suivis" et "mes abonnements"
+  dans une même rubrique intitulée "Veille" qui contiendra trois
+  onglets : suivi, thèmes et utilisateurs.  Le but de la fusion étant
+  d'avoir seulement un flux de notification pour la veille en général.
 
-- "Mes notifications" doit être le premier onglet dans la page "Mon
-  compte" : on gère les notifications qu'on veut recevoir depuis cette
-  page.
+- "Mes notifications" doit être remplacé par un onglet (à gauche,
+  ouvert en premier) dans la page "Mon compte" : on gère les
+  notifications qu'on veut recevoir depuis cette page, et c'est
+  l'information la plus souvent mise à jour dans "mon compte".
 
-- Fusion de la page "statistiques" et du "tableau de bord", et ajout
+- Fusionner la page "statistiques" et "tableau de bord", et ajouter
   des éléments propres aux admins/contributeurs si on est connecté en
   tant qu'admin/contributeur.
 
-- Reprendre dans cet ordre :
+- Reprendre les encarts dans cet ordre :
 
-  - Mon compte (donnant aussi accès d'abord à l'onglet de notifications)
+  - Mon compte (donnant aussi accès à un onglet avec les notifications)
   - Ma veille
   - Contributions
   - Statistiques
@@ -439,23 +440,25 @@ il reste à préciser (au moins) trois choses :
 
 - Dans les contenus signalés (disponibles pour les contributeurs et
   les administrateurs), ajouter une colonne pour indiquer le type de
-  problème : droits d'auteur, contenu inapproprié, problème technique,
-  problème scientifique.
+  problème signalé : droits d'auteur (DA), contenu inapproprié (CI),
+  problème technique (PT), problème scientifique (PS).
 
-- Utiliser plutôt des histogrammes que des camemberts.
+- Dans les statistiques, utiliser des histogrammes plutôt que des
+  camemberts.
 
-- Éventuellement utiliser des onglets horizontaux pour les différentes
-  statistiques, plutôt que de les empiler [à préciser].
+- Dans les statistiques, éventuellement utiliser des onglets
+  horizontaux que d'empiler les statistiques.
 
-- Dans la page "suivi (1/2)", est-ce que c'est possible de représenter
-  graphiquement les dossiers comme des icones plutôt que sous forme de
-  liste déroulante ?
+- Dans la page "suivi (1/2)", est-il possible de représenter
+  graphiquement les dossiers cibles (après qu'on a cliqué sur le "+")
+  comme des icones plutôt que sous forme de liste déroulante ?
 
 - Dans la page "suivi (1/2)", ajouter un bouton pour créer un dossier
-  à partir d'une liste de suivi.
+  à partir d'une liste de suivi (un bouton "+" au même niveau que le
+  nom de la liste de suivi.)
 
-- Dans la listing ajouter un bouton "ajouter au dossier" qui apparaît
-  à côté des entrées listées.
+- Dans la page "listing" ajouter un bouton "+" ("ajouter au dossier")
+  qui apparaît à côté des entrées listées.
 
 - Dans la page "dashboard", certains liens sont actifs et d'autres
   non : est-ce qu'on peut préciser pour l'ensemble des pages ce qui
