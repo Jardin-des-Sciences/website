@@ -120,7 +120,7 @@ il conserve ses droits d'auteur comme attendu.
 | proposer de publier des photos sur une cartographie            |                                                             |        0 |        4 |
 | contacter un contributeur                                      | échanger avec lui directement                               |        5 |          |
 
-Pour la création des dossier, le WYSIWYG est à élaborer : on pourra
+Pour la création des dossiers, le WYSIWYG est à élaborer : on pourra
 par exemple ajouter des contenus par glisser-déposer, et remplir les
 champs relatifs au dossier de manière guidée (quelques champs sont
 présentés à l'écran avec un système de "paging", plutôt qu'une longue
@@ -148,7 +148,7 @@ page avec tous les champs.)
 | éditer un contenu : le modifier, le bloquer, changer mdp, etc.  | aider les contributeurs                                  |        1 |          |
 | éditer un utilisateur (modifier, bloquer, etc.)                 | aider les contributeurs                                  |        2 |          |
 | modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |        3 |          |
-| modérer tous les commentaires en attente de modération          | aider les contributeurs                                  |        3 |          |
+| modérer les commentaires en attente de modération d'un coup     | aider les contributeurs                                  |        3 |          |
 |-----------------------------------------------------------------+----------------------------------------------------------+----------+----------|
 | voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |        0 |        4 |
 | voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |        2 |          |
