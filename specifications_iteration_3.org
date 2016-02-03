@@ -485,3 +485,9 @@ il reste à préciser (au moins) trois choses :
 
 - Page d'explications pour la question des droits d'auteur et des
   licences.
+* Informations sur les normes d'accessibilité
+
+- http://www.accede-web.com : information générale
+- http://references.modernisation.gouv.fr : référence gouvernement
+- http://paypal.github.io/bootstrap-accessibility-plugin/demo.html :
+  plugin pour bootstrap
