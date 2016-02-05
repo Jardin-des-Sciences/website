@@ -386,31 +386,31 @@ il reste à préciser (au moins) trois choses :
 
 *** Utilisateurs
 
-| Je peux …                                   | afin de …                      | Priorité |
-|---------------------------------------------+--------------------------------+----------|
-| Voir les badges d'un contributeur           | savoir comment il contribue    |          |
-| Filtrer les contenus par droits             | accéder à des contenus libres  |          |
-| signaler un problème de droits d'auteur     | contribuer à améliorer le site |          |
-| signaler un problème technique              | contribuer à améliorer le site |          |
-| signaler un problème de contenu inapproprié | contribuer à améliorer le site |          |
+| Je peux …                                   | afin de …                      | Priorité | Chiffrage |
+|---------------------------------------------+--------------------------------+----------+-----------|
+| Voir les badges d'un contributeur           | savoir comment il contribue    |          |           |
+| Filtrer les contenus par droits             | accéder à des contenus libres  |          |           |
+| signaler un problème de droits d'auteur     | contribuer à améliorer le site |          |           |
+| signaler un problème technique              | contribuer à améliorer le site |          |           |
+| signaler un problème de contenu inapproprié | contribuer à améliorer le site |          |           |
 
 *** Contributeurs
 
-| Je peux …                                       | afin de …                              | Priorité |
-|-------------------------------------------------+----------------------------------------+----------|
-| Voir mes badges                                 | savoir où j'en suis                    |          |
-| importer un document .docx ou .odt comme billet | pouvoir travailler hors-ligne          |          |
-| signaler un problème scientifique               | contribuer à améliorer le site         |          |
-| signaler un problème sur un commentaire         | contribuer à améliorer le site         |          |
-| voir les contenus signalés comme problématiques | intervenir pour résoudre ces problèmes |          |
+| Je peux …                                       | afin de …                              | Priorité | Chiffrage |
+|-------------------------------------------------+----------------------------------------+----------+-----------|
+| Voir mes badges                                 | savoir où j'en suis                    |          |           |
+| importer un document .docx ou .odt comme billet | pouvoir travailler hors-ligne          |          |           |
+| signaler un problème scientifique               | contribuer à améliorer le site         |          |           |
+| signaler un problème sur un commentaire         | contribuer à améliorer le site         |          |           |
+| voir les contenus signalés comme problématiques | intervenir pour résoudre ces problèmes |          |           |
 
 *** Administrateurs
 
-| Je peux …                    | afin de …                           | Priorité |
-|------------------------------+-------------------------------------+----------|
-| Voir les badges attribués    | connaître les types de contribution |          |
-| Gérer les thématiques (CRUD) | enrichir la plate-forme             |          |
-| Gérer les disciplines (CRUD) | enrichir la plate-forme             |          |
+| Je peux …                    | afin de …                           | Priorité | Chiffrage |
+|------------------------------+-------------------------------------+----------+-----------|
+| Voir les badges attribués    | connaître les types de contribution |          |           |
+| Gérer les thématiques (CRUD) | enrichir la plate-forme             |          |           |
+| Gérer les disciplines (CRUD) | enrichir la plate-forme             |          |           |
   
 * Retours sur les wireframes
 
