@@ -1,6 +1,8 @@
 #+TITLE: Notes suite à la réunion JDS/AMO du 28/01/2016
 
-* Préciser "signaler un problème sur un contenu"
+Dernière mise à jour: <2016-02-11 jeu. 12:41>.
+
+* Précisions sur le signalement de problèmes sur des contenus
 
 Les problèmes à signaler sur les contenus peuvent être de plusieurs
 ordres :
@@ -51,115 +53,7 @@ Voici les différents types de problèmes :
      contributeur.  (Signalement accessible seulement aux
      contributeurs.)
 
-* Quels droits sur quels contenus ?
-
-** Les droits d'usage des bases de données importées
-
-| Base de données                      | Drotis                |
-|--------------------------------------+-----------------------|
-| BNU                                  | Équivalent "CC-by-nc" |
-| SCD                                  | Équivalent "CC-by-nc" |
-| Gertrude                             | Équivalent "CC-by-nc" |
-| Archives ouvertes de la connaissance | Document par document |
-|--------------------------------------+-----------------------|
-| Zoologie                             | ?                     |
-
-** Les types de contenus
-
-Nous distinguons deux types de contenus :
-
-- les contenus importés :: les droits sont ceux des éléments des bases
-     de données.
-
-- les contenus contribués :: le choix est laissé aux contributeurs.
-
-Nous distinguons deux niveaux de contenus :
-
-- les contenus primaires :: il s'agit de toutes les contributions de
-     type "dossier", "parcours", "visuel", "vidéo", "audio", etc.
-
-- les contenus secondaires ("sociaux") :: il s'agit des commentaires
-     sur les contenus.
-
-Tous les contenus importés sont primaires.
-
-Certains contenus contribués sont /primaires/ (ajout d'un billet, d'une
-image, etc.) d'autres sont /secondaires/ (ajout d'un commentaire, d'une
-question ou d'une réponse dans le forum, etc.)
-
-** Droits en fonction des types de contenus
-
-*** Les contenus importés
-
-Les droits des contenus importés sont ceux d'origine : si un contenu
-est sous droits d'auteur dans la base d'origine, ces droits sont les
-mêmes dans leur version importée dans le site.
-
-*** Les contenus contribués primaires
-
-Il y a deux types de contenus contribués primaires, ceux dont on est
-l'auteur direct, ceux qu'on reprend d'autres auteurs.  Un mécanisme à
-la [[https://commons.wikimedia.org/wiki/Special:UploadWizard][Upload Wizard]] permet au contributeur de rapidement dire ce qu'il en
-est pour un contenu qu'il ajoute.
-
-Si le contenu appartient à quelqu'un d'autre, il doit préciser le ou
-les auteur(s), la source et dire
-
-- si c'est une licence creative commons*
-- si c'est du droit d'auteur classique
-- si c'est du domaine public
-- si j'ai besoin d'aide pour savoir*
-
-*=> entraîne un signalement de type "droits d'auteur à vérifier.
-
-Si le contenu appartient au contributeur, on lui propose par défaut
-la licence Creative Commons CC-by-sa-nc 4.0, mais il peut choisir une
-autre licence Creative Commons :
-
-- Creative Commons BY 4.0 :: similaire au domaine public, n'obligeant
-     pas les internautes à placer le contenu réutilisé sous licence
-     libre CC by-sa 4.0.
-
-- Creative Commons BY-ND :: autorisant le partage et la
-     commercialisation, mais interdisant les contenus dérivés.
-
-- Creative Commons BY-NC :: autorisant le partage et les contenus
-     dérivés, mais interdisant la commercialisation.
-
-- Creative Commons BY-SA-ND :: autorisant le partage dans les mêmes
-     conditions de licence, mais interdisant les contenus dérivés.
-
-- Creative Commons BY-SA-NC :: autorisant le partage et les contenus
-     dérivés, mais interdisant la commercialisation.
-
-- Creative Commons BY-NC-ND :: équivalent au droit d'auteur classique
-     et ne donnant aucun droit particulier aux internautes.
-
-*** Les contenus contribués secondaires
-
-Pour les contenus contribués secondaires, ils sont tous placés sous
-droit d'auteur classique.  En acceptant les Conditions Générales du
-site, Les contributeurs autorisent le JDS à publier ces contenus sur
-le site ou tout autre support sans contre-partie.
-
-Les CGU précisent que les contributeurs sont responsables :
-
-- de veiller à ne pas enfreindre la législation lors de l'import de
-  contenus sur le site ;
-
-- des contenus secondaires contribués : pas de grossièretés, etc.
-
-Le site fonctionne comme un hébergeur des contenus contribués, non
-comme l'auteur de ces contenus.
-
-** Protection par le droit des marques
-
-La marque protège le logo et le nom du site.
-
-[Question ouverte : est-ce que le design est protégé par ce dépôt de
-marque ou par l'Université elle-même ?]
-
-* Aspects de gamification et liste des badges
+* Précisions sur les aspects de gamification et la liste des badges
 
 Voir https://groups.drupal.org/node/248868 pour l'implémentation Open
 Badges.
@@ -260,8 +154,7 @@ catégorie "contribution sociale".
 
 Ou bien on organise un colloque, on invite les 100 contributeurs ayant
 le plus de points dans la catégorie contenu.
-
-* Finalisation des spécifications sur la contribution
+* Finalisation des spécifications
 
 ** Précisions sur les fonctionnalités WYSIWYG
 
@@ -411,72 +304,124 @@ il reste à préciser (au moins) trois choses :
 | Voir les badges attribués    | connaître les types de contribution |          |           |
 | Gérer les thématiques (CRUD) | enrichir la plate-forme             |          |           |
 | Gérer les disciplines (CRUD) | enrichir la plate-forme             |          |           |
-  
-* Retours sur les wireframes
-
-- Dans le profil utilisateur : est-il possible d'avoir les
-  notifications pour les encarts à gauche pour les contenus signalés,
-  les contenus suivis (s'ils sont mis à jour), les abonnements (s'il y
-  a eu des mises à jour) ?
-
-- Il faudrait fusionner "mes contenus suivis" et "mes abonnements"
-  dans une même rubrique intitulée "Veille" qui contiendra trois
-  onglets : suivi, thèmes et utilisateurs.  Le but de la fusion étant
-  d'avoir seulement un flux de notification pour la veille en général.
-
-- "Mes notifications" doit être remplacé par un onglet (à gauche,
-  ouvert en premier) dans la page "Mon compte" : on gère les
-  notifications qu'on veut recevoir depuis cette page, et c'est
-  l'information la plus souvent mise à jour dans "mon compte".
-
-- Fusionner la page "statistiques" et "tableau de bord", et ajouter
-  des éléments propres aux admins/contributeurs si on est connecté en
-  tant qu'admin/contributeur.
-
-- Reprendre les encarts dans cet ordre :
-
-  - Mon compte (donnant aussi accès à un onglet avec les notifications)
-  - Ma veille
-  - Contributions
-  - Statistiques
-  - Contenus signalés (pour les admins seuls)
-
-- Dans les contenus signalés (disponibles pour les contributeurs et
-  les administrateurs), ajouter une colonne pour indiquer le type de
-  problème signalé : droits d'auteur (DA), contenu inapproprié (CI),
-  problème technique (PT), problème scientifique (PS).
-
-- Dans les statistiques, utiliser des histogrammes plutôt que des
-  camemberts.
-
-- Dans les statistiques, éventuellement utiliser des onglets
-  horizontaux que d'empiler les statistiques.
-
-- Dans la page "suivi (1/2)", est-il possible de représenter
-  graphiquement les dossiers cibles (après qu'on a cliqué sur le "+")
-  comme des icones plutôt que sous forme de liste déroulante ?
-
-- Dans la page "suivi (1/2)", ajouter un bouton pour créer un dossier
-  à partir d'une liste de suivi (un bouton "+" au même niveau que le
-  nom de la liste de suivi.)
-
-- Dans la page "listing" ajouter un bouton "+" ("ajouter au dossier")
-  qui apparaît à côté des entrées listées.
-
-- Dans la page "dashboard", certains liens sont actifs et d'autres
-  non : est-ce qu'on peut préciser pour l'ensemble des pages ce qui
-  est cliquable et vers où ça mène ?  (Idem abonnements : est-ce qu'on
-  peut cliquer sur les photos/profils pour arriver sur les pages de
-  profil ?)
-
-- Trouver un endroit pour que l'administrateur gère les thématiques et
-  disciplines disponibles.
-
 * Comment encourager les primo-contributeurs ?
 
 ** Établir la liste des primo-contributeurs
 ** Établir le calendrier de leurs disponibilités
 ** Voir si on peut faire des ateliers restreints
+* Quels droits sur quels contenus ?
+
+** Les droits d'usage des bases de données importées
+
+| Base de données                      | Drotis                |
+|--------------------------------------+-----------------------|
+| BNU                                  | Équivalent "CC-by-nc" |
+| SCD                                  | Équivalent "CC-by-nc" |
+| Gertrude                             | Équivalent "CC-by-nc" |
+| Archives ouvertes de la connaissance | Document par document |
+|--------------------------------------+-----------------------|
+| Zoologie                             | ?                     |
+
+** Les types de contenus
+
+Nous distinguons deux types de contenus :
+
+- les contenus importés :: les droits sont ceux des éléments des bases
+     de données.
+
+- les contenus contribués :: le choix est laissé aux contributeurs.
+
+Nous distinguons deux niveaux de contenus :
+
+- les contenus primaires :: il s'agit de toutes les contributions de
+     type "dossier", "parcours", "visuel", "vidéo", "audio", etc.
+
+- les contenus secondaires ("sociaux") :: il s'agit des commentaires
+     sur les contenus.
+
+Tous les contenus importés sont primaires.
+
+Certains contenus contribués sont /primaires/ (ajout d'un billet, d'une
+image, etc.) d'autres sont /secondaires/ (ajout d'un commentaire, d'une
+question ou d'une réponse dans le forum, etc.)
+
+** Droits en fonction des types de contenus
+
+*** Les contenus importés
+
+Les droits des contenus importés sont ceux d'origine : si un contenu
+est sous droits d'auteur dans la base d'origine, ces droits sont les
+mêmes dans leur version importée dans le site.
+
+*** Les contenus contribués primaires
+
+Il y a deux types de contenus contribués primaires, ceux dont on est
+l'auteur direct, ceux qu'on reprend d'autres auteurs.  Un mécanisme à
+la [[https://commons.wikimedia.org/wiki/Special:UploadWizard][Upload Wizard]] permet au contributeur de rapidement dire ce qu'il en
+est pour un contenu qu'il ajoute.
+
+Si le contenu appartient à quelqu'un d'autre, il doit préciser le ou
+les auteur(s), la source et dire
+
+- si c'est une licence creative commons*
+- si c'est du droit d'auteur classique
+- si c'est du domaine public
+- si j'ai besoin d'aide pour savoir*
+
+*=> entraîne un signalement de type "droits d'auteur à vérifier.
+
+Si le contenu appartient au contributeur, on lui propose par défaut
+la licence Creative Commons CC-by-sa-nc 4.0, mais il peut choisir une
+autre licence Creative Commons :
+
+- Creative Commons BY 4.0 :: similaire au domaine public, n'obligeant
+     pas les internautes à placer le contenu réutilisé sous licence
+     libre CC by-sa 4.0.
+
+- Creative Commons BY-ND :: autorisant le partage et la
+     commercialisation, mais interdisant les contenus dérivés.
+
+- Creative Commons BY-NC :: autorisant le partage et les contenus
+     dérivés, mais interdisant la commercialisation.
+
+- Creative Commons BY-SA-ND :: autorisant le partage dans les mêmes
+     conditions de licence, mais interdisant les contenus dérivés.
+
+- Creative Commons BY-SA-NC :: autorisant le partage et les contenus
+     dérivés, mais interdisant la commercialisation.
+
+- Creative Commons BY-NC-ND :: équivalent au droit d'auteur classique
+     et ne donnant aucun droit particulier aux internautes.
+
+*** Les contenus contribués secondaires
+
+Pour les contenus contribués secondaires, ils sont tous placés sous
+droit d'auteur classique.  En acceptant les Conditions Générales du
+site, Les contributeurs autorisent le JDS à publier ces contenus sur
+le site ou tout autre support sans contre-partie.
+
+Les CGU précisent que les contributeurs sont responsables :
+
+- de veiller à ne pas enfreindre la législation lors de l'import de
+  contenus sur le site ;
+
+- des contenus secondaires contribués : pas de grossièretés, etc.
+
+Le site fonctionne comme un hébergeur des contenus contribués, non
+comme l'auteur de ces contenus.
+
+** Protection par le droit des marques
+
+La marque protège le logo et le nom du site.
+
+[Question ouverte : est-ce que le design est protégé par ce dépôt de
+marque ou par l'Université elle-même ?]
+* Informations sur les normes d'accessibilité
+
+- http://www.accede-web.com : information générale
+- http://references.modernisation.gouv.fr : référence gouvernement
+- http://paypal.github.io/bootstrap-accessibility-plugin/demo.html :
+  plugin pour bootstrap
 * Liste des pages statiques
 
 - Conditions Générales d'utilisation
@@ -485,9 +430,4 @@ il reste à préciser (au moins) trois choses :
 
 - Page d'explications pour la question des droits d'auteur et des
   licences.
-* Informations sur les normes d'accessibilité
-
-- http://www.accede-web.com : information générale
-- http://references.modernisation.gouv.fr : référence gouvernement
-- http://paypal.github.io/bootstrap-accessibility-plugin/demo.html :
-  plugin pour bootstrap
+  
