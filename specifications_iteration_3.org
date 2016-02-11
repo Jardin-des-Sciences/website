@@ -289,13 +289,15 @@ il reste à préciser (au moins) trois choses :
 
 *** Contributeurs
 
-| Je peux …                                       | afin de …                              | Priorité | Chiffrage |
-|-------------------------------------------------+----------------------------------------+----------+-----------|
-| Voir mes badges                                 | savoir où j'en suis                    |          |           |
-| importer un document .docx ou .odt comme billet | pouvoir travailler hors-ligne          |          |           |
-| signaler un problème scientifique               | contribuer à améliorer le site         |          |           |
-| signaler un problème sur un commentaire         | contribuer à améliorer le site         |          |           |
-| voir les contenus signalés comme problématiques | intervenir pour résoudre ces problèmes |          |           |
+| Je peux …                                                            | afin de …                              | Priorité | Chiffrage |
+|----------------------------------------------------------------------+----------------------------------------+----------+-----------|
+| Voir mes badges                                                      | savoir où j'en suis                    |          |           |
+| importer un document .docx ou .odt comme billet                      | pouvoir travailler hors-ligne          |          |           |
+| signaler un problème scientifique                                    | contribuer à améliorer le site         |          |           |
+| signaler un problème sur un commentaire                              | contribuer à améliorer le site         |          |           |
+| voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes |          |           |
+|----------------------------------------------------------------------+----------------------------------------+----------+-----------|
+| avoir mes contributions automatiquement ajoutées à ma liste de suivi | organiser ma veille                    |          |           |
 
 *** Administrateurs
 
