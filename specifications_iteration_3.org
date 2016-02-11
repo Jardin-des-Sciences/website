@@ -395,6 +395,29 @@ autre licence Creative Commons :
 - Creative Commons BY-NC-ND :: équivalent au droit d'auteur classique
      et ne donnant aucun droit particulier aux internautes.
 
+**** Précisions sur les liens avec les champs des types de contenus
+
+Les indications qui concernent les droits d'auteur sont stockées dans
+deux champs pour les contenus primaires: le champ "Droits d'auteur
+(licence)" et le champ SA-ND-NC*.
+
+La valeur par défaut pour la licence est la chaîne vide (pas de droits
+d'auteur explicite).
+
+Une valeur standard est "© Jardin de botanique de Fontainebleau"
+indiquant à qui appartiennent les droits d'auteur.  En général, ce
+champ est identique pour tous les items importés d'une même base.
+
+La valeur par défaut pour le champ Creative Commons est {-1, -1, -1} -
+c'est-à-dire "N/A", pour dire que seul le champ "Droits d'auteur" est
+pertinent.  La recommandation provisoire (en attente de validation de
+l'Université) pour les contenus contribués est la licence [[http://creativecommons.org/licenses/by-nc-sa/3.0/fr/][CC-by-sa-nc]]
+soit {1,0,1} pour dire "SA s'applique", "ND ne s'applique pas" et "NC
+s'applique".
+
+Si les deux champs sont incompatible, le champ "Droits d'auteur"
+prime.
+
 *** Les contenus contribués secondaires
 
 Pour les contenus contribués secondaires, ils sont tous placés sous
