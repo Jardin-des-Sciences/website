@@ -208,19 +208,21 @@ par l'équipe du site web, soit par les contributeurs.
 
 *** Sondage
 
-| Libellé               | Type de champ |
-|-----------------------+---------------|
-| Thème                 | Champ simple  |
-| Question 1            |               |
-| - réponse 1           |               |
-| - réponse 2           |               |
-| Question 2            |               |
-| ...
+| Libellé             | Type de champ |
+|---------------------+---------------|
+| Nom du contributeur | Champ simple  |
+| Thème               | Champ simple  |
+| Question 1          |               |
+| - réponse 1         |               |
+| - réponse 2         |               |
+| Question 2          |               |
+| ...                 |               |
 
 *** QCM
 
 | Libellé               | Type de champ |
 |-----------------------+---------------|
+| Nom du contributeur   | Champ simple  |
 | Thème                 | Champ simple  |
 | Décompte par question | Durée         |
 | Question 1            |               |
@@ -241,6 +243,7 @@ Exemples de questions :
 | Question                  | WYSIWYG                      |
 | Visuel                    | WYSIWYG                      |
 | Réponse du chercheur      | WYSIWYG                      |
+| Nom du contributeur       | Champ simple                 |
 | Droits d'auteur (licence) | Valeur du site               |
 | SA-ND-NC*                 | Boolean sur plusieurs champs |
 
