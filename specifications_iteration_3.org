@@ -313,7 +313,7 @@ il reste à préciser (au moins) trois choses :
 ** Voir si on peut faire des ateliers restreints
 * Quels droits sur quels contenus ?
 
-** Les droits d'usage des bases de données importées
+** Les droits des bases de données importées
 
 | Base de données                      | Drotis                |
 |--------------------------------------+-----------------------|
@@ -324,22 +324,30 @@ il reste à préciser (au moins) trois choses :
 |--------------------------------------+-----------------------|
 | Zoologie                             | ?                     |
 
-** Les types de contenus
+** Une note sur le domaine public
 
-Nous distinguons deux types de contenus :
+En droit français, il est impossible de placer une oeuvre dans le
+domaine public.  Donc un auteur d'un contenu original sur la
+plate-forme ne peut choisir de mettre ce contenu dans le domaine
+public.
 
-- les contenus importés :: les droits sont ceux des éléments des bases
-     de données.
+** Un point sur les types de contenus
 
-- les contenus contribués :: le choix est laissé aux contributeurs.
+Les contenus peuvent être distingués en fonction de leur origine :
 
-Nous distinguons deux niveaux de contenus :
+- *les contenus importés* : les droits sont ceux des éléments des bases
+  de données.
 
-- les contenus primaires :: il s'agit de toutes les contributions de
-     type "dossier", "parcours", "visuel", "vidéo", "audio", etc.
+- *les contenus contribués* : le choix est laissé aux contributeurs.
 
-- les contenus secondaires ("sociaux") :: il s'agit des commentaires
-     sur les contenus.
+Les contenus peuvent être distingués en fonction de leur fonction sur
+la plate-forme :
+
+- *les contenus primaires* : il s'agit de toutes les contributions de
+  type "dossier", "parcours", "visuel", "vidéo", "audio", etc.
+
+- *les contenus secondaires ("sociaux")* : il s'agit des commentaires
+  sur les contenus et de toutes les formes d'annotations.
 
 Tous les contenus importés sont primaires.
 
@@ -347,7 +355,13 @@ Certains contenus contribués sont /primaires/ (ajout d'un billet, d'une
 image, etc.) d'autres sont /secondaires/ (ajout d'un commentaire, d'une
 question ou d'une réponse dans le forum, etc.)
 
-** Droits en fonction des types de contenus
+Parmi les contenus primaires, nous distinguons encore :
+
+- *les "collections"* : Dossiers, Parcours.
+
+- *les "éléments"* : visuel, ressource documentaire, vidéo, audio, etc.
+
+** Les droits en fonction des types de contenus
 
 *** Les contenus importés
 
@@ -434,6 +448,48 @@ Les CGU précisent que les contributeurs sont responsables :
 
 Le site fonctionne comme un hébergeur des contenus contribués, non
 comme l'auteur de ces contenus.
+
+** Les droits des contenus collaboratifs
+
+Les collections et éléments ont chaque fois *un seul auteur* et *un seul
+contributeur* : l'auteur est celui indiqué dans le champ "Droits
+d'auteur" et le contributeur est l'utilisateur ayant importé ou ajouté
+ce contenu.
+
+Les éléments et les collections impliquent des contraintes différentes
+pour la gestion des droits d'auteur.
+
+*** Les éléments
+
+Les éléments ne sont pas collaboratifs : le contributeur les ajoute à
+la plate-forme et gère seul leur contenu.
+
+Si un utilisateur contribue à un élément avec du contenu secondaire
+(un commentaire), les droits des deux contenus restent distincts.
+
+Si un utilisateur contribue à un élément avec un conseil pris en
+compte par le contributeur de l'élément (par exemple une légende sur
+une image, une correction de faute d'orthographe), cela n'affecte pas
+les droits des contenus.
+
+*** Les collections
+
+Les collections (dossiers et parcours) sont les contenus collaboratifs
+de la plate-forme.
+
+Les utilisateurs peuvent ajouter des éléments à leurs dossiers en
+fonction des droits de ces éléments.
+
+Les éléments qu'on peut ajouter à un dossier sont :
+
+- les éléments du domaine public ou
+- les éléments dont on est l'auteur ou
+- les éléments sous licence CC-by, CC-by-sa ou CC-by-sa-nc
+
+La présence d'une clause ND (non-derivative) dans une licence
+interdirait d'insérer un élément dans un dossier (qui en serait
+"dérivé").  Même chose pour un contenu sous droits d'auteur
+classiques.
 
 ** Protection par le droit des marques
 
