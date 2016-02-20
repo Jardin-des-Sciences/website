@@ -154,6 +154,28 @@ catégorie "contribution sociale".
 
 Ou bien on organise un colloque, on invite les 100 contributeurs ayant
 le plus de points dans la catégorie contenu.
+* Précisions sur la liste des attentes
+
+/Citation mail bzg 8 janvier :/
+
+#+BEGIN_QUOTE
+   La "Liste des attentes" est une sorte de wishlist que l'auteur d'un
+   dossier peut ajouter.  Il formule des demandes et si les futurs
+   contributeurs y répondent, il les "coche".  Ça permet de connaître
+   les besoins sur un projet, et l'état d'avancement.
+#+END_QUOTE
+
+Concrètement, une liste d'attente est un ensemble ordonné d'items
+possédant chacun deux champs : un champ texte "description" et un
+champ binaire 0/1 (pas fait / fait).
+
+Exemple:
+
+#+BEGIN_QUOTE
+#{:description "Corriger les fautes" 0
+  :description "Ajouter des images" 1}
+#+END_QUOTE
+
 * Finalisation des spécifications
 
 ** Précisions sur les fonctionnalités WYSIWYG
