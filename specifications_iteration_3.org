@@ -1,6 +1,6 @@
 #+TITLE: Notes suite à la réunion JDS/AMO du 28/01/2016
 
-Dernière mise à jour: <2016-02-11 jeu. 12:41>.
+Dernière mise à jour: <2016-02-26 ven. 09:31>
 
 * Précisions sur le signalement de problèmes sur des contenus
 
@@ -176,6 +176,17 @@ Exemple:
   :description "Ajouter des images" 1}
 #+END_QUOTE
 
+* Précisions sur l'utilisation de la plate-forme pour le Web sémantique
+
+La plate-forme doit exposer les données contribuées sous forme de
+données sémantique (sparql endpoint), de façon à ce que ces données
+soient moissonnées par un moteur comme Isidore, ou récupérée
+directement.
+
+Voir http://www.huma-num.fr/sites/default/files/guide-isidore.pdf
+
+Le format exact des données à exposer est à définir.
+
 * Finalisation des spécifications
 
 ** Précisions sur les fonctionnalités WYSIWYG
@@ -328,6 +339,12 @@ il reste à préciser (au moins) trois choses :
 | Voir les badges attribués    | connaître les types de contribution |          |           |
 | Gérer les thématiques (CRUD) | enrichir la plate-forme             |          |           |
 | Gérer les disciplines (CRUD) | enrichir la plate-forme             |          |           |
+*** Utilisateur non-connecté
+
+| Je peux …                                                          | afin de …                                   | Priorité | Chiffrage |
+|--------------------------------------------------------------------+---------------------------------------------+----------+-----------|
+| Interroger un sparql endpoint pour accéder aux données contribuées | Intégrer ses données hors de la plate-forme |          |           |
+
 * Comment encourager les primo-contributeurs ?
 
 ** Établir la liste des primo-contributeurs
