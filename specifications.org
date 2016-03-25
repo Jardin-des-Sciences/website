@@ -156,8 +156,9 @@
 | Gérer les thématiques (CRUD)                                    | enrichir la plate-forme                                  |           |   |   |    |
 | Gérer les disciplines (CRUD)                                    | enrichir la plate-forme                                  |           |   |   |    |
 |-----------------------------------------------------------------+----------------------------------------------------------+-----------+---+---+----|
+| importer depuis d'autres bases [à définir]                      |                                                          |           |   |   |    |
 |                                                                 |                                                          |        70 |   |   | 38 |
-#+TBLFM: @21$3=vsum(@2..@-1)::@21$6=vsum(@2..@-1)
+#+TBLFM: @22$3=vsum(@2..@-1)::@22$6=vsum(@2..@-1)
 
 * À partir des issues Github
 
