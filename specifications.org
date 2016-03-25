@@ -2,60 +2,60 @@
 
 * Utilisateurs
 
-| Je peux …                                                                              | afin de …                                      | Chiffrage |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 |
-| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |      83.5 |
-| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |
-| voir la liste des contributeurs d'un contenu                                           | explorer par association                       |         2 |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        20 |
-| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |         0 |
-| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |         0 |
-| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |
-| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-| voir les réponses à un sondage                                                         | explorer les sondages                          |         4 |
-| télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        40 |
-| imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |
-| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |
-| partager un contenu sur Facebook                                                       | le faire connaître                             |         4 |
-| partager un contenu sur twitter                                                        | le faire connaître                             |         4 |
-| m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |         4 |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 |
-| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |
-| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |
-| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-| lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |         4 |
-| lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |         0 |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-| voir les badges d'un contributeur                                                      | savoir comment il contribue                    |           |
-| filtrer les contenus par droits                                                        | accéder à des contenus libres                  |           |
-| signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |           |
-| signaler un problème technique                                                         | contribuer à améliorer le site                 |           |
-| signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |           |
-| Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |           |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------|
-|                                                                                        |                                                |     248.5 |
+| Je peux …                                                                              | afin de …                                      | Chiffrage | ? |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | ? |
+| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |      83.5 |   |
+| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |   |
+| voir la liste des contributeurs d'un contenu                                           | explorer par association                       |         2 |   |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        20 |   |
+| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |         0 |   |
+| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |         0 |   |
+| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |   |
+| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |   |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+| voir les réponses à un sondage                                                         | explorer les sondages                          |         4 |   |
+| télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        40 |   |
+| imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |   |
+| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |   |
+| partager un contenu sur Facebook                                                       | le faire connaître                             |         4 | ? |
+| partager un contenu sur twitter                                                        | le faire connaître                             |         4 | ? |
+| m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |         4 | ? |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 |   |
+| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |   |
+| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |   |
+| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |   |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+| lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |         4 | ? |
+| lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |         0 |   |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+| voir les badges d'un contributeur                                                      | savoir comment il contribue                    |           |   |
+| filtrer les contenus par droits                                                        | accéder à des contenus libres                  |           |   |
+| signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |           |   |
+| signaler un problème technique                                                         | contribuer à améliorer le site                 |           |   |
+| signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |           |   |
+| Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |           |   |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---|
+|                                                                                        |                                                |     248.5 |   |
 #+TBLFM: @30$3=vsum(@2..@-1)
 
 * Contributeurs
 
 ** Gérer son profil
 
-| Je peux …                                                    | afin de …                                             | Chiffrage |
-|--------------------------------------------------------------+-------------------------------------------------------+-----------|
-| mettre à jour mon profil                                     | corriger des informations me concernant               |         3 |
-| cacher mon compte                                            | pouvoir le réactiver plus tard mais devenir invisible |         6 |
-| effacer tous mes commentaires                                | garder la maîtrise de mes contenus secondaires        |         8 |
-| effacer mon compte*                                          | garder la maîtrise des informations me concernant     |         1 |
-| choisir le mode de réception des notifications               | gérer l'information en "push"                         |         4 |
-| voir l'état d'avancement de mes dossiers en %                | me motiver pour continuer                             |         8 |
-| indiquer si OK pour être contacté par d'autres contributeurs |                                                       |           |
-|--------------------------------------------------------------+-------------------------------------------------------+-----------|
-|                                                              |                                                       |        30 |
+| Je peux …                                                    | afin de …                                             | Chiffrage | ? |
+|--------------------------------------------------------------+-------------------------------------------------------+-----------+---|
+| mettre à jour mon profil                                     | corriger des informations me concernant               |         3 |   |
+| cacher mon compte                                            | pouvoir le réactiver plus tard mais devenir invisible |         6 |   |
+| effacer tous mes commentaires                                | garder la maîtrise de mes contenus secondaires        |         8 | ? |
+| effacer mon compte*                                          | garder la maîtrise des informations me concernant     |         1 |   |
+| choisir le mode de réception des notifications               | gérer l'information en "push"                         |         4 |   |
+| voir l'état d'avancement de mes dossiers en %                | me motiver pour continuer                             |         8 |   |
+| indiquer si OK pour être contacté par d'autres contributeurs |                                                       |           |   |
+|--------------------------------------------------------------+-------------------------------------------------------+-----------+---|
+|                                                              |                                                       |        30 |   |
 #+TBLFM: @9$3=vsum(@2..@-1)
 
 ** Organiser sa veille
@@ -113,58 +113,58 @@
 
 ** Partager
 
-| Je peux …                                                          | afin de …                       | Chiffrage |
-|--------------------------------------------------------------------+---------------------------------+-----------|
-| partager un contenu que je viens d'ajouter sur les réseaux sociaux | faire savoir que je contribue   |         3 |
-| partager un résultat (badge) obtenu via gamification               | faire savoir que je joue        |        32 |
-| interagir via un forum                                             | partager mes interrogations     |        40 |
-| signaler un problème sur un contenu (par ex: droits d'auteur)      | aider les administrateurs       |         4 |
-| soumettre un dossier pour qu'il soit en une                        | signaler un dossier intéressant |         8 |
-|--------------------------------------------------------------------+---------------------------------+-----------|
-|                                                                    |                                 |        87 |
+| Je peux …                                                          | afin de …                       | Chiffrage | ? |
+|--------------------------------------------------------------------+---------------------------------+-----------+---|
+| partager un contenu que je viens d'ajouter sur les réseaux sociaux | faire savoir que je contribue   |         3 | ? |
+| partager un résultat (badge) obtenu via gamification               | faire savoir que je joue        |        32 |   |
+| interagir via un forum                                             | partager mes interrogations     |        40 |   |
+| signaler un problème sur un contenu (par ex: droits d'auteur)      | aider les administrateurs       |         4 |   |
+| soumettre un dossier pour qu'il soit en une                        | signaler un dossier intéressant |         8 | ? |
+|--------------------------------------------------------------------+---------------------------------+-----------+---|
+|                                                                    |                                 |        87 |   |
 #+TBLFM: @7$3=vsum(@2..@-1)
 
 * Administrateurs
 
-| Je peux …                                                       | afin de …                                                | Chiffrage |
-|-----------------------------------------------------------------+----------------------------------------------------------+-----------|
-| me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |         0 |
-| accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |         0 |
-| voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |         0 |
-| faire un nouvel import Gertrude                                 | mettre à jour les données ou les enrichir                |         0 |
-| éditer un contenu : le modifier, le bloquer, changer mdp, etc.  | aider les contributeurs                                  |         0 |
-| éditer un utilisateur (modifier, bloquer, etc.)                 | aider les contributeurs                                  |         0 |
-| modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |         4 |
-|-----------------------------------------------------------------+----------------------------------------------------------+-----------|
-| voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |         8 |
-| voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |         2 |
-| voir les 10 dernières contributions                             | accéder à des statistiques                               |         2 |
-| voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |         2 |
-| voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |         2 |
-| voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |         2 |
-| répartition des consultations par thème                         | accéder à des statistiques                               |        16 |
-| répartition des abonnés par thème                               | accéder à des statistiques                               |        16 |
-| répartition des contributions par thème                         | accéder à des statistiques                               |        16 |
-|-----------------------------------------------------------------+----------------------------------------------------------+-----------|
-| Voir les badges attribués                                       | connaître les types de contribution                      |           |
-| Gérer les thématiques (CRUD)                                    | enrichir la plate-forme                                  |           |
-| Gérer les disciplines (CRUD)                                    | enrichir la plate-forme                                  |           |
-|-----------------------------------------------------------------+----------------------------------------------------------+-----------|
-|                                                                 |                                                          |        70 |
+| Je peux …                                                       | afin de …                                                | Chiffrage | ? |
+|-----------------------------------------------------------------+----------------------------------------------------------+-----------+---|
+| me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |         0 |   |
+| accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |         0 |   |
+| voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |         0 |   |
+| faire un nouvel import Gertrude                                 | mettre à jour les données ou les enrichir                |         0 |   |
+| éditer un contenu : le modifier, le bloquer, changer mdp, etc.  | aider les contributeurs                                  |         0 |   |
+| éditer un utilisateur (modifier, bloquer, etc.)                 | aider les contributeurs                                  |         0 |   |
+| modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |         4 | ? |
+|-----------------------------------------------------------------+----------------------------------------------------------+-----------+---|
+| voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |         8 |   |
+| voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |         2 |   |
+| voir les 10 dernières contributions                             | accéder à des statistiques                               |         2 |   |
+| voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |         2 |   |
+| voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |         2 |   |
+| voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |         2 |   |
+| répartition des consultations par thème                         | accéder à des statistiques                               |        16 |   |
+| répartition des abonnés par thème                               | accéder à des statistiques                               |        16 |   |
+| répartition des contributions par thème                         | accéder à des statistiques                               |        16 |   |
+|-----------------------------------------------------------------+----------------------------------------------------------+-----------+---|
+| Voir les badges attribués                                       | connaître les types de contribution                      |           |   |
+| Gérer les thématiques (CRUD)                                    | enrichir la plate-forme                                  |           |   |
+| Gérer les disciplines (CRUD)                                    | enrichir la plate-forme                                  |           |   |
+|-----------------------------------------------------------------+----------------------------------------------------------+-----------+---|
+|                                                                 |                                                          |        70 |   |
 #+TBLFM: @21$3=vsum(@2..@-1)
 
 * À partir des issues Github
 
-| Issue #      | Résumé               | Heures |
-|--------------+----------------------+--------|
-| #28          | Wysiwyg              |     24 |
-| #29          | Import de documents  |    120 |
-| #35          | Nouvelles maquettes  |     24 |
-| #36          | Type de contenu lien |     24 |
-| #? diaporama | viewerjs             |      8 |
-| #33          | Accessibilité        |     16 |
-|--------------+----------------------+--------|
-|              |                      |    216 |
+| Issue #      | Résumé               | Heures | ? |
+|--------------+----------------------+--------+---|
+| #28          | Wysiwyg              |     24 |   |
+| #29          | Import de documents  |    120 |   |
+| #35          | Nouvelles maquettes  |     24 | ? |
+| #36          | Type de contenu lien |     24 | ? |
+| #? diaporama | viewerjs             |      8 |   |
+| #33          | Accessibilité        |     16 | ? |
+|--------------+----------------------+--------+---|
+|              |                      |    216 |   |
 #+TBLFM: @8$3=vsum(@2..@-1)
 
 * Dans le doc Actency mais pas chez nous
