@@ -112,9 +112,10 @@
 | signaler un problème sur un commentaire                        | contribuer à améliorer le site                            |           |   |   |       |
 | voir les contenus signalés comme problématiques                | intervenir pour résoudre ces problèmes                    |           |   |   |       |
 | importer un document .docx ou .odt comme billet                | pouvoir travailler hors-ligne                             |           |   |   |       |
+| le contributeur reconnaît qu'il sait ce qu'il fait re. droits  | s'assurer que l'utilisateur connaît les droits            |           |   |   |       |
 |----------------------------------------------------------------+-----------------------------------------------------------+-----------+---+---+-------|
 |                                                                |                                                           |     156.5 |   |   | 104.5 |
-#+TBLFM: @19$3=vsum(@2..@-1)::@19$6=vsum(@2..@-1)
+#+TBLFM: @20$3=vsum(@2..@-1)::@20$6=vsum(@2..@-1)
 
 ** Partager
 
