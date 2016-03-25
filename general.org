@@ -1,0 +1,53 @@
+#+TITLE: Cahier des charges - rappels itérations
+
+* Rappel sur les itérations prévues
+
+Le projet est découpé en quatre itérations :
+
+1. identité et socle de données
+2. fonctionnalités et navigation
+3. rôle utilisateurs et contenus
+4. fonctionnalités sociales
+5. Webmastering et recettes
+
+** Fonctions principales
+
+| *Import* des données de bases existantes                          | Itération 1 |
+| *Recherche et navigation* d'un utilisateur au sein de ces données | Itération 2 |
+| *Contribution* des utilisateurs                                   | Itération 3 |
+
+Les utilisateurs peuvent ajouter soit des éléments (une image, une
+ressource documentaire), soit les rassembler en dossiers (nommés «
+collections » dans le cahier des charges initial.)
+
+* Résumé du cahier des charges par itération
+
+** Itération 1 : accès au socle de données
+
+Le cahier des charges de cette première itération :
+
+- Création d'un module d'import des données de Gertrude dans la base
+  de données du portail (ce qui demande d'avoir défini les données qui
+  seront importées -- voir problème du /mapping/.)
+
+- Mise en place d'un système pour l'import des autres bases en
+  fonction de ce que nous savons d'elles (par exemple : quelles
+  technologies sont utilisées pour les bases métiers ?)
+
+- Construction d'une interface minimale sous Drupal pour la navigation
+  au sein des données importées, ce qui demande d'avoir défini quelles
+  données vont être exposées via l'interface.
+
+  Note : l'interface minimale n'a pas besoin de correspondre au
+  storyboarding final du site - c'est juste un "proof of concept"
+  (POC) pour vérifier que les données sont correctement importées et
+  accessibles.
+
+** Itération 2 : navigation dans la base de données
+
+- Finalisation des mockups et du storyboarding.
+
+- Implémentation de l'interface de navigation finale.
+
+** Itération 3 : fonctionnalités contributives
+** Itération 4 : fonctionnalités sociales
