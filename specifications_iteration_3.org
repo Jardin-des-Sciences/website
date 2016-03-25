@@ -1,7 +1,5 @@
 #+TITLE: Notes suite à la réunion JDS/AMO du 28/01/2016
 
-Dernière mise à jour: <2016-02-26 ven. 09:31>
-
 * Précisions sur le signalement de problèmes sur des contenus
 
 Les problèmes à signaler sur les contenus peuvent être de plusieurs
