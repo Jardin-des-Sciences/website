@@ -1,28 +1,6 @@
-#+TITLE: Cahier des charges
+#+TITLE: Cahier des charges - Scénarios d'usage
 
-* Itérations
-
-Le projet est découpé en quatre itérations :
-
-1. identité et socle de données
-2. fonctionnalités et navigation
-3. rôle utilisateurs et contenus
-4. fonctionnalités sociales
-5. Webmastering et recettes
-
-** Fonctions principales
-
-| *Import* des données de bases existantes                          | Itération 1 |
-| *Recherche et navigation* d'un utilisateur au sein de ces données | Itération 2 |
-| *Contribution* des utilisateurs                                   |             |
-
-Les utilisateurs peuvent ajouter soit des éléments (une image, une
-ressource documentaire), soit les rassembler en dossiers (nommés «
-collections » dans le cahier des charges initial.)
-
-* Scénarios d'usage
-
-** Utilisateurs
+* Utilisateurs
 
 | Je peux …                                                                              | afin de …                                      | Priorité | Proposée | Chiffrage |
 |----------------------------------------------------------------------------------------+------------------------------------------------+----------+----------+-----------|
@@ -50,10 +28,16 @@ collections » dans le cahier des charges initial.)
 | valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |        1 |          |           |
 | lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |        3 |          |           |
 | lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |        3 |          |           |
+| voir les badges d'un contributeur                                                      | savoir comment il contribue                    |          |          |           |
+| filtrer les contenus par droits                                                        | accéder à des contenus libres                  |          |          |           |
+| signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |          |          |           |
+| signaler un problème technique                                                         | contribuer à améliorer le site                 |          |          |           |
+| signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |          |          |           |
+| Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |          |          |           |
 
-** Contributeurs
+* Contributeurs
 
-*** Gérer son profil
+** Gérer son profil
 
 | Je peux …                                                    | afin de …                                             | Priorité | Proposée | Chiffrage |
 |--------------------------------------------------------------+-------------------------------------------------------+----------+----------+-----------|
@@ -70,7 +54,7 @@ Note : lors de l'effacement des données du compte, les contributions
 et l'auteur continue d'apparaître comme auteur de la contribution et
 il conserve ses droits d'auteur comme attendu.
 
-*** Organiser sa veille
+** Organiser sa veille
 
 | Je peux …                                                              | afin de …                                    | Priorité | Proposée | Chiffrage |
 |------------------------------------------------------------------------+----------------------------------------------+----------+----------+-----------|
@@ -90,8 +74,10 @@ il conserve ses droits d'auteur comme attendu.
 | partager une liste de suivi avec ceux qui me suivent                   | partager ma veille et encourager à me suivre |        0 |        3 |           |
 | gérer mes listes de suivi (renommer, explorer, recherche, suppression) | organiser ma veille                          |        0 |        3 |           |
 | créer un dossier à partir d'éléments d'une liste de suivi              | inciter à créer des dossiers                 |        0 |        3 |           |
+| avoir mes contributions automatiquement ajoutées à ma liste de suivi   | organiser ma veille                          |          |          |           |
+| Voir mes badges                                                        | savoir où j'en suis                          |          |          |           |
 
-*** Contribuer
+** Contribuer
 
 | Je peux …                                                      | afin de …                                                   | Priorité | Proposée | Chiffrage |
 |----------------------------------------------------------------+-------------------------------------------------------------+----------+----------+-----------|
@@ -107,6 +93,7 @@ il conserve ses droits d'auteur comme attendu.
 | créer une entrée de glossaire                                  | enrichir la plate-forme                                     |        0 |        2 |           |
 | à la publication d'un dossier, forcer la création d'un edito   | obliger à créer un edito pour les dossiers                  |        0 |        2 |           |
 | en créant un dossier, chercher et choisir ses contenus WYSIWYG | faciliter le rassemblement des contenus pour les dossiers   |        1 |          |           |
+| importer un document .docx ou .odt comme billet                | pouvoir travailler hors-ligne                               |          |          |           |
 |----------------------------------------------------------------+-------------------------------------------------------------+----------+----------+-----------|
 | protéger l'accès à un contenu par mot de passe                 | partager ce contenu de façon confidentielle                 |        0 |        3 |           |
 | définir la modération a priori ou a posteriori pour un dossier | indiquer le mode de contribution accepté                    |        0 |        3 |           |
@@ -119,6 +106,10 @@ il conserve ses droits d'auteur comme attendu.
 |----------------------------------------------------------------+-------------------------------------------------------------+----------+----------+-----------|
 | proposer de publier des photos sur une cartographie            |                                                             |        0 |        4 |           |
 | contacter un contributeur                                      | échanger avec lui directement                               |        5 |          |           |
+|----------------------------------------------------------------+-------------------------------------------------------------+----------+----------+-----------|
+| signaler un problème scientifique                              | contribuer à améliorer le site                              |          |          |           |
+| signaler un problème sur un commentaire                        | contribuer à améliorer le site                              |          |          |           |
+| voir les contenus signalés comme problématiques                | intervenir pour résoudre ces problèmes                      |          |          |           |
 
 Pour la création des dossiers, le WYSIWYG est à élaborer : on pourra
 par exemple ajouter des contenus par glisser-déposer, et remplir les
@@ -126,7 +117,7 @@ champs relatifs au dossier de manière guidée (quelques champs sont
 présentés à l'écran avec un système de "paging", plutôt qu'une longue
 page avec tous les champs.)
 
-*** Partager
+** Partager
 
 | Je peux …                                                          | afin de …                       | Priorité | Proposée | Chiffrage |
 |--------------------------------------------------------------------+---------------------------------+----------+----------+-----------|
@@ -137,7 +128,7 @@ page avec tous les champs.)
 |--------------------------------------------------------------------+---------------------------------+----------+----------+-----------|
 | soumettre un dossier pour qu'il soit en une                        | signaler un dossier intéressant |        0 |        4 |           |
 
-** Administrateurs
+* Administrateurs
 
 | Je peux …                                                       | afin de …                                                | Priorité | Proposée | Chiffrage |
 |-----------------------------------------------------------------+----------------------------------------------------------+----------+----------+-----------|
@@ -159,35 +150,7 @@ page avec tous les champs.)
 | répartition des consultations par thème                         | accéder à des statistiques                               |        4 |          |           |
 | répartition des abonnés par thème                               | accéder à des statistiques                               |        4 |          |           |
 | répartition des contributions par thème                         | accéder à des statistiques                               |        4 |          |           |
-
-* Résumé du cahier des charges par itération
-
-** Itération 1 : accès au socle de données
-
-Le cahier des charges de cette première itération :
-
-- Création d'un module d'import des données de Gertrude dans la base
-  de données du portail (ce qui demande d'avoir défini les données qui
-  seront importées -- voir problème du /mapping/.)
-
-- Mise en place d'un système pour l'import des autres bases en
-  fonction de ce que nous savons d'elles (par exemple : quelles
-  technologies sont utilisées pour les bases métiers ?)
-
-- Construction d'une interface minimale sous Drupal pour la navigation
-  au sein des données importées, ce qui demande d'avoir défini quelles
-  données vont être exposées via l'interface.
-
-  Note : l'interface minimale n'a pas besoin de correspondre au
-  storyboarding final du site - c'est juste un "proof of concept"
-  (POC) pour vérifier que les données sont correctement importées et
-  accessibles.
-
-** Itération 2 : navigation dans la base de données
-
-- Finalisation des mockups et du storyboarding.
-
-- Implémentation de l'interface de navigation finale.
-
-** Itération 3 : fonctionnalités contributives
-** Itération 4 : fonctionnalités sociales
+|-----------------------------------------------------------------+----------------------------------------------------------+----------+----------+-----------|
+| Voir les badges attribués                                       | connaître les types de contribution                      |          |          |           |
+| Gérer les thématiques (CRUD)                                    | enrichir la plate-forme                                  |          |          |           |
+| Gérer les disciplines (CRUD)                                    | enrichir la plate-forme                                  |          |          |           |
