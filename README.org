@@ -5,9 +5,13 @@ du Jardin des Sciences.
 
 Il contient :
 
-- une description des fonctions principales
-- une description des fonctionnalités sociales
-- une description des fonctionnalités pour la contribution
-- une description des dépôts importés
-- une description des types de données
+- =iteration_1.org= : la description des types de contenus
+
+- =specifications.org= : la liste des user stories pour les itérations 2
+  et 3
+
+- =iteration_2_et_3.org= : des précisions sur les user stories 2 et 3
+
+- =general.org= : des infos et notes diverses
+
 
