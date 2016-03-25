@@ -354,7 +354,7 @@ il reste à préciser (au moins) trois choses :
 
 ** Les droits des bases de données importées
 
-| Base de données                      | Drotis                |
+| Base de données                      | Droits                |
 |--------------------------------------+-----------------------|
 | BNU                                  | Équivalent "CC-by-nc" |
 | SCD                                  | Équivalent "CC-by-nc" |
@@ -463,12 +463,15 @@ champ est identique pour tous les items importés d'une même base.
 
 La valeur par défaut pour le champ Creative Commons est {-1, -1, -1} -
 c'est-à-dire "N/A", pour dire que seul le champ "Droits d'auteur" est
-pertinent.  La recommandation provisoire (en attente de validation de
-l'Université) pour les contenus contribués est la licence [[http://creativecommons.org/licenses/by-nc-sa/3.0/fr/][CC-by-sa-nc]]
-soit {1,0,1} pour dire "SA s'applique", "ND ne s'applique pas" et "NC
-s'applique".
+pertinent.
 
-Si les deux champs sont incompatible, le champ "Droits d'auteur"
+# FIXME: la VALEUR PAR DÉFAUT est cc-by-sa-nc
+
+La recommandation provisoire pour les contenus contribués est la
+licence [[http://creativecommons.org/licenses/by-nc-sa/3.0/fr/][CC-by-sa-nc]] soit {1,0,1} pour dire "SA s'applique", "ND ne
+s'applique pas" et "NC s'applique".
+
+Si les deux champs sont incompatibles, le champ "Droits d'auteur"
 prime.
 
 *** Les contenus contribués secondaires
@@ -491,12 +494,13 @@ comme l'auteur de ces contenus.
 ** Les droits des contenus collaboratifs
 
 Les collections et éléments ont chaque fois *un seul auteur* et *un seul
-contributeur* : l'auteur est celui indiqué dans le champ "Droits
-d'auteur" et le contributeur est l'utilisateur ayant importé ou ajouté
-ce contenu.
+contributeur* : l'auteur est indiqué dans le champ "Droits d'auteur" et
+le contributeur est l'utilisateur ayant importé ou ajouté ce contenu.
 
 Les éléments et les collections impliquent des contraintes différentes
 pour la gestion des droits d'auteur.
+
+# FIXME: PAS de droits sur les contenus collaboratifs
 
 *** Les éléments
 
@@ -513,22 +517,25 @@ les droits des contenus.
 
 *** Les collections
 
-Les collections (dossiers et parcours) sont les contenus collaboratifs
-de la plate-forme.
+# FIXME: PAS de droits sur les contenus collaboratifs
 
-Les utilisateurs peuvent ajouter des éléments à leurs dossiers en
-fonction des droits de ces éléments.
+Les collections (dossiers et parcours) sont des façons collaboratives
+de présenter des éléments ensemble.  Elles ne donnent pas lieu à un
+droit d'auteur particulier.
 
-Les éléments qu'on peut ajouter à un dossier sont :
+# Les utilisateurs peuvent ajouter des éléments à leurs dossiers en
+# fonction des droits de ces éléments.
 
-- les éléments du domaine public ou
-- les éléments dont on est l'auteur ou
-- les éléments sous licence CC-by, CC-by-sa ou CC-by-sa-nc
+# Les éléments qu'un utilisateur peut ajouter à un dossier sont :
 
-La présence d'une clause ND (non-derivative) dans une licence
-interdirait d'insérer un élément dans un dossier (qui en serait
-"dérivé").  Même chose pour un contenu sous droits d'auteur
-classiques.
+# - les éléments du domaine public ou
+# - les éléments dont il est l'auteur ou
+# - les éléments sous licence CC-by, CC-by-sa ou CC-by-sa-nc
+
+# La présence d'une clause ND (non-derivative) dans une licence
+# interdirait d'insérer un élément dans un dossier (qui en serait
+# "dérivé").  Même chose pour un contenu sous droits d'auteur
+# classiques.
 
 ** Protection par le droit des marques
 
@@ -536,6 +543,22 @@ La marque protège le logo et le nom du site.
 
 [Question ouverte : est-ce que le design est protégé par ce dépôt de
 marque ou par l'Université elle-même ?]
+
+** Retour internes JDS
+
+- AOC : les droits du texte intégral ne sont pas dans les métadonnées
+
+- Si on ne moissonne que les métadonnées, cela simplifie la question
+  des droits.
+
+- Case à cocher par l'utilisation pour dire qu'il sait ce qu'il fait
+  quand il publie un dossier avec plusieurs contenus.
+
+- Dossier avec droits hétéroclites pour les éléments, dans ce cas ce
+  dossier n'a pas de licence en tant que telle.
+
+- Est-ce qu'un utilisateur peut être *auteur* d'un dossier ?  NON.
+
 * Informations sur les normes d'accessibilité
 
 - http://www.accede-web.com : information générale
