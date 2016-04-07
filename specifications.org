@@ -124,11 +124,11 @@
 |--------------------------------------------------------------------+---------------------------------+-----------+---+---+----+---|
 | partager un contenu que je viens d'ajouter sur les réseaux sociaux | faire savoir que je contribue   |         3 | ? |   |  3 |   |
 | partager un résultat (badge) obtenu via gamification               | faire savoir que je joue        |        32 |   | X |  0 |   |
-| interagir via un forum                                             | partager mes interrogations     |        40 |   |   | 40 |   |
+| interagir via un forum                                             | partager mes interrogations     |        40 |   | X |  0 |   |
 | signaler un problème sur un contenu (par ex: droits d'auteur)      | aider les administrateurs       |         4 |   |   |  4 |   |
 | soumettre un dossier pour qu'il soit en une                        | signaler un dossier intéressant |         8 | ? |   |  8 |   |
 |--------------------------------------------------------------------+---------------------------------+-----------+---+---+----+---|
-|                                                                    |                                 |        87 |   |   | 55 |   |
+|                                                                    |                                 |        87 |   |   | 15 |   |
 #+TBLFM: @7$3=vsum(@2..@-1)::@7$6=vsum(@2..@-1)
 
 * Administrateurs
@@ -198,12 +198,12 @@
 | Partie          | Heures scope initial | Heures nouveau scope | Total jours |
 |-----------------+----------------------+----------------------+-------------|
 | Utilisateurs    |                248.5 |                198.5 |             |
-| Contributeurs   |                416.5 |                250.5 |             |
+| Contributeurs   |                416.5 |                210.5 |             |
 | Administrateurs |                   70 |                   38 |             |
 | Tickets Github  |                  216 |                   40 |             |
 | "Leftovers"     |                   75 |                    0 |             |
 |-----------------+----------------------+----------------------+-------------|
-|                 |                1026. |                 527. |   75.285714 |
+|                 |                1026. |                 487. |   69.571429 |
 #+TBLFM: @7$2=vsum(@2..@-1)::@7$3=vsum(@2..@-1)::@7$4=$3/7
 
 * User stories fusionnées
