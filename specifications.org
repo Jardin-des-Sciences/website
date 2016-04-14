@@ -28,7 +28,6 @@
 | imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |   |   |     9 |   |
 | accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |   |   |     2 |   |
 | partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 | ? |   |     4 |   |
-|                                                                                        |                                                |           |   |   |       |   |
 | m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |         4 | ? | X |     0 |   |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
 | me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 | ? |   |     8 |   |
@@ -47,7 +46,7 @@
 | Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |           |   |   |     0 |   |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
 |                                                                                        |                                                |     244.5 |   |   | 196.5 |   |
-#+TBLFM: @30$3=vsum(@2..@-1)::@30$6=vsum(@2..@-1)
+#+TBLFM: @29$3=vsum(@2..@-1)::@29$6=vsum(@2..@-1)
 
 * Contributeurs
 
