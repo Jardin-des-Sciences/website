@@ -13,9 +13,9 @@
 | Je peux …                                                                              | afin de …                                      | Chiffrage | ? | R |     N | P |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
 | accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | ? |   |    56 |   |
-| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |      83.5 |   |   |  83.5 |   |
+| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |      83.5 | ? |   |  83.5 |   |
 | connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |   |   |     8 |   |
-| voir la liste des contributeurs d'un contenu                                           | explorer par association                       |         2 |   | X |     0 |   |
+| voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |   |   |     2 |   |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
 | faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        20 |   |   |    20 |   |
 | faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |         0 |   |   |     0 |   |
@@ -27,11 +27,11 @@
 | télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        40 |   | X |     0 |   |
 | imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |   |   |     9 |   |
 | accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |   |   |     2 |   |
-| partager un contenu sur Facebook                                                       | le faire connaître                             |         4 | ? |   |     4 |   |
-| partager un contenu sur twitter                                                        | le faire connaître                             |         4 | ? |   |     4 |   |
+| partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 | ? |   |     4 |   |
+|                                                                                        |                                                |           |   |   |       |   |
 | m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |         4 | ? | X |     0 |   |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 |   |   |     8 |   |
+| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 | ? |   |     8 |   |
 | me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |   |   |     0 |   |
 | me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |   |   |     0 |   |
 | valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |   |   |     0 |   |
@@ -46,7 +46,7 @@
 | signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |           |   |   |     0 |   |
 | Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |           |   |   |     0 |   |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-|                                                                                        |                                                |     248.5 |   |   | 198.5 |   |
+|                                                                                        |                                                |     244.5 |   |   | 196.5 |   |
 #+TBLFM: @30$3=vsum(@2..@-1)::@30$6=vsum(@2..@-1)
 
 * Contributeurs
@@ -71,15 +71,15 @@
 | Je peux …                                                              | afin de …                                    | Chiffrage | ? | R |  N | P |
 |------------------------------------------------------------------------+----------------------------------------------+-----------+---+---+----+---|
 | accéder au classement des 10 contributeurs les plus actifs             | organiser sa veille                          |         4 |   |   |  4 |   |
-| accéder au classement des 10 derniers commentaires                     | organiser sa veille                          |         4 |   |   |  4 |   |
+| accéder au classement des 10 derniers commentaires                     | organiser sa veille                          |         4 | ? |   |  4 |   |
 | accéder au classement des 10 contributions les plus commentées         | organiser sa veille                          |         4 |   | X |  0 |   |
 | suivre un contributeur                                                 | organiser ma veille                          |         8 |   |   |  8 |   |
-| suivre une thématique                                                  | organiser ma veille                          |        12 |   |   | 12 |   |
+| suivre une thématique                                                  | organiser ma veille                          |        12 | ? |   | 12 |   |
 | recevoir des notifications lors de commentaires sur mes contributions  | suivre mes contributions                     |         4 |   |   |  4 |   |
-| voir une liste de l'ensemble de mes contributions                      | suivre mes contributions                     |        11 |   |   | 11 |   |
+| voir une liste de l'ensemble de mes contributions                      | suivre mes contributions                     |        11 | ? |   | 11 |   |
 |------------------------------------------------------------------------+----------------------------------------------+-----------+---+---+----+---|
 | télécharger un contenu dans son format natif (pdf/jpg/png etc.)        | consulter les contenus hors-ligne            |         0 |   |   |  0 |   |
-| créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |        16 |   |   | 16 |   |
+| créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |        16 | ? |   | 16 |   |
 | ajouter un contenu à une liste de suivi                                | organiser ma veille                          |        16 |   | X |  0 |   |
 | partager une liste de suivi publiquement                               | partager ma veille                           |        16 |   | X |  0 |   |
 | partager une liste de suivi avec ceux qui me suivent                   | partager ma veille et encourager à me suivre |        16 |   | X |  0 |   |
@@ -96,15 +96,15 @@
 
 | Je peux …                                                      | afin de …                                                 | Chiffrage | ? | R |     N | P |
 |----------------------------------------------------------------+-----------------------------------------------------------+-----------+---+---+-------+---|
-| créer un parcours                                              | organiser des éléments dans le temps et l'espace          |        54 |   |   |    54 |   |
+| créer un parcours                                              | organiser des éléments dans le temps et l'espace          |        54 | ? |   |    54 |   |
 | créer un QCM                                                   | enrichir la plate-forme                                   |         2 |   | X |     0 |   |
 | créer un sondage                                               | enrichir la plate-forme                                   |         2 |   | X |     0 |   |
-| créer un événement                                             | enrichir la plate-forme                                   |        11 |   |   |    11 |   |
+| créer un événement                                             | enrichir la plate-forme                                   |        11 | ? |   |    11 |   |
 | créer une entrée de glossaire                                  | enrichir la plate-forme                                   |         2 |   |   |     2 |   |
 | à la publication d'un dossier, forcer la création d'un edito   | obliger à créer un edito pour les dossiers                |         2 |   |   |     2 |   |
 | en créant un dossier, chercher et choisir ses contenus WYSIWYG | faciliter le rassemblement des contenus pour les dossiers |         8 |   |   |     8 |   |
-| protéger l'accès à un contenu par mot de passe                 | partager ce contenu de façon confidentielle               |         6 |   |   |     6 |   |
-| définir la modération a priori ou a posteriori pour un dossier | indiquer le mode de contribution accepté                  |        16 |   |   |    16 |   |
+| protéger l'accès à un contenu par mot de passe                 | partager ce contenu de façon confidentielle               |         6 | ? |   |     6 |   |
+| définir la modération a priori ou a posteriori pour un dossier | indiquer le mode de contribution accepté                  |        16 | ? |   |    16 |   |
 | commenter les billets, dossiers, diaporamas, parcours          | donner son avis / enrichir une discussion                 |         3 |   |   |     3 |   |
 | ajouter un tag/commentaire à un visuel à un endroit précis     | enrichir le visuel de façon précise                       |        16 |   | X |     0 |   |
 | tagger un contenu texte en surlignant un passage du texte      | enrichir le contenu texte de façon précise                |        32 |   | X |     0 |   |
@@ -151,7 +151,7 @@
 | voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |         2 |   |   |  2 |   |
 | répartition des consultations par thème                         | accéder à des statistiques                               |        16 |   | X |  0 |   |
 | répartition des abonnés par thème                               | accéder à des statistiques                               |        16 |   | X |  0 |   |
-| répartition des contributions par thème                         | accéder à des statistiques                               |        16 |   |   | 16 |   |
+| répartition des contributions par thème                         | accéder à des statistiques                               |        16 | ? |   | 16 |   |
 |-----------------------------------------------------------------+----------------------------------------------------------+-----------+---+---+----+---|
 | Voir les badges attribués                                       | connaître les types de contribution                      |           |   |   |    |   |
 | Gérer les thématiques (CRUD)                                    | enrichir la plate-forme                                  |           |   |   |    |   |
@@ -165,15 +165,28 @@
 
 | Issue # | Résumé               | Heures | ? | R |  N | Commentaire                         |
 |---------+----------------------+--------+---+---+----+-------------------------------------|
-| [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]]     | WYSIWYG              |     24 |   |   | 24 |                                     |
+| [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]]     | WYSIWYG              |     24 | ? |   | 24 |                                     |
 | [[https://github.com/Jardin-des-Sciences/website/issues/29][#29]]     | Import de documents  |    120 |   | X |  0 |                                     |
 | [[https://github.com/Jardin-des-Sciences/website/issues/35][#35]]     | Nouvelles maquettes  |     24 | ? |   |  8 | Le chiffrage paraît exagéré         |
 | [[https://github.com/Jardin-des-Sciences/website/issues/36][#36]]     | Type de contenu lien |     24 | ? | X |  0 |                                     |
-| [[https://github.com/Jardin-des-Sciences/website/issues/31][#31]]     | viewerjs             |      8 |   |   |  8 |                                     |
+| [[https://github.com/Jardin-des-Sciences/website/issues/31][#31]]     | viewerjs             |      8 | ? |   |  8 |                                     |
 | [[https://github.com/Jardin-des-Sciences/website/issues/33][#33]]     | Accessibilité        |     16 | ? |   |  0 | Accessibilité comprise dans Drupal? |
 |---------+----------------------+--------+---+---+----+-------------------------------------|
 |         |                      |    216 |   |   | 40 |                                     |
 #+TBLFM: @8$3=vsum(@2..@-1)::@8$6=vsum(@2..@-1)
+
+* Projection du total de nombre de jours
+
+| Partie          | Heures scope initial | Heures nouveau scope | Total jours |
+|-----------------+----------------------+----------------------+-------------|
+| Utilisateurs    |                244.5 |                196.5 |             |
+| Contributeurs   |                416.5 |                210.5 |             |
+| Administrateurs |                   70 |                   38 |             |
+| Tickets Github  |                  216 |                   40 |             |
+| "Leftovers"     |                   75 |                    0 |             |
+|-----------------+----------------------+----------------------+-------------|
+|                 |                1022. |                 485. |   69.285714 |
+#+TBLFM: @7$2=vsum(@2..@-1)::@7$3=vsum(@2..@-1)::@7$4=$3/7
 
 * Dans le doc Actency mais pas chez nous
   
@@ -192,19 +205,6 @@
 |----------------+------------------------------------------------------------------------+-----------------------------------------------+----|
 |                |                                                                        |                                               | 75 |
 #+TBLFM: @12$4=vsum(@2..@-1)
-
-* Projection du total de nombre de jours
-
-| Partie          | Heures scope initial | Heures nouveau scope | Total jours |
-|-----------------+----------------------+----------------------+-------------|
-| Utilisateurs    |                248.5 |                198.5 |             |
-| Contributeurs   |                416.5 |                210.5 |             |
-| Administrateurs |                   70 |                   38 |             |
-| Tickets Github  |                  216 |                   40 |             |
-| "Leftovers"     |                   75 |                    0 |             |
-|-----------------+----------------------+----------------------+-------------|
-|                 |                1026. |                 487. |   69.571429 |
-#+TBLFM: @7$2=vsum(@2..@-1)::@7$3=vsum(@2..@-1)::@7$4=$3/7
 
 * User stories fusionnées
 
