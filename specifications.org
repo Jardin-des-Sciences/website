@@ -10,42 +10,42 @@
 
 * Utilisateurs
 
-| Je peux …                                                                              | afin de …                                      | Chiffrage | ? | R |     N | P |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | ? |   |    56 |   |
-| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |      83.5 | ? |   |  83.5 |   |
-| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |   |   |     8 |   |
-| voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |   |   |     2 |   |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        20 |   |   |    20 |   |
-| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |         0 |   |   |     0 |   |
-| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |         0 |   |   |     0 |   |
-| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |   |   |     0 |   |
-| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |   |   |     0 |   |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| voir les réponses à un sondage                                                         | explorer les sondages                          |         4 |   | X |     0 |   |
-| télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        40 |   | X |     0 |   |
-| imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |   |   |     9 |   |
-| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |   |   |     2 |   |
-| partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 | ? |   |     4 |   |
-| m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |         4 | ? | X |     0 |   |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 | ? |   |     8 |   |
-| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |   |   |     0 |   |
-| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |   |   |     0 |   |
-| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |   |   |     0 |   |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |         4 | ? |   |     4 |   |
-| lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |         0 |   |   |     0 |   |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-| voir les badges d'un contributeur                                                      | savoir comment il contribue                    |           |   |   |     0 |   |
-| filtrer les contenus par droits                                                        | accéder à des contenus libres                  |           |   |   |     0 |   |
-| signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |           |   |   |     0 |   |
-| signaler un problème technique                                                         | contribuer à améliorer le site                 |           |   |   |     0 |   |
-| signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |           |   |   |     0 |   |
-| Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |           |   |   |     0 |   |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+---|
-|                                                                                        |                                                |     244.5 |   |   | 196.5 |   |
+| Je peux …                                                                              | afin de …                                      | Chiffrage | ? | R |     N | Statut                                                 |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | ? |   |    56 | Livré W14 - voir JDS_-_User_Stories_-_Homepage_v2.xlsx |
+| accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …) | le consulter                                   |      83.5 | ? |   |  83.5 |                                                        |
+| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |   |   |     8 |                                                        |
+| voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |   |   |     2 |                                                        |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        20 |   |   |    20 |                                                        |
+| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |         0 |   |   |     0 |                                                        |
+| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |         0 |   |   |     0 |                                                        |
+| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |   |   |     0 |                                                        |
+| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |   |   |     0 |                                                        |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+| voir les réponses à un sondage                                                         | explorer les sondages                          |         4 |   | X |     0 |                                                        |
+| télécharger chacun des contenus (fichier zip pour contenus avec plusieurs éléments)    | explorer un contenu hors ligne                 |        40 |   | X |     0 |                                                        |
+| imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |   |   |     9 |                                                        |
+| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |   |   |     2 |                                                        |
+| partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 | ? |   |     4 |                                                        |
+| m'abonner au flux RSS d'une thématique                                                 | organiser ma veille                            |         4 | ? | X |     0 |                                                        |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 | ? |   |     8 |                                                        |
+| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |   |   |     0 |                                                        |
+| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |   |   |     0 |                                                        |
+| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |   |   |     0 |                                                        |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+| lire les recommandations juridiques du site                                            | être informé de mes droits et devoirs          |         4 | ? |   |     4 |                                                        |
+| lire les recommandations techniques du site : définition optimale, recadrage, etc      | être informé des bonnes pratiques              |         0 |   |   |     0 |                                                        |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+| voir les badges d'un contributeur                                                      | savoir comment il contribue                    |           |   |   |     0 |                                                        |
+| filtrer les contenus par droits                                                        | accéder à des contenus libres                  |           |   |   |     0 |                                                        |
+| signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |           |   |   |     0 |                                                        |
+| signaler un problème technique                                                         | contribuer à améliorer le site                 |           |   |   |     0 |                                                        |
+| signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |           |   |   |     0 |                                                        |
+| Interroger un sparql endpoint pour accéder aux données contribuées                     | Intégrer ses données hors de la plate-forme    |           |   |   |     0 |                                                        |
+|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+---+---+-------+--------------------------------------------------------|
+|                                                                                        |                                                |     244.5 |   |   | 196.5 |                                                        |
 #+TBLFM: @29$3=vsum(@2..@-1)::@29$6=vsum(@2..@-1)
 
 * Contributeurs
@@ -70,7 +70,7 @@
 | Je peux …                                                              | afin de …                                    | Chiffrage | ? | R |  N | P |
 |------------------------------------------------------------------------+----------------------------------------------+-----------+---+---+----+---|
 | accéder au classement des 10 contributeurs les plus actifs             | organiser sa veille                          |         4 |   |   |  4 |   |
-| accéder au classement des 10 derniers commentaires                     | organiser sa veille                          |         4 | ? |   |  4 |   |
+| accéder au classement des 10 derniers commentaires                     | organiser sa veille                          |         4 | ? | X |  0 |   |
 | accéder au classement des 10 contributions les plus commentées         | organiser sa veille                          |         4 |   | X |  0 |   |
 | suivre un contributeur                                                 | organiser ma veille                          |         8 |   |   |  8 |   |
 | suivre une thématique                                                  | organiser ma veille                          |        12 | ? |   | 12 |   |
@@ -88,7 +88,7 @@
 | avoir mes contributions automatiquement ajoutées à ma liste de suivi   | organiser ma veille                          |           |   |   |    |   |
 | Voir mes badges                                                        | savoir où j'en suis                          |           |   |   |    |   |
 |------------------------------------------------------------------------+----------------------------------------------+-----------+---+---+----+---|
-|                                                                        |                                              |       143 |   |   | 75 |   |
+|                                                                        |                                              |       143 |   |   | 71 |   |
 #+TBLFM: @18$3=vsum(@2..@-1)::@18$6=vsum(@2..@-1)
 
 ** Contribuer
