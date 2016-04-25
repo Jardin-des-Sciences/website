@@ -78,8 +78,8 @@
 | voir une liste de l'ensemble de mes contributions                      | suivre mes contributions                     |        11 | ? |   | 11 |   |
 |------------------------------------------------------------------------+----------------------------------------------+-----------+---+---+----+---|
 | télécharger un contenu dans son format natif (pdf/jpg/png etc.)        | consulter les contenus hors-ligne            |         0 |   |   |  0 |   |
-| créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |        16 | ? |   | 16 |   |
-| ajouter un contenu à une liste de suivi                                | organiser ma veille                          |        16 |   | X |  0 |   |
+| créer une ou plusieurs liste(s) de suivi                               | organiser ma veille                          |        16 | ? | X |  0 |   |
+| suivre un contenu (comme on suit une page wikipédia)                   | organiser ma veille                          |        16 |   |   | 16 |   |
 | partager une liste de suivi publiquement                               | partager ma veille                           |        16 |   | X |  0 |   |
 | partager une liste de suivi avec ceux qui me suivent                   | partager ma veille et encourager à me suivre |        16 |   | X |  0 |   |
 | gérer mes listes de suivi (renommer, explorer, recherche, suppression) | organiser ma veille                          |        16 |   | X |  0 |   |
