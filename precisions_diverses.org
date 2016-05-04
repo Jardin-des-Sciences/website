@@ -1,4 +1,4 @@
-#+TITLE: Précisions sur différents points
+#+TITLE: Précisions diverses
 
 * Précisions sur l'utilisation de la plate-forme pour le Web sémantique
 
@@ -166,129 +166,6 @@ Cette fenêtre d'exploration donnerait un aperçu des contenus :
 
 - l'icone représentant un diaporama doit être une miniature d'une
   image de la diapositive.
-
-* Précisions sur les aspects de gamification et la liste des badges
-
-Voir https://groups.drupal.org/node/248868 pour l'implémentation Open
-Badges.
-
-Listes des actions de contribution, de leur importance et des seuils
-pour les "badges" (bronze/argent/or) :
-
-|                                                | Importance (/5) | Badge ?  | Points | Type           |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Créer un dossier                               |               5 | 1/2/5    |        | Contenu        |
-| Créer un parcours                              |               5 | 1/2/5    |        | Contenu        |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Ajouter un billet                              |               4 | 1/5/10   |        | Contenu        |
-| Ajouter un visuel                              |               4 | 1/5/10   |        | Contenu        |
-| Ajouter une ressource vidéo                    |               4 | 1/5/10   |        | Contenu        |
-| Ajouter une ressource diaporama                |               4 | 1/5/10   |        | Contenu        |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Ajouter un élément à un dossier                |               3 | 1/10/20  |        | Contenu        |
-| Ajouter un élément à un parcours               |               3 | 1/10/20  |        | Contenu        |
-| Créer une entrée de glossaire                  |               3 | 1/10/20  |        | Contenu        |
-| Créer une question éditorialisée               |             2.5 | 1/15/30  |        | Contenu/Social |
-| Créer une entrée de FAQ                        |             2.5 | 1/15/30  |        | Contenu/Social |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Créer un lien                                  |               2 | 1/20/40  |        | Contenu        |
-| Créer un événement                             |               2 | 1/20/40  |        | Social         |
-| Renseigner son profil à 80%                    |               2 | 10       |        | Social         |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Faire un commentaire                           |               1 | 1/25/50  |        | Social         |
-| Poser une question sur le forum                |               1 | 1/25/50  |        | Social         |
-| Répondre à une question sur le forum           |               1 | 1/25/50  |        | Social         |
-| Soumettre un dossier/parcours pour être en une |               1 | 1/25/50  |        | Contenu/social |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Suivre un autre utilisateurs                   |              .5 | 1/50/100 |        | Social         |
-| Être suivi par d'autres utilisateurs           |              .5 | 1/50/100 |        | Social         |
-|------------------------------------------------+-----------------+----------+--------+----------------|
-| Faire remonter des problèmes                   |               1 | 1/25/50  |        | Contenu        |
-
-(Voir la [[http://meta.stackexchange.com/questions/67397/list-of-all-badges-with-full-descriptions][liste des badges]] de Stackoverflow pour des idées.)
-
-On peut distinguer deux types de contributions, celles qui portent sur
-les contenus, celles qui portent sur les interactions sociales.  Par
-exemple : quelqu'un de peu suivi peut en revanche ajouter beaucoup de
-contenus, quelqu'un d'assez suivi peut ajouter des contenus avec
-parcimonie, etc.
-
-Le système de badge doit valoriser ces deux aspects de façon lisible.
-
-Par exemple, dès qu'un contributeur publie un dossier, il obtient 5
-points (équivalent au niveau d'importance de la création de dossier.)
-Au dossier suivant, encore 5 autres points.  Il ajoute un commentaire,
-un point supplémentaire.  Etc.
-
-Il y a d'un côté les points obtenus pour les contributions à des
-contenus, de l'autre les points obtenus pour des contributions
-sociales.  Les contributions double (portant sur le contenu et le
-social, comme les questions éditorialisées) donnent des points dans
-les deux catégories.
-
-** Fonction des badges
-
-Les points et les badges sont purement déclaratifs : ils ne permettent
-pas aux contributeurs d'accéder à des fonctions ou statuts particuliers.
-
-Du point de vue de l'interface, les badges ont trois effets :
-
-1. ils s'affichent quand un utilisateur en obtient un ;
-2. ils sont affichés dans le profil utilisateur ;
-3. les administrateurs peuvent tous les voir.
-
-Chaque accomplissement donne lieu à une alerte remerciant le
-contributeur pour sa contribution et lui indiquant le badge obtenu.
-
-** Qualificatifs (optionnel)
-
-Dans les contributions sociales, plusieurs profils :
-
-- le "curieux" : pose beaucoup de questions
-- "l'aidant" : propose beaucoup de réponses
-- le "liant" : organise des événements, contribue aux FAQs
-- le "leader" : est suivi par de nombreux utilisateurs
-- le "participant" : suit de nombreux utilisateurs
-
-Nous pourrons soit proposer ces qualifiatifs directement (comme sur
-Stackoverflow), soit les afficher en fonction des badges obtenus par
-ailleurs.
-
-** Utilité réelle des badges
-
-Le but n'est pas de "gamifier" complètement la plate-forme, mais
-d'avoir des repères (1) si les primo-contributeurs imaginent des
-récompenses intéressantes pour les contributeurs ou (2) si les
-administrateurs veulent s'adresser à un profil de contributeurs
-particulier.
-
-Par exemple, on teste une nouvelle fonctionnalité de forum : on
-enverra un mail aux 100 utilisateurs ayant le plus de points dans la
-catégorie "contribution sociale".
-
-Ou bien on organise un colloque, on invite les 100 contributeurs ayant
-le plus de points dans la catégorie contenu.
-* Précisions sur la liste des attentes
-
-/Citation mail bzg 8 janvier :/
-
-#+BEGIN_QUOTE
-   La "Liste des attentes" est une sorte de wishlist que l'auteur d'un
-   dossier peut ajouter.  Il formule des demandes et si les futurs
-   contributeurs y répondent, il les "coche".  Ça permet de connaître
-   les besoins sur un projet, et l'état d'avancement.
-#+END_QUOTE
-
-Concrètement, une liste d'attente est un ensemble ordonné d'items
-possédant chacun deux champs : un champ texte "description" et un
-champ binaire 0/1 (pas fait / fait).
-
-Exemple:
-
-#+BEGIN_QUOTE
-#{:description "Corriger les fautes" 0
-  :description "Ajouter des images" 1}
-#+END_QUOTE
 
 * Comment encourager les primo-contributeurs ?
 
@@ -476,6 +353,7 @@ marque ou par l'Université elle-même ?]
 - http://references.modernisation.gouv.fr : référence gouvernement
 - http://paypal.github.io/bootstrap-accessibility-plugin/demo.html :
   plugin pour bootstrap
+
 * Liste des pages statiques
 
 - Conditions Générales d'utilisation
@@ -485,3 +363,189 @@ marque ou par l'Université elle-même ?]
 - Page d'explications pour la question des droits d'auteur et des
   licences.
   
+* Fonctionnalités « gelées »
+** Précisions sur les aspects de gamification et la liste des badges
+
+ Voir https://groups.drupal.org/node/248868 pour l'implémentation Open
+ Badges.
+
+ Listes des actions de contribution, de leur importance et des seuils
+ pour les "badges" (bronze/argent/or) :
+
+ |                                                | Importance (/5) | Badge ?  | Points | Type           |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Créer un dossier                               |               5 | 1/2/5    |        | Contenu        |
+ | Créer un parcours                              |               5 | 1/2/5    |        | Contenu        |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Ajouter un billet                              |               4 | 1/5/10   |        | Contenu        |
+ | Ajouter un visuel                              |               4 | 1/5/10   |        | Contenu        |
+ | Ajouter une ressource vidéo                    |               4 | 1/5/10   |        | Contenu        |
+ | Ajouter une ressource diaporama                |               4 | 1/5/10   |        | Contenu        |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Ajouter un élément à un dossier                |               3 | 1/10/20  |        | Contenu        |
+ | Ajouter un élément à un parcours               |               3 | 1/10/20  |        | Contenu        |
+ | Créer une entrée de glossaire                  |               3 | 1/10/20  |        | Contenu        |
+ | Créer une question éditorialisée               |             2.5 | 1/15/30  |        | Contenu/Social |
+ | Créer une entrée de FAQ                        |             2.5 | 1/15/30  |        | Contenu/Social |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Créer un lien                                  |               2 | 1/20/40  |        | Contenu        |
+ | Créer un événement                             |               2 | 1/20/40  |        | Social         |
+ | Renseigner son profil à 80%                    |               2 | 10       |        | Social         |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Faire un commentaire                           |               1 | 1/25/50  |        | Social         |
+ | Poser une question sur le forum                |               1 | 1/25/50  |        | Social         |
+ | Répondre à une question sur le forum           |               1 | 1/25/50  |        | Social         |
+ | Soumettre un dossier/parcours pour être en une |               1 | 1/25/50  |        | Contenu/social |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Suivre un autre utilisateurs                   |              .5 | 1/50/100 |        | Social         |
+ | Être suivi par d'autres utilisateurs           |              .5 | 1/50/100 |        | Social         |
+ |------------------------------------------------+-----------------+----------+--------+----------------|
+ | Faire remonter des problèmes                   |               1 | 1/25/50  |        | Contenu        |
+
+ (Voir la [[http://meta.stackexchange.com/questions/67397/list-of-all-badges-with-full-descriptions][liste des badges]] de Stackoverflow pour des idées.)
+
+ On peut distinguer deux types de contributions, celles qui portent sur
+ les contenus, celles qui portent sur les interactions sociales.  Par
+ exemple : quelqu'un de peu suivi peut en revanche ajouter beaucoup de
+ contenus, quelqu'un d'assez suivi peut ajouter des contenus avec
+ parcimonie, etc.
+
+ Le système de badge doit valoriser ces deux aspects de façon lisible.
+
+ Par exemple, dès qu'un contributeur publie un dossier, il obtient 5
+ points (équivalent au niveau d'importance de la création de dossier.)
+ Au dossier suivant, encore 5 autres points.  Il ajoute un commentaire,
+ un point supplémentaire.  Etc.
+
+ Il y a d'un côté les points obtenus pour les contributions à des
+ contenus, de l'autre les points obtenus pour des contributions
+ sociales.  Les contributions double (portant sur le contenu et le
+ social, comme les questions éditorialisées) donnent des points dans
+ les deux catégories.
+
+*** Fonction des badges
+
+ Les points et les badges sont purement déclaratifs : ils ne permettent
+ pas aux contributeurs d'accéder à des fonctions ou statuts particuliers.
+
+ Du point de vue de l'interface, les badges ont trois effets :
+
+ 1. ils s'affichent quand un utilisateur en obtient un ;
+ 2. ils sont affichés dans le profil utilisateur ;
+ 3. les administrateurs peuvent tous les voir.
+
+ Chaque accomplissement donne lieu à une alerte remerciant le
+ contributeur pour sa contribution et lui indiquant le badge obtenu.
+
+*** Qualificatifs (optionnel)
+
+ Dans les contributions sociales, plusieurs profils :
+
+ - le "curieux" : pose beaucoup de questions
+ - "l'aidant" : propose beaucoup de réponses
+ - le "liant" : organise des événements, contribue aux FAQs
+ - le "leader" : est suivi par de nombreux utilisateurs
+ - le "participant" : suit de nombreux utilisateurs
+
+ Nous pourrons soit proposer ces qualifiatifs directement (comme sur
+ Stackoverflow), soit les afficher en fonction des badges obtenus par
+ ailleurs.
+
+*** Utilité réelle des badges
+
+ Le but n'est pas de "gamifier" complètement la plate-forme, mais
+ d'avoir des repères (1) si les primo-contributeurs imaginent des
+ récompenses intéressantes pour les contributeurs ou (2) si les
+ administrateurs veulent s'adresser à un profil de contributeurs
+ particulier.
+
+ Par exemple, on teste une nouvelle fonctionnalité de forum : on
+ enverra un mail aux 100 utilisateurs ayant le plus de points dans la
+ catégorie "contribution sociale".
+
+ Ou bien on organise un colloque, on invite les 100 contributeurs ayant
+ le plus de points dans la catégorie contenu.
+
+** Précisions sur la liste des attentes
+
+ /Citation mail bzg 8 janvier :/
+
+ #+BEGIN_QUOTE
+    La "Liste des attentes" est une sorte de wishlist que l'auteur d'un
+    dossier peut ajouter.  Il formule des demandes et si les futurs
+    contributeurs y répondent, il les "coche".  Ça permet de connaître
+    les besoins sur un projet, et l'état d'avancement.
+ #+END_QUOTE
+
+ Concrètement, une liste d'attente est un ensemble ordonné d'items
+ possédant chacun deux champs : un champ texte "description" et un
+ champ binaire 0/1 (pas fait / fait).
+
+ Exemple:
+
+ #+BEGIN_QUOTE
+ #{:description "Corriger les fautes" 0
+   :description "Ajouter des images" 1}
+ #+END_QUOTE
+
+* Rappel sur les itérations prévues
+
+Le projet est découpé en quatre itérations :
+
+1. identité et socle de données
+2. fonctionnalités et navigation
+3. rôle utilisateurs et contenus
+4. fonctionnalités sociales
+5. Webmastering et recettes
+
+** Fonctions principales
+
+| *Import* des données de bases existantes                          | Itération 1 |
+| *Recherche et navigation* d'un utilisateur au sein de ces données | Itération 2 |
+| *Contribution* des utilisateurs                                   | Itération 3 |
+
+Les utilisateurs peuvent ajouter soit des éléments (une image, une
+ressource documentaire), soit les rassembler en dossiers (nommés «
+collections » dans le cahier des charges initial.)
+
+* Résumé du cahier des charges par itération
+
+** Itération 1 : accès au socle de données
+
+Le cahier des charges de cette première itération :
+
+- Création d'un module d'import des données de Gertrude dans la base
+  de données du portail (ce qui demande d'avoir défini les données qui
+  seront importées -- voir problème du /mapping/.)
+
+- Mise en place d'un système pour l'import des autres bases en
+  fonction de ce que nous savons d'elles (par exemple : quelles
+  technologies sont utilisées pour les bases métiers ?)
+
+- Construction d'une interface minimale sous Drupal pour la navigation
+  au sein des données importées, ce qui demande d'avoir défini quelles
+  données vont être exposées via l'interface.
+
+  Note : l'interface minimale n'a pas besoin de correspondre au
+  storyboarding final du site - c'est juste un "proof of concept"
+  (POC) pour vérifier que les données sont correctement importées et
+  accessibles.
+
+** Itération 2 : navigation dans la base de données
+
+- Finalisation des mockups et du storyboarding.
+
+- Implémentation de l'interface de navigation finale.
+
+** Itération 3 : fonctionnalités contributives
+** Itération 4 : fonctionnalités sociales
+* Notes diverses
+
+- En page d'accueil, un affichage aléatoire pondéré sur l'ancienneté
+  des billets et dossiers potentiellement à la une : les billets et
+  dossiers les plus récents ont le plus de chances d'être tirés au
+  hasard (voir [[https://github.com/Jardin-des-Sciences/website/issues/3][ticket #3]]).
+
+- La vue dossier doit permettre de faire défiler les images d'un
+  dossier comme s'il s'agissait d'un diaporama - voir [[https://github.com/Jardin-des-Sciences/website/issues/1][ticket #1]].
+

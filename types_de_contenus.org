@@ -1,24 +1,6 @@
-#+TITLE: Archives itération 1
+#+TITLE: Définition des différents types de contenus
 
-* Types de dépôts à importer
-
-| Dépôt                                | Techno                       | Autre source Web |
-|--------------------------------------+------------------------------+------------------|
-| Gertrude                             | XML Gertrude                 |                  |
-| BNU                                  | XML Unimarc / Dublin Core    |                  |
-| BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
-| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
-|--------------------------------------+------------------------------+------------------|
-| Musée de Zoologie                    | ?                            | Webmuseo         |
-| Herbier                              | ? (Excel?)                   |                  |
-| Jardin botanique                     | ? (Excel?)                   |                  |
-
-*Note* : Numistral repose sur Gallica Marque Blanche.  Gallica propose
-l'intégration et l'exposition de données suivant le protocole OAI-PMH
-(voir [[http://www.bnf.fr/documents/Guide_oaipmh.pdf][ce document]]), donc on peut s'attendre à ce que les données de
-Numistral soient récupérables selon ce protocole.
-
-* Types de contenus
+* Définitions
 
 Le travail sur les types de contenus est nécessaire pour les
 itérations 1 et 2 : en itération 1, ce travail permet de savoir quels
@@ -53,12 +35,12 @@ Les types de contenus marqués "Champ simple avec auto-complétion" =
 Champ simple avec auto-complétion sur les mots clés déjà présent en
 base, avec possibilité d'en ajouter si le mot saisi n'existe pas).
 
-** Types de contenus importés
+* Types de contenus importés
 
 Les données importées sont celles en provenance des dépôts listés plus
 haut.
 
-*** Ressource documentaire (l'équivalent d'un "dossier" dans le cas de Gertrude)
+** Ressource documentaire (l'équivalent d'un "dossier" dans le cas de Gertrude)
 
 *Attention* : les « dossiers » du JDS sont éditorialisés, peuvent
 combiner des contenus importés avec des contenus contributifs, etc.
@@ -112,12 +94,12 @@ Exemple de « ressources documentaires :
 SA-ND-NC = partage à l'identique, partage à l'identique, droits de
 commercialisation.
 
-** Types de contenus contribués
+* Types de contenus contribués
 
 Les données /contribuées/ sont celles ajoutées depuis le portail, soit
 par l'équipe du site web, soit par les contributeurs.
 
-*** Dossier
+** Dossier
 
 | Libellé                         | Type de champ                                                         |
 |---------------------------------+-----------------------------------------------------------------------|
@@ -150,7 +132,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Liens connexes                  | Champ simple avec auto-completion sur le type de contenu "Lien"       |
 | Géolocalisation                 | Adresse ? Coordonnées ?                                               |
 
-*** Parcours
+** Parcours
 
 | Libellé                  | Type de champ                                                                     |
 |--------------------------+-----------------------------------------------------------------------------------|
@@ -161,7 +143,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Dossier joint            | [Dossier]                                                                         |
 | "Trajectoire"            | Liste (potentiellement) ordonnée d'éléments géolocalisés constitutifs du parcours |
 
-*** Billet
+** Billet
 
 | Libellé                   | Type de champ                                                         |
 |---------------------------+-----------------------------------------------------------------------|
@@ -189,7 +171,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
 | Géolocalisation           | Adresse ? Coordonnées ?                                               |
 
-*** Événement
+** Événement
 
 | Libellé              | Type de champ                                                     |
 |----------------------+-------------------------------------------------------------------|
@@ -211,7 +193,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Géolocalisation      | Adresse ? Coordonnées ?                                           |
 | Participants         | Liste de participants                                             |
 
-*** Sondage
+** Sondage
 
 | Libellé             | Type de champ |
 |---------------------+---------------|
@@ -223,7 +205,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Question 2          |               |
 | ...                 |               |
 
-*** QCM
+** QCM
 
 | Libellé               | Type de champ |
 |-----------------------+---------------|
@@ -235,7 +217,7 @@ par l'équipe du site web, soit par les contributeurs.
 | - réponse 2           |               |
 | Question 2            |               |
 
-*** Questions éditorialisées (questions de science)
+** Questions éditorialisées (questions de science)
 
 Exemples de questions :
 
@@ -252,7 +234,7 @@ Exemples de questions :
 | Droits d'auteur (licence) | Valeur du site               |
 | SA-ND-NC*                 | Boolean sur plusieurs champs |
 
-*** Entrée de glossaire
+** Entrée de glossaire
 
 | Libellé                   | Type de champ                                                   |
 |---------------------------+-----------------------------------------------------------------|
@@ -269,7 +251,7 @@ Exemples de questions :
 | Géolocalisation           | Adresse ? Coordonnées ?                                         |
 | Mots-clés                 | Champ simple avec auto-complétion                               |
 
-*** FAQ
+** FAQ
 
 | Libellé                   | Type de champ                |
 |---------------------------+------------------------------|
@@ -278,7 +260,7 @@ Exemples de questions :
 | Droits d'auteur (licence) | Valeur par défaut du site    |
 | SA-ND-NC*                 | Boolean sur plusieurs champs |
 
-*** Lien
+** Lien
 
 | Libellé                   | Type de champ                                                       |
 |---------------------------+---------------------------------------------------------------------|
@@ -292,12 +274,12 @@ Exemples de questions :
 | Nom du contributeur       | Champ simple                                                        |
 | Géolocalisation           | Adresse ? Coordonnées ?                                             |
 
-** Type de contenus importés ou contribués
+* Type de contenus importés ou contribués
 
 Ces contenus sont soit importés depuis une base de données, soit
 ajoutés par les utilisateurs.
 
-*** Visuel
+** Visuel
 
 | Libellé                                  | Type de champ                     |
 |------------------------------------------+-----------------------------------|
@@ -335,7 +317,7 @@ ajoutés par les utilisateurs.
 | - ISBD                                   | Champ simple                      |
 | - auteur                                 | Champ simple                      |
 
-*** Vidéo
+** Vidéo
 
 | Libellé                                  | Type de champ                     |
 |------------------------------------------+-----------------------------------|
@@ -362,7 +344,7 @@ ajoutés par les utilisateurs.
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
 | Géolocalisation                          | Adresse ? Coordonnées ?           |
 
-*** Audio
+** Audio
 
 | Libellé                                  | Type de champ                     |
 |------------------------------------------+-----------------------------------|
@@ -384,7 +366,7 @@ ajoutés par les utilisateurs.
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
 | Géolocalisation                          | Adresse ? Coordonnées ?           |
 
-*** Diaporama
+** Diaporama
 
 | Libellé                                  | Type de champ                                                       |
 |------------------------------------------+---------------------------------------------------------------------|
@@ -403,8 +385,7 @@ ajoutés par les utilisateurs.
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                             |
 
-** NEXT Gestion des types de contenus
-   SCHEDULED: <2015-11-02 lun.>
+* Gestion des types de contenus
 
 L'administrateur du site peut choisir pour chaque type de contenu s'il
 active :
@@ -413,5 +394,3 @@ active :
 - les commentaires
 - les boutons de partage
 - le téléchargement
-
-

@@ -1,0 +1,20 @@
+
+
+* Types de dépôts à importer
+
+| Dépôt                                | Techno                       | Autre source Web |
+|--------------------------------------+------------------------------+------------------|
+| Gertrude                             | XML Gertrude                 |                  |
+| BNU                                  | XML Unimarc / Dublin Core    |                  |
+| BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
+| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
+|--------------------------------------+------------------------------+------------------|
+| Musée de Zoologie                    | ?                            | Webmuseo         |
+| Herbier                              | ? (Excel?)                   |                  |
+| Jardin botanique                     | ? (Excel?)                   |                  |
+
+*Note* : Numistral repose sur Gallica Marque Blanche.  Gallica propose
+l'intégration et l'exposition de données suivant le protocole OAI-PMH
+(voir [[http://www.bnf.fr/documents/Guide_oaipmh.pdf][ce document]]), donc on peut s'attendre à ce que les données de
+Numistral soient récupérables selon ce protocole.
+

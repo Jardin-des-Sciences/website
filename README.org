@@ -1,17 +1,5 @@
 #+TITLE: JDS Cahier des charges
 
-Ce dépôt contient le brouillon de cahier des charges pour le portail
-du Jardin des Sciences.
-
-Il contient :
-
-- =iteration_1.org= : la description des types de contenus
-
-- =specifications.org= : la liste des user stories pour les itérations 2
-  et 3
-
-- =iteration_2_et_3.org= : des précisions sur les user stories 2 et 3
-
-- =general.org= : des infos et notes diverses
-
+Ce dépôt contient le cahier des charges pour le portail du Jardin des
+Sciences.
 
