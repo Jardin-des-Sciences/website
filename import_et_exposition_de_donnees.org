@@ -92,24 +92,33 @@ Ces données seront structurées selon la norme Dublin Core.
 
 ** Import des données
 
-1. mapping des données des données sur la structure de la base OscaHr
-   - à partir d'un fichier de la base zoologie
-   - à partir d'un fichier de l'herbier
-   - à partir d'un mot-clé pour AOC
-   - à partir d'un mot-clé pour BNU
+1. Faire correspondre les données à la structure de la base OscaHr
+   - à partir des fichiers de la base zoologie et de l'herbier
+   - à partir des méta-données AOC et BNU pour les différents types de
+     résultats renvoyés
 
-2. Pré-traitement des fichiers .xls(x) pour automatiser l'import de
-   .csv
+2. Pré-traiter les fichiers .xls(x) pour faire correspondre leurs
+   champs avec ceux de la base OscaHr
 
-3. Tests d'import semi-manuel avec un script qui prend en entrée un
-   fichier .csv issu du prétraitement et qui injecte les données dans
-   la base OscaHr.
+3. Importer les données
+   - via un script qui prend en entrée un fichier .csv
+   - via un script qui prend en entrée les données renvoyées AOC, BNU
+
+Répartition :
+
+1 et 2 sont faits par le JDS, 3 est fait par Actency.
 
 ** Exposition des données via un SPARQL endpoint
 
-1. mapping depuis la structure de la base vers la norme Dublin Core
+1. Mapper la structure de la base OscaHr vers la norme Dublin Core.
 
-2. mise en place technique du SPARQL endpoint
+2. Mettre en place techniquement le SPARQL endpoint.
 
-3. test de conformité des données exposées (sont-elles moissonnables,
-   sont-elles dans le bon format, etc.)
+3. Tester la conformité des données exposées (sont-elles
+   moissonnables, sont-elles dans le bon format, etc.)
+
+Répartition :
+
+- 1 est fait par JDS.
+- 2 est fait par Actency.
+- 3 est fait par l'AMO.
