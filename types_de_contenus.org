@@ -21,14 +21,14 @@ Les types de contenus se divisent en deux grandes parties :
 |--------------------------+---------|
 | Les contenus contribués  | Exemple |
 |--------------------------+---------|
-| Dossier                  | TDB     |
-| Parcours                 | TDB     |
-| Billet                   | TDB     |
-| Événement                | TDB     |
-| Entrée de glossaire      | TDB     |
-| Questions éditorialisées | TDB     |
-| FAQ                      | TDB     |
-| Lien                     | TDB     |
+| Dossier                  | TBD     |
+| Parcours                 | TBD     |
+| Billet                   | TBD     |
+| Événement                | TBD     |
+| Entrée de glossaire      | TBD     |
+| Questions éditorialisées | TBD     |
+| FAQ                      | TBD     |
+| Lien                     | TBD     |
 |--------------------------+---------|
 
 Les types de contenus marqués "Champ simple avec auto-complétion" =
