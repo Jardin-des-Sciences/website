@@ -1,20 +1,115 @@
+#+TITLE: Import et exposition des données d'OscaHr
 
+* Tableau de synthèse des différentes bases de données à importer
 
-* Types de dépôts à importer
+| Source        | Thématique        | Format                | Protocol d'échange | Support d'échange | Méthode d'import | URL cible            | Contenus    |
+|---------------+-------------------+-----------------------+--------------------+-------------------+------------------+----------------------+-------------|
+| Gertrude      | Sismologie        | XML                   | Fichiers zip       | Fichiers          | Manuel           | Aucune               | Données     |
+| Base zoologie | Biodiversité      | .xls(x)               | Fichiers .xls(x)   | Fichiers          | Manuel           | Aucune               | Données     |
+| Herbier       | Biodiversité      | .xls(x)               | Fichiers .xls(x)   | Fichiers          | Manuel           | Aucune               | Données     |
+| AOC           | Sismo. et biodiv. | XML/MODS et DC        | OAI-PMH            | Internet          | Automatisé       | univoak.fr (à venir) | Métadonnées |
+| BNU+SCD       | Sismo. et biodiv. | XML/Unimarc XML ou DC | SRU ou OAI         | Internet          | Automatisé       | Cf "Unistra" dessous | Métadonnées |
 
-| Dépôt                                | Techno                       | Autre source Web |
-|--------------------------------------+------------------------------+------------------|
-| Gertrude                             | XML Gertrude                 |                  |
-| BNU                                  | XML Unimarc / Dublin Core    |                  |
-| BNU et Bibli. Num. patrimoniale      | OAI-PMH (Numistral fin 2015) |                  |
-| Archives Ouvertes de la Connaissance | OAI-PMH (Fedora) ou API      |                  |
-|--------------------------------------+------------------------------+------------------|
-| Musée de Zoologie                    | ?                            | Webmuseo         |
-| Herbier                              | ? (Excel?)                   |                  |
-| Jardin botanique                     | ? (Excel?)                   |                  |
+* Méthodes pour les différents imports
 
-*Note* : Numistral repose sur Gallica Marque Blanche.  Gallica propose
-l'intégration et l'exposition de données suivant le protocole OAI-PMH
-(voir [[http://www.bnf.fr/documents/Guide_oaipmh.pdf][ce document]]), donc on peut s'attendre à ce que les données de
-Numistral soient récupérables selon ce protocole.
+- Gertrude : l'import se faire depuis l'interface du portail, qui
+  permet d'injecter les données d'un fichier zip dans la base.
 
+- Base zoologie et Herbier : import manuel après mapping des champs du fichier
+  .xlsx sur les champs pertinents de la base de données OscaHr.
+
+- AOC et BNU+SCD : l'import se fait en plusieurs étapes :
+  - tests des mots-clés pertinents (fait)
+  - collect des méta-données des résultats fournis par les mots-clés
+  - mapping des champs avec ceux de la base OscaHr
+  - filtrage des données extraite en fonction du mapping
+  - import des données filtrées
+
+* Unistra : récupération des (méta-)données
+
+Caractéristiques du serveur SRU pour les notices des bibliothèques 
+universitaires de Strasbourg sur bu.unistra.fr :
+
+: Serveur : http://bu.unistra.fr/opac/sru
+: Port : 80
+: User : non présent
+: Mot de passe : non présent
+: Nom de la base : non applicable
+: Format MARC : Unimarc XML (recordSchema=unimarcxml), ou Marc21 XML (recordSchema=marcxml)
+: Format Dublin Core :  recordSchema=dc
+: Encodage : UTF-8
+
+Exemple de recherche sur tout le titre ([[http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=dc.title%2520any%2520arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml][lien direct]]) :
+
+: http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=dc.title%20any%20arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml
+
+Exemple de recherche libre ([[http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=local.libera=arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml][lien direct]]) :
+
+: http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=local.libera=arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml
+
+Les champs interrogeables, de type DC, sont les suivants (avec la
+correspondance des champs SebinaYOU) :
+
+: dc.creator=AutEnteDesc (auteur)
+: dc.title=TitoloBase2 (titre)
+: dc.subject=XSOGG (sujet)
+: dc.description=TitoloBase2 (titre)
+: dc.publisher=EditoreDescr (éditeur)
+: dc.contributor=AutEnteDesc (auteur)
+: dc.date=AnnoPubbl (année de publication)
+: dc.type=TipoMateriale (Type de matériel)
+: dc.identifier=idOpac (identifiant OPAC)
+: dc.language=Lingua (langue) ainsi que local.libera (sur tous les champs)
+
+* Mots-clés à utiliser pour les données Unistra (bu.unistra.fr)
+
+** Biodiversité
+
+- biodiversité
+- écosystème
+- herbier
+- botanique
+- naturaliste
+- jardin botanique
+
+Possibilité d'utiliser les mots-clés "écologie", "système", "risque"
+et "histoire naturelle", mais les termes doivent encore être précisés.
+
+** Sismologie
+
+- sismo* (troncature)
+- seism* (troncature)
+- tremblement de terre
+
+* Exposition des données
+
+Les données primaires du portail OscaHr doivent être exposées à l'aide
+d'un SPARQL endpoint.
+
+Ces données seront structurées selon la norme Dublin Core.
+
+* À faire
+
+** Import des données
+
+1. mapping des données des données sur la structure de la base OscaHr
+   - à partir d'un fichier de la base zoologie
+   - à partir d'un fichier de l'herbier
+   - à partir d'un mot-clé pour AOC
+   - à partir d'un mot-clé pour BNU
+
+2. Pré-traitement des fichiers .xls(x) pour automatiser l'import de
+   .csv
+
+3. Tests d'import semi-manuel avec un script qui prend en entrée un
+   fichier .csv issu du prétraitement et qui injecte les données dans
+   la base OscaHr.
+
+** Exposition des données via un SPARQL endpoint
+
+1. mapping depuis la structure de la base vers la norme Dublin Core
+
+2. mise en place technique du SPARQL endpoint
+
+3. test de conformité des données exposées (sont-elles moissonnables,
+   sont-elles dans le bon format, etc.)
