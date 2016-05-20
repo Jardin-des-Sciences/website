@@ -8,39 +8,33 @@ types de contenus importer depuis les dépôts, en itération 2, ce
 travail permet de savoir quelles données exposer via l'interface de
 navigation.
 
-Les types de contenus se divisent en deux grandes parties :
+Les types de contenus se divisent en trois groupes :
 
-|--------------------------+---------|
-| Les contenus importés    | Exemple |
-|--------------------------+---------|
-| Ressource documentaire   | TBD     |
-| Visuel                   | TBD     |
-| Vidéo                    | TBD     |
-| Audio                    | TBD     |
-| Diaporama                | TBD     |
-|--------------------------+---------|
-| Les contenus contribués  | Exemple |
-|--------------------------+---------|
-| Dossier                  | TBD     |
-| Parcours                 | TBD     |
-| Billet                   | TBD     |
-| Événement                | TBD     |
-| Entrée de glossaire      | TBD     |
-| Questions éditorialisées | TBD     |
-| FAQ                      | TBD     |
-| Lien                     | TBD     |
-|--------------------------+---------|
+| Type de contenu        | Importé ? | Contributif ? |
+|------------------------+-----------+---------------|
+| Ressource documentaire | Oui       | Non           |
+| Visuel                 | Oui       | Oui           |
+| Vidéo                  | Oui       | Oui           |
+| Audio                  | Oui       | Oui           |
+| Diaporama              | Oui       | Oui           |
+| Dossier                | Non       | Oui           |
+| Parcours               | Non       | Oui           |
+| Billet                 | Non       | Oui           |
+| Lien                   | Non       | Oui           |
+| Événement              | Non       | Oui           |
+| Entrée de glossaire    | Non       | Oui           |
 
-Les types de contenus marqués "Champ simple avec auto-complétion" =
-Champ simple avec auto-complétion sur les mots clés déjà présent en
-base, avec possibilité d'en ajouter si le mot saisi n'existe pas).
+Dans les tableaux ci-dessous, "Champ simple avec auto-complétion"
+signifie que le champ propose l'auto-complétion sur les mots-clés déjà
+existants dans la base, avec la possibilité d'en ajouter d'autres si
+le mot-clé saisi n'existe pas dans la base.
 
 * Types de contenus importés
 
-Les données importées sont celles en provenance des dépôts listés plus
-haut.
+Les données importées sont celles en provenance des dépôts listés dans
+le fichier import_et_exposition_de_donnees.org.
 
-** Ressource documentaire (l'équivalent d'un "dossier" dans le cas de Gertrude)
+** Ressource documentaire
 
 *Attention* : les « dossiers » du JDS sont éditorialisés, peuvent
 combiner des contenus importés avec des contenus contributifs, etc.
@@ -93,6 +87,22 @@ Exemple de « ressources documentaires :
 
 SA-ND-NC = partage à l'identique, partage à l'identique, droits de
 commercialisation.
+
+** Visuel
+
+Voir plus bas dans « Types de contenus importés ou contribués ».
+
+** Audio
+
+Voir plus bas dans « Types de contenus importés ou contribués ».
+
+** Vidéo
+
+Voir plus bas dans « Types de contenus importés ou contribués ».
+
+** Diaporama
+
+Voir plus bas dans « Types de contenus importés ou contribués ».
 
 * Types de contenus contribués
 
@@ -193,47 +203,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Géolocalisation      | Adresse ? Coordonnées ?                                           |
 | Participants         | Liste de participants                                             |
 
-** Sondage
-
-| Libellé             | Type de champ |
-|---------------------+---------------|
-| Nom du contributeur | Champ simple  |
-| Thème               | Champ simple  |
-| Question 1          |               |
-| - réponse 1         |               |
-| - réponse 2         |               |
-| Question 2          |               |
-| ...                 |               |
-
-** QCM
-
-| Libellé               | Type de champ |
-|-----------------------+---------------|
-| Nom du contributeur   | Champ simple  |
-| Thème                 | Champ simple  |
-| Décompte par question | Durée         |
-| Question 1            |               |
-| - réponse 1           |               |
-| - réponse 2           |               |
-| Question 2            |               |
-
-** Questions éditorialisées (questions de science)
-
-Exemples de questions :
-
-- Qu'est-ce qu'une onde S ? 
-- Pourquoi le ciel est bleu ?
-
-| Libellé                   | Type de champ                |
-|---------------------------+------------------------------|
-| Thème                     | Champ simple                 |
-| Question                  | WYSIWYG                      |
-| Visuel                    | WYSIWYG                      |
-| Réponse du chercheur      | WYSIWYG                      |
-| Nom du contributeur       | Champ simple                 |
-| Droits d'auteur (licence) | Valeur du site               |
-| SA-ND-NC*                 | Boolean sur plusieurs champs |
-
 ** Entrée de glossaire
 
 | Libellé                   | Type de champ                                                   |
@@ -251,15 +220,6 @@ Exemples de questions :
 | Géolocalisation           | Adresse ? Coordonnées ?                                         |
 | Mots-clés                 | Champ simple avec auto-complétion                               |
 
-** FAQ
-
-| Libellé                   | Type de champ                |
-|---------------------------+------------------------------|
-| Question                  | Champ simple                 |
-| Réponse                   | WYSIWYG                      |
-| Droits d'auteur (licence) | Valeur par défaut du site    |
-| SA-ND-NC*                 | Boolean sur plusieurs champs |
-
 ** Lien
 
 | Libellé                   | Type de champ                                                       |
@@ -274,7 +234,7 @@ Exemples de questions :
 | Nom du contributeur       | Champ simple                                                        |
 | Géolocalisation           | Adresse ? Coordonnées ?                                             |
 
-* Type de contenus importés ou contribués
+* Types de contenus importés ou contribués
 
 Ces contenus sont soit importés depuis une base de données, soit
 ajoutés par les utilisateurs.
@@ -385,12 +345,4 @@ ajoutés par les utilisateurs.
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                             |
 
-* Gestion des types de contenus
 
-L'administrateur du site peut choisir pour chaque type de contenu s'il
-active :
-
-- les tags
-- les commentaires
-- les boutons de partage
-- le téléchargement
