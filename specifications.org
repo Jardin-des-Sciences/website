@@ -9,15 +9,15 @@
 | voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |           |
 | accéder à une page pour tous les autres types de contenu                               | le consulter                                   |           |           |
 | accéder à une page consacrée à un diaporama (voir [[https://github.com/Jardin-des-Sciences/website/issues/31][#31]])                                 | le consulter                                   |         8 |           |
-| faire une recherche par mots-clés                                                      | accéder à la liste/carte des résultats         |        20 |           |
+| faire une recherche par mots-clés                                                      | accéder à la liste des résultats               |        20 |           |
 | imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |           |
 | naviguer sur un site qui répond aux normes d'accessibilité en vigueur                  | être conforme aux normes d'accessibilité       |        16 |           |
 | connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |           |
 | partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 |           |
 | me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 |           |
 | accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |           |
-| faire une recherche par thématique                                                     | accéder à la liste/carte des résultats         |         0 |           |
-| faire une recherche par type de contenus                                               | accéder à la liste/carte des résultats         |         0 |           |
+| faire une recherche par thématique                                                     | accéder à la liste des résultats               |         0 |           |
+| faire une recherche par type de contenus                                               | accéder à la liste des résultats               |         0 |           |
 | faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |           |
 | trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |           |
 | parcourir les résultats de recherche                                                   | accéder à la liste des résultats de recherche  |           |           |
@@ -39,7 +39,7 @@
 
 | Je peux …                                                            | afin de …                                                 | Chiffrage | Statut |
 |----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-| créer un dossier à partir d'éléments d'une liste de suivi            | inciter à créer des dossiers                              |        16 |        |
+| créer un dossier à partir d'éléments de ma liste de suivi            | inciter à créer des dossiers                              |        16 |        |
 | définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |        |
 | en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |        |
 | soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |        |
@@ -48,11 +48,11 @@
 | créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
 | créer un événement                                                   | enrichir la plate-forme                                   |        11 |        |
 | créer une entrée de glossaire                                        | enrichir la plate-forme                                   |         2 |        |
-| ajouter un contenu de type diaporama                                 | enrichir la plate-forme                                   |           |        |
+| ajouter un contenu de type diaporama (upload d'un pdf)               | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type vidéo                                     | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu à une liste de suivi                              | organiser ma veille                                       |        16 |        |
+| ajouter un contenu à ma liste de suivi                               | organiser ma veille                                       |        16 |        |
 | suivre une thématique                                                | organiser ma veille                                       |        12 |        |
 | suivre un contributeur                                               | organiser ma veille                                       |         8 |        |
 | voir une liste de l'ensemble de mes contributions                    | suivre mes contributions                                  |        11 |        |
@@ -67,7 +67,7 @@
 | mettre à jour mon profil                                             | corriger des informations me concernant                   |         3 |        |
 | commenter les billets, dossiers, diaporamas, parcours                | donner son avis / enrichir une discussion                 |         3 |        |
 | partager un contenu que je viens d'ajouter sur les réseaux sociaux   | faire savoir que je contribue                             |         3 |        |
-| contacter un contributeur                                            | échanger avec lui directement                             |       2.5 |        |
+| contacter un contributeur via sa page de profil                      | échanger avec lui directement                             |       2.5 |        |
 | à la publication d'un dossier, forcer la création d'un edito         | obliger à créer un edito pour les dossiers                |         2 |        |
 | indiquer si OK pour être contacté par d'autres contributeurs         | favoriser la contribution                                 |         0 |        |
 | télécharger un contenu dans son format natif (pdf/jpg/png etc.)      | consulter les contenus hors-ligne                         |         0 |        |
@@ -77,7 +77,7 @@
 | voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes                    |         0 |        |
 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
 |----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-|                                                                      |                                                           |     206.5 |        |
+| Total                                                                |                                                           |     206.5 |        |
 #+TBLFM: @39$3=vsum(@2..@-1)
 
 * Administrateurs
@@ -91,7 +91,6 @@
 | voir les 10 dernières contributions                             | accéder à des statistiques                               |         2 |        |
 | voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |         2 |        |
 | voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |         2 |        |
-| voir l'état d'avancement de tous les dossiers                   | intervenir pour aider à avancer                          |         2 |        |
 | me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |         0 |        |
 | accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |         0 |        |
 | voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |         0 |        |
@@ -101,8 +100,8 @@
 | éditer la liste des domaines pour la prévalidation des compteds | gérer les contributeurs                                  |           |        |
 | faire un nouvel import depuis une autre base de données         | mettre à jour les données ou les enrichir                |           |        |
 |-----------------------------------------------------------------+----------------------------------------------------------+-----------+--------|
-| Total                                                           |                                                          |        38 |        |
-#+TBLFM: @18$3=vsum(@2..@-1)
+| Total                                                           |                                                          |        36 |        |
+#+TBLFM: @17$3=vsum(@2..@-1)
 
 * Projection du total de nombre de jours
 
@@ -113,7 +112,7 @@ sur à la date du 20 mai.
 |-----------------+---------------+------+-----------|
 | Utilisateurs    |         164.5 |  116 |         7 |
 | Contributeurs   |         206.5 |      |        30 |
-| Administrateurs |            38 |      |         5 |
+| Administrateurs |            36 |      |         5 |
 |-----------------+---------------+------+-----------|
-|                 |          409. |  116 |        42 |
+|                 |          407. |  116 |        42 |
 #+TBLFM: $4=round(($2-$3)/7)::@5$2=vsum(@2..@-1)::@5$3=vsum(@2..@-1)
