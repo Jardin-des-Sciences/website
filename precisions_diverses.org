@@ -299,7 +299,9 @@ compte sur Osca(h)r.
 ** Champs de création de compte et permissions sur Facebook/Twitter
 
 Lors de la création de compte par mail, seul un champ "adresse email"
-est présenté à l'utilisateur.
+est présenté à l'utilisateur.  Tant que l'email saisie dans ce champ
+n'est pas conforme, l'utilisateur ne peut valider sa demande de
+création de compte.
 
 Lors de la création de compte via Facebook ou Twitter, la seule
 permission demandée à l'utilisateur "Accéder aux informations de base
