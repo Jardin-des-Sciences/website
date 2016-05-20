@@ -1,0 +1,23 @@
+Je peux …,Chiffrage,Question
+accéder à une page d'accueil qui présente l'actualité,56,(En cours)
+accéder à une page consacrée à un contenu (billets / dossiers / diaporamas / vidéos …),"83,5",(En cours de découpage)
+"partager un contenu sur les réseaux sociaux (Facebook, Twitter)",4,Existe en natif ?
+partager un contenu que je viens d'ajouter sur les réseaux sociaux,3,Module existant ?
+me créer un compte comme contributeur par email,8,Existe en natif ?
+lire les recommandations juridiques du site,4,Pour création d'une page ?
+mettre à jour mon profil,3,"En natif, juste paramétrage ?"
+effacer tous mes commentaires,8,"En natif, ou bien juste module ?"
+accéder au classement des 10 derniers commentaires,4,En natif ?
+suivre une thématique,12,Quel est le dev custom ici ?
+voir une liste de l'ensemble de mes contributions,11,En natif dans les CMS en général ?
+créer une ou plusieurs liste(s) de suivi,16,Chiffrage très sécurisé ?
+créer un parcours,54,Besoin de détails
+créer un événement,11,En natif (implémenté sprint W15)?
+protéger l'accès à un contenu par mot de passe,6,Paramétrage ou module?
+définir la modération a priori ou a posteriori pour un dossier,16,Paramétrage ou module?
+soumettre un dossier pour qu'il soit en une,8,"En natif, ou bien module?"
+modérer les commentaires en attente de modération un par un,4,En natif sur tous les CMS?
+répartition des contributions par thème,16,Besoin de visibilité/découpage
+https://github.com/Jardin-des-Sciences/website/issues/28 (WYSIWYG),24,Besoin de visibilité/découpage
+https://github.com/Jardin-des-Sciences/website/issues/35 (Nouvelles maquettes),24,3 maquettes = 3 jours ?
+https://github.com/Jardin-des-Sciences/website/issues/31 (Viewerjs),8,Juste installation/paramètrage?
