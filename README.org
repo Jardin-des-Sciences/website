@@ -1,5 +1,18 @@
-#+TITLE: JDS Cahier des charges
+#+TITLE: JDS Cahier des charges fonctionnel
 
-Ce dépôt contient le cahier des charges pour le portail du Jardin des
-Sciences.
+Ce dépôt contient le cahier des charges fonctionnel pour *Osca(h)r*.
+
+Voici la liste des fichiers :
+
+- types_de_contenus.org :: contient la présentation des différents
+     types de contenus, avec la liste des champs pour chaque type.
+
+- specifications.org :: contient les /User stories/ montrant les
+     fonctions attendues du site.
+
+- precisions_diverses.org :: contient des précisions détaillant
+     certains aspects fonctionnels des /Users stories/.
+
+- import_et_exposition_de_donnees.org :: contient des précisions sur
+     les bases de données à importer et sur les données à exposer.
 
