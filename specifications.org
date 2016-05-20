@@ -43,6 +43,7 @@
 | définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |        |
 | en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |        |
 | soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |        |
+| proposer d'ajouter un élément à un dossier ou un parcours            | enrichir la plate-forme                                   |           |        |
 | créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |        |
 | créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
 | créer un événement                                                   | enrichir la plate-forme                                   |        11 |        |
@@ -77,7 +78,7 @@
 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
 |----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
 |                                                                      |                                                           |     206.5 |        |
-#+TBLFM: @38$3=vsum(@2..@-1)
+#+TBLFM: @39$3=vsum(@2..@-1)
 
 * Administrateurs
 

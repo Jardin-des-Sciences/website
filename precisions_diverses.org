@@ -172,10 +172,10 @@ les auteur(s), la source et dire
 - si c'est du domaine public
 - si j'ai besoin d'aide pour savoir*
 
-*=> entraîne un signalement de type "droits d'auteur à vérifier.
+*=> entraîne un signalement de type "droits d'auteur à vérifier".
 
-Si le contenu appartient au contributeur, on lui propose par défaut
-la licence Creative Commons CC-by-sa-nc 4.0, mais il peut choisir une
+Si le contenu appartient au contributeur, on lui propose par défaut la
+licence Creative Commons CC-by-sa-nc 4.0, mais il peut choisir une
 autre licence Creative Commons :
 
 - Creative Commons BY 4.0 :: similaire au domaine public, n'obligeant
@@ -203,8 +203,8 @@ Les indications qui concernent les droits d'auteur sont stockées dans
 deux champs pour les contenus primaires: le champ "Droits d'auteur
 (licence)" et le champ SA-ND-NC*.
 
-La valeur par défaut pour le champ Creative Commons est {1, 0, 1},
-qui correspond à la licence Creative Commons by-sa-nc.
+La valeur par défaut pour le champ Creative Commons est {1, 0, 1}, qui
+correspond à la licence Creative Commons by-sa-nc.
 
 Une valeur standard pour le champ Droits d'auteur est "© Jardin de
 botanique de Fontainebleau" indiquant à qui appartiennent les droits
@@ -231,14 +231,16 @@ Les CGU précisent que les contributeurs sont responsables :
 Le site fonctionne comme un hébergeur des contenus contribués, non
 comme l'auteur de ces contenus.
 
+
 ** Droits d'auteur sur les différents contenus
 
-Les collections et éléments ont chaque fois *un seul auteur* et *un seul
-contributeur* : l'auteur est indiqué dans le champ "Droits d'auteur" et
-le contributeur est l'utilisateur ayant importé ou ajouté ce contenu.
+Les éléments ont un seul auteur et n'ont pas de contributeurs.
 
-Les éléments et les collections impliquent des contraintes différentes
-pour la gestion des droits d'auteur.
+Les collections (dossiers et parcours) ont un seul auteur (celui qui
+crée la collection) et peuvent avoir plusieurs contributeurs ; un
+contributeur d'une collection est un utilisateur qui ajoute ou propose
+d'ajouter un élément, selon que la modération est a posteriori ou a
+priori.
 
 *** Droits d'auteur sur les éléments
 
@@ -251,14 +253,21 @@ Si un utilisateur contribue à un élément avec du contenu secondaire
 Si un utilisateur contribue à un élément avec un conseil pris en
 compte par le contributeur de l'élément (par exemple une légende sur
 une image, une correction de faute d'orthographe), cela n'affecte pas
-les droits des contenus.
+les droits de l'élément.
 
 *** Droits d'auteur sur les collections
 
 Les collections (dossiers et parcours) sont des façons collaboratives
 de /présenter/ des éléments.  Elles ne constituent pas une oeuvre
-originale laquelle permettrait à un contributeur de solliciter des
-droits particulier.
+originale qui permettrait à son contributeur initial ou aux suivants
+de solliciter des droits particulier.
+
+Le champ "Droits d'auteur (licence)" pour les dossiers et les parcours
+désigne les droits s'appliquant pour les éléments dont les droits ne
+sont pas précisés.
+
+Si des droits sont précisés pour les éléments, ceux-ci ont priorité
+sur les droits des collections.
 
 *** Droits d'auteur sur les ressources documentaires
 

@@ -347,3 +347,12 @@ ajoutés par les utilisateurs.
 
 * Champs du profil utilisateur
 
+| Libellé JDS                 | Type de champ                         | Commentaire |
+|-----------------------------+---------------------------------------+-------------|
+| Prénom                      | Champ texte                           |             |
+| Nom                         | Champ texte                           |             |
+| Adresse email               | Champ texte                           |             |
+| Institution de rattachement | Liste (taxinomie)                     |             |
+|-----------------------------+---------------------------------------+-------------|
+| Discipline                  | Liste (taxinomie)                     |             |
+| Centres d'intérêts          | Liste (taxinomie) à partir des thèmes |             |
