@@ -4,7 +4,7 @@
 
 | Je peux …                                                                              | afin de …                                      | Chiffrage | Statut    |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+-----------|
-| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | Livré W14 |
+| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | Livré W15 |
 | accéder à une page consacrée à un billet ou un dossier                                 | le consulter                                   |      83.5 | Livré W20 |
 | voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |           |
 | accéder à une page pour tous les autres types de contenu                               | le consulter                                   |           |           |
@@ -32,7 +32,7 @@
 | signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |         0 |           |
 | Interroger un sparql endpoint pour accéder aux données d'Osca(h)r                      | Intégrer ses données hors de la plate-forme    |           |           |
 |----------------------------------------------------------------------------------------+------------------------------------------------+-----------+-----------|
-|                                                                                        |                                                |     164.5 |           |
+| Total                                                                                  |                                                |     164.5 |           |
 #+TBLFM: @29$3=vsum(@3..@-1)
 
 * Contributeurs
@@ -46,8 +46,6 @@
 | proposer d'ajouter un élément à un dossier ou un parcours            | enrichir la plate-forme                                   |           |        |
 | créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |        |
 | créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
-| créer un événement                                                   | enrichir la plate-forme                                   |        11 |        |
-| créer une entrée de glossaire                                        | enrichir la plate-forme                                   |         2 |        |
 | ajouter un contenu de type diaporama (upload d'un pdf)               | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |        |
@@ -77,8 +75,8 @@
 | voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes                    |         0 |        |
 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
 |----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-| Total                                                                |                                                           |     206.5 |        |
-#+TBLFM: @39$3=vsum(@2..@-1)
+| Total                                                                |                                                           |     193.5 |        |
+#+TBLFM: @37$3=vsum(@2..@-1)
 
 * Administrateurs
 
@@ -111,8 +109,8 @@ sur à la date du 20 mai.
 | Partie          | Nouveau scope | Fait | Total RAF |
 |-----------------+---------------+------+-----------|
 | Utilisateurs    |         164.5 |  116 |         7 |
-| Contributeurs   |         206.5 |      |        30 |
+| Contributeurs   |         193.5 |      |        28 |
 | Administrateurs |            36 |      |         5 |
 |-----------------+---------------+------+-----------|
-|                 |          407. |  116 |        42 |
+| Total           |          394. |  116 |        40 |
 #+TBLFM: $4=round(($2-$3)/7)::@5$2=vsum(@2..@-1)::@5$3=vsum(@2..@-1)
