@@ -1,4 +1,4 @@
-#+TITLE: JDS Cahier des charges fonctionnel
+#+TITLE: Cahier des charges fonctionnel de la plateforme Osca(h)r
 
 Ce dépôt contient le cahier des charges fonctionnel pour *Osca(h)r*.
 

@@ -43,11 +43,12 @@
 | définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |        |
 | en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |        |
 | soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |        |
-| créer un parcours                                                    | organiser des éléments dans le temps et l'espace          |        54 |        |
+| créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |        |
+| créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
 | créer un événement                                                   | enrichir la plate-forme                                   |        11 |        |
 | créer une entrée de glossaire                                        | enrichir la plate-forme                                   |         2 |        |
 | ajouter un contenu de type diaporama                                 | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu de type visuel                                    | enrichir la plate-forme                                   |           |        |
+| ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu de type vidéo                                     | enrichir la plate-forme                                   |           |        |
 | ajouter un contenu à une liste de suivi                              | organiser ma veille                                       |        16 |        |
@@ -76,7 +77,7 @@
 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
 |----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
 |                                                                      |                                                           |     206.5 |        |
-#+TBLFM: @37$3=vsum(@2..@-1)
+#+TBLFM: @38$3=vsum(@2..@-1)
 
 * Administrateurs
 
@@ -94,12 +95,13 @@
 | accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |         0 |        |
 | voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |         0 |        |
 | faire un import de données depuis un XML de Gertrude            | mettre à jour les données ou les enrichir                |         0 |        |
-| faire un nouvel import depuis une autre base de données         | mettre à jour les données ou les enrichir                |           |        |
 | éditer un contenu (le modifier, le bloquer, changer mdp, etc.)  | aider les contributeurs                                  |         0 |        |
 | éditer un utilisateur (le modifier, le bloquer, etc.)           | aider les contributeurs                                  |         0 |        |
+| éditer la liste des domaines pour la prévalidation des compteds | gérer les contributeurs                                  |           |        |
+| faire un nouvel import depuis une autre base de données         | mettre à jour les données ou les enrichir                |           |        |
 |-----------------------------------------------------------------+----------------------------------------------------------+-----------+--------|
 | Total                                                           |                                                          |        38 |        |
-#+TBLFM: @17$3=vsum(@2..@-1)
+#+TBLFM: @18$3=vsum(@2..@-1)
 
 * Projection du total de nombre de jours
 

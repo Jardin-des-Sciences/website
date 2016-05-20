@@ -1,0 +1,12 @@
+#+TITLE: Contenus statiques
+
+* Liste des pages statiques
+
+- Conditions Générales d'utilisation
+
+- Présentation générale du site (équivalent de About)
+
+- Page d'explications pour la question des droits d'auteur et des
+  licences.
+  
+

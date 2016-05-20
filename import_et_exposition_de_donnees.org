@@ -122,3 +122,6 @@ Répartition :
 - 1 est fait par JDS.
 - 2 est fait par Actency.
 - 3 est fait par l'AMO.
+* Documents de référence
+
+Voir http://www.huma-num.fr/sites/default/files/guide-isidore.pdf

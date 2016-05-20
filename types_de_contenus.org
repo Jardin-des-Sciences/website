@@ -345,4 +345,5 @@ ajoutés par les utilisateurs.
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                             |
 
+* Champs du profil utilisateur
 
