@@ -21,8 +21,6 @@ Les types de contenus se divisent en trois groupes :
 | Parcours               | Non       | Oui           |
 | Billet                 | Non       | Oui           |
 | Lien                   | Non       | Oui           |
-| Événement              | Non       | Oui           |
-| Entrée de glossaire    | Non       | Oui           |
 
 Dans les tableaux ci-dessous, "Champ simple avec auto-complétion"
 signifie que le champ propose l'auto-complétion sur les mots-clés déjà
@@ -180,45 +178,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
 | Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
 | Géolocalisation           | Adresse ? Coordonnées ?                                               |
-
-** Événement
-
-| Libellé              | Type de champ                                                     |
-|----------------------+-------------------------------------------------------------------|
-| Titre                | Champ simple                                                      |
-| Titre court          | Champ texte limité à 70 caractères                                |
-| Thème                | Liste (Taxinomie)                                                 |
-| Date de publication  | Calendrier                                                        |
-| Discipline           | Liste (Taxinomie)                                                 |
-| Description courte   | WYSIWYG [max 500 caractères]                                      |
-| Description longue   | WYSIWYG [max 3000 caractères]                                     |
-| Date de début        | Calendrier                                                        |
-| Date de fin          | Calendrier                                                        |
-| Lieu                 | Champ simple                                                      |
-| Nom du contributeur  | Champ simple                                                      |
-| Contact organisateur | Champ simple                                                      |
-| Type d'évènement     | Liste (Taxinomie)                                                 |
-| Visuels connexes     | Champ simple avec auto-completion sur le type de contenu "visuel" |
-| Mots-clés            | Champ simple avec auto-complétion                                 |
-| Géolocalisation      | Adresse ? Coordonnées ?                                           |
-| Participants         | Liste de participants                                             |
-
-** Entrée de glossaire
-
-| Libellé                   | Type de champ                                                   |
-|---------------------------+-----------------------------------------------------------------|
-| Mot                       | Champ simple                                                    |
-| Définition                | WYSIWYG ou insertion vidéo                                      |
-| Date de publication       | Calendrier                                                      |
-| Date de mise à jour       | Calendrier                                                      |
-| Thème                     | Liste (taxinomie)                                               |
-| Discipline                | Liste (taxinomie)                                               |
-| Nom du contributeur       | Champ simple                                                    |
-| Droits d'auteur (licence) | Valeur par défaut                                               |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                    |
-| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien" |
-| Géolocalisation           | Adresse ? Coordonnées ?                                         |
-| Mots-clés                 | Champ simple avec auto-complétion                               |
 
 ** Lien
 
