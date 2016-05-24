@@ -2,104 +2,104 @@
 
 * Utilisateurs
 
-| Je peux …                                                                              | afin de …                                      | Chiffrage | Statut    |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+-----------|
-| accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | Livré W15 |
-| accéder à une page consacrée à un billet ou un dossier                                 | le consulter                                   |      83.5 | Livré W20 |
-| voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |           |
-| accéder à une page pour tous les autres types de contenu                               | le consulter                                   |           |           |
-| accéder à une page consacrée à un diaporama (voir [[https://github.com/Jardin-des-Sciences/website/issues/31][#31]])                                 | le consulter                                   |         8 |           |
-| faire une recherche par mots-clés                                                      | accéder à la liste des résultats               |        20 |           |
-| imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |           |
-| naviguer sur un site qui répond aux normes d'accessibilité en vigueur                  | être conforme aux normes d'accessibilité       |        16 |           |
-| connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |           |
-| partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 |           |
-| me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 |           |
-| accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |           |
-| faire une recherche par thématique                                                     | accéder à la liste des résultats               |         0 |           |
-| faire une recherche par type de contenus                                               | accéder à la liste des résultats               |         0 |           |
-| faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |           |
-| trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |           |
-| parcourir les résultats de recherche                                                   | accéder à la liste des résultats de recherche  |           |           |
-| me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |           |
-| me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |           |
-| valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |           |
-| lire les recommandations juridiques du site (droits d'auteur, etc.)                    | être informé de mes droits et devoirs          |         4 |           |
-| lire les recommandations techniques du site (définition optimale, recadrage, etc.)     | être informé des bonnes pratiques              |         0 |           |
-| filtrer les contenus par licence                                                       | accéder à des contenus libres                  |         0 |           |
-| signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |         0 |           |
-| signaler un problème technique                                                         | contribuer à améliorer le site                 |         0 |           |
-| signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |         0 |           |
-| Interroger un sparql endpoint pour accéder aux données d'Osca(h)r                      | Intégrer ses données hors de la plate-forme    |           |           |
-|----------------------------------------------------------------------------------------+------------------------------------------------+-----------+-----------|
-| Total                                                                                  |                                                |     164.5 |           |
-#+TBLFM: @29$3=vsum(@3..@-1)
+|    | Je peux …                                                                              | afin de …                                      | Chiffrage | Statut    |
+|----+----------------------------------------------------------------------------------------+------------------------------------------------+-----------+-----------|
+|  1 | accéder à une page d'accueil qui présente l'actualité                                  | être tenu au courant des derniers contenus     |        56 | Livré W15 |
+|  2 | accéder à une page consacrée à un billet ou un dossier                                 | le consulter                                   |      83.5 | Livré W20 |
+|  3 | voir la liste des contributeurs d'un dossier ou d'un parcours                          | explorer par association                       |         2 |           |
+|  4 | accéder à une page pour tous les autres types de contenu                               | le consulter                                   |           |           |
+|  5 | accéder à une page consacrée à un diaporama (voir [[https://github.com/Jardin-des-Sciences/website/issues/31][#31]])                                 | le consulter                                   |         8 |           |
+|  6 | faire une recherche par mots-clés                                                      | accéder à la liste des résultats               |        20 |           |
+|  7 | imprimer un billet ou une image                                                        | le/la lire sur papier                          |         9 |           |
+|  8 | naviguer sur un site qui répond aux normes d'accessibilité en vigueur                  | être conforme aux normes d'accessibilité       |        16 |           |
+|  9 | connaître les éléments connexes grâce à un algorithme qui me suggère d'autres contenus | explorer par association                       |         8 |           |
+| 10 | partager un contenu sur les réseaux sociaux (Facebook, Twitter)                        | le faire connaître                             |         4 |           |
+| 11 | me créer un compte comme contributeur par email                                        | me connecter et pouvoir contribuer             |         8 |           |
+| 12 | accéder à un tutoriel pour m'expliquer comment contribuer                              | avoir envie de me créer un compte              |         2 |           |
+| 13 | faire une recherche par thématique                                                     | accéder à la liste des résultats               |         0 |           |
+| 14 | faire une recherche par type de contenus                                               | accéder à la liste des résultats               |         0 |           |
+| 15 | faire une recherche avancée (filtres / facettes)                                       | trouver un résultat précis                     |         0 |           |
+| 16 | trier les résultats par ordre chronologique                                            | connaître les ajouts récents                   |         0 |           |
+| 17 | parcourir les résultats de recherche                                                   | accéder à la liste des résultats de recherche  |           |           |
+| 18 | me créer un compte comme contributeur avec ma connexion Facebook                       | me connecter et pouvoir contribuer             |         0 |           |
+| 19 | me créer un compte comme contributeur avec ma connexion Twitter                        | me connecter et pouvoir contribuer             |         0 |           |
+| 20 | valider mon profil en cliquant sur un email de validation quand je m'inscris par mail  | alléger la modération manuelle pour les admins |         0 |           |
+| 21 | lire les recommandations juridiques du site (droits d'auteur, etc.)                    | être informé de mes droits et devoirs          |         4 |           |
+| 22 | lire les recommandations techniques du site (définition optimale, recadrage, etc.)     | être informé des bonnes pratiques              |         0 |           |
+| 23 | filtrer les contenus par licence                                                       | accéder à des contenus libres                  |         0 |           |
+| 24 | signaler un problème de droits d'auteur                                                | contribuer à améliorer le site                 |         0 |           |
+| 25 | signaler un problème technique                                                         | contribuer à améliorer le site                 |         0 |           |
+| 26 | signaler un problème de contenu inapproprié                                            | contribuer à améliorer le site                 |         0 |           |
+| 27 | Interroger un sparql endpoint pour accéder aux données d'Osca(h)r                      | Intégrer ses données hors de la plate-forme    |           |           |
+|----+----------------------------------------------------------------------------------------+------------------------------------------------+-----------+-----------|
+|    | Total                                                                                  |                                                |     164.5 |           |
+#+TBLFM: @29$4=vsum(@3..@-1)
 
 * Contributeurs
 
-| Je peux …                                                            | afin de …                                                 | Chiffrage | Statut |
-|----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-| créer un dossier à partir d'éléments de ma liste de suivi            | inciter à créer des dossiers                              |        16 |        |
-| définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |        |
-| en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |        |
-| soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |        |
-| proposer d'ajouter un élément à un dossier ou un parcours            | enrichir la plate-forme                                   |           |        |
-| créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |        |
-| créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu de type diaporama (upload d'un pdf)               | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu de type vidéo                                     | enrichir la plate-forme                                   |           |        |
-| ajouter un contenu à ma liste de suivi                               | organiser ma veille                                       |        16 |        |
-| suivre une thématique                                                | organiser ma veille                                       |        12 |        |
-| suivre un contributeur                                               | organiser ma veille                                       |         8 |        |
-| voir une liste de l'ensemble de mes contributions                    | suivre mes contributions                                  |        11 |        |
-| effacer tous mes commentaires d'un coup                              | garder la maîtrise de mes contenus secondaires            |         8 |        |
-| effacer l'un de mes commentaires                                     | garder la maîtrise de mes contenus secondaires            |           |        |
-| effacer mon compte                                                   | garder la maîtrise des informations me concernant         |         1 |        |
-| protéger l'accès à un contenu par mot de passe                       | partager ce contenu de façon confidentielle               |         6 |        |
-| accéder au classement des 10 contributeurs les plus actifs           | organiser sa veille                                       |         4 |        |
-| recevoir des notifications si commentaires sur mes contributions     | suivre mes contributions                                  |         4 |        |
-| choisir le mode de réception des notifications (email ou site inbox) | gérer l'information en "push"                             |         4 |        |
-| signaler un problème sur un contenu (par ex: droits d'auteur)        | aider les administrateurs                                 |         4 |        |
-| mettre à jour mon profil                                             | corriger des informations me concernant                   |         3 |        |
-| commenter les billets, dossiers, diaporamas, parcours                | donner son avis / enrichir une discussion                 |         3 |        |
-| partager un contenu que je viens d'ajouter sur les réseaux sociaux   | faire savoir que je contribue                             |         3 |        |
-| contacter un contributeur via sa page de profil                      | échanger avec lui directement                             |       2.5 |        |
-| à la publication d'un dossier, forcer la création d'un edito         | obliger à créer un edito pour les dossiers                |         2 |        |
-| indiquer si OK pour être contacté par d'autres contributeurs         | favoriser la contribution                                 |         0 |        |
-| télécharger un contenu dans son format natif (pdf/jpg/png etc.)      | consulter les contenus hors-ligne                         |         0 |        |
-| avoir mes contributions automatiquement ajoutées à ma liste de suivi | organiser ma veille                                       |         0 |        |
-| signaler un problème scientifique                                    | contribuer à améliorer le site                            |         0 |        |
-| signaler un problème sur un commentaire                              | contribuer à améliorer le site                            |         0 |        |
-| voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes                    |         0 |        |
-| le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
-|----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-| Total                                                                |                                                           |     193.5 |        |
-#+TBLFM: @37$3=vsum(@2..@-1)
+|    | Je peux …                                                            | afin de …                                                 | Chiffrage | Statut |
+|----+----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
+| 28 | créer un dossier à partir d'éléments de ma liste de suivi            | inciter à créer des dossiers                              |        16 |        |
+| 29 | définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |        |
+| 30 | en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |        |
+| 31 | soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |        |
+| 32 | proposer d'ajouter un élément à un dossier ou un parcours            | enrichir la plate-forme                                   |           |        |
+| 33 | créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |        |
+| 34 | créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
+| 35 | ajouter un contenu de type diaporama (upload d'un pdf)               | enrichir la plate-forme                                   |           |        |
+| 36 | ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |        |
+| 37 | ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |        |
+| 38 | ajouter un contenu de type vidéo                                     | enrichir la plate-forme                                   |           |        |
+| 39 | ajouter un contenu à ma liste de suivi                               | organiser ma veille                                       |        16 |        |
+| 40 | suivre une thématique                                                | organiser ma veille                                       |        12 |        |
+| 41 | suivre un contributeur                                               | organiser ma veille                                       |         8 |        |
+| 42 | voir une liste de l'ensemble de mes contributions                    | suivre mes contributions                                  |        11 |        |
+| 43 | effacer tous mes commentaires d'un coup                              | garder la maîtrise de mes contenus secondaires            |         8 |        |
+| 44 | effacer l'un de mes commentaires                                     | garder la maîtrise de mes contenus secondaires            |           |        |
+| 45 | effacer mon compte                                                   | garder la maîtrise des informations me concernant         |         1 |        |
+| 46 | protéger l'accès à un contenu par mot de passe                       | partager ce contenu de façon confidentielle               |         6 |        |
+| 47 | accéder au classement des 10 contributeurs les plus actifs           | organiser sa veille                                       |         4 |        |
+| 48 | recevoir des notifications si commentaires sur mes contributions     | suivre mes contributions                                  |         4 |        |
+| 49 | choisir le mode de réception des notifications (email ou site inbox) | gérer l'information en "push"                             |         4 |        |
+| 50 | signaler un problème sur un contenu (par ex: droits d'auteur)        | aider les administrateurs                                 |         4 |        |
+| 51 | mettre à jour mon profil                                             | corriger des informations me concernant                   |         3 |        |
+| 52 | commenter les billets, dossiers, diaporamas, parcours                | donner son avis / enrichir une discussion                 |         3 |        |
+| 53 | partager un contenu que je viens d'ajouter sur les réseaux sociaux   | faire savoir que je contribue                             |         3 |        |
+| 54 | contacter un contributeur via sa page de profil                      | échanger avec lui directement                             |       2.5 |        |
+| 55 | à la publication d'un dossier, forcer la création d'un edito         | obliger à créer un edito pour les dossiers                |         2 |        |
+| 56 | indiquer si OK pour être contacté par d'autres contributeurs         | favoriser la contribution                                 |         0 |        |
+| 57 | télécharger un contenu dans son format natif (pdf/jpg/png etc.)      | consulter les contenus hors-ligne                         |         0 |        |
+| 58 | avoir mes contributions automatiquement ajoutées à ma liste de suivi | organiser ma veille                                       |         0 |        |
+| 59 | signaler un problème scientifique                                    | contribuer à améliorer le site                            |         0 |        |
+| 60 | signaler un problème sur un commentaire                              | contribuer à améliorer le site                            |         0 |        |
+| 61 | voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes                    |         0 |        |
+| 62 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
+|----+----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
+|    | Total                                                                |                                                           |     193.5 |        |
+#+TBLFM: @37$4=vsum(@2..@-1)
 
 * Administrateurs
 
-| Je peux …                                                       | afin de …                                                | Chiffrage | Statut |
-|-----------------------------------------------------------------+----------------------------------------------------------+-----------+--------|
-| voir la répartition des contributions par thème                 | accéder à des statistiques                               |        16 |        |
-| voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |         8 |        |
-| modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |         4 |        |
-| voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |         2 |        |
-| voir les 10 dernières contributions                             | accéder à des statistiques                               |         2 |        |
-| voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |         2 |        |
-| voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |         2 |        |
-| me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |         0 |        |
-| accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |         0 |        |
-| voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |         0 |        |
-| faire un import de données depuis un XML de Gertrude            | mettre à jour les données ou les enrichir                |         0 |        |
-| éditer un contenu (le modifier, le bloquer, changer mdp, etc.)  | aider les contributeurs                                  |         0 |        |
-| éditer un utilisateur (le modifier, le bloquer, etc.)           | aider les contributeurs                                  |         0 |        |
-| éditer la liste des domaines pour la prévalidation des compteds | gérer les contributeurs                                  |           |        |
-| faire un nouvel import depuis une autre base de données         | mettre à jour les données ou les enrichir                |           |        |
-|-----------------------------------------------------------------+----------------------------------------------------------+-----------+--------|
-| Total                                                           |                                                          |        36 |        |
-#+TBLFM: @17$3=vsum(@2..@-1)
+|    | Je peux …                                                       | afin de …                                                | Chiffrage | Statut |
+|----+-----------------------------------------------------------------+----------------------------------------------------------+-----------+--------|
+| 63 | voir la répartition des contributions par thème                 | accéder à des statistiques                               |        16 |        |
+| 64 | voir tous les contenus signalés comme problématiques            | intervenir pour résoudre ces problèmes                   |         8 |        |
+| 65 | modérer les commentaires en attente de modération un par un     | aider les contributeurs                                  |         4 |        |
+| 66 | voir le nombre de contributeurs connectés en temps réel         | accéder à des statistiques                               |         2 |        |
+| 67 | voir les 10 dernières contributions                             | accéder à des statistiques                               |         2 |        |
+| 68 | voir les 10 contenus les plus consultés                         | accéder à des statistiques                               |         2 |        |
+| 69 | voir les 10 dossiers avec le plus grand nombre de contributeurs | accéder à des statistiques                               |         2 |        |
+| 70 | me connecter comme administrateur                               | gérer des contenus et utilisateurs                       |         0 |        |
+| 71 | accéder au back office                                          | avoir une vue d'ensemble de l'activité de la plate-forme |         0 |        |
+| 72 | voir tous les imports                                           | m'assurer qu'il n'y a pas de bugs                        |         0 |        |
+| 73 | faire un import de données depuis un XML de Gertrude            | mettre à jour les données ou les enrichir                |         0 |        |
+| 74 | éditer un contenu (le modifier, le bloquer, changer mdp, etc.)  | aider les contributeurs                                  |         0 |        |
+| 75 | éditer un utilisateur (le modifier, le bloquer, etc.)           | aider les contributeurs                                  |         0 |        |
+| 76 | éditer la liste des domaines pour la prévalidation des compteds | gérer les contributeurs                                  |           |        |
+| 77 | faire un nouvel import depuis une autre base de données         | mettre à jour les données ou les enrichir                |           |        |
+|----+-----------------------------------------------------------------+----------------------------------------------------------+-----------+--------|
+|    | Total                                                           |                                                          |        36 |        |
+#+TBLFM: @17$4=vsum(@2..@-1)
 
 * Projection du total de nombre de jours
 
