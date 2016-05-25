@@ -99,6 +99,18 @@ doit pouvoir uploader une image ou la choisir dans la bibliothèque de
 médias de la plate-forme, et sélectionner une zone dans l'image
 (cropping) qui a été mise en ligne.
 
+** Visualiser un diaporama
+
+Un « diaporama » peut désigner deux choses :
+
+- Un type de contenu à part créé à partir de la mise en ligne d'un
+  fichier PDF par un contributeur ; dans ce cas il existe une page
+  permettant à tout utilisateur de faire défiler les pages du PDF de
+  façon fluide.  Voir cette [[https://github.com/Jardin-des-Sciences/website/issues/31][issue github]] pour la discussion à ce
+  sujet.
+
+- Une façon de faire défiler plusieurs visuels d'un dossier.
+
 * Gestion des droits des contenus
 
 ** Les droits des bases de données importées
