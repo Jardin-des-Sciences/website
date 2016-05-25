@@ -37,45 +37,45 @@
 
 * Contributeurs
 
-|    | Je peux …                                                            | afin de …                                                 | Chiffrage | Statut |
-|----+----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-| 28 | créer un dossier à partir d'éléments de ma liste de suivi            | inciter à créer des dossiers                              |        16 |        |
-| 29 | définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |        |
-| 30 | en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |        |
-| 31 | soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |        |
-| 32 | proposer d'ajouter un élément à un dossier ou un parcours            | enrichir la plate-forme                                   |           |        |
-| 33 | créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |        |
-| 34 | créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |        |
-| 35 | ajouter un contenu de type diaporama (upload d'un pdf)               | enrichir la plate-forme                                   |           |        |
-| 36 | ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |        |
-| 37 | ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |        |
-| 38 | ajouter un contenu de type vidéo                                     | enrichir la plate-forme                                   |           |        |
-| 39 | ajouter un contenu à ma liste de suivi                               | organiser ma veille                                       |        16 |        |
-| 40 | suivre une thématique                                                | organiser ma veille                                       |        12 |        |
-| 41 | suivre un contributeur                                               | organiser ma veille                                       |         8 |        |
-| 42 | voir une liste de l'ensemble de mes contributions                    | suivre mes contributions                                  |        11 |        |
-| 43 | effacer tous mes commentaires d'un coup                              | garder la maîtrise de mes contenus secondaires            |         8 |        |
-| 44 | effacer l'un de mes commentaires                                     | garder la maîtrise de mes contenus secondaires            |           |        |
-| 45 | effacer mon compte                                                   | garder la maîtrise des informations me concernant         |         1 |        |
-| 46 | protéger l'accès à un contenu par mot de passe                       | partager ce contenu de façon confidentielle               |         6 |        |
-| 47 | accéder au classement des 10 contributeurs les plus actifs           | organiser sa veille                                       |         4 |        |
-| 48 | recevoir des notifications si commentaires sur mes contributions     | suivre mes contributions                                  |         4 |        |
-| 49 | choisir le mode de réception des notifications (email ou site inbox) | gérer l'information en "push"                             |         4 |        |
-| 50 | signaler un problème sur un contenu (par ex: droits d'auteur)        | aider les administrateurs                                 |         4 |        |
-| 51 | mettre à jour mon profil                                             | corriger des informations me concernant                   |         3 |        |
-| 52 | commenter les billets, dossiers, diaporamas, parcours                | donner son avis / enrichir une discussion                 |         3 |        |
-| 53 | partager un contenu que je viens d'ajouter sur les réseaux sociaux   | faire savoir que je contribue                             |         3 |        |
-| 54 | contacter un contributeur via sa page de profil                      | échanger avec lui directement                             |       2.5 |        |
-| 55 | à la publication d'un dossier, forcer la création d'un edito         | obliger à créer un edito pour les dossiers                |         2 |        |
-| 56 | indiquer si OK pour être contacté par d'autres contributeurs         | favoriser la contribution                                 |         0 |        |
-| 57 | télécharger un contenu dans son format natif (pdf/jpg/png etc.)      | consulter les contenus hors-ligne                         |         0 |        |
-| 58 | avoir mes contributions automatiquement ajoutées à ma liste de suivi | organiser ma veille                                       |         0 |        |
-| 59 | signaler un problème scientifique                                    | contribuer à améliorer le site                            |         0 |        |
-| 60 | signaler un problème sur un commentaire                              | contribuer à améliorer le site                            |         0 |        |
-| 61 | voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes                    |         0 |        |
-| 62 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |        |
-|----+----------------------------------------------------------------------+-----------------------------------------------------------+-----------+--------|
-|    | Total                                                                |                                                           |     193.5 |        |
+|    | Je peux …                                                            | afin de …                                                 | Chiffrage | Statut        |
+|----+----------------------------------------------------------------------+-----------------------------------------------------------+-----------+---------------|
+| 28 | créer un dossier à partir d'éléments de ma liste de suivi            | inciter à créer des dossiers                              |        16 |               |
+| 29 | définir la modération a priori ou a posteriori pour un dossier       | indiquer le mode de contribution                          |        16 |               |
+| 30 | en créant un dossier, choisir ses contenus WYSIWYG (cf. [[https://github.com/Jardin-des-Sciences/website/issues/28][#28]])         | faciliter le rassemblement des contenus pour les dossiers |         8 |               |
+| 31 | soumettre un dossier pour qu'il soit en une                          | signaler un dossier intéressant                           |         8 |               |
+| 32 | proposer d'ajouter un élément à un dossier ou un parcours            | enrichir la plate-forme                                   |           |               |
+| 33 | créer un parcours en WYSIWYG                                         | organiser des éléments dans le temps et l'espace          |        54 |               |
+| 34 | créer un billet en WYSIWYG                                           | enrichir la plate-forme                                   |           |               |
+| 35 | ajouter un contenu de type diaporama (upload d'un pdf)               | enrichir la plate-forme                                   |           |               |
+| 36 | ajouter un contenu de type visuel en WYSIWYG                         | enrichir la plate-forme                                   |           |               |
+| 37 | ajouter un contenu de type audio                                     | enrichir la plate-forme                                   |           |               |
+| 38 | ajouter un contenu de type vidéo                                     | enrichir la plate-forme                                   |           |               |
+| 39 | ajouter un contenu à ma liste de suivi                               | organiser ma veille                                       |        16 | Fait (quand?) |
+| 40 | suivre une thématique                                                | organiser ma veille                                       |        12 |               |
+| 41 | suivre un contributeur                                               | organiser ma veille                                       |         8 |               |
+| 42 | voir une liste de l'ensemble de mes contributions                    | suivre mes contributions                                  |        11 |               |
+| 43 | effacer tous mes commentaires d'un coup                              | garder la maîtrise de mes contenus secondaires            |         8 |               |
+| 44 | effacer l'un de mes commentaires                                     | garder la maîtrise de mes contenus secondaires            |           |               |
+| 45 | effacer mon compte                                                   | garder la maîtrise des informations me concernant         |         1 |               |
+| 46 | protéger l'accès à un contenu par mot de passe                       | partager ce contenu de façon confidentielle               |         6 |               |
+| 47 | accéder au classement des 10 contributeurs les plus actifs           | organiser sa veille                                       |         4 |               |
+| 48 | recevoir des notifications si commentaires sur mes contributions     | suivre mes contributions                                  |         4 |               |
+| 49 | choisir le mode de réception des notifications (email ou site inbox) | gérer l'information en "push"                             |         4 |               |
+| 50 | signaler un problème sur un contenu (par ex: droits d'auteur)        | aider les administrateurs                                 |         4 |               |
+| 51 | mettre à jour mon profil                                             | corriger des informations me concernant                   |         3 |               |
+| 52 | commenter les billets, dossiers, diaporamas, parcours                | donner son avis / enrichir une discussion                 |         3 |               |
+| 53 | partager un contenu que je viens d'ajouter sur les réseaux sociaux   | faire savoir que je contribue                             |         3 |               |
+| 54 | contacter un contributeur via sa page de profil                      | échanger avec lui directement                             |       2.5 |               |
+| 55 | à la publication d'un dossier, forcer la création d'un edito         | obliger à créer un edito pour les dossiers                |         2 |               |
+| 56 | indiquer si OK pour être contacté par d'autres contributeurs         | favoriser la contribution                                 |         0 |               |
+| 57 | télécharger un contenu dans son format natif (pdf/jpg/png etc.)      | consulter les contenus hors-ligne                         |         0 |               |
+| 58 | avoir mes contributions automatiquement ajoutées à ma liste de suivi | organiser ma veille                                       |         0 |               |
+| 59 | signaler un problème scientifique                                    | contribuer à améliorer le site                            |         0 |               |
+| 60 | signaler un problème sur un commentaire                              | contribuer à améliorer le site                            |         0 |               |
+| 61 | voir les contenus signalés comme problématiques                      | intervenir pour résoudre ces problèmes                    |         0 |               |
+| 62 | le contributeur reconnaît qu'il sait ce qu'il fait re. droits        | s'assurer que l'utilisateur connaît les droits            |         0 |               |
+|----+----------------------------------------------------------------------+-----------------------------------------------------------+-----------+---------------|
+|    | Total                                                                |                                                           |     193.5 |               |
 #+TBLFM: @37$4=vsum(@2..@-1)
 
 * Administrateurs
