@@ -149,7 +149,7 @@ Parmi les contenus primaires, nous distinguons encore :
 
 - *les "éléments"* : visuel, ressource documentaire, vidéo, audio, etc.
 
-** Les droits en fonction des types de contenus
+** Les droits d'auteur selon que le contenu est contribué ou importé
 
 *** Les contenus importés
 
@@ -231,8 +231,9 @@ Les CGU précisent que les contributeurs sont responsables :
 Le site fonctionne comme un hébergeur des contenus contribués, non
 comme l'auteur de ces contenus.
 
+** Les droits d'auteur selon les types de contenus
 
-** Droits d'auteur sur les différents contenus
+*** Principe général
 
 Les éléments ont un seul auteur et n'ont pas de contributeurs.
 
@@ -265,6 +266,9 @@ de solliciter des droits particulier.
 Le champ "Droits d'auteur (licence)" pour les dossiers et les parcours
 désigne les droits s'appliquant pour les éléments dont les droits ne
 sont pas précisés.
+
+Par défaut, la valeur du champ "Droits d'auteur (licence)" pour les
+dossiers est CC by-nc-sa 4.0.
 
 Si des droits sont précisés pour les éléments, ceux-ci ont priorité
 sur les droits des collections.
