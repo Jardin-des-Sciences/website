@@ -80,24 +80,20 @@ temps et dans l'espace :
 L'édition en WYSIWYG d'un parcours signifie que le contributeur peut
 
 1. ordonner temporellement les éléments par glisser-déposer sur une
-   frise chronologique.
+   ligne temporelle ;
 
-2. prendre un élément et le positionner sur un fond de carte
-   naviguable pour que les coordonnées géographiques soient déduites
-   de la position choisie par l'utilisateur.
+2. prendre un élément et le géolocaliser, soit en lui associant une
+   adresse postale, soit par glisser-déposer sur un fond de carte.
 
-À défaut d'une frise chronologique, le contributeur pourra donner un
-numéro de priorité pour l'élément.
-
-À défaut d'un positionnement manuel sur une carte, le contributeur
-pourra renseigner la latitude et la longitude dans des champs.
+Il doit être facile pour un contributeur de « cloner » un dossier ou
+un parcours pour le transformer en autre dossier ou autre parcours.
 
 ** Créer un visuel en WYSIWYG
 
 La création « en WYSIWYG » d'un visuel signifie que le contributeur
-doit pouvoir uploader une image ou la choisir dans la bibliothèque de
-médias de la plate-forme, et sélectionner une zone dans l'image
-(cropping) qui a été mise en ligne.
+doit pouvoir télécharger (/uploader/) une image ou la choisir dans la
+bibliothèque de médias de la plate-forme, et sélectionner une zone
+dans l'image (cropping) qui a été mise en ligne.
 
 ** Visualiser un diaporama
 
@@ -105,13 +101,15 @@ Un « diaporama » peut désigner deux choses :
 
 - Un type de contenu à part créé à partir de la mise en ligne d'un
   fichier PDF par un contributeur ; dans ce cas il existe une page
-  permettant à tout utilisateur de faire défiler les pages du PDF de
-  façon fluide.  Voir cette [[https://github.com/Jardin-des-Sciences/website/issues/31][issue github]] pour la discussion à ce
-  sujet.
+  permettant à tout utilisateur de faire défiler les pages du PDF
+  de façon fluide.  Voir cette [[https://github.com/Jardin-des-Sciences/website/issues/31][issue github]] pour la discussion à
+  ce sujet.
 
 - Une façon de faire défiler plusieurs visuels d'un dossier.
 
 * Gestion des droits des contenus
+
+Les droits des contenus doivent toujours être identifiables.
 
 ** Les droits des bases de données importées
 
