@@ -83,7 +83,7 @@ L'édition en WYSIWYG d'un parcours signifie que le contributeur peut
    ligne temporelle ;
 
 2. prendre un élément et le géolocaliser, soit en lui associant une
-   adresse postale, soit par glisser-déposer sur un fond de carte.
+   adresse, soit par glisser-déposer sur un fond de carte.
 
 Il doit être facile pour un contributeur de « cloner » un dossier ou
 un parcours pour le transformer en autre dossier ou autre parcours.
