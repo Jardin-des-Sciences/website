@@ -1,0 +1,158 @@
+#+TITLE: Point backlog produit au 2016-06-02 (tickets JIRA)
+
+* Synthèse backlog itération 4
+
+| Type          | Ticket  | Itération   | Assignation       | Prévu | Restant | Passé | User story détaillée                                                              |
+|---------------+---------+-------------+-------------------+-------+---------+-------+-----------------------------------------------------------------------------------|
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-329][JDS-329]] | Itération 4 | Unassigned        |     7 |       0 |     7 | Listing: faire une recherche sur un thème                                         |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-267][JDS-267]] | Itération 4 | Manuel Grosrenaud |     4 |       2 |     2 | Deploiements sur QA / DEV et lead DEV task Mgt                                    |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-336][JDS-336]] | Itération 4 | Unassigned        |   3.5 |     3.5 |       | Configuration: mettre à jour les champs des types de contenus                     |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-326][JDS-326]] | Itération 4 | Unassigned        |   3.5 |       0 |   3.5 | CU création: mettre à jour les domaines de validation automatique                 |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-324][JDS-324]] | Itération 4 | Unassigned        |   3.5 |     3.5 |       | CU création: finalisation création compte                                         |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-318][JDS-318]] | Itération 4 | Unassigned        |   3.5 |       2 |   1.5 | CU création: inscription avec un compte FB                                        |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-311][JDS-311]] | Itération 4 | Maxime Audrin     |   3.5 |     3.5 |       | Diaporama: affichage du contenu                                                   |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-303][JDS-303]] | Itération 4 | Unassigned        |   3.5 |       0 |     2 | Audio: affichage du contenu                                                       |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-295][JDS-295]] | Itération 4 | Unassigned        |   3.5 |       0 |   3.5 | Vidéo: affichage du contenu                                                       |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-288][JDS-288]] | Itération 4 | Unassigned        |   3.5 |       0 |     4 | Visuel: affichage du contenu                                                      |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-355][JDS-355]] | Itération 4 | Maxime Audrin     |   1.5 |     1.5 |       | FT: responsive design dossier et billet                                           |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-337][JDS-337]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | CU création: envoi d'un email de confirmation                                     |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-335][JDS-335]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | Listing: cliquer sur le bouton afficher plus de résultat                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-327][JDS-327]] | Itération 4 | Maxime Audrin     |   1.5 |       0 |   1.5 | CU connexion: affichage page de connexion                                         |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-325][JDS-325]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | CU création: envoi d'un email si compte non validé                                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-323][JDS-323]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | CU création: validation automatique par domaine                                   |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-322][JDS-322]] | Itération 4 | Adrien Engeln     |   1.5 |       0 |   1.5 | CU création: message de validation                                                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-321][JDS-321]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | CU création: création d'un compte par email                                       |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-319][JDS-319]] | Itération 4 | Unassigned        |   1.5 |     1.5 |       | CU création: inscription avec un compte Twitter                                   |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-317][JDS-317]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | CU création: affichage lien "Création du compte"                                  |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-313][JDS-313]] | Itération 4 | Unassigned        |   1.5 |     1.5 |       | Diaporama: commentaires                                                           |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-312][JDS-312]] | Itération 4 | Unassigned        |   1.5 |     1.5 |       | Diaporama: colonne de gauche                                                      |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-310][JDS-310]] | Itération 4 | Unassigned        |   1.5 |     1.5 |       | Diaporama: header                                                                 |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-309][JDS-309]] | Itération 4 | Maxime Audrin     |   1.5 |     1.5 |       | Diaporama: affichage formulaire                                                   |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-305][JDS-305]] | Itération 4 | Unassigned        |   1.5 |       0 |   0.1 | Audio: commentaire                                                                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-304][JDS-304]] | Itération 4 | Unassigned        |   1.5 |       0 |   0.5 | Audio: colonne de gauche                                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-302][JDS-302]] | Itération 4 | Unassigned        |   1.5 |       0 |   0.5 | Audio: header                                                                     |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-301][JDS-301]] | Itération 4 | Unassigned        |   1.5 |       0 |   0.1 | Audio: formulaire de recherche                                                    |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-297][JDS-297]] | Itération 4 | Unassigned        |   1.5 |       0 |   0.1 | Vidéo: commentaires                                                               |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-296][JDS-296]] | Itération 4 | Unassigned        |   1.5 |       0 |   0.5 | Vidéo: colonne de gauche                                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-294][JDS-294]] | Itération 4 | Unassigned        |   1.5 |       0 |     1 | Vidéo: header                                                                     |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-293][JDS-293]] | Itération 4 | Unassigned        |   1.5 |       0 |     1 | Vidéo: formulaire de recherche                                                    |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-289][JDS-289]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | Visuel: colonne de gauche                                                         |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-287][JDS-287]] | Itération 4 | Unassigned        |   1.5 |       0 |  0.75 | VIsuel: impression                                                                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-286][JDS-286]] | Itération 4 | Unassigned        |   1.5 |       0 |  1.16 | Visuel: header                                                                    |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-285][JDS-285]] | Itération 4 | Unassigned        |   1.5 |       0 |   1.5 | Visuel: Formulaire de recherche                                                   |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-235][JDS-235]] | Itération 4 | Adrien Engeln     |     1 |       0 |   1.5 | Absence du "Problème scientifique" dans les choix possible pour signaler un souci |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-232][JDS-232]] | Itération 4 | Unassigned        |     1 |    0.25 |  0.75 | Supprimer les "questions éditorialisées" des contenus qu'on peut ajouter          |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-227][JDS-227]] | Itération 4 | Unassigned        |     1 |       0 |     1 | Remplacer le logo "oscar(h)" par "OscaHr"                                         |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-233][JDS-233]] | Itération 4 | Unassigned        |   0.5 |       0 |   0.5 | Remplacer "RECHERCHER" par "MOTS-CLEFS" dans le champ de recherche                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-334][JDS-334]] | Itération 4 | Unassigned        |     0 |       0 |       | Listing: cocher la case "Afficher mes contributions"                              |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-333][JDS-333]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Listing: trier les résultats de recherche par date de publication                 |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-332][JDS-332]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Listing: faire une recherche sur un mot-clé                                       |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-331][JDS-331]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Listing: faire une recherche sur un type                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-330][JDS-330]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Listing: faire une recherche sur un type                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-328][JDS-328]] | Itération 4 | Unassigned        |     0 |       0 |   0.2 | CU connexion : connexion                                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-316][JDS-316]] | Itération 4 | Unassigned        |     0 |       0 |       | Diaporama: valider la prévisualisation                                            |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-315][JDS-315]] | Itération 4 | Unassigned        |     0 |       0 |       | Diaporama: Vérifier l'affichage Front-Office                                      |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-314][JDS-314]] | Itération 4 | Unassigned        |     0 |       0 |       | Diaporama: mettre à jour                                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-308][JDS-308]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Audio: valider la prévisualisation                                                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-307][JDS-307]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Audio: vérifier l'affichage Front-Office                                          |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-306][JDS-306]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Audio: édition                                                                    |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-300][JDS-300]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Vidéo: valider la prévisualisation                                                |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-299][JDS-299]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Vidéo: vérifier l'affichage en front office                                       |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-298][JDS-298]] | Itération 4 | Unassigned        |     0 |       0 |  0.01 | Vidéo: mettre à jour                                                              |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-292][JDS-292]] | Itération 4 | Unassigned        |     0 |       0 |       | Visuel: valider la prévisualisation                                               |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-291][JDS-291]] | Itération 4 | Unassigned        |     0 |       0 |       | Visuel: vérifier l'affichage Front-Office                                         |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-290][JDS-290]] | Itération 4 | Unassigned        |     0 |       0 |       | Ajouter un slogan (sous le logo?)                                                 |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-229][JDS-229]] | Itération 4 | Guillaume Hurst   |       |         |       | Visuel: mettre à jour                                                             |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-228][JDS-228]] | Itération 4 | Guillaume Hurst   |       |         |       | Vérifier que toutes les polices du kit "identités complexes" ont été utilisées    |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-226][JDS-226]] | Itération 4 | Guillaume Hurst   |       |         |       | Corriger faute de frappe dans "Jardin des Sciences"                               |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-225][JDS-225]] | Itération 4 | Guillaume Hurst   |       |         |       | Mettre à jour le jeu de couleurs                                                  |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-224][JDS-224]] | Itération 4 | Guillaume Hurst   |       |         |       | Mettre à jour le jeu de pictogrammes                                              |
+|---------------+---------+-------------+-------------------+-------+---------+-------+-----------------------------------------------------------------------------------|
+|               |         |             |                   |  81.5 |   23.75 | 48.26 |                                                                                   |
+#+TBLFM: @65$5=vsum(@2..@-1)::@65$6=vsum(@2..@-1)::@65$7=vsum(@2..@-1)
+
+* Détail
+
+** Corrections sur les itérations précédentes
+
+| Type          | Ticket  | Itération   | Assignation     | Prévu | Restant | Passé | User story détaillée                                                              |
+|---------------+---------+-------------+-----------------+-------+---------+-------+-----------------------------------------------------------------------------------|
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-336][JDS-336]] | Itération 4 | Unassigned      |   3.5 |     3.5 |       | Configuration: mettre à jour les champs des types de contenus                     |
+| User Story    | [[http://jira.dropteam.fr/browse/JDS-355][JDS-355]] | Itération 4 | Maxime Audrin   |   1.5 |     1.5 |       | FT: responsive design dossier et billet                                           |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-235][JDS-235]] | Itération 4 | Adrien Engeln   |     1 |       0 |   1.5 | Absence du "Problème scientifique" dans les choix possible pour signaler un souci |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-232][JDS-232]] | Itération 4 | Unassigned      |     1 |    0.25 |  0.75 | Supprimer les "questions éditorialisées" des contenus qu'on peut ajouter          |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-227][JDS-227]] | Itération 4 | Unassigned      |     1 |       0 |     1 | Remplacer le logo "oscar(h)" par "OscaHr"                                         |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-233][JDS-233]] | Itération 4 | Unassigned      |   0.5 |       0 |   0.5 | Remplacer "RECHERCHER" par "MOTS-CLEFS" dans le champ de recherche                |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-229][JDS-229]] | Itération 4 | Guillaume Hurst |       |         |       | Visuel: mettre à jour                                                             |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-228][JDS-228]] | Itération 4 | Guillaume Hurst |       |         |       | Vérifier que toutes les polices du kit "identités complexes" ont été utilisées    |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-226][JDS-226]] | Itération 4 | Guillaume Hurst |       |         |       | Corriger faute de frappe dans "Jardin des Sciences"                               |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-225][JDS-225]] | Itération 4 | Guillaume Hurst |       |         |       | Mettre à jour le jeu de couleurs                                                  |
+| Retour client | [[http://jira.dropteam.fr/browse/JDS-224][JDS-224]] | Itération 4 | Guillaume Hurst |       |         |       | Mettre à jour le jeu de pictogrammes                                              |
+|---------------+---------+-------------+-----------------+-------+---------+-------+-----------------------------------------------------------------------------------|
+|               |         |             |                 |   8.5 |    5.25 |  3.75 |                                                                                   |
+#+TBLFM: @13$5=vsum(@2..@-1)::@13$6=vsum(@2..@-1)::@13$7=vsum(@2..@-1)
+
+** Création de comptes
+
+| Type       | Ticket  | Itération   | Assignation   | Prévu | Restant | Passé | User story détaillée                                              |
+|------------+---------+-------------+---------------+-------+---------+-------+-------------------------------------------------------------------|
+| User Story | [[http://jira.dropteam.fr/browse/JDS-326][JDS-326]] | Itération 4 | Unassigned    |   3.5 |       0 |   3.5 | CU création: mettre à jour les domaines de validation automatique |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-324][JDS-324]] | Itération 4 | Unassigned    |   3.5 |     3.5 |       | CU création: finalisation création compte                         |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-318][JDS-318]] | Itération 4 | Unassigned    |   3.5 |       2 |   1.5 | CU création: inscription avec un compte FB                        |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-337][JDS-337]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | CU création: envoi d'un email de confirmation                     |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-327][JDS-327]] | Itération 4 | Maxime Audrin |   1.5 |       0 |   1.5 | CU connexion: affichage page de connexion                         |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-325][JDS-325]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | CU création: envoi d'un email si compte non validé                |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-323][JDS-323]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | CU création: validation automatique par domaine                   |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-322][JDS-322]] | Itération 4 | Adrien Engeln |   1.5 |       0 |   1.5 | CU création: message de validation                                |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-321][JDS-321]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | CU création: création d'un compte par email                       |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-319][JDS-319]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | CU création: inscription avec un compte Twitter                   |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-317][JDS-317]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | CU création: affichage lien "Création du compte"                  |
+|------------+---------+-------------+---------------+-------+---------+-------+-------------------------------------------------------------------|
+|            |         |             |               |  22.5 |      7. |  15.5 |                                                                   |
+#+TBLFM: @13$5=vsum(@2..@-1)::@13$6=vsum(@2..@-1)::@13$7=vsum(@2..@-1)
+
+Note : le [[https://docs.google.com/spreadsheets/d/18KDAt63v60Q-PjQI_JUa4__qObjHv2s-Bq6ZJJ9_QZM/edit#gid=0][chiffrage de février]] pour la création des comptes utilisateurs prévoyait 8 heures.  Les fonctions pour la création des comptes sont estimées ici à 22.5.
+
+** Finalisation de l'implémentation des vues pour tous les types de contenus
+
+| Type       | Ticket  | Itération   | Assignation   | Prévu | Restant | Passé | User story détaillée                    |
+|------------+---------+-------------+---------------+-------+---------+-------+-----------------------------------------|
+| User Story | [[http://jira.dropteam.fr/browse/JDS-311][JDS-311]] | Itération 4 | Maxime Audrin |   3.5 |     3.5 |       | Diaporama: affichage du contenu         |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-303][JDS-303]] | Itération 4 | Unassigned    |   3.5 |       0 |     2 | Audio: affichage du contenu             |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-295][JDS-295]] | Itération 4 | Unassigned    |   3.5 |       0 |   3.5 | Vidéo: affichage du contenu             |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-288][JDS-288]] | Itération 4 | Unassigned    |   3.5 |       0 |     4 | Visuel: affichage du contenu            |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-355][JDS-355]] | Itération 4 | Maxime Audrin |   1.5 |     1.5 |       | FT: responsive design dossier et billet |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-313][JDS-313]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: commentaires                 |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-312][JDS-312]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: colonne de gauche            |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-310][JDS-310]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: header                       |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-309][JDS-309]] | Itération 4 | Maxime Audrin |   1.5 |     1.5 |       | Diaporama: affichage formulaire         |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-305][JDS-305]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Audio: commentaire                      |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-304][JDS-304]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Audio: colonne de gauche                |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-302][JDS-302]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Audio: header                           |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-301][JDS-301]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Audio: formulaire de recherche          |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-297][JDS-297]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Vidéo: commentaires                     |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-296][JDS-296]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Vidéo: colonne de gauche                |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-294][JDS-294]] | Itération 4 | Unassigned    |   1.5 |       0 |     1 | Vidéo: header                           |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-293][JDS-293]] | Itération 4 | Unassigned    |   1.5 |       0 |     1 | Vidéo: formulaire de recherche          |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-289][JDS-289]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: colonne de gauche               |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-287][JDS-287]] | Itération 4 | Unassigned    |   1.5 |       0 |  0.75 | VIsuel: impression                      |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-286][JDS-286]] | Itération 4 | Unassigned    |   1.5 |       0 |  1.16 | Visuel: header                          |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-285][JDS-285]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: Formulaire de recherche         |
+|------------+---------+-------------+---------------+-------+---------+-------+-----------------------------------------|
+|            |         |             |               |  39.5 |     11. | 18.21 |                                         |
+#+TBLFM: @23$5=vsum(@2..@-1)::@23$6=vsum(@2..@-1)::@23$7=vsum(@2..@-1)
+
+** Listing
+
+| Type       | Ticket  | Itération   | Assignation | Prévu | Restant | Passé | User story détaillée                                              |
+|------------+---------+-------------+-------------+-------+---------+-------+-------------------------------------------------------------------|
+| User Story | [[http://jira.dropteam.fr/browse/JDS-329][JDS-329]] | Itération 4 | Unassigned  |     7 |       0 |     7 | Listing: faire une recherche sur un thème                         |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-335][JDS-335]] | Itération 4 | Unassigned  |   1.5 |       0 |   1.5 | Listing: cliquer sur le bouton afficher plus de résultat          |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-334][JDS-334]] | Itération 4 | Unassigned  |     0 |       0 |       | Listing: cocher la case "Afficher mes contributions"              |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-333][JDS-333]] | Itération 4 | Unassigned  |     0 |       0 |  0.01 | Listing: trier les résultats de recherche par date de publication |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-332][JDS-332]] | Itération 4 | Unassigned  |     0 |       0 |  0.01 | Listing: faire une recherche sur un mot-clé                       |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-331][JDS-331]] | Itération 4 | Unassigned  |     0 |       0 |  0.01 | Listing: faire une recherche sur un type                          |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-330][JDS-330]] | Itération 4 | Unassigned  |     0 |       0 |  0.01 | Listing: faire une recherche sur un type                          |
+|------------+---------+-------------+-------------+-------+---------+-------+-------------------------------------------------------------------|
+|            |         |             |             |   8.5 |       0 |  8.54 |                                                                   |
+#+TBLFM: @9$5=vsum(@2..@-1)::@9$6=vsum(@2..@-1)::@9$7=vsum(@2..@-1)
