@@ -73,7 +73,7 @@
 
 * Détail
 
-** Survol
+** Résumé
 
 | Groupe de fonctions                        | Prévu | Restant | Passé |
 |--------------------------------------------+-------+---------+-------|
