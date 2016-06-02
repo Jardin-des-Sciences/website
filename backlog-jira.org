@@ -68,7 +68,7 @@
 | Retour client | [[http://jira.dropteam.fr/browse/JDS-225][JDS-225]] | Itération 4 | Guillaume Hurst   |       |         |       | Mettre à jour le jeu de couleurs                                                  |
 | Retour client | [[http://jira.dropteam.fr/browse/JDS-224][JDS-224]] | Itération 4 | Guillaume Hurst   |       |         |       | Mettre à jour le jeu de pictogrammes                                              |
 |---------------+---------+-------------+-------------------+-------+---------+-------+-----------------------------------------------------------------------------------|
-|               |         |             |                   |  81.5 |   23.75 | 48.26 |                                                                                   |
+| Heures        |         |             |                   |  81.5 |   23.75 | 48.26 |                                                                                   |
 #+TBLFM: @65$5=vsum(@2..@-1)::@65$6=vsum(@2..@-1)::@65$7=vsum(@2..@-1)
 
 * Détail
@@ -103,7 +103,7 @@
 | Retour client | [[http://jira.dropteam.fr/browse/JDS-225][JDS-225]] | Itération 4 | Guillaume Hurst |       |         |       | Mettre à jour le jeu de couleurs                                                  |
 | Retour client | [[http://jira.dropteam.fr/browse/JDS-224][JDS-224]] | Itération 4 | Guillaume Hurst |       |         |       | Mettre à jour le jeu de pictogrammes                                              |
 |---------------+---------+-------------+-----------------+-------+---------+-------+-----------------------------------------------------------------------------------|
-|               |         |             |                 |   8.5 |    5.25 |  3.75 |                                                                                   |
+| Heures        |         |             |                 |   8.5 |    5.25 |  3.75 |                                                                                   |
 #+TBLFM: @13$5=vsum(@2..@-1)::@13$6=vsum(@2..@-1)::@13$7=vsum(@2..@-1)
 
 ** Création des comptes utilisateurs
@@ -122,7 +122,7 @@
 | User Story | [[http://jira.dropteam.fr/browse/JDS-319][JDS-319]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | CU création: inscription avec un compte Twitter                   |
 | User Story | [[http://jira.dropteam.fr/browse/JDS-317][JDS-317]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | CU création: affichage lien "Création du compte"                  |
 |------------+---------+-------------+---------------+-------+---------+-------+-------------------------------------------------------------------|
-|            |         |             |               |  22.5 |      7. |  15.5 |                                                                   |
+| Heures     |         |             |               |  22.5 |      7. |  15.5 |                                                                   |
 #+TBLFM: @13$5=vsum(@2..@-1)::@13$6=vsum(@2..@-1)::@13$7=vsum(@2..@-1)
 
 Note : le [[https://docs.google.com/spreadsheets/d/18KDAt63v60Q-PjQI_JUa4__qObjHv2s-Bq6ZJJ9_QZM/edit#gid=0][chiffrage de février]] pour la création des comptes
@@ -154,7 +154,7 @@ pour la création des comptes sont estimées ici à 22.5.
 | User Story | [[http://jira.dropteam.fr/browse/JDS-286][JDS-286]] | Itération 4 | Unassigned    |   1.5 |       0 |  1.16 | Visuel: header                  |
 | User Story | [[http://jira.dropteam.fr/browse/JDS-285][JDS-285]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: Formulaire de recherche |
 |------------+---------+-------------+---------------+-------+---------+-------+---------------------------------|
-|            |         |             |               |   38. |     9.5 | 18.21 |                                 |
+| Heures     |         |             |               |   38. |     9.5 | 18.21 |                                 |
 #+TBLFM: @22$5=vsum(@2..@-1)::@22$6=vsum(@2..@-1)::@22$7=vsum(@2..@-1)
 
 ** Affichage des résultats de recherche
@@ -169,7 +169,7 @@ pour la création des comptes sont estimées ici à 22.5.
 | User Story | [[http://jira.dropteam.fr/browse/JDS-331][JDS-331]] | Itération 4 | Unassigned  |     0 |       0 |  0.01 | Listing: faire une recherche sur un type                          |
 | User Story | [[http://jira.dropteam.fr/browse/JDS-330][JDS-330]] | Itération 4 | Unassigned  |     0 |       0 |  0.01 | Listing: faire une recherche sur un type                          |
 |------------+---------+-------------+-------------+-------+---------+-------+-------------------------------------------------------------------|
-|            |         |             |             |   8.5 |       0 |  8.54 |                                                                   |
+| Heures     |         |             |             |   8.5 |       0 |  8.54 |                                                                   |
 #+TBLFM: @9$5=vsum(@2..@-1)::@9$6=vsum(@2..@-1)::@9$7=vsum(@2..@-1)
 
 ** Autres
@@ -178,5 +178,5 @@ pour la création des comptes sont estimées ici à 22.5.
 |------------+---------+-------------+-------------------+-------+---------+-------+------------------------------------------------|
 | User Story | [[http://jira.dropteam.fr/browse/JDS-267][JDS-267]] | Itération 4 | Manuel Grosrenaud |     4 |       2 |     2 | Deploiements sur QA / DEV et lead DEV task Mgt |
 |------------+---------+-------------+-------------------+-------+---------+-------+------------------------------------------------|
-|            |         |             |                   |     4 |       2 |     2 |                                                |
+| Heures     |         |             |                   |     4 |       2 |     2 |                                                |
 #+TBLFM: @3$5=vsum(@2..@-1)::@3$6=vsum(@2..@-1)::@3$7=vsum(@2..@-1)
