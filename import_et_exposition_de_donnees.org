@@ -101,12 +101,23 @@ Ces données seront structurées selon la norme Dublin Core.
    champs avec ceux de la base OscaHr
 
 3. Importer les données
-   - via un script qui prend en entrée un fichier .csv
-   - via un script qui prend en entrée les données renvoyées AOC, BNU
+
+   1. soit via un script qui prend en entrée un fichier .csv, soit via
+     le module d'import gertrude (auquel cas les données auront été
+     mises en forme dans le format .xml que ce module attend)
+
+   2. via un script qui prend en entrée les données renvoyées AOC, BNU
 
 Répartition :
 
-1 et 2 sont faits par le JDS, 3 est fait par Actency.
+1 et 2 sont faits par le JDS.
+
+La faisabilité technique de 3.1 est testée par l'AMO.
+
+3 est fait par Actency.
+
+Les mappings entre les données existantes, la norme Dublin Core et les
+structures de données du site seront fournies par le JDS.
 
 ** Exposition des données via un SPARQL endpoint
 
