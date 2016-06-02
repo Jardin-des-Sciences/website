@@ -73,6 +73,20 @@
 
 * Détail
 
+** Survol
+
+| Groupe de fonctions                        | Prévu | Restant | Passé |
+|--------------------------------------------+-------+---------+-------|
+| Corrections sur les itérations précédentes |   8.5 |    5.25 |  3.75 |
+| Création des comptes utilisateurs          |  22.5 |      7. |  15.5 |
+| Finalisation de l'implémentation des vues  |    38 |     9.5 | 18.21 |
+| Listing                                    |   8.5 |       0 |  8.54 |
+| Maintenance / infrastructure               |     4 |       2 |     2 |
+|--------------------------------------------+-------+---------+-------|
+| Heures                                     |  81.5 |   23.75 |   48. |
+| Jours                                      | 11.64 |    3.39 |  6.85 |
+#+TBLFM: @7$2=vsum(@2..@-1)::@7$3=vsum(@2..@-1)::@7$4=vsum(@2..@-1)::@8$2=@-1/7::@8$3=@-1/7::@8$4=@-1/7
+
 ** Corrections sur les itérations précédentes
 
 | Type          | Ticket  | Itération   | Assignation     | Prévu | Restant | Passé | User story détaillée                                                              |
@@ -92,7 +106,7 @@
 |               |         |             |                 |   8.5 |    5.25 |  3.75 |                                                                                   |
 #+TBLFM: @13$5=vsum(@2..@-1)::@13$6=vsum(@2..@-1)::@13$7=vsum(@2..@-1)
 
-** Création de comptes
+** Création des comptes utilisateurs
 
 | Type       | Ticket  | Itération   | Assignation   | Prévu | Restant | Passé | User story détaillée                                              |
 |------------+---------+-------------+---------------+-------+---------+-------+-------------------------------------------------------------------|
@@ -111,38 +125,39 @@
 |            |         |             |               |  22.5 |      7. |  15.5 |                                                                   |
 #+TBLFM: @13$5=vsum(@2..@-1)::@13$6=vsum(@2..@-1)::@13$7=vsum(@2..@-1)
 
-Note : le [[https://docs.google.com/spreadsheets/d/18KDAt63v60Q-PjQI_JUa4__qObjHv2s-Bq6ZJJ9_QZM/edit#gid=0][chiffrage de février]] pour la création des comptes utilisateurs prévoyait 8 heures.  Les fonctions pour la création des comptes sont estimées ici à 22.5.
+Note : le [[https://docs.google.com/spreadsheets/d/18KDAt63v60Q-PjQI_JUa4__qObjHv2s-Bq6ZJJ9_QZM/edit#gid=0][chiffrage de février]] pour la création des comptes
+utilisateurs prévoyait 8 heures (voir les ID 19 à 22).  Les fonctions
+pour la création des comptes sont estimées ici à 22.5.
 
 ** Finalisation de l'implémentation des vues pour tous les types de contenus
 
-| Type       | Ticket  | Itération   | Assignation   | Prévu | Restant | Passé | User story détaillée                    |
-|------------+---------+-------------+---------------+-------+---------+-------+-----------------------------------------|
-| User Story | [[http://jira.dropteam.fr/browse/JDS-311][JDS-311]] | Itération 4 | Maxime Audrin |   3.5 |     3.5 |       | Diaporama: affichage du contenu         |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-303][JDS-303]] | Itération 4 | Unassigned    |   3.5 |       0 |     2 | Audio: affichage du contenu             |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-295][JDS-295]] | Itération 4 | Unassigned    |   3.5 |       0 |   3.5 | Vidéo: affichage du contenu             |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-288][JDS-288]] | Itération 4 | Unassigned    |   3.5 |       0 |     4 | Visuel: affichage du contenu            |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-355][JDS-355]] | Itération 4 | Maxime Audrin |   1.5 |     1.5 |       | FT: responsive design dossier et billet |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-313][JDS-313]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: commentaires                 |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-312][JDS-312]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: colonne de gauche            |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-310][JDS-310]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: header                       |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-309][JDS-309]] | Itération 4 | Maxime Audrin |   1.5 |     1.5 |       | Diaporama: affichage formulaire         |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-305][JDS-305]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Audio: commentaire                      |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-304][JDS-304]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Audio: colonne de gauche                |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-302][JDS-302]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Audio: header                           |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-301][JDS-301]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Audio: formulaire de recherche          |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-297][JDS-297]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Vidéo: commentaires                     |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-296][JDS-296]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Vidéo: colonne de gauche                |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-294][JDS-294]] | Itération 4 | Unassigned    |   1.5 |       0 |     1 | Vidéo: header                           |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-293][JDS-293]] | Itération 4 | Unassigned    |   1.5 |       0 |     1 | Vidéo: formulaire de recherche          |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-289][JDS-289]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: colonne de gauche               |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-287][JDS-287]] | Itération 4 | Unassigned    |   1.5 |       0 |  0.75 | VIsuel: impression                      |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-286][JDS-286]] | Itération 4 | Unassigned    |   1.5 |       0 |  1.16 | Visuel: header                          |
-| User Story | [[http://jira.dropteam.fr/browse/JDS-285][JDS-285]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: Formulaire de recherche         |
-|------------+---------+-------------+---------------+-------+---------+-------+-----------------------------------------|
-|            |         |             |               |  39.5 |     11. | 18.21 |                                         |
-#+TBLFM: @23$5=vsum(@2..@-1)::@23$6=vsum(@2..@-1)::@23$7=vsum(@2..@-1)
+| Type       | Ticket  | Itération   | Assignation   | Prévu | Restant | Passé | User story détaillée            |
+|------------+---------+-------------+---------------+-------+---------+-------+---------------------------------|
+| User Story | [[http://jira.dropteam.fr/browse/JDS-311][JDS-311]] | Itération 4 | Maxime Audrin |   3.5 |     3.5 |       | Diaporama: affichage du contenu |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-303][JDS-303]] | Itération 4 | Unassigned    |   3.5 |       0 |     2 | Audio: affichage du contenu     |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-295][JDS-295]] | Itération 4 | Unassigned    |   3.5 |       0 |   3.5 | Vidéo: affichage du contenu     |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-288][JDS-288]] | Itération 4 | Unassigned    |   3.5 |       0 |     4 | Visuel: affichage du contenu    |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-313][JDS-313]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: commentaires         |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-312][JDS-312]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: colonne de gauche    |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-310][JDS-310]] | Itération 4 | Unassigned    |   1.5 |     1.5 |       | Diaporama: header               |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-309][JDS-309]] | Itération 4 | Maxime Audrin |   1.5 |     1.5 |       | Diaporama: affichage formulaire |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-305][JDS-305]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Audio: commentaire              |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-304][JDS-304]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Audio: colonne de gauche        |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-302][JDS-302]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Audio: header                   |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-301][JDS-301]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Audio: formulaire de recherche  |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-297][JDS-297]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.1 | Vidéo: commentaires             |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-296][JDS-296]] | Itération 4 | Unassigned    |   1.5 |       0 |   0.5 | Vidéo: colonne de gauche        |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-294][JDS-294]] | Itération 4 | Unassigned    |   1.5 |       0 |     1 | Vidéo: header                   |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-293][JDS-293]] | Itération 4 | Unassigned    |   1.5 |       0 |     1 | Vidéo: formulaire de recherche  |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-289][JDS-289]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: colonne de gauche       |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-287][JDS-287]] | Itération 4 | Unassigned    |   1.5 |       0 |  0.75 | VIsuel: impression              |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-286][JDS-286]] | Itération 4 | Unassigned    |   1.5 |       0 |  1.16 | Visuel: header                  |
+| User Story | [[http://jira.dropteam.fr/browse/JDS-285][JDS-285]] | Itération 4 | Unassigned    |   1.5 |       0 |   1.5 | Visuel: Formulaire de recherche |
+|------------+---------+-------------+---------------+-------+---------+-------+---------------------------------|
+|            |         |             |               |   38. |     9.5 | 18.21 |                                 |
+#+TBLFM: @22$5=vsum(@2..@-1)::@22$6=vsum(@2..@-1)::@22$7=vsum(@2..@-1)
 
-** Listing
+** Affichage des résultats de recherche
 
 | Type       | Ticket  | Itération   | Assignation | Prévu | Restant | Passé | User story détaillée                                              |
 |------------+---------+-------------+-------------+-------+---------+-------+-------------------------------------------------------------------|
@@ -156,3 +171,12 @@ Note : le [[https://docs.google.com/spreadsheets/d/18KDAt63v60Q-PjQI_JUa4__qObjH
 |------------+---------+-------------+-------------+-------+---------+-------+-------------------------------------------------------------------|
 |            |         |             |             |   8.5 |       0 |  8.54 |                                                                   |
 #+TBLFM: @9$5=vsum(@2..@-1)::@9$6=vsum(@2..@-1)::@9$7=vsum(@2..@-1)
+
+** Autres
+
+| Type       | Ticket  | Itération   | Assignation       | Prévu | Restant | Passé | User story détaillée                           |
+|------------+---------+-------------+-------------------+-------+---------+-------+------------------------------------------------|
+| User Story | [[http://jira.dropteam.fr/browse/JDS-267][JDS-267]] | Itération 4 | Manuel Grosrenaud |     4 |       2 |     2 | Deploiements sur QA / DEV et lead DEV task Mgt |
+|------------+---------+-------------+-------------------+-------+---------+-------+------------------------------------------------|
+|            |         |             |                   |     4 |       2 |     2 |                                                |
+#+TBLFM: @3$5=vsum(@2..@-1)::@3$6=vsum(@2..@-1)::@3$7=vsum(@2..@-1)
