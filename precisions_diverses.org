@@ -66,7 +66,7 @@ Cette fenêtre d'exploration donnerait un aperçu des contenus :
 - l'icone représentant un diaporama doit être une miniature d'une
   image de la diapositive.
 
-** Créer un parcours en WYSIWYG
+** Créer un parcours géographique en WYSIWYG
 
 Un parcours est un dossier dont les éléments sont organisés dans le
 temps et dans l'espace :
@@ -85,8 +85,23 @@ L'édition en WYSIWYG d'un parcours signifie que le contributeur peut
 2. prendre un élément et le géolocaliser, soit en lui associant une
    adresse, soit par glisser-déposer sur un fond de carte.
 
+On conserve la possibilité d'éléments qui ne sont pas dans la série
+mais qui sont des points d'intérêt géographiques.
+
 Il doit être facile pour un contributeur de « cloner » un dossier ou
 un parcours pour le transformer en autre dossier ou autre parcours.
+
+** Créer un parcours "frise" chronologique WYSIWYG
+
+Pour le parcours temporel (la frise), on associe à chaque élément une
+date de début et une date de fin, ceci permettant de construire la
+frise.  Cette association se fait à la main dans des champs prévus à
+cet effet.
+
+Le module standard Drupal utilisant la lib [[http://www.castelli-cycling.com/_ui/desktop/history/story/castelli-en.html][JS TimelineJS]] permet
+l'affichage d'une timeline avec des dates inférieures à 0 (avant JC).
+
+http://www.castelli-cycling.com/_ui/desktop/history/story/castelli-en.html
 
 ** Créer un visuel en WYSIWYG
 
