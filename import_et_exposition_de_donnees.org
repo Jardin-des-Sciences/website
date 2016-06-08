@@ -15,15 +15,16 @@
 - Gertrude : l'import se faire depuis l'interface du portail, qui
   permet d'injecter les données d'un fichier zip dans la base.
 
-- Base zoologie et Herbier : import manuel après mapping des champs du fichier
-  .xlsx sur les champs pertinents de la base de données OscaHr.
+- Base zoologie et Herbier : import manuel après mapping des champs du
+  fichier .xlsx sur les champs pertinents de la base de données
+  OscaHr.
 
 - AOC et BNU+SCD : l'import se fait en plusieurs étapes :
   - tests des mots-clés pertinents (fait)
   - collect des méta-données des résultats fournis par les mots-clés
   - mapping des champs avec ceux de la base OscaHr
-  - filtrage des données extraite en fonction du mapping
-  - import des données filtrées
+  - filtrage des données extraites en fonction du mapping
+  - import des données filtrées sur une base régulière
 
 * Unistra : récupération des (méta-)données
 
@@ -103,8 +104,8 @@ Ces données seront structurées selon la norme Dublin Core.
 3. Importer les données
 
    1. soit via un script qui prend en entrée un fichier .csv, soit via
-     le module d'import gertrude (auquel cas les données auront été
-     mises en forme dans le format .xml que ce module attend)
+      le module d'import Gertrude (auquel cas les données auront été
+      mises en forme dans le format .xml que ce module attend)
 
    2. via un script qui prend en entrée les données renvoyées AOC, BNU
 
@@ -121,9 +122,12 @@ structures de données du site seront fournies par le JDS.
 
 ** Exposition des données via un SPARQL endpoint
 
-1. Mapper la structure de la base OscaHr vers la norme Dublin Core.
+1. Mapper la structure de la base Osca(H)r vers la norme Dublin Core
+   (fait par JDS).
 
-2. Mettre en place techniquement le SPARQL endpoint.
+2. Mettre en place techniquement le SPARQL endpoint qui expose les
+   données contribuées de la plate-forme - voir [[http://dublincore.org/documents/dc-rdf/][dublincore.org]] pour
+   les informations techniques.
 
 3. Tester la conformité des données exposées (sont-elles
    moissonnables, sont-elles dans le bon format, etc.)
@@ -133,6 +137,8 @@ Répartition :
 - 1 est fait par JDS.
 - 2 est fait par Actency.
 - 3 est fait par l'AMO.
+
 * Documents de référence
 
-Voir http://www.huma-num.fr/sites/default/files/guide-isidore.pdf
+- http://www.huma-num.fr/sites/default/files/guide-isidore.pdf
+- http://dublincore.org/documents/dc-rdf/
