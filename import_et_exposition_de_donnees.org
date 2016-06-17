@@ -2,13 +2,14 @@
 
 * Tableau de synthèse des différentes bases de données à importer
 
-| Source        | Thématique        | Format                | Protocol d'échange | # Items | Support d'échange | Méthode d'import | URL cible            | Contenus    |
-|---------------+-------------------+-----------------------+--------------------+---------+-------------------+------------------+----------------------+-------------|
-| Gertrude      | Sismologie        | XML                   | Fichiers zip       |         | Fichiers          | Manuel           | Aucune               | Données     |
-| Base zoologie | Biodiversité      | .xls(x)               | Fichiers .xls(x)   | ~20     | Fichiers          | Manuel           | Aucune               | Données     |
-| Herbier       | Biodiversité      | .xls(x)               | Fichiers .xls(x)   | ~80000  | Fichiers          | Manuel           | Aucune               | Données     |
-| AOC           | Sismo. et biodiv. | XML/MODS et DC        | OAI-PMH            |         | Internet          | Automatisé       | univoak.fr (à venir) | Métadonnées |
-| BNU+SCD       | Sismo. et biodiv. | XML/Unimarc XML ou DC | SRU ou OAI         |         | Internet          | Automatisé       | Cf "Unistra" dessous | Métadonnées |
+| Source          | Thématique        | Format                | Protocol d'échange | # Items | Support d'échange | Méthode d'import | URL cible            | Contenus    |
+|-----------------+-------------------+-----------------------+--------------------+---------+-------------------+------------------+----------------------+-------------|
+| Gertrude        | Sismologie        | XML                   | Fichiers zip       | ?       | Fichiers          | Manuel           | Aucune               | Données     |
+| Base zoologie   | Biodiversité      | .xls(x)               | Fichiers .xls(x)   | ~20     | Fichiers          | Manuel           | Aucune               | Données     |
+| Herbier         | Biodiversité      | .xls(x)               | Fichiers .xls(x)   | ~80000  | Fichiers          | Manuel           | Aucune               | Données     |
+| BNU+SCD         | Sismo. et biodiv. | XML/Unimarc XML ou DC | SRU ou OAI         |         | Internet          | Automatisé       | Cf "Unistra" dessous | Métadonnées |
+|-----------------+-------------------+-----------------------+--------------------+---------+-------------------+------------------+----------------------+-------------|
+| AOC (pas dispo) | Sismo. et biodiv. | XML/MODS et DC        | OAI-PMH            |         | Internet          | Automatisé       | univoak.fr (à venir) | Métadonnées |
 
 * Méthodes pour les différents imports
 
@@ -107,7 +108,8 @@ Ces données seront structurées selon la norme Dublin Core.
       le module d'import Gertrude (auquel cas les données auront été
       mises en forme dans le format .xml que ce module attend)
 
-   2. via un script qui prend en entrée les données renvoyées AOC, BNU
+   2. via un script qui prend en entrée les données renvoyées de AOC
+      et BNU
 
 Répartition :
 
