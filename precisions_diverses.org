@@ -98,6 +98,11 @@ série mais qui sont des points d'intérêt géographiques.
 Il doit être facile pour un contributeur de « cloner » un dossier ou
 un parcours pour le transformer en autre dossier ou autre parcours.
 
+*** Navigation dans les parcours géographiques
+
+Au survol des points affichés sur une carte, un bulle apparaît avec un
+résumé de l'élément et un lien vers la page complète de l'élément.
+
 ** Créer un parcours "frise" chronologique WYSIWYG
 
 Pour le parcours temporel (la frise), les coordonnées temporelles
