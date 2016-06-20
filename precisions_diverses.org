@@ -68,35 +68,41 @@ Cette fenêtre d'exploration donnerait un aperçu des contenus :
 
 ** Créer un parcours géographique en WYSIWYG
 
-Un parcours est un dossier dont les éléments sont organisés dans le
-temps et dans l'espace :
+Un parcours géographique est un dossier dont les éléments sont
+organisés dans l'espace de façon ordonnée :
 
-- dans le temps :: l'auteur d'un dossier peut « ordonner » les
-     éléments, du premier au dernier.
+- un élément d'un parcours géographique est positionné soit en
+  fonction du contenu de son champ « géolocalisation », soit en
+  fonction d'une localisation que l'utilisateur lui attribue via
+  l'interface de création du parcours (par glisser-déposer sur un
+  fond de carte ou par indication d'une adresse géographique).
 
-- dans l'espace :: l'auteur d'un dossier peut associer des coordonnées
-     géographiques (latitude et longitude) aux éléments du dossier.
+- la plupart des éléments du parcours géographique sont ordonnés : on
+  va du point A au point F en passant par B, C, D, E.  Mais il peut y
+  avoir des « points d'intérêts » qui font partie du parcours mais qui
+  ne sont pas « ordonnés ».  L'ordonnancement se fait à la main en
+  disposant les éléments sur une ligne.
 
 L'édition en WYSIWYG d'un parcours signifie que le contributeur peut
 
-1. ordonner temporellement les éléments par glisser-déposer sur une
-   ligne temporelle ;
+1. prendre un élément et lui associer une géolocalisation, soit par
+   glisser-déposer sur un fond de carte, soit en lui associant une
+   adresse ;
 
-2. prendre un élément et le géolocaliser, soit en lui associant une
-   adresse, soit par glisser-déposer sur un fond de carte.
+2. ordonner temporellement les éléments par glisser-déposer sur une
+   ligne temporelle.
 
-On conserve la possibilité d'éléments qui ne sont pas dans la série
-mais qui sont des points d'intérêt géographiques.
+On conserve bien la possibilité d'éléments qui ne sont pas dans la
+série mais qui sont des points d'intérêt géographiques.
 
 Il doit être facile pour un contributeur de « cloner » un dossier ou
 un parcours pour le transformer en autre dossier ou autre parcours.
 
 ** Créer un parcours "frise" chronologique WYSIWYG
 
-Pour le parcours temporel (la frise), on associe à chaque élément une
-date de début et une date de fin, ceci permettant de construire la
-frise.  Cette association se fait à la main dans des champs prévus à
-cet effet.
+Pour le parcours temporel (la frise), les coordonnées temporelles
+(date de début et de fin) sont soit celles des éléments eux-mêmes,
+soit celles qui leur sont associées lors de la création de la frise.
 
 Le module standard Drupal utilisant la lib [[http://www.castelli-cycling.com/_ui/desktop/history/story/castelli-en.html][JS TimelineJS]] permet
 l'affichage d'une timeline avec des dates inférieures à 0 (avant JC).
