@@ -116,6 +116,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Thème                           | Liste (taxinomie)                                                     |
 | Discipline                      | Liste (taxinomie)                                                     |
 | Date de mise à jour             | Calendrier                                                            |
+| Modération a priori/posteriori  | Booléen avec checkbox                                                 |
 | Mot de passe                    | Champ simple [minimum 8 caractères]                                   |
 | Edito (texte en une du dossier) | Champ simple [de 500 à 1500 signes]                                   |
 | Image à la une                  | Champ simple (URL de l'image)                                         |
@@ -123,10 +124,10 @@ par l'équipe du site web, soit par les contributeurs.
 | Date de publication             | Calendrier                                                            |
 | Date de modification            | Calendrier                                                            |
 | Droits d'auteur (licence)       | Valeur par défaut                                                     |
-| SA-ND-NC*                       | Boolean sur plusieurs champs                                          |
+| SA-ND-NC*                       | Booléen sur plusieurs champs                                          |
 | Mots-clés                       | Champ simple avec auto-complétion                                     |
 | Niveaux scolaires               | Champ simple avec auto-complétion                                     |
-| Degré d'implication             | Liste (taxinomie)                                                     |
+| Degré d'implication             | Liste (première approche / comprendre l'essentiel / approfondir)      |
 | Liste des attentes              | Liste de couples attente/statut (statut étant binaire: fait/pas fait) |
 | Dossier à la une                | Binaire                                                               |
 | Potentiellement à la une        | Binaire                                                               |
@@ -165,7 +166,8 @@ par l'équipe du site web, soit par les contributeurs.
 | Billet à la une           | Binaire                                                               |
 | Potentiellement à la une  | Binaire                                                               |
 | Nom du contributeur       | Champ simple ?                                                        |
-| Degré d'implication       | Liste (taxinomie)                                                     |
+| Niveaux scolaires         | Champ simple avec auto-complétion                                     |
+| Degré d'implication       | Liste (première approche / comprendre l'essentiel / approfondir)      |
 | Droits d'auteur (licence) | Valeur par défaut                                                     |
 | SA-ND-NC*                 | Boolean sur plusieurs champs                                          |
 | Mots-clés                 | Champ simple avec auto-complétion                                     |
@@ -238,52 +240,56 @@ ajoutés par les utilisateurs.
 
 ** Vidéo
 
-| Libellé                                  | Type de champ                     |
-|------------------------------------------+-----------------------------------|
-| Titre                                    | Champ simple                      |
-| Titre court                              | Champ texte limité  70 caractères |
-| Auteur                                   | Champ simple                      |
-| Réalisateur                              | Champ simple                      |
-| Producteur                               | Champ simple                      |
-| Année de production                      | Calendrier                        |
-| Durée                                    | Champ numérique                   |
-| Définition (HD vs. LD)                   | Champ simple                      |
-| URL de la vidéo                          | Champ simple                      |
-| Orientation de l'image ("sens")          | Vertical / horizontal             |
-| Description                              | Champ simple                      |
-| Thème                                    | Liste (taxinomie)                 |
-| Discipline                               | Liste (taxinomie)                 |
-| Droits d'auteur (licence)                | Valeur par défaut                 |
-| SA-ND-NC*                                | Boolean sur plusieurs champs      |
-| Date de prise de vue                     | Calendrier                        |
-| Date de publication                      | Calendrier                        |
-| Nom du contributeur                      | Champ simple                      |
-| Mots-clés                                | Champ simple avec auto-complétion |
-| Nom du dépôt d'origine                   | Champ simple?                     |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
-| Géolocalisation                          | Adresse ? Coordonnées ?           |
+| Libellé                                  | Type de champ                                                    |
+|------------------------------------------+------------------------------------------------------------------|
+| Titre                                    | Champ simple                                                     |
+| Titre court                              | Champ texte limité  70 caractères                                |
+| Auteur                                   | Champ simple                                                     |
+| Réalisateur                              | Champ simple                                                     |
+| Producteur                               | Champ simple                                                     |
+| Année de production                      | Calendrier                                                       |
+| Durée                                    | Champ numérique                                                  |
+| Définition (HD vs. LD)                   | Champ simple                                                     |
+| URL de la vidéo                          | Champ simple                                                     |
+| Orientation de l'image ("sens")          | Vertical / horizontal                                            |
+| Description                              | Champ simple                                                     |
+| Thème                                    | Liste (taxinomie)                                                |
+| Discipline                               | Liste (taxinomie)                                                |
+| Droits d'auteur (licence)                | Valeur par défaut                                                |
+| SA-ND-NC*                                | Boolean sur plusieurs champs                                     |
+| Date de prise de vue                     | Calendrier                                                       |
+| Date de publication                      | Calendrier                                                       |
+| Nom du contributeur                      | Champ simple                                                     |
+| Mots-clés                                | Champ simple avec auto-complétion                                |
+| Niveaux scolaires                        | Champ simple avec auto-complétion                                |
+| Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
+| Nom du dépôt d'origine                   | Champ simple?                                                    |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                    |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                          |
 
 ** Audio
 
-| Libellé                                  | Type de champ                     |
-|------------------------------------------+-----------------------------------|
-| Titre                                    | Champ simple                      |
-| Titre court                              | Champ texte limité  70 caractères |
-| Auteur                                   | Champ simple                      |
-| URL de l'audio                           | Champ simple                      |
-| Durée                                    | Champ numérique                   |
-| Description                              | Champ simple                      |
-| Année de production                      | Calendrier                        |
-| Thème                                    | Liste (taxinomie)                 |
-| Discipline                               | Liste (taxinomie)                 |
-| Droits d'auteur (licence)                | Valeur par défaut                 |
-| SA-ND-NC*                                | Boolean sur plusieurs champs      |
-| Date de publication                      | Calendrier                        |
-| Nom du contributeur                      | Champ simple                      |
-| Mots-clés                                | Champ simple avec auto-complétion |
-| Nom du dépôt d'origine                   | Champ simple?                     |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                     |
-| Géolocalisation                          | Adresse ? Coordonnées ?           |
+| Libellé                                  | Type de champ                                                    |
+|------------------------------------------+------------------------------------------------------------------|
+| Titre                                    | Champ simple                                                     |
+| Titre court                              | Champ texte limité  70 caractères                                |
+| Auteur                                   | Champ simple                                                     |
+| URL de l'audio                           | Champ simple                                                     |
+| Durée                                    | Champ numérique                                                  |
+| Description                              | Champ simple                                                     |
+| Année de production                      | Calendrier                                                       |
+| Thème                                    | Liste (taxinomie)                                                |
+| Discipline                               | Liste (taxinomie)                                                |
+| Droits d'auteur (licence)                | Valeur par défaut                                                |
+| SA-ND-NC*                                | Boolean sur plusieurs champs                                     |
+| Date de publication                      | Calendrier                                                       |
+| Nom du contributeur                      | Champ simple                                                     |
+| Mots-clés                                | Champ simple avec auto-complétion                                |
+| Niveaux scolaires                        | Champ simple avec auto-complétion                                |
+| Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
+| Nom du dépôt d'origine                   | Champ simple?                                                    |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                    |
+| Géolocalisation                          | Adresse ? Coordonnées ?                                          |
 
 ** Diaporama
 
@@ -300,6 +306,8 @@ ajoutés par les utilisateurs.
 | Date de publication                      | Date                                                                |
 | Nom du contributeur                      | Champ simple                                                        |
 | Mots-clés                                | Champ simple avec auto-complétion                                   |
+| Niveaux scolaires                        | Champ simple avec auto-complétion                                   |
+| Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir)    |
 | Nom du dépôt d'origine                   | Champ simple?                                                       |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
 | Géolocalisation                          | Adresse ? Coordonnées ?                                             |
