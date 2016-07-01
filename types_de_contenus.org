@@ -48,40 +48,41 @@ Exemple de « ressources documentaires :
 - Des thèses et mémoires importés des archives ouvertes
 - Des fiches pédagogiques existant ailleurs
 
-| Libellé JDS                              | Type de champ                                                   | Commentaire |
-|------------------------------------------+-----------------------------------------------------------------+-------------|
-| Titre                                    | Champ texte                                                     |             |
-| Titre court                              | Champ texte limité à 70 caractères                              |             |
-| Type de ressource                        | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |             |
-| Dénomination                             | Liste (ou tableau) ?                                            | ?           |
-| - Précision dénomination                 | Champ texte                                                     |             |
-| Numéro d'inventaire                      | Champ texte                                                     |             |
-| Document                                 | Upload (ou lien vers le document ?)                             |             |
-| Historique                               | Champ texte                                                     |             |
-| - type                                   | Champ texte                                                     |             |
-| - terme introducteur                     | Champ texte                                                     |             |
-| - incertitude                            | Champ texte                                                     |             |
-| - lieu de production                     | Champ texte                                                     |             |
-| - localisation                           | Champ texte                                                     |             |
-| Légende illustration                     | Champ texte                                                     | ?           |
-| - illustration significative             | Champ texte                                                     | ?           |
-| - Sujet                                  | Champ texte                                                     |             |
-| - Auteurs                                | Champ texte                                                     |             |
-|------------------------------------------+-----------------------------------------------------------------+-------------|
-| Description                              | Champ simple                                                    |             |
-| Thème                                    | Liste (taxinomie)                                               |             |
-| Discipline                               | Liste (taxinomie)                                               |             |
-| Droits d'auteur (licence)                | Champ simple                                                    |             |
-| SA-ND-NC*                                | Boolean sur plusieurs champs                                    |             |
-| Date de publication                      | Calendrier                                                      |             |
-| Date de dernière MAJ                     | Calendrier                                                      |             |
-| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |             |
-| Mots-clés                                | Champ simple avec auto-complétion                               |             |
-| Nom du contributeur                      | Champ simple                                                    |             |
-| Nom du dépôt d'origine                   | Champ simple?                                                   |             |
-| Nom du dossier d'origine                 | Champ simple                                                    |             |
-| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
-| Géolocalisation                          | Coordonnées longitude et latitude                                         |             |
+| Libellé JDS                              | Type de champ                                                   |
+|------------------------------------------+-----------------------------------------------------------------|
+| Titre                                    | Champ texte                                                     |
+| Titre court                              | Champ texte limité à 70 caractères                              |
+| Type de ressource                        | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |
+| Langue                                   | Liste (taxinomie)                                               |
+| Dénomination                             | Liste (ou tableau) ?                                            |
+| - Précision dénomination                 | Champ texte                                                     |
+| Numéro d'inventaire                      | Champ texte                                                     |
+| Document                                 | Upload (ou lien vers le document ?)                             |
+| Historique                               | Champ texte                                                     |
+| - type                                   | Champ texte                                                     |
+| - terme introducteur                     | Champ texte                                                     |
+| - incertitude                            | Champ texte                                                     |
+| - lieu de production                     | Champ texte                                                     |
+| - localisation                           | Champ texte                                                     |
+| Légende illustration                     | Champ texte                                                     |
+| - illustration significative             | Champ texte                                                     |
+| - Sujet                                  | Champ texte                                                     |
+| - Auteurs                                | Champ texte                                                     |
+|------------------------------------------+-----------------------------------------------------------------|
+| Description                              | Champ simple                                                    |
+| Thème                                    | Liste (taxinomie)                                               |
+| Discipline                               | Liste (taxinomie)                                               |
+| Droits d'auteur (licence)                | Champ simple                                                    |
+| SA-ND-NC*                                | Boolean sur plusieurs champs                                    |
+| Date de publication                      | Calendrier                                                      |
+| Date de dernière MAJ                     | Calendrier                                                      |
+| Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |
+| Mots-clés                                | Champ simple avec auto-complétion                               |
+| Nom du contributeur                      | Champ simple                                                    |
+| Nom du dépôt d'origine                   | Champ simple?                                                   |
+| Nom du dossier d'origine                 | Champ simple                                                    |
+| Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |
+| Géolocalisation                          | Coordonnées longitude et latitude                               |
 
 SA-ND-NC = partage à l'identique, partage à l'identique, droits de
 commercialisation.
@@ -113,6 +114,7 @@ par l'équipe du site web, soit par les contributeurs.
 |---------------------------------+-----------------------------------------------------------------------|
 | Titre                           | Champ simple                                                          |
 | Titre court                     | Champ texte limité à 70 caractères                                    |
+| Langue                          | Liste (taxinomie)                                                     |
 | Thème                           | Liste (taxinomie)                                                     |
 | Discipline                      | Liste (taxinomie)                                                     |
 | Date de mise à jour             | Calendrier                                                            |
@@ -139,7 +141,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Diaporama connexes              | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
 | Ressources connexes             | Champ simple avec auto-completion sur le type de contenu "Ressources" |
 | Liens connexes                  | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation                 | Coordonnées longitude et latitude                                               |
+| Géolocalisation                 | Coordonnées longitude et latitude                                     |
 
 ** Parcours
 
@@ -159,6 +161,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Titre                     | Champ simple                                                          |
 | Titre court               | Champ texte limité à 70 caractères                                    |
 | Thème                     | Liste (taxinomie)                                                     |
+| Langue                    | Liste (taxinomie)                                                     |
 | Discipline                | Liste (taxinomie)                                                     |
 | Description longue        | WYSIWYG [Maximum 10000 signes espaces comprises]                      |
 | Date de publication       | Calendrier                                                            |
@@ -179,7 +182,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
 | Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
 | Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation           | Coordonnées longitude et latitude                                               |
+| Géolocalisation           | Coordonnées longitude et latitude                                     |
 
 ** Lien
 
@@ -244,6 +247,7 @@ ajoutés par les utilisateurs.
 |------------------------------------------+------------------------------------------------------------------|
 | Titre                                    | Champ simple                                                     |
 | Titre court                              | Champ texte limité  70 caractères                                |
+| Langue                                   | Liste (taxinomie)                                                |
 | Auteur                                   | Champ simple                                                     |
 | Réalisateur                              | Champ simple                                                     |
 | Producteur                               | Champ simple                                                     |
@@ -265,7 +269,7 @@ ajoutés par les utilisateurs.
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
 | Nom du dépôt d'origine                   | Champ simple?                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                    |
-| Géolocalisation                          | Coordonnées longitude et latitude                                          |
+| Géolocalisation                          | Coordonnées longitude et latitude                                |
 
 ** Audio
 
@@ -273,6 +277,7 @@ ajoutés par les utilisateurs.
 |------------------------------------------+------------------------------------------------------------------|
 | Titre                                    | Champ simple                                                     |
 | Titre court                              | Champ texte limité  70 caractères                                |
+| Langue                                   | Liste (taxinomie)                                                |
 | Auteur                                   | Champ simple                                                     |
 | URL de l'audio                           | Champ simple                                                     |
 | Durée                                    | Champ numérique                                                  |
@@ -289,7 +294,7 @@ ajoutés par les utilisateurs.
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
 | Nom du dépôt d'origine                   | Champ simple?                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                    |
-| Géolocalisation                          | Coordonnées longitude et latitude                                          |
+| Géolocalisation                          | Coordonnées longitude et latitude                                |
 
 ** Diaporama
 
@@ -299,6 +304,7 @@ ajoutés par les utilisateurs.
 | Titre court                              | Champ texte limité à 70 caractères                                  |
 | Visuels                                  | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
 | Description                              | Champ simple                                                        |
+| Langue                                   | Liste (taxinomie)                                                   |
 | Thème                                    | Liste (taxinomie)                                                   |
 | Discipline                               | Liste (taxinomie)                                                   |
 | Droits d'auteur (licence)                | Valeur par défaut                                                   |
