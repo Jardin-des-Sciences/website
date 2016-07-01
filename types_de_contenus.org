@@ -74,6 +74,7 @@ Exemple de « ressources documentaires :
 | Discipline                               | Liste (taxinomie)                                               |
 | Droits d'auteur (licence)                | Champ simple                                                    |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                    |
+| Éditeur                                  | Champ simple                                                    |
 | Date de publication                      | Calendrier                                                      |
 | Date de dernière MAJ                     | Calendrier                                                      |
 | Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |
