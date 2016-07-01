@@ -83,7 +83,7 @@ Exemple de « ressources documentaires :
 | Nom du dépôt d'origine                   | Champ simple                                                    |
 | Nom du dossier d'origine                 | Champ simple                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple                                                    |
-| Lieu (dc:coverage)                       | Liste (taxinomie, cf. [[http://www.getty.edu/research/tools/vocabularies/tgn/][TGN]])                                      |
+| Couverture                               | Champ simple                                                    |
 | Géolocalisation                          | Coordonnées longitude et latitude                               |
 
 SA-ND-NC = partage à l'identique, partage à l'identique, droits de
