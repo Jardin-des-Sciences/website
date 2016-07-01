@@ -81,7 +81,7 @@ Exemple de « ressources documentaires :
 | Nom du dépôt d'origine                   | Champ simple?                                                   |             |
 | Nom du dossier d'origine                 | Champ simple                                                    |             |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                   |             |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                         |             |
+| Géolocalisation                          | Coordonnées longitude et latitude                                         |             |
 
 SA-ND-NC = partage à l'identique, partage à l'identique, droits de
 commercialisation.
@@ -139,7 +139,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Diaporama connexes              | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
 | Ressources connexes             | Champ simple avec auto-completion sur le type de contenu "Ressources" |
 | Liens connexes                  | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation                 | Adresse ? Coordonnées ?                                               |
+| Géolocalisation                 | Coordonnées longitude et latitude                                               |
 
 ** Parcours
 
@@ -179,7 +179,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
 | Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
 | Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation           | Adresse ? Coordonnées ?                                               |
+| Géolocalisation           | Coordonnées longitude et latitude                                               |
 
 ** Lien
 
@@ -193,7 +193,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Droits d'auteur (licence) | Valeur par défaut du site                                           |
 | SA-ND-NC*                 | Boolean sur plusieurs champs                                        |
 | Nom du contributeur       | Champ simple                                                        |
-| Géolocalisation           | Adresse ? Coordonnées ?                                             |
+| Géolocalisation           | Coordonnées longitude et latitude                                             |
 
 * Types de contenus importés ou contribués
 
@@ -214,7 +214,7 @@ ajoutés par les utilisateurs.
 | Mots-clés                                | Champ simple avec auto-complétion |
 | Nom du dépôt d'origine                   | Champ simple                      |
 | Lien vers l'item dans le dépôt d'origine | Champ simple                      |
-| Géolocalisation                          | Adresse ? Coordonnées ?           |
+| Géolocalisation                          | Coordonnées longitude et latitude           |
 |------------------------------------------+-----------------------------------|
 | Numéro d'inventaire                      | Champ simple                      |
 | Légende                                  | Champ simple                      |
@@ -265,7 +265,7 @@ ajoutés par les utilisateurs.
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
 | Nom du dépôt d'origine                   | Champ simple?                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                    |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                          |
+| Géolocalisation                          | Coordonnées longitude et latitude                                          |
 
 ** Audio
 
@@ -289,7 +289,7 @@ ajoutés par les utilisateurs.
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
 | Nom du dépôt d'origine                   | Champ simple?                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                    |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                          |
+| Géolocalisation                          | Coordonnées longitude et latitude                                          |
 
 ** Diaporama
 
@@ -310,7 +310,7 @@ ajoutés par les utilisateurs.
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir)    |
 | Nom du dépôt d'origine                   | Champ simple?                                                       |
 | Lien vers l'item dans le dépôt d'origine | Champ simple?                                                       |
-| Géolocalisation                          | Adresse ? Coordonnées ?                                             |
+| Géolocalisation                          | Coordonnées longitude et latitude                                   |
 
 * Champs du profil utilisateur
 
