@@ -43,11 +43,11 @@ universitaires de Strasbourg sur bu.unistra.fr :
 
 Exemple de recherche sur tout le titre ([[http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=dc.title%2520any%2520arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml][lien direct]]) :
 
-: http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=dc.title%20any%20arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml
+: http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=dc.title%20any%20arbre&startRecord=1&maximumRecords=10&recordSchema=dc
 
 Exemple de recherche libre ([[http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=local.libera=arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml][lien direct]]) :
 
-: http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=local.libera=arbre&startRecord=1&maximumRecords=10&recordSchema=unimarcxml
+: http://bu.unistra.fr/opac/sru?version=1.1&operation=searchRetrieve&query=local.libera=arbre&startRecord=1&maximumRecords=10&recordSchema=dc
 
 Les champs interrogeables, de type DC, sont les suivants (avec la
 correspondance des champs SebinaYOU) :
