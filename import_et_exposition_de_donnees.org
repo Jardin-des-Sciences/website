@@ -68,20 +68,40 @@ correspondance des champs SebinaYOU) :
 ** Biodiversité
 
 - biodiversité
-- écosystème
-- herbier
-- botanique
-- naturaliste
-- jardin botanique
+- biodiversit* (troncature)
+- Biodiversity
+- jardin* botanique* (troncature)
+- Nature en ville
+- Nature/Urban ecology
+- Ecosystème
+- ecosystem* (troncature)
+- Ecosystem
+- Herbier
+- Herbaria
+- Botanique
+- botanique* (troncature)
+- Botany
+- Naturaliste
+- Naturalists
+- Collecte
 
-Possibilité d'utiliser les mots-clés "écologie", "système", "risque"
-et "histoire naturelle", mais les termes doivent encore être précisés.
 
 ** Sismologie
 
+- Sismologie	
 - sismo* (troncature)
+- Seismology
+- Séisme
 - seism* (troncature)
-- tremblement de terre
+- Earthquakes
+- Earthquake effects
+- Sismomètre
+- Seismometry
+- Seismometers
+- Sismologue
+- Sismogrammes
+- Seismograms
+- Tremblement de terre
 
 * Exposition des données
 
