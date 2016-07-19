@@ -103,6 +103,10 @@ un parcours pour le transformer en autre dossier ou autre parcours.
 Au survol des points affichés sur une carte, un bulle apparaît avec un
 résumé de l'élément et un lien vers la page complète de l'élément.
 
+Remarque complémentaire : 
+sur le wireframes https://live.uxpin.com/d56261cce7fe330b3dfcbb802622d453dd255de8#/pages/30861142/sitemap
+on indique qu'il est possible de télécharger le parcours : cette fonctionnalité est descopée.
+
 ** Créer un parcours "frise" chronologique WYSIWYG
 
 Pour le parcours temporel (la frise), les coordonnées temporelles
