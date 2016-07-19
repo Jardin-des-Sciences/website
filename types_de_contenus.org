@@ -176,15 +176,16 @@ par l'équipe du site web, soit par les contributeurs.
 | Droits d'auteur (licence) | Valeur par défaut                                                     |
 | SA-ND-NC*                 | Boolean sur plusieurs champs                                          |
 | Mots-clés                 | Champ simple avec auto-complétion                                     |
-| Dossiers connexes         | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
-| Billets connexes          | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
-| Visuels connexes          | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
-| Vidéos connexes           | Champ simple avec auto-completion sur le type de contenu "Video"      |
-| Audios connexes           | Champ simple avec auto-completion sur le type de contenu "Audio"      |
-| Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
-| Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
-| Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
 | Géolocalisation           | Coordonnées longitude et latitude                                     |
+
+# | Dossiers connexes         | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
+# | Billets connexes          | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
+# | Visuels connexes          | Champ simple avec auto-completion sur le type de contenu "Visuel"     |
+# | Vidéos connexes           | Champ simple avec auto-completion sur le type de contenu "Video"      |
+# | Audios connexes           | Champ simple avec auto-completion sur le type de contenu "Audio"      |
+# | Diaporama connexes        | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
+# | Ressources connexes       | Champ simple avec auto-completion sur le type de contenu "Ressources" |
+# | Liens connexes            | Champ simple avec auto-completion sur le type de contenu "Lien"       |
 
 ** Lien
 
