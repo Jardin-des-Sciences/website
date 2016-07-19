@@ -127,8 +127,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Vidéo à la une                  | Champ simple (URL de la vidéo)                                        |
 | Date de publication             | Calendrier                                                            |
 | Date de modification            | Calendrier                                                            |
-| Droits d'auteur (licence)       | Valeur par défaut                                                     |
-| SA-ND-NC*                       | Booléen sur plusieurs champs                                          |
 | Mots-clés                       | Champ simple avec auto-complétion                                     |
 | Niveaux scolaires               | Champ simple avec auto-complétion                                     |
 | Degré d'implication             | Liste (première approche / comprendre l'essentiel / approfondir)      |
@@ -143,7 +141,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Diaporama connexes              | Champ simple avec auto-completion sur le type de contenu "Diaporama"  |
 | Ressources connexes             | Champ simple avec auto-completion sur le type de contenu "Ressources" |
 | Liens connexes                  | Champ simple avec auto-completion sur le type de contenu "Lien"       |
-| Géolocalisation                 | Coordonnées longitude et latitude                                     |
 
 ** Parcours
 
