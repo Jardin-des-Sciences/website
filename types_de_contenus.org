@@ -84,10 +84,9 @@ Exemple de « ressources documentaires :
 | Nom du dossier d'origine                 | Champ simple                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple                                                    |
 | Couverture                               | Champ simple                                                    |
-| Géolocalisation                          | Coordonnées longitude et latitude                               |
 
-SA-ND-NC = partage à l'identique, partage à l'identique, droits de
-commercialisation.
+SA-ND-NC = partage à l'identique, pas d'oeuvres dérivées, droits de
+commercialisation réservés à l'auteur.
 
 ** Visuel
 
