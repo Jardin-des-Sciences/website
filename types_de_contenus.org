@@ -71,7 +71,7 @@ Exemple de « ressources documentaires :
 |------------------------------------------+-----------------------------------------------------------------|
 | Description                              | Champ simple                                                    |
 | Thème                                    | Liste (taxinomie)                                               |
-| Discipline                               | Liste (taxinomie)                                               |
+| Discipline                               | Liste à valeurs multiples avec auto-complétion                  |
 | Droits d'auteur (licence)                | Champ simple                                                    |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                    |
 | Éditeur                                  | Champ simple                                                    |
@@ -117,7 +117,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Titre court                     | Champ texte limité à 70 caractères                                    |
 | Langue                          | Liste (taxinomie)                                                     |
 | Thème                           | Liste (taxinomie)                                                     |
-| Discipline                      | Liste (taxinomie)                                                     |
+| Discipline                      | Liste à valeurs multiples avec auto-complétion                        |
 | Date de mise à jour             | Calendrier                                                            |
 | Modération a priori/posteriori  | Booléen avec checkbox                                                 |
 | Mot de passe                    | Champ simple [minimum 8 caractères]                                   |
@@ -157,25 +157,25 @@ par l'équipe du site web, soit par les contributeurs.
 
 ** Billet
 
-| Libellé                   | Type de champ                                                         |
-|---------------------------+-----------------------------------------------------------------------|
-| Titre                     | Champ simple                                                          |
-| Titre court               | Champ texte limité à 70 caractères                                    |
-| Thème                     | Liste (taxinomie)                                                     |
-| Langue                    | Liste (taxinomie)                                                     |
-| Discipline                | Liste (taxinomie)                                                     |
-| Description longue        | WYSIWYG [Maximum 10000 signes espaces comprises]                      |
-| Date de publication       | Calendrier                                                            |
-| Date de mise à jour       | Calendrier                                                            |
-| Billet à la une           | Binaire                                                               |
-| Potentiellement à la une  | Binaire                                                               |
-| Nom du contributeur       | Champ simple ?                                                        |
-| Niveaux scolaires         | Champ simple avec auto-complétion                                     |
-| Degré d'implication       | Liste (première approche / comprendre l'essentiel / approfondir)      |
-| Droits d'auteur (licence) | Valeur par défaut                                                     |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                          |
-| Mots-clés                 | Champ simple avec auto-complétion                                     |
-| Géolocalisation           | Coordonnées longitude et latitude                                     |
+| Libellé                   | Type de champ                                                    |
+|---------------------------+------------------------------------------------------------------|
+| Titre                     | Champ simple                                                     |
+| Titre court               | Champ texte limité à 70 caractères                               |
+| Thème                     | Liste (taxinomie)                                                |
+| Langue                    | Liste (taxinomie)                                                |
+| Discipline                | Liste à valeurs multiples avec auto-complétion                   |
+| Description longue        | WYSIWYG [Maximum 10000 signes espaces comprises]                 |
+| Date de publication       | Calendrier                                                       |
+| Date de mise à jour       | Calendrier                                                       |
+| Billet à la une           | Binaire                                                          |
+| Potentiellement à la une  | Binaire                                                          |
+| Nom du contributeur       | Champ simple ?                                                   |
+| Niveaux scolaires         | Champ simple avec auto-complétion                                |
+| Degré d'implication       | Liste (première approche / comprendre l'essentiel / approfondir) |
+| Droits d'auteur (licence) | Valeur par défaut                                                |
+| SA-ND-NC*                 | Boolean sur plusieurs champs                                     |
+| Mots-clés                 | Champ simple avec auto-complétion                                |
+| Géolocalisation           | Coordonnées longitude et latitude                                |
 
 # | Dossiers connexes         | Champ simple avec auto-complétion sur le type de contenu "Dossier"    |
 # | Billets connexes          | Champ simple avec auto-complétion sur le type de contenu "Billet"     |
@@ -193,12 +193,12 @@ par l'équipe du site web, soit par les contributeurs.
 | Libellé                   | Champ simple                                                        |
 | URL                       | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
 | Thème                     | Liste (taxinomie)                                                   |
-| Discipline                | Liste (taxinomie)                                                   |
+| Discipline                | Liste à valeurs multiples avec auto-complétion                      |
 | Date de publication       | Calendrier                                                          |
 | Droits d'auteur (licence) | Valeur par défaut du site                                           |
 | SA-ND-NC*                 | Boolean sur plusieurs champs                                        |
 | Nom du contributeur       | Champ simple                                                        |
-| Géolocalisation           | Coordonnées longitude et latitude                                             |
+| Géolocalisation           | Coordonnées longitude et latitude                                   |
 
 * Types de contenus importés ou contribués
 
@@ -207,41 +207,41 @@ ajoutés par les utilisateurs.
 
 ** Visuel
 
-| Libellé                                  | Type de champ                     |
-|------------------------------------------+-----------------------------------|
-| Titre                                    | Champ simple                      |
-| Titre court                              | Champ texte limité 70 caractères  |
-| Couleur                                  | Champ simple                      |
-| Thème                                    | Liste (taxinomie)                 |
-| Discipline                               | Liste (taxinomie)                 |
-| Date de publication                      | Calendrier                        |
-| Nom du contributeur                      | Champ simple                      |
-| Mots-clés                                | Champ simple avec auto-complétion |
-| Nom du dépôt d'origine                   | Champ simple                      |
-| Lien vers l'item dans le dépôt d'origine | Champ simple                      |
-| Géolocalisation                          | Coordonnées longitude et latitude           |
-|------------------------------------------+-----------------------------------|
-| Numéro d'inventaire                      | Champ simple                      |
-| Légende                                  | Champ simple                      |
-| Informations générales                   | Champ simple                      |
-| - immatriculation                        | Champ simple                      |
-| - type                                   | Champ simple                      |
-| - sujet                                  | Champ simple                      |
-| - couleur                                | Champ simple                      |
-| - orientation de l'image                 | Champ simple                      |
-| - droits d'auteur                        | Champ simple                      |
-| - SA-ND-NC*                              | Boolean sur plusieurs champs      |
-| - date de prise de vue                   | Champ simple                      |
-| - visuel                                 | Champ simple                      |
-| - auteur                                 | Champ simple                      |
-| - qualité                                | Champ simple                      |
-| Références documentaires                 | Champ simple                      |
-| - type                                   | Champ simple                      |
-| - titre                                  | Champ simple                      |
-| - lieu de conservation                   | Champ simple                      |
-| - cote                                   | Champ simple                      |
-| - ISBD                                   | Champ simple                      |
-| - auteur                                 | Champ simple                      |
+| Libellé                                  | Type de champ                                  |
+|------------------------------------------+------------------------------------------------|
+| Titre                                    | Champ simple                                   |
+| Titre court                              | Champ texte limité 70 caractères               |
+| Couleur                                  | Champ simple                                   |
+| Thème                                    | Liste (taxinomie)                              |
+| Discipline                               | Liste à valeurs multiples avec auto-complétion |
+| Date de publication                      | Calendrier                                     |
+| Nom du contributeur                      | Champ simple                                   |
+| Mots-clés                                | Champ simple avec auto-complétion              |
+| Nom du dépôt d'origine                   | Champ simple                                   |
+| Lien vers l'item dans le dépôt d'origine | Champ simple                                   |
+| Géolocalisation                          | Coordonnées longitude et latitude              |
+|------------------------------------------+------------------------------------------------|
+| Numéro d'inventaire                      | Champ simple                                   |
+| Légende                                  | Champ simple                                   |
+| Informations générales                   | Champ simple                                   |
+| - immatriculation                        | Champ simple                                   |
+| - type                                   | Champ simple                                   |
+| - sujet                                  | Champ simple                                   |
+| - couleur                                | Champ simple                                   |
+| - orientation de l'image                 | Champ simple                                   |
+| - droits d'auteur                        | Champ simple                                   |
+| - SA-ND-NC*                              | Boolean sur plusieurs champs                   |
+| - date de prise de vue                   | Champ simple                                   |
+| - visuel                                 | Champ simple                                   |
+| - auteur                                 | Champ simple                                   |
+| - qualité                                | Champ simple                                   |
+| Références documentaires                 | Champ simple                                   |
+| - type                                   | Champ simple                                   |
+| - titre                                  | Champ simple                                   |
+| - lieu de conservation                   | Champ simple                                   |
+| - cote                                   | Champ simple                                   |
+| - ISBD                                   | Champ simple                                   |
+| - auteur                                 | Champ simple                                   |
 
 ** Vidéo
 
@@ -260,7 +260,7 @@ ajoutés par les utilisateurs.
 | Orientation de l'image ("sens")          | Vertical / horizontal                                            |
 | Description                              | Champ simple                                                     |
 | Thème                                    | Liste (taxinomie)                                                |
-| Discipline                               | Liste (taxinomie)                                                |
+| Discipline                               | Liste à valeurs multiples avec auto-complétion                   |
 | Droits d'auteur (licence)                | Valeur par défaut                                                |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                     |
 | Date de prise de vue                     | Calendrier                                                       |
@@ -286,7 +286,7 @@ ajoutés par les utilisateurs.
 | Description                              | Champ simple                                                     |
 | Année de production                      | Calendrier                                                       |
 | Thème                                    | Liste (taxinomie)                                                |
-| Discipline                               | Liste (taxinomie)                                                |
+| Discipline                               | Liste à valeurs multiples avec auto-complétion                   |
 | Droits d'auteur (licence)                | Valeur par défaut                                                |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                     |
 | Date de publication                      | Calendrier                                                       |
@@ -308,7 +308,7 @@ ajoutés par les utilisateurs.
 | Description                              | Champ simple                                                        |
 | Langue                                   | Liste (taxinomie)                                                   |
 | Thème                                    | Liste (taxinomie)                                                   |
-| Discipline                               | Liste (taxinomie)                                                   |
+| Discipline                               | Liste à valeurs multiples avec auto-complétion                      |
 | Droits d'auteur (licence)                | Valeur par défaut                                                   |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                        |
 | Date de publication                      | Date                                                                |
@@ -322,12 +322,12 @@ ajoutés par les utilisateurs.
 
 * Champs du profil utilisateur
 
-| Libellé JDS                 | Type de champ                         | Commentaire |
-|-----------------------------+---------------------------------------+-------------|
-| Prénom                      | Champ texte                           |             |
-| Nom                         | Champ texte                           |             |
-| Adresse email               | Champ texte                           |             |
-| Institution de rattachement | Liste (taxinomie)                     |             |
-|-----------------------------+---------------------------------------+-------------|
-| Discipline                  | Liste (taxinomie)                     |             |
-| Centres d'intérêts          | Liste (taxinomie) à partir des thèmes |             |
+| Libellé JDS                 | Type de champ                                  | Commentaire |
+|-----------------------------+------------------------------------------------+-------------|
+| Prénom                      | Champ texte                                    |             |
+| Nom                         | Champ texte                                    |             |
+| Adresse email               | Champ texte                                    |             |
+| Institution de rattachement | Liste (taxinomie)                              |             |
+|-----------------------------+------------------------------------------------+-------------|
+| Discipline                  | Liste à valeurs multiples avec auto-complétion |             |
+| Centres d'intérêts          | Liste (taxinomie) à partir des thèmes          |             |
