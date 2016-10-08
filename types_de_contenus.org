@@ -188,17 +188,15 @@ par l'équipe du site web, soit par les contributeurs.
 
 ** Lien
 
-| Libellé                   | Type de champ                                                       |
-|---------------------------+---------------------------------------------------------------------|
-| Libellé                   | Champ simple                                                        |
-| URL                       | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
-| Thème                     | Liste (taxinomie)                                                   |
-| Discipline                | Liste à valeurs multiples avec auto-complétion                      |
-| Date de publication       | Calendrier                                                          |
-| Droits d'auteur (licence) | Valeur par défaut du site                                           |
-| SA-ND-NC*                 | Boolean sur plusieurs champs                                        |
-| Nom du contributeur       | Champ simple                                                        |
-| Géolocalisation           | Coordonnées longitude et latitude                                   |
+| Libellé                   | Type de champ                                  |
+|---------------------------+------------------------------------------------|
+| Libellé                   | Champ simple                                   |
+| URL                       | Champ simple                                   |
+| Thème                     | Liste (taxinomie)                              |
+| Discipline                | Liste à valeurs multiples avec auto-complétion |
+| Date de publication       | Calendrier                                     |
+| Date de consultation      | Calendrier                                     |
+| Nom du contributeur       | Champ simple                                   |
 
 * Types de contenus importés ou contribués
 
