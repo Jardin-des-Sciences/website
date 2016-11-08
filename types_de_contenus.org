@@ -79,7 +79,6 @@ Exemple de « ressources documentaires :
 | Date de dernière MAJ                     | Calendrier                                                      |
 | Liens connexes                           | Champ simple avec auto-completion sur le type de contenu "Lien" |
 | Mots-clés                                | Champ simple avec auto-complétion                               |
-| Nom du contributeur                      | Champ simple                                                    |
 | Nom du dépôt d'origine                   | Champ simple                                                    |
 | Nom du dossier d'origine                 | Champ simple                                                    |
 | Lien vers l'item dans le dépôt d'origine | Champ simple                                                    |
@@ -169,7 +168,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Date de mise à jour      | Calendrier                                                       |
 | Billet à la une          | Binaire                                                          |
 | Potentiellement à la une | Binaire                                                          |
-| Nom du contributeur      | Champ simple ?                                                   |
 | Niveaux scolaires        | Champ simple avec auto-complétion                                |
 | Degré d'implication      | Liste (première approche / comprendre l'essentiel / approfondir) |
 | Droits d'auteur          | Valeur par défaut                                                |
@@ -196,7 +194,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Discipline                | Liste à valeurs multiples avec auto-complétion |
 | Date de publication       | Calendrier                                     |
 | Date de consultation      | Calendrier                                     |
-| Nom du contributeur       | Champ simple                                   |
 
 * Types de contenus importés ou contribués
 
@@ -213,7 +210,6 @@ ajoutés par les utilisateurs.
 | Thème                                    | Liste (taxinomie)                              |
 | Discipline                               | Liste à valeurs multiples avec auto-complétion |
 | Date de publication                      | Calendrier                                     |
-| Nom du contributeur                      | Champ simple                                   |
 | Mots-clés                                | Champ simple avec auto-complétion              |
 | Nom du dépôt d'origine                   | Champ simple                                   |
 | Lien vers l'item dans le dépôt d'origine | Champ simple                                   |
@@ -263,7 +259,6 @@ ajoutés par les utilisateurs.
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                     |
 | Date de prise de vue                     | Calendrier                                                       |
 | Date de publication                      | Calendrier                                                       |
-| Nom du contributeur                      | Champ simple                                                     |
 | Mots-clés                                | Champ simple avec auto-complétion                                |
 | Niveaux scolaires                        | Champ simple avec auto-complétion                                |
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
@@ -288,7 +283,6 @@ ajoutés par les utilisateurs.
 | Droits d'auteur                          | Valeur par défaut                                                |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                     |
 | Date de publication                      | Calendrier                                                       |
-| Nom du contributeur                      | Champ simple                                                     |
 | Mots-clés                                | Champ simple avec auto-complétion                                |
 | Niveaux scolaires                        | Champ simple avec auto-complétion                                |
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir) |
@@ -310,7 +304,6 @@ ajoutés par les utilisateurs.
 | Droits d'auteur                          | Valeur par défaut                                                   |
 | SA-ND-NC*                                | Boolean sur plusieurs champs                                        |
 | Date de publication                      | Date                                                                |
-| Nom du contributeur                      | Champ simple                                                        |
 | Mots-clés                                | Champ simple avec auto-complétion                                   |
 | Niveaux scolaires                        | Champ simple avec auto-complétion                                   |
 | Degré d'implication                      | Liste (première approche / comprendre l'essentiel / approfondir)    |
