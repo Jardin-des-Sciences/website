@@ -52,6 +52,7 @@ Exemple de « ressources documentaires :
 |------------------------------------------+-----------------------------------------------------------------|
 | Titre                                    | Champ texte                                                     |
 | Titre court                              | Champ texte limité à 70 caractères                              |
+| Auteur(s)                                | Champ simple                                                    |
 | Type de ressource                        | Champ texte (voir [[https://github.com/Jardin-des-Sciences/website/issues/5][ticket #5]])                                    |
 | Langue                                   | Liste (taxinomie)                                               |
 | Dénomination                             | Liste (ou tableau) ?                                            |
@@ -115,6 +116,7 @@ par l'équipe du site web, soit par les contributeurs.
 | Titre                           | Champ simple                                                          |
 | Titre court                     | Champ texte limité à 70 caractères                                    |
 | Langue                          | Liste (taxinomie)                                                     |
+| Auteur(s)                       | Champ simple                                                          |
 | Thème                           | Liste (taxinomie)                                                     |
 | Discipline                      | Liste à valeurs multiples avec auto-complétion                        |
 | Date de mise à jour             | Calendrier                                                            |
@@ -160,6 +162,7 @@ par l'équipe du site web, soit par les contributeurs.
 |--------------------------+------------------------------------------------------------------|
 | Titre                    | Champ simple                                                     |
 | Titre court              | Champ texte limité à 70 caractères                               |
+| Auteur(s)                | Champ simple                                                     |
 | Thème                    | Liste (taxinomie)                                                |
 | Langue                   | Liste (taxinomie)                                                |
 | Discipline               | Liste à valeurs multiples avec auto-complétion                   |
@@ -206,6 +209,7 @@ ajoutés par les utilisateurs.
 |------------------------------------------+------------------------------------------------|
 | Titre                                    | Champ simple                                   |
 | Titre court                              | Champ texte limité 70 caractères               |
+| Auteur(s)                                | Champ simple                                   |
 | Couleur                                  | Champ simple                                   |
 | Thème                                    | Liste (taxinomie)                              |
 | Discipline                               | Liste à valeurs multiples avec auto-complétion |
@@ -244,7 +248,7 @@ ajoutés par les utilisateurs.
 | Titre                                    | Champ simple                                                     |
 | Titre court                              | Champ texte limité  70 caractères                                |
 | Langue                                   | Liste (taxinomie)                                                |
-| Auteur                                   | Champ simple                                                     |
+| Auteur(s)                                | Champ simple                                                     |
 | Réalisateur                              | Champ simple                                                     |
 | Producteur                               | Champ simple                                                     |
 | Année de production                      | Calendrier                                                       |
@@ -273,7 +277,7 @@ ajoutés par les utilisateurs.
 | Titre                                    | Champ simple                                                     |
 | Titre court                              | Champ texte limité  70 caractères                                |
 | Langue                                   | Liste (taxinomie)                                                |
-| Auteur                                   | Champ simple                                                     |
+| Auteur(s)                                | Champ simple                                                     |
 | URL de l'audio                           | Champ simple                                                     |
 | Durée                                    | Champ numérique                                                  |
 | Description                              | Champ simple                                                     |
@@ -296,6 +300,7 @@ ajoutés par les utilisateurs.
 |------------------------------------------+---------------------------------------------------------------------|
 | Titre                                    | Champ simple                                                        |
 | Titre court                              | Champ texte limité à 70 caractères                                  |
+| Auteur(s)                                | Champ simple                                                        |
 | Visuels                                  | Upload ou choix parmis ce qui est déjà présent dans la bibliothèque |
 | Description                              | Champ simple                                                        |
 | Langue                                   | Liste (taxinomie)                                                   |
