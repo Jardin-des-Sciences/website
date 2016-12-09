@@ -424,7 +424,7 @@ Si c'est un *contributeur* (utilisateur connecté), le formulaire lui
 propose quatre options : les trois précédentes et la possibilité de
 signaler un problème scientifique sur un contenu.
 
-Une fois le choix effectué, on demande aux utilisateurs connectés leur
+Une fois le choix effectué, on demande aux utilisateurs non-connectés leur
 nom, leur adresse email, et quelques lignes d'explications ; pour les
 contributeurs, on demande juste quelques lignes d'explications.
 
