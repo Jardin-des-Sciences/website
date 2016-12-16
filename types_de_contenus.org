@@ -116,7 +116,6 @@ par l'équipe du site web, soit par les contributeurs.
 | Titre                           | Champ simple                                                          |
 | Titre court                     | Champ texte limité à 70 caractères                                    |
 | Langue                          | Liste (taxinomie)                                                     |
-| Auteur(s)                       | Champ simple                                                          |
 | Thème                           | Liste (taxinomie)                                                     |
 | Discipline                      | Liste à valeurs multiples avec auto-complétion                        |
 | Date de mise à jour             | Calendrier                                                            |
